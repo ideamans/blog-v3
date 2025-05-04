@@ -1,0 +1,137 @@
+---
+# Astrowind
+title: 'Google I/Oで発表されたLighthouse3.0は、非常に便利なウェブページのチェックツール。表示高速化を考えている方は一度試してみよう。'
+excerpt: 'Webパフォーマンスだけでなく、様々な対策状況をチェックしてくれるGoogleの...'
+updateDate: 2020-06-18
+publishedDate: 2018-05-14
+tags: 
+  - lighthouse
+
+author: nose
+image: https://blog.ideamans.com/assets/2018-05-14-lighthouse3-ogp.jpg
+category: lighthouse
+
+# カスタム
+updatedAt: 2020-06-18 06:32:19
+publishedAt: 2018-05-14 10:00:00
+categories: 
+  - lighthouse
+
+categoryLabels: 
+  - Lighthouse
+
+authorId: nose
+subTheme: 
+recommended: false
+---
+
+<p>Webパフォーマンスだけでなく、様々な対策状況をチェックしてくれるGoogleのLighthouseですが、バージョン3.0がアナウンスされました。</p>
+<p><img alt="2018-05-14-lighthouse3-01.jpg" src="https://blog.ideamans.com/images/2018-05-14-lighthouse3-01.jpg" width="1280" height="619" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
+<ul><li><a href="https://developers.google.com/web/updates/2018/05/lighthouse3" target="_blank">Announcing Lighthouse 3.0 | Web | Google Developers</a></li></ul>
+<h2><span>2.9系との違い</span></h2>
+<p><span>ロゴが変わったり、結果レポートのレイアウトが変わったりしています。機能面では利用者側が大きく変更されたという印象はありません。現状、3.0を利用するにはコマンドラインベースでしか利用できないため、Chromeの拡張機能版もアップデートまで時間がかかりそうです。</span></p>
+<h3><span>処理速度</span></h3>
+<p>3.0は高速化が計られています（処理待ちが短いなど）。実際に3.0をコマンドラインで利用しましたが、かなり速いです。コマンドライン版は、コマンドラインでURLを入力し、ブラウザで結果が表示されます。</p>
+<h3>レポートUI</h3>
+<p>刷新されました。わかりやすさは今まで通りで良いです。サクサクと動作するようになったので、使っていて気持ちいいです。</p>
+<h3>スコアリング</h3>
+<p>スコアリングに変更が入っています。そのため、2.9系の結果と、3.0系の結果は異なる箇所があります。アイデアマンズブログでは、Performanceの部分にスコアの違いがありました。</p>
+<h3>CSV出力</h3>
+<p>今までのエクスポートはJSONのみでした。3.0からはCSVも指定できるようになりました。</p>
+<h3>JSON出力の変更</h3>
+<p>今まで出力されていたJSONのレイアウトが変わるようです。これは開発で利用している場合、注意が必要ですね。</p>
+<h3 id="fcp">First Contentful Paint</h3>
+<p>画面描画の部分が、標準でスクリーンショットを撮るようになったようです。また、今までは細かく時系列に取得されていたスクリーンショットですが、いい感じに間引きされていて、わかりやすくなりました。</p>
+<h3 id="first-cpu-idle">First Interactive ➡ First CPU Idle</h3>
+<p>メトリクスが変更のようです。今までは、ユーザーの操作ができるようになるまでが計測でしたが、CPUがアイドル状態になるまでに変更になったようですね。ここも注意が必要そうです。</p>
+<h3>Node.js版での注意点</h3>
+<p>Node.jsの必要なバージョンは、v8以降のようです。自分はv10系の一番新しいものを入れて動かしました。</p>
+<p> </p>
+<h2>アイデアマンズブログで試してみた</h2>
+<p><img alt="2018-05-14-lighthouse3-03.jpg" src="https://blog.ideamans.com/images/2018-05-14-lighthouse3-03.jpg" width="1280" height="742" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
+<p style="text-align: center;"><span style="color: #888888;">早速試してみた。調整しないといけないところは多そう。SEOが100点になるのは、そういうものらしいです。</span></p>
+<p>上の画面キャプチャの一番下にあるスクリーンショットが、前よりも見やすくなりました。以前はかなり細かく時系列で取得されていたっぽく、細かすぎた印象だったのですが、サマリーされて見やすいです。</p>
+<h2>lighthouse --helpをみてみる</h2>
+<p>長いので、テキストエディタなどにコピペしてみてください。</p>
+<pre class="prettyprint"><code class="lang-bsh" style="font-size: 10px;">$ lighthouse --help
+lighthouse <url> <options>
+
+Logging:
+  --verbose  Displays verbose logging                                                                                                       [真偽]
+  --quiet    Displays no progress, debug logs or errors                                                                                     [真偽]
+
+Configuration:
+  --save-assets                  Save the trace contents &amp; screenshots to disk                                                              [真偽]
+  --list-all-audits              Prints a list of all available audits and exits                                                            [真偽]
+  --list-trace-categories        Prints a list of all required trace categories and exits                                                   [真偽]
+  --additional-trace-categories  Additional categories to capture with the trace (comma-delimited).
+  --config-path                  The path to the config JSON.
+  --preset                       Use a built-in configuration.                                 [選択してください: "full", "perf", "mixed-content"]
+  --chrome-flags                 Custom flags to pass to Chrome (space-delimited). For a full list of flags, see <http://bit.ly/chrome-flags>
+                                 Additionally, use the CHROME_PATH environment variable to use a specific Chrome binary. Requires Chromium version
+                                 54.0 or later. If omitted, any detected Chrome Canary or Chrome stable will be used.             [デフォルト: ""]
+  --port                         The port to use for the debugging protocol. Use 0 for a random port                               [デフォルト: 0]
+  --hostname                     The hostname to use for the debugging protocol.                                         [デフォルト: "localhost"]
+  --max-wait-for-load            The timeout (in milliseconds) to wait before the page is considered done loading and the run should continue.
+                                 WARNING: Very high values can lead to large traces and instability
+  --enable-error-reporting       Enables error reporting, overriding any saved preference. --no-enable-error-reporting will do the opposite. More:
+                                 <https://git.io/vFFTO>
+  --gather-mode, -G              Collect artifacts from a connected browser and save to disk. (Artifacts folder path may optionally be provided).
+                                 If audit-mode is not also enabled, the run will quit early.
+  --audit-mode, -A               Process saved artifacts from disk. (Artifacts folder path may be provided, otherwise defaults to ./latest-run/)
+  --only-audits                  Only run the specified audits
+  --only-categories              Only run the specified categories
+  --skip-audits                  Run everything except these audits
+
+Output:
+  --output       Reporter for the results, supports multiple values        [配列] [選択してください: "json", "html", "csv"] [デフォルト: ["html"]]
+  --output-path  The file path to output the results. Use 'stdout' to write to stdout.
+                 If using JSON output, default is stdout.
+                 If using HTML output, default is a file in the working directory with a name based on the test URL and date.
+                 If using multiple outputs, --output-path is ignored.
+                 Example: --output-path=./lighthouse-results.html
+  --view         Open HTML report in your browser                                                                                           [真偽]
+
+オプション:
+  --help                               ヘルプを表示                                                                                         [真偽]
+  --version                            バージョンを表示                                                                                     [真偽]
+  --blocked-url-patterns               Block any network requests to the specified URL patterns
+  --disable-storage-reset              Disable clearing the browser cache and other storage APIs before a run                               [真偽]
+  --disable-device-emulation           Disable Nexus 5X emulation                                                                           [真偽]
+  --throttling-method                  Controls throttling method                           [選択してください: "devtools", "provided", "simulate"]
+  --throttling.rttMs                   Controls simulated network RTT (TCP layer)
+  --throttling.throughputKbps          Controls simulated network download throughput
+  --throttling.requestLatencyMs        Controls emulated network RTT (HTTP layer)
+  --throttling.downloadThroughputKbps  Controls emulated network download throughput
+  --throttling.uploadThroughputKbps    Controls emulated network upload throughput
+  --throttling.cpuSlowdownMultiplier   Controls simulated + emulated CPU throttling
+  --extra-headers                      Set extra HTTP Headers to pass with request
+
+例:
+  lighthouse <url> --view                                                    Opens the HTML report in a browser after the run completes
+  lighthouse <url> --config-path=./myconfig.js                               Runs Lighthouse with your own configuration: custom audits, report
+                                                                             generation, etc.
+  lighthouse <url> --output=json --output-path=./report.json --save-assets   Save trace, screenshots, and named JSON report.
+  lighthouse <url> --disable-device-emulation --throttling-method=provided   Disable device emulation and all throttling
+  lighthouse <url> --chrome-flags="--window-size=412,732"                    Launch Chrome with a specific window size
+  lighthouse <url> --quiet --chrome-flags="--headless"                       Launch Headless Chrome, turn off logging
+  lighthouse <url> --extra-headers "{\"Cookie\":\"monster=blue\",            Stringify'd JSON HTTP Header key/value pairs to send in requests
+  \"x-men\":\"wolverine\"}"
+  lighthouse <url> --extra-headers=./path/to/file.json                       Path to JSON file of HTTP Header key/value pairs to send in requests
+
+For more information on Lighthouse, see <https://developers.google.com/web/tools/lighthouse/>.</url></url></url></url></url></url></url></url></options></url></code></pre>
+<p> </p>
+<h2>画像の最適化チェックは、LightFile Simulatorがオススメ</h2>
+<p>Googleのチェックツールでは、画像表示サイズに適しているかはチェックしますが、画質最適化されているかどうかのチェックができません。LightFile Simulatorを使えば、JPG画像の画質最適化のチェックができます。</p>
+<div class="serviceBox">
+<div class="serviceImage"><a href="https://simulator.lightfile.net/" target="_blank"><img src="https://blog.ideamans.com/images/service-simulator.jpg" alt="LightFile Simulator β版"></a></div>
+<div class="serviceText">
+<p class="serviceTitle"><a href="https://simulator.lightfile.net/" target="_blank">LightFile Simulator β版</a></p>
+<p class="serviceDesc">無料で使える画像最適化チェックシミュレータ。チェック結果がレポートになるので、URLを共有すればみんなでみれる。</p>
+<p class="serviceLink"><a href="https://simulator.lightfile.net/" target="_blank">https://simulator.lightfile.net/</a></p>
+</div>
+</div>
+<p> </p>
+<h2>最後に</h2>
+<p>非常に便利なツールのLighthouse。その名の通り「灯台」のように、夜の海のように真っ暗なところから、何かを発見できるツールです。表示高速化やWebパフォーマンスなどの最適化は、しっかりと数値をマーキングすることが重要なので、指標としてLighthouseを利用するのは非常に有効だと思います。</p>
+<p> </p>

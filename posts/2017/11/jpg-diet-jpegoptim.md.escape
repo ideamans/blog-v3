@@ -1,0 +1,218 @@
+---
+# Astrowind
+title: 'マルチな環境で動作する&quot;jpegoptim&quot;との対決は、劣化の最適化が決め手！[JPGダイエット対決 vol.01]'
+excerpt: 'ハロウィンも終わり、11月になりましたね！今年もあと二ヶ月です。年末に向けてイベ...'
+updateDate: 2018-03-16
+publishedDate: 2017-11-02
+tags: 
+  - web-imaging
+
+  - lightfile
+
+author: nose
+image: https://blog.ideamans.com/assets/2400-lfc-low.jpg
+category: web-imaging
+
+# カスタム
+updatedAt: 2018-03-16 16:38:23
+publishedAt: 2017-11-02 08:30:00
+categories: 
+  - web-imaging
+
+  - lightfile
+
+categoryLabels: 
+  - Web画像最適化
+
+  - 画像軽量化AI LightFile
+
+authorId: nose
+subTheme: 
+recommended: false
+---
+
+<p>ハロウィンも終わり、11月になりましたね！今年もあと二ヶ月です。年末に向けてイベントも多いし、忘年会もあるし、飲みすぎ食べすぎには注意しましょう！お酒を飲む前に脂分を含むものを食べたりして、アルコールの吸収を抑えるようにすると悪酔いしないみたいです！</p>
+<p>JPGダイエット対決シリーズの記事はこちら。</p>
+<ul><li><a href="https://blog.ideamans.com/2017/11/jpg-diet-jpegoptim.html">マルチな環境で動作する"jpegoptim"との対決は、劣化の最適化が決め手！[JPGダイエット対決 vol.01]</a></li><li><a href="https://blog.ideamans.com/2017/11/wp-ewww-image-optimizer.html">WordPressの人気画像最適化プラグイン「EWWW Image Optimizer」は、有料APIを利用すると本気になる？[JPGダイエット対決 vol.02]</a></li><li><a href="https://blog.ideamans.com/2017/11/wp-tinypng.html">最強の相手はTinyPNG。そのWordPressプラグインの実力は？「Compress JPEG &amp; PNG images」を試してみた。[JPGダイエット対決 vol.03]</a></li><li><a href="https://blog.ideamans.com/2017/12/jpegmini.html">お手軽！かんたん！PCにインストールする「JPEGmini」アプリは画質を優先した画像の最適化が得意！[JPGダイエット対決 vol.04]</a></li></ul>
+<p> </p>
+<h2>画像最適化ツール "jpegoptim" vs "LightFile Core"</h2>
+<p>今回のテーマは、<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>の実力をみなさんに知ってもらうために、競合との差を比較しようと思います。画像の最適化ツールは一般的な処理のため、さまざまなツールが存在します。GUI（Graffic User Interface）のものだと<a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photopshop</a>が有名ですね。OS標準のツールもあります。CUI(Charactor User Interface)だと、<a href="https://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a>などがあります。</p>
+<p>そんな中、今回の対戦相手はマルチな環境で動作する <strong>jpegoptim</strong> です！</p>
+<ul><li><a href="https://github.com/tjko/jpegoptim" target="_blank">jpegoptim</a></li></ul>
+<p> </p>
+<h2>競合との比較にはどんなメリットがあるの？</h2>
+<p>ウェブサービスの導入や、ツールの選定時は、さまざまな情報を調べてから選択することが多いです。または、業界標準となっている場合はそれらのデファクトスタンダードを選択するということも多いです。</p>
+<p>ウェブサービスやツールは、動作条件や機能が似ているようで異なっていたりすることが多く、比較情報はかなり有益な情報源となります。この競合対決シリーズでは、そんなツール選定で苦労されている方の手助けになれば幸いです。おおよそのメリットは、こんな感じです。</p>
+<ol><li>画質最適化ツールの比較ができる</li><li>画像最適化ツールの情報がわかる</li><li>比較結果が得られる</li></ol>
+<p>それでは、いざ勝負！</p>
+<p> </p>
+<h2>素材は美味しそうな果物が並ぶ色鮮やかなJPG</h2>
+<p><img alt="2400-lfc-low.jpg" src="https://blog.ideamans.com/assets/2400-lfc-low.jpg" width="2400" height="1727" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;">美味しそうなフルーツが盛りだくさんの写真ですね！ちなみにこの写真はすでに<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>の画質低で最適化されたものです。どうですか？問題ない画質じゃないですか？<br>※ ただしファイルアップロード時に、CMSで多少加工されています。比較JPGは、すべてZIPファイルでダウンロードしてローカルで比較いただけます（ページ下部参照）</p>
+<p> </p>
+<h2>勝負ポイントは、画質とファイルサイズに限定</h2>
+<p>ポイントは、２点に絞りました。というよりも、画像最適化の結果は、この２点以外にないからです。いかに劣化させずに、ファイルを軽くするか。これを追求するのが画像の最適化ツールなのです。</p>
+<ol><li>画質の劣化具合</li><li>画像のファイルサイズ</li></ol>
+<p> </p>
+<h2>jpegoptimをインストールして試してみる</h2>
+<p><a href="https://github.com/tjko/jpegoptim" target="_blank">jpegoptim</a>は、Macを利用されている方でHomebrewをインストールして入れば、あっという間にインスト−するすることができます。</p>
+<pre class="prettyprint"><code class="lang-bsh">brew install jpegoptim</code></pre>
+<p>とターミナルに打ち込みましょう。そうすると、</p>
+<pre class="prettyprint"><code class="bsh">$ brew install jpegoptim
+Updating Homebrew...
+==&gt; Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==&gt; Updated Formulae
+feedgnuplot      gibo             htmldoc          jenkins          libconfig        shairport-sync   sslh             telegram-cli
+
+==&gt; Installing dependencies for jpegoptim: jpeg
+==&gt; Installing jpegoptim dependency: jpeg
+==&gt; Downloading <https://homebrew.bintray.com/bottles/jpeg-9b.sierra.bottle.tar.gz>
+######################################################################## 100.0%
+==&gt; Pouring jpeg-9b.sierra.bottle.tar.gz
+</code></pre>
+<p>これでインストールは完了です。</p>
+<p>とりあえずヘルプを見てみましょう。</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim -help
+jpegoptim v1.4.4  Copyright (c) 1996-2016, Timo Kokkonen
+Usage: jpegoptim [options] &lt;filenames&gt;
+
+  -d&lt;path&gt;, --dest=&lt;path&gt;
+                    specify alternative destination directory for
+                    optimized files (default is to overwrite originals)
+  -f, --force       force optimization
+  -h, --help        display this help and exit
+  -m&lt;quality&gt;, --max=&lt;quality&gt;
+                    set maximum image quality factor (disables lossless
+                    optimization mode, which is by default on)
+                    Valid quality values: 0 - 100
+  -n, --noaction    don't really optimize files, just print results
+  -S&lt;size&gt;, --size=&lt;size&gt;
+                    Try to optimize file to given size (disables lossless
+                    optimization mode). Target size is specified either in
+                    kilo bytes (1 - n) or as percentage (1% - 99%)
+  -T&lt;threshold&gt;, --threshold=&lt;threshold&gt;
+                    keep old file if the gain is below a threshold (%)
+  -b, --csv         print progress info in CSV format
+  -o, --overwrite   overwrite target file even if it exists (meaningful
+                    only when used with -d, --dest option)
+  -p, --preserve    preserve file timestamps
+  -P, --preserve-perms
+                    preserve original file permissions by overwriting it
+  -q, --quiet       quiet mode
+  -t, --totals      print totals after processing all files
+  -v, --verbose     enable verbose mode (positively chatty)
+  -V, --version     print program version
+
+  -s, --strip-all   strip all markers from output file
+  --strip-none      do not strip any markers
+  --strip-com       strip Comment markers from output file
+  --strip-exif      strip Exif markers from output file
+  --strip-iptc      strip IPTC/Photoshop (APP13) markers from output file
+  --strip-icc       strip ICC profile markers from output file
+  --strip-xmp       strip XMP markers markers from output file
+
+  --all-normal      force all output files to be non-progressive
+  --all-progressive force all output files to be progressive
+  --stdout          send output to standard output (instead of a file)
+  --stdin           read input from standard input (instead of a file)</code></pre>
+<p>かなりいろいろな事ができそうですね！この中のオプションから、今回は以下のオプションを利用します。</p>
+<ol><li>--strip-all　メタデータをすべて削除する</li><li>--strip-exif　メタデータのうち、exif情報のみを削除する</li><li>-m画質　画質を設定する</li></ol>
+<p>このメタデータ削除と、画質の組み合わせで調整します。</p>
+<p><a href="https://github.com/tjko/jpegoptim" target="_blank">jpegoptim</a>のコマンドの実行結果は以下のとおりです。オプションなしでも最適化が走るようですが、何をしているかがわかるほうが良いのでオプションを指定しましょう。</p>
+<p>まずは、オプションなしで実行しました。-t をつけていますが、これは処理を標準出力してくれるのでわかりやすくするためにつけています。</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim -t /path/to/jpegoptim.jpg
+/path/to/jpegoptim.jpg 2400x1727 24bit N Exif XMP IPTC ICC JFIF  [OK] 4026062 --&gt; 3874961 bytes (3.75%), optimized.
+Average compression (1 files): 3.75% (148k)</code></pre>
+<p>画質オプションはなし、メタデータはすべて削除したもの</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim --strip-all -t /path/to/jpegoptim-strip-all.jpg
+/path/to/jpegoptim-strip-all.jpg 2400x1727 24bit N Exif XMP IPTC ICC JFIF  [OK] 4026062 --&gt; 3871739 bytes (3.83%), optimized.
+Average compression (1 files): 3.83% (151k)</code></pre>
+<p>画質オプションはなし、メタデータはexif情報のみ削除したもの</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim --strip-exif -t /path/to/jpegoptim-strip-exif.jpg
+/path/to/jpegoptim-strip-exif.jpg 2400x1727 24bit N Exif XMP IPTC ICC JFIF  [OK] 4026062 --&gt; 3874855 bytes (3.76%), optimized.
+Average compression (1 files): 3.76% (148k)</code></pre>
+<p>画質95、メタデータはすべて削除したもの。70%近い削減！</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim --strip-all -m95 -t /path/to/jpegoptim-strip-all-m95.jpg
+/path/to/jpegoptim-strip-all-m95.jpg 2400x1727 24bit N Exif XMP IPTC ICC JFIF  [OK] 4026062 --&gt; 1200399 bytes (70.18%), optimized.
+Average compression (1 files): 70.18% (2759k)</code></pre>
+<p>画質85、メタデータはすべて削除したもの。80%を超える削減！</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim --strip-all -m85 -t /path/to/jpegoptim-strip-all-m85.jpg
+/path/to/jpegoptim-strip-all-m85.jpg 2400x1727 24bit N Exif XMP IPTC ICC JFIF  [OK] 4026062 --&gt; 645107 bytes (83.98%), optimized.
+Average compression (1 files): 83.98% (3302k)</code></pre>
+<p>画質50、メタデータはすべて削除したもの。90%を超えた削減！</p>
+<pre class="prettyprint"><code class="bsh">$ jpegoptim --strip-all -m50 -t /path/to/jpegoptim-strip-all-m50.jpg
+/path/to/jpegoptim-strip-all-m50.jpg 2400x1727 24bit N Exif XMP IPTC ICC JFIF  [OK] 4026062 --&gt; 313684 bytes (92.21%), optimized.
+Average compression (1 files): 92.21% (3625k)</code></pre>
+<p>画質指定をすると、だいぶ画像が最適化されますね！すべてメタデータは削除して、以下の3つの結果が得られました。</p>
+<ul><li>元画像　約4MB</li><li>画質95　約1.2MB（約70%）</li><li>画質85　約645KB（約84%）</li><li>画質50　<span style="color: #ff0000;"><strong>約314KB（約92%）</strong></span></li></ul>
+<p>かなりの最適化です！さて、LightFire Coreはこの結果に勝てるのか？！</p>
+<h2>LightFile Coreでの処理結果</h2>
+<p>LightFile Coreは、画質設定が４段階で可能です。それぞれの処理結果をまとめます。</p>
+<ul><li>元画像　約4MB</li><li>画質最高　約992KB（約75%）</li><li>画質高　　約648KB（約84%）</li><li>画質普通　約549KB（約86%）</li><li>画質低　　<span style="color: #ff0000;"><strong>約225KB（約96%）</strong></span></li></ul>
+<p>けっこうギリギリな勝負結果となりましたが、ファイルサイズにおいては <span style="color: #ff0000;"><strong>約89KB(約4%)</strong> </span>ほど、LightFile Coreの画質低が軽くなりました！</p>
+<p> </p>
+<h2>結果発表</h2>
+<p>jpegoptimの画質が低いものを「50」と定義した上でですが、LightFile Coreの「画質低」の方が軽量化することができました！もちろん、jpegoptimの画質を50よりも低くすればもっと軽くなると思います。あとは気になる劣化具合です。</p>
+<p><img alt="2400-00_origin.jpg" src="https://blog.ideamans.com/assets/2400-00_origin.jpg" width="2400" height="1727" class="mt-image-none"></p>
+<p>元画像リサイズのみ [約4MB]</p>
+<p><img alt="2400-jpegoptim-strip-all-m95.jpg" src="https://blog.ideamans.com/assets/2400-jpegoptim-strip-all-m95.jpg" width="2400" height="1727" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><br>jpegoptim メタデータ削除、画質95のJPG [約1.2MB]</p>
+<p><img alt="2400-jpegoptim-strip-all-m50.jpg" src="https://blog.ideamans.com/assets/2400-jpegoptim-strip-all-m50.jpg" width="2400" height="1727" class="mt-image-none"></p>
+<p>jpegoptim メタデータ削除、画質50のJPG [約314KB]</p>
+<p><img alt="2400-lfc-best.jpg" src="https://blog.ideamans.com/assets/2400-lfc-best.jpg" width="2400" height="1727" class="mt-image-none"></p>
+<p>LightFile Core で画質最高のJPG [約992KB]</p>
+<p><img alt="2400-lfc-low.jpg" src="https://blog.ideamans.com/assets/2400-lfc-low.jpg" width="2400" height="1727" class="mt-image-none"></p>
+<p>LightFile Core で画質低のJPG [約225KB]</p>
+<p> </p>
+<h3>さくらんぼのシズル感の劣化に注目</h3>
+<p>全体的にみると、正直画質の劣化は気になるレベルにはならないかもしれません。しかし、細部に目を向けるとその違いが現れてきます。今回は、左側の白いお皿の上にある、一番上の赤いさくらんぼに注目します。</p>
+<table border="0">
+<tbody>
+<tr>
+<td><img alt="00_origin.jpg" src="https://blog.ideamans.com/assets/00_origin.jpg" width="300" height="300" class="mt-image-none"><br>オリジナル画像</td>
+<td><img alt="jpegoptim-strip-all-m95.jpg" src="https://blog.ideamans.com/assets/jpegoptim-strip-all-m95.jpg" width="300" height="300" class="mt-image-none"><br>jpegoptim メタデータ削除 画質95</td>
+</tr>
+<tr>
+<td><img alt="jpegoptim-strip-all-m85.jpg" src="https://blog.ideamans.com/assets/jpegoptim-strip-all-m85.jpg" width="300" height="300" class="mt-image-none"><br>jpegoptim メタデータ削除 画質85</td>
+<td><img alt="jpegoptim-strip-all-m50.jpg" src="https://blog.ideamans.com/assets/jpegoptim-strip-all-m50.jpg" width="300" height="300" class="mt-image-none"><br>jpegoptim メタデータ削除 画質50</td>
+</tr>
+<tr>
+<td><img alt="lfc-best.jpg" src="https://blog.ideamans.com/assets/lfc-best.jpg" width="300" height="300" class="mt-image-none"><br>LightFile Core 画質最高</td>
+<td><img alt="lfc-low.jpg" src="https://blog.ideamans.com/assets/lfc-low.jpg" width="300" height="300" class="mt-image-none"><br>LightFile Core 画質低</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>かなり差があることが見えてきますね。<strong>ツヤの部分がなめらかなものが劣化が少なく、ギザギザというかジャギーがでてきているものほど劣化が多いもの</strong>となります。さらに2倍に拡大したものがこちら。</p>
+<table border="0">
+<tbody>
+<tr style="padding-bottom: 0.5em;">
+<td><img alt="2x-00_origin.jpg" src="https://blog.ideamans.com/assets/2x-00_origin.jpg" width="300" height="300" class="mt-image-none"><br>オリジナル画像</td>
+<td><img alt="2x-jpegoptim-strip-all-m95.jpg" src="https://blog.ideamans.com/assets/2x-jpegoptim-strip-all-m95.jpg" width="300" height="300" class="mt-image-none"><br>jpegoptim メタデータ削除 画質95</td>
+</tr>
+<tr>
+<td><img alt="2x-jpegoptim-strip-all-m85.jpg" src="https://blog.ideamans.com/assets/2x-jpegoptim-strip-all-m85.jpg" width="300" height="300" class="mt-image-none"><br>jpegoptim メタデータ削除 画質85</td>
+<td><img alt="2x-jpegoptim-strip-all-m50.jpg" src="https://blog.ideamans.com/assets/2x-jpegoptim-strip-all-m50.jpg" width="300" height="300" class="mt-image-none"><br>jpegoptim メタデータ削除 画質50</td>
+</tr>
+<tr>
+<td><img alt="2x-lfc-best.jpg" src="https://blog.ideamans.com/assets/2x-lfc-best.jpg" width="300" height="300" class="mt-image-none"><br>LightFile Core 画質最高</td>
+<td><img alt="2x-lfc-low.jpg" src="https://blog.ideamans.com/assets/2x-lfc-low.jpg" width="300" height="300" class="mt-image-none"><br>LightFile Core 画質低</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>jpegoptim メタデータ削除 画質50と、LightFile Core 画質低がジャギーが多めに出ているのがわかります。ここで見ていただきたいのが、<strong>画像のが荒れている部分にブロックノイズのようなものの量</strong>です。ともにノイズが出ているのですが、<strong>jpegoptimよりもLightFile Coreの方がノイズが他の部分に馴染んでいる</strong>のがわかります。<strong>このノイズの表れ方が、LightFile Coreの最大の特徴</strong>なのです。</p>
+<p> </p>
+<h2>LightFile Coreは、画像を複数生成して、比較して決定する</h2>
+<p><img alt="img-what-is-lightfilecore.jpg" src="https://blog.ideamans.com/assets/img-what-is-lightfilecore.jpg" width="900" height="514" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
+<p>最大の特徴である独自アルゴリズムによる、劣化を最小限にしながらファイルサイズを軽量化する仕組みがあるので、<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>はきれいな状態を保ったままファイルを軽くすることができます。</p>
+<p><strong>画質評価指標SSIM(Structural Similarity)</strong>を利用した劣化評価をするので、他の最適化ツールのように決められた数値で単純に処理するのではなく、複数枚の画像を生成してからそれらをSSIMで評価し、劣化とファイルサイズが最適化したものを選び出すという、他にはない特徴があります。</p>
+<p><strong>LightFile Coreは、絶賛トライアル受付中です！ぜひ、お申し込みください（無料）！</strong></p>
+<ul><li><strong><a href="https://core.lightfile.net/pages/contact.html" target="_blank">LightFile Core トライアル申し込み</a></strong></li></ul>
+<p> </p>
+<h2>最後に</h2>
+<p>いかがでしたでしょうか？<br><strong>jpegoptimは、とても優れたツールでありながら、LinuxやWindows、Macでも動作するマルチな環境に対応した画像最適化ツール</strong>です。まずは軽量化をやってみたい！という方にはとてもオススメです。また、GUIではなくCUIでやりたいという方も多くいるので、かなり重宝されているツールでもあります。</p>
+<p>忘年会などで泥酔した写真を撮られても、JPGダイエットしてファイルが軽くなれば、メール添付もできますし、SNSツールでも簡単にアップロードできますね！年末にやっちゃった感を残さないためにも、悪酔いしないように心がけましょう！</p>
+<p> </p>
+<p>今回評価した画像は、こちらのZIPファイルでダウンロード可能です。ファイルサイズが重いので、ご注意ください。また、この画像を利用したい場合は、あわせて素材サイトのURLを記載しておきます。</p>
+<ul><li><a href="https://core.lightfile.net/assets/dl/jpegoptim-lfc.zip" target="_blank">jpegoptim-lfc.zip</a> [約20.9MB]</li><li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li></ul>
+<p> </p>

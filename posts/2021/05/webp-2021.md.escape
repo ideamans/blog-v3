@@ -1,0 +1,322 @@
+---
+# Astrowind
+title: 'WebPってどうなの？ すぐに役立つ問答集 2021年版'
+excerpt: '次世代画像フォーマットWebPの現状(2021年5月時点)をお客さんに説明するな...'
+updateDate: 2021-05-19
+publishedDate: 2021-05-19
+tags: 
+  - core-web-vitals
+
+  - pagespeed-insights
+
+  - webp
+
+  - web-imaging
+
+  - performance
+
+author: miyanaga
+image: https://blog.ideamans.com/assets/caniuse-webp.png
+category: webp
+
+# カスタム
+updatedAt: 2021-05-19 13:44:00
+publishedAt: 2021-05-19 09:00:00
+categories: 
+  - core-web-vitals
+
+  - pagespeed-insights
+
+  - webp
+
+  - web-imaging
+
+  - performance
+
+categoryLabels: 
+  - Core Web Vitals
+
+  - PageSpeed Insights
+
+  - WebP
+
+  - Web画像最適化
+
+  - 表示高速化
+
+authorId: miyanaga
+subTheme: bs4
+recommended: false
+---
+
+次世代画像フォーマットWebPの現状(2021年5月時点)をお客さんに説明するならこんな感じ、をまとめてみました。
+
+目を通していただくと一通りキャッチアップできると思います。
+
+WebPの利用を検討されている企業の方はもちろん、制作会社の方でお客さんに説明を求められたときの回答例にご利用ください！
+
+* [どのくらいのユーザーが対応しているの？](#どのくらいのユーザーが対応しているの？)
+* [本当に使われているの？](#本当に使われているの？)
+* [WebPが使われているか見分けるには？](#WebPが使われているか見分けるには？)
+* [WebPの特徴は？](#WebPの特徴は？)
+* [どれくらい軽くなるの？](#どれくらい軽くなるの？)
+* [Webだけの新しい機能は？](#Webだけの新しい機能は？)
+* [JPEGはWebPに代わる？](#JPEGはWebPに代わる？)
+* [Web画像はすべてWebPになっていく？](#Web画像はすべてWebPになっていく？)
+* [WebPはなんで軽いの？](#WebPはなんで軽いの？)
+* [古いブラウザだと画像が見れない？](#古いブラウザだと画像が見れない？)
+* [どうやって出力するの？](#どうやって出力するの？)
+* [Core Web Vitalsに有効？](#Core Web Vitalsに有効？)
+* [PageSpeed Insightsの評価は上がる？](#PageSpeed Insightsの評価は上がる？)
+* [WebP使った方がいい？](#WebP使った方がいい？)
+* [クラウドコストはどのくらい安くなる？](#クラウドコストはどのくらい安くなる？)
+
+<a name="どのくらいのユーザーが対応しているの？" />
+## どのくらいのユーザーが対応しているの？ → 日本でもシェア90%以上に
+
+2021年5月16日現在、 [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/) によると**日本国内だけでも `90.17%` のユーザーがWebPに対応**と集計されています(全世界では `94.41%`)。
+
+<img alt="caniuse-webp.png" src="https://blog.ideamans.com/assets_c/2021/05/caniuse-webp-thumb-1400xauto-1319.png" width="1400" height="530">
+
+WebPは2010年の登場からしばらく、Googleの専用フォーマットという位置づけでした。
+
+ここ数年でFirefox、Microsoft Edgeが相次いで対応。2020年秋にiOS 14、macOS Big Surが対応を果たし、ついに**モダンブラウザを制覇**しました。
+
+主なブラウザで**WebPを閲覧できないのは、Internet Explorer、iOS13以前のiPhone、Catalina以前のSafari**だけです。
+
+<a name="本当に使われているの？" />
+## 本当に使われているの？ → 大手企業は続々導入中
+
+例えば [トヨタ自動車](https://toyota.jp/) や [ANA](https://www.ana.co.jp/) は全面的にWebPを導入しています。
+
+WebPで配信されている画像を<span style="color: red">赤い枠</span>や<span style="color: green">緑の枠</span>で強調表示しています。
+
+<table class="table table-bordered">
+  <tr>
+    <th class="text-center">トヨタ自動車</th>
+    <th class="text-center">ANA</th>
+  <tr>
+  <tr>
+    <td class="text-center"><img alt="toyota-webp.png" src="https://blog.ideamans.com/assets_c/2021/05/toyota-webp-thumb-autox670-1321.png" width="310" height="670" class="img-fluid" /></td>
+    <td class="text-center"><img alt="ana-webp.png" src="https://blog.ideamans.com/assets_c/2021/05/ana-webp-thumb-autox670-1323.png" width="310" height="670" class="img-fluid" /></td>
+  </tr>
+</table>
+
+トヨタ自動車もANAも、HTTPヘッダを見たところ [Akamai](https://www.akamai.com/jp/ja/) を利用されています。Akamaiの機能によりWebP対応を実現しているとみてよいでしょう。
+
+<a name="WebPが使われているか見分けるには？" />
+## WebPが使われているか見分けるには？ → 機能拡張を入れると便利
+
+画像がWebPで配信されているかどうかは、ぱっと見ではわかりません。
+
+ブラウザの開発者ツールでHTTPヘッダを見る方法もありますが、次の機能拡張は**実はWebPで配信されている画像を自動で強調表示**してくれます。
+
+[WebP Highlighter \- Chrome ウェブストア](https://chrome.google.com/webstore/detail/webp-highlighter/aonapkfkfneahhaonjjpmcabpnbdmojl)
+
+上記の導入事例のスクリーンショットもこの機能拡張によるものです。インストールしておくと、WebPがかなり普及していることが見えてきます。
+
+<a name="WebPの特徴は？" />
+## WebPの特徴は？ → 従来フォーマットの表現力をカバーしつつ軽い
+
+これまでは写真っぽい画像はJPEG、イラストっぽい画像や透過はPNG、アニメーションならGIF、という具合に**用途に応じて画像フォーマットを使い分けて**きました。
+
+WebPは、これらの表現上の機能をすべて兼ね備えています。
+
+利用者目線でWebPを一言で表すなら **「従来フォーマットと表現力の面で互換性があり、よりデータが軽くなるフォーマット」** がわかりやすいと思います。
+
+<table class="table table-bordered">
+ <tr>
+  <th>機能</th>
+  <th class="text-center">JPEG</th>
+  <th class="text-center">PNG</th>
+  <th class="text-center">GIF</th>
+  <th class="text-center">WebP</th>
+ </tr>
+ <tr>
+  <th>写真調の画像の軽量化</th>
+  <td class="text-center">◯</td>
+  <td class="text-center">-</td>
+  <td class="text-center">-</td>
+  <td class="text-center">◯</td>
+ </tr>
+ <tr>
+  <th>アルファチャンネルによる透過</th>
+  <td class="text-center">-</td>
+  <td class="text-center">◯</td>
+  <td class="text-center">-</td>
+  <td class="text-center">◯</td>
+ </tr>
+ <tr>
+  <th>アニメーション</th>
+  <td class="text-center">-</td>
+  <td class="text-center">△(APNG)</td>
+  <td class="text-center">◯</td>
+  <td class="text-center">◯</td>
+ </tr>
+ <tr>
+  <th>フルカラー</th>
+  <td class="text-center">◯</td>
+  <td class="text-center">◯</td>
+  <td class="text-center">-</td>
+  <td class="text-center">◯</td>
+ </tr>
+ <tr>
+  <th>インデックスカラー</th>
+  <td>-</td>
+  <td>◯</td>
+  <td>◯</td>
+  <td>◯</td>
+ </tr>
+</table>
+
+<a name="どれくらい軽くなるの？" />
+## どれくらい軽くなるの？ → 効果は抜群。感覚的には半分以下に
+
+WebPプロジェクトチームは、[JPEGに対して25〜34%、PNGに対して26%軽い](https://developers.google.com/speed/webp)、と解説していますが、弊社の経験では、**従来フォーマットに対して半分以下に削減できるケースが多い**です。
+
+気になった方は弊社が提供している [シミュレーター](https://sim.lightfile.net/webp/) を使って試してみてください。
+
+[ページまるごとWebP変換・効果測定](https://sim.lightfile.net/webp/)
+
+URLを入力すると、そのページの画像をWebPに変換し、どのくらい軽くできるか、画質がどう変化するか、すぐに確認できます。
+
+例えば [JR東日本：東日本旅客鉄道株式会社](https://www.jreast.co.jp/) トップページでは画像データを `69.65%` も削減できました。
+
+<a href="https://sim.lightfile.net/webp/reports/ab6a4d75-dbe1-4af0-9c64-cf56c28c4874"><img alt="jr-east-webp-sim.png" src="https://blog.ideamans.com/assets/jr-east-webp-sim.png" width="1212" height="634" class="img-fluid" /></a>
+
+[LightFile/WebPシミュレーション \-69\.6% \| JR東日本：東日本旅客鉄道株式会社](https://sim.lightfile.net/webp/reports/ab6a4d75-dbe1-4af0-9c64-cf56c28c4874)
+
+<a name="Webだけの新しい機能は？" />
+## Webだけの新しい機能は？ → JPEGの透過とアニメーション
+
+WebPでできるようになった新しいことに、**JPEGをアルファチャンネルできれいに透過したりアニメーションできること** が挙げられます(JPEG=軽量な写真画像、の意味)。
+
+PNGやGIFで写真調の画像を保存すると、恐ろしくデータが大きくなってしまいましたが、WebPであれば心配ありません。
+
+これは興味のあるデザイナーの方がいるかもしれません。
+
+ただ、[現在でもJPEGを透過させることはできます](https://blog.ideamans.com/2021/02/png-alpha-saving.html) し、動画は [GIFよりMP4にしよう](https://web.dev/replace-gifs-with-videos/) というのが昨今の流れです。
+
+<a name="JPEGはWebPに代わる？" />
+## JPEGはWebPに代わる？ → WebPはWebに特化
+
+少し寄り道の話題ですが、WebPはJPEGより軽い画像フォーマットであっても、高性能なフォーマットではありません。
+
+元々動画フォーマットから派生した経緯もありますが、**情報量や画質の面ではむしろJPEGにはない制約**が設けられています。
+
+* ピクセル数は最大で16383×16383
+* サブサンプリングは4:2:0固定
+
+WebPが使われるのは文字通りWebやネットの世界だけでしょう。
+
+<a name="Web画像はすべてWebPになっていく？" />
+## Web画像はすべてWebPになっていく？ → その可能性もある
+
+WebPは機能と表現の面で従来フォーマットをほぼ完全に置き換えることができます。
+
+[AVIF](https://ja.wikipedia.org/wiki/AV1) といった更に新しい画像フォーマットも台頭していますが、現時点では全モダンブラウザによりサポートされる唯一の次世代画像フォーマットです。
+
+もしかしたら数年後はWeb画像はWebPのみ、となるかもしれません。しかし、**アプリケーションやライブラリなどのWebP出力機能はまだまだ整備されていません。**
+
+ブラウザという需要側は整ったものの、供給側のツールが追いついていない格好です。当面は従来フォーマットがベースとなり、配信目的にWebPに変換することになるでしょう。
+
+<a name="WebPはなんで軽いの？" />
+## WebPはなんで軽いの？ → 技術面はさておき従来フォーマットが古すぎる
+
+WebPが軽い理由ですが、技術的な話より年代的な経緯を伝えた方が多くの方に納得していただけます。
+
+従来主流の画像フォーマットの登場は、**最も新しいPNGが1996年、JPEGは1992年、GIFに至っては1978年**です。
+
+多くの技術が現れては消えていったWebの歴史を思い返すと、これらの年代は化石級です(ここまで使われ続けたことはむしろ偉大です)。
+
+改良を重ねた後発のWebPには到底、敵いません。
+
+とはいえWebPの登場も2010年。そこまで新しいフォーマットでもありません。**適度にこなれた安心感も魅力のひとつ**です。
+
+<a name="古いブラウザだと画像が見れない？" />
+## 古いブラウザだと画像が見れない？ → 従来フォーマットと併用
+
+軽いのはわかったけど、**WebPにすると古いブラウザで画像が見れなくなるのでは？** とご心配の方もいると思います。
+
+WebPに非対応の10%のユーザーはもちろん無視できません。
+
+**WebPに対応するモダンブラウザには軽いWebPで画像を見せ、非対応のブラウザには重いけど従来フォーマットの画像を見せる** という出し分けが、比較的簡単に実現可能です。これで非対応のブラウザも心配ありません。
+
+[新人にもわかる！WebPのブラウザ振り分けの仕組みを図解。picture要素と\.htaccessのどっちでやるべき？ \- アイデアマンズブログ](https://blog.ideamans.com/2019/04/webp-direction.html)
+
+HTMLでひとつずつ記述する方法と、サーバー側で一括で行う方法があります。弊社としては後者をおすすめしています。
+
+<a name="どうやって出力するの？" />
+## どうやって出力するの？ → 従来フォーマットからの自動変換が吉
+
+例えば、 [Googleが提供しているPhotoshop用のプラグイン](https://developers.google.com/speed/webp/docs/webpshop) があります。WebP出力をサポートするソフトウェアやライブラリも少しずつ増えています。
+
+しかしWebP非対応ブラウザ向けに従来フォーマットも必要で、WebPと従来フォーマット、いちいち2種類の画像を手動で書き出す作業は、Web制作の現場でキツいものがあります。
+
+後述しますが、画像が少ないサイトは特に、WebPを導入してもそこまで大きな効果は得られず、手間の多さが割に合いません。個人的には、**「手動で書き出すくらいなら今はWebP対応は見送ってもいい」**と考えるくらいです。
+
+WebPに対応するなら、制作フロー上はこれまで通り従来フォーマットで出力し、その画像を自動変換する前提で進めた方がよいでしょう。
+
+[かんたんなバッチ処理で、従来フォーマットからWebPに自動変換するレシピ](https://qiita.com/miyanaga/items/94b5bb42501e2292fb67) をQiitaで紹介しています。ご参考ください。
+
+また、WordPressであれば [WebPへの自動変換を行うプラグイン](https://ja.wordpress.org/plugins/search/webp/) がいくつも公開されています。それらを利用するのが現実的です。
+
+<a name="Core Web Vitalsに有効？" />
+## Core Web Vitalsに有効？ → 効くケースもあるが対策としては不十分
+
+Core Web Vitalsの指標のひとつに [LCP (Largest Contentful Paint)](https://web.dev/optimize-lcp/)  があります。
+
+ほとんどの場合、ページのメインビジュアルか、記事型のページであればテキスト見出しが表示されるまでの時間がLCPに該当します。
+
+メインビジュアルの画像がWebPで軽くなるとその分、LCPは改善します。当然、**WebPにしておいた方がよい**です。
+
+しかし、**画像単独で読み込みが速くなるといっても0コンマ数秒の話**です。
+
+LCPの評価が悪いページは、**メインビジュアルの読み込み開始までがそもそも遅い**ので、WebPの利用だけで問題は解決しません。
+
+<a name="PageSpeed Insightsの評価は上がる？" />
+## PageSpeed Insightsの評価は上がる？ → ほぼ期待はできません
+
+PageSpeed Insightsを実行すると、次世代画像フォーマットを使いましょう、というアドバイスが表示されます。
+
+<img alt="next-gen-format.png" src="https://blog.ideamans.com/assets_c/2021/05/next-gen-format-thumb-800xauto-1326.png" width="800" height="317" class="img-fluid" />
+
+なので**「WebPを使うとスコアが上がるかなー」と期待**してしまいますが、まずスコアは上がりません。
+
+PageSpeed Insightsの採点ロジックはそもそも減点方式ではなく、「次世代画像フォーマットを使っていないから点数が低い」わけでは決してありません。
+
+また、採点ロジック上、画像の軽量化がスコアにもたらす影響は小さく、アドバイスは思わせぶりですが、せいぜい1〜2点、それ以上上がればラッキー、というところです。
+
+<a name="WebP使った方がいい？" />
+## WebP使った方がいい？ → 画像の多いサイトやクラウド利用中なら特に
+
+上記の通り、PageSpeed InsightsやCore Web VitalsなどGoogleの心象が目的ならば、過度な期待は禁物です。
+
+しかし通販サイトなどは特に、ユーザーは画像を見に来ていると言って過言ではありません。画像データの軽量化はユーザー本位の改善ですし、ストレスによる離脱の抑制にも繋がります。
+
+もうひとつ、AWSなどのクラウドプラットフォームで公開しているWebサイトや、CDNを利用しているならば**コストダウンという実益**を得られます。
+
+クラウドプラットフォームやCDNのほとんどは、通信量に応じて料金が加算される仕組みです。**Webサイトのデータの多くは画像なので、画像の軽量化はコストダウンに最も効果的**です。
+
+<a name="クラウドコストはどのくらい安くなる？" />
+## クラウドコストはどのくらい安くなる？ → 驚くほどお得かも
+
+自社のサイトが従量制通信料に毎月どのくらい費用をかけているかご存知でしょうか？
+
+以下の仮定で通販サイトの試算をしてみます。
+
+* [Amazon CloudFront](https://aws.amazon.com/jp/cloudfront/pricing/) で日本国内に配信
+* 5ページあたりの転送量5MB
+* 月間PV 1千万
+* ページあたりの画像データは平均60%
+* WebP化により画像データ60%削減
+
+以前、[CloudFrontの料金早見表](https://blog.ideamans.com/2019/06/cloudfront-cost-matrix.html) を作成しました。料金体系は変更がなかったので、上記のサイトのデータ転送量は月々 `503,818円` です。
+
+ページあたり60%を占める画像データが60%削減されるので、ページあたりのデータ転送量は約3MBになります。その場合の月額コストは `313,452円` なので、
+
+毎月 `190,366円` お得
+
+という試算ができます。
+
+Core Web Vitalsなどの指標が改善するか、ユーザーの離脱を抑えられるかどうかはやってみないとわからない部分がありますが、**コストダウンは必ず得られる成果**です。

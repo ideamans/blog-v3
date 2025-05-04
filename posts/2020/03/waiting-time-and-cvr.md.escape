@@ -1,0 +1,124 @@
+---
+# Astrowind
+title: 'Webの表示が速ければ収益が改善する。身をもって確かめた禁断のA/Bテスト大公開'
+excerpt: 'この約2週間の間、当ブログではページが表示されるまでの待ち時間をわざと遅らせるA...'
+updateDate: 2020-06-18
+publishedDate: 2020-03-16
+tags: 
+  - cvr
+
+  - performance
+
+  - reports
+
+author: miyanaga
+image: https://blog.ideamans.com/assets/0cb2967f24bf2377427e3b2e1314a64eab767800.png
+category: cvr
+
+# カスタム
+updatedAt: 2020-06-18 10:34:34
+publishedAt: 2020-03-16 10:32:23
+categories: 
+  - cvr
+
+  - performance
+
+  - reports
+
+categoryLabels: 
+  - CVR改善
+
+  - 表示高速化
+
+  - 調査レポート
+
+authorId: miyanaga
+subTheme: 
+recommended: false
+---
+
+この約2週間の間、当ブログでは**ページが表示されるまでの待ち時間をわざと遅らせるA/Bテスト**を実施していました。
+
+その間、読んでくれた方には無駄な待ち時間を強いていたことになります。この場を借りてお詫び申し上げます。
+
+この禁断のA/Bテストの結果、**表示の速さ(⇔待ち時間の長さ)が本当にサイトの成果に影響すること**を確かめられました。
+
+## ローディング画面で待ち時間を自作自演
+
+A/Bテスト期間中はあえてローディング画面を表示し、[Googleオプティマイズ](https://marketingplatform.google.com/intl/ja/about/optimize/)によってその待ち時間を0, 1, 2, 3, 4秒に変更。それぞれの待ち時間での成果を計測しました。
+
+<table>
+<tr>
+<th>待ち時間0秒</th>
+<th>待ち時間1秒</th>
+<th>待ち時間2秒</th>
+<th>待ち時間3秒</th>
+<th>待ち時間4秒</th>
+<tr>
+<td width="20%"><img alt="original-4.gif" src="https://blog.ideamans.com/assets/original-4.gif" class="mt-image-center" style="max-width: 100%; text-align: center; display: block; margin: 0 auto 20px;" /></td>
+<td width="20%"><img alt="original-3.gif" src="https://blog.ideamans.com/assets/original-3.gif" class="mt-image-center" style="max-width: 100%; text-align: center; display: block; margin: 0 auto 20px;" /></td>
+<td width="20%"><img alt="original-2.gif" src="https://blog.ideamans.com/assets/original-2.gif" class="mt-image-center" style="max-width: 100%; text-align: center; display: block; margin: 0 auto 20px;" /></td>
+<td width="20%"><img alt="original-1.gif" src="https://blog.ideamans.com/assets/original-1.gif" class="mt-image-center" style="max-width: 100%; text-align: center; display: block; margin: 0 auto 20px;" /></td>
+<td width="20%"><img alt="original.gif" src="https://blog.ideamans.com/assets/original.gif" class="mt-image-center" style="max-width: 100%; text-align: center; display: block; margin: 0 auto 20px;" /></td>
+</tr>
+</table>
+
+このブログは製品やサービスページへの誘導を期待していますが、恥ずかしながらコンバージョンが少ないため短期間の測定に向かないと判断しました。
+
+そこで**「ページがよく読まれたか」をコンバージョンに設定**しました。セッション(訪問)の間でページが半分までスクロールされた回数をカウントし、これを精読率とします。
+
+<img alt="readrate.png" src="https://blog.ideamans.com/assets/readrate.png" width="744" height="263" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" />
+
+セッションでは複数のページが見られることがあるので、CVR(精読率)は100%より大きくなることがあります。スクロールせず直帰されたら成果は0です。**直帰率と反対の指標**と捉えてもらっても構いません。
+
+CVRとしては数値が大きいのでちょっとわかりにくいのですが、Googleオプティマイズでは分母にセッション数以外を選べないのでこのようになりました。また、記事ページにだけ限定してもよかったかもしれませんが、トップや一覧も同様に精読率を計測しました。
+
+このあたりの改善は次回に検討したいと考えています。
+
+約2週間の5,323セッションを対象にA/Bテストした結果がこちらです。
+
+<a href="https://blog.ideamans.com/assets/optmize-report.png"><img alt="optmize-report.png" src="https://blog.ideamans.com/assets_c/2020/03/optmize-report-thumb-1200xauto-1117.png" width="1200" height="994" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
+
+## 表示が1秒遅くなると本当にCVRが0.8%低下
+
+待ち時間0秒のときに約99.36%のCVR(精読率)は、**待ち時間が1秒長くなるほど約0.8%ずつ下落**しました。
+
+<img alt="wait-cvr-chart-2.png" src="https://blog.ideamans.com/assets/wait-cvr-chart-2.png" width="530" height="370" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" />
+
+よく耳にする**「表示が遅くなるほどCVRが低下する」というフレーズはこのブログにおいても当てはまった**のです。
+
+しかし4秒って結構長いように感じますが、それでも95.6%〜99.4%の4%程度しか違わないのは微妙な差ではあります。
+
+ただ、このブログは流入のほとんどが検索エンジンでPCによるアクセスという技術情報ブログです。遅さにイライラしながらも必要に駆られて読んでくれるように思います。
+
+一方、心が大きく動く通販サイトやエンタメ系サイトなどでは、表示速度とCVRの関係はもっと顕著に現れるのではないでしょうか。
+
+## どんなサイトにも「埋蔵金」がある
+
+サイトの表示が速いからと言って、いらないものが急に欲しくなったり、いきなりそのサイトのファンになるわけではありません。
+
+どんなサイトにも「欲しいと思ってたけどサイトが重くて億劫になったユーザー」が一定数います。
+
+彼ら彼女らは**「レジさえ並んでなければ買った」**という本当に惜しい、あと一歩の方々です。新たな集客や販促も必要ない、サイトにとっては掘れば手に入る埋蔵金です。
+
+Webの高速化はそんな幻のコンバージョンを獲得することでCVRを向上させます。
+
+その意味で**Webの高速化は埋蔵金探し。しかも埋蔵金は必ずある！**...と例えてみるとちょっとワクワクしないでしょうか。
+
+## 一番こわいのは心理的な離脱
+
+目先のCVRも重要ですが**「あのサイトは重いからやめとこう」と思われユーザーが定着しない、さらには愛用者だった人すら逃してしまうこと**が、最も恐るべき事態です。
+
+飲食店で食事が出るまで異様に待たされたことが過去にあると、行こうと思ってもその記憶が蘇り足が鈍る、といった経験は多くの人に共感いただけるでしょう。
+
+また、懐かしい話ですが私のメインSNSがmixiからFacebookに移りつつあったころ、JavaScriptによりインタラクティブなFacebookに対し、逐一ページを読み直して読み直して画面遷移を行うmixiに猛烈なストレスを感じたことをよく覚えています。
+
+ライフステージの変化で顧客が商品から卒業するのはまだしも、知らないうちにストレスを与え、物言わずお別れされるなんて損得抜きに悲しいことです。
+
+## 禁断のA/Bテストしてみませんか？
+
+この禁断の実験をうちのサイトでもやってみたい！と感じたら以下のフォームからご相談ください。
+
+訪問してくれた人にあえて悪いUXを提供する、粗悪品を掴ませるような後ろめたさはありますし、その分の収益悪化も予想されます。しかし憶測から抜け出し、高速化の費用対効果を正確に予測するためには合理的な実験です。
+
+<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/36" width="100%" height="500"><p>Your browser does not support iframes.</p></iframe>

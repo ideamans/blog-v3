@@ -1,0 +1,77 @@
+---
+# Astrowind
+title: '表示高速化をできるだけかんたんに！GoogleのPageSpeedモジュールをインストールして、お手軽に高速化しちゃおう！'
+excerpt: '表示高速化は難しいもの...ではないんです！ ポイントを抑えておけば、実施する内...'
+updateDate: 2018-04-02
+publishedDate: 2018-04-02
+tags: 
+  - performance
+
+author: nose
+image: https://blog.ideamans.com/images/2018-04-02-pagespeed-module-ogp.jpg
+category: performance
+
+# カスタム
+updatedAt: 2018-04-02 11:48:22
+publishedAt: 2018-04-02 11:30:00
+categories: 
+  - performance
+
+categoryLabels: 
+  - 表示高速化
+
+authorId: nose
+subTheme: 
+recommended: false
+---
+
+<p>表示高速化は難しいもの...ではないんです！</p>
+<p>ポイントを抑えておけば、実施する内容も決まってきますし、工数や費用面も算出することができます。誰でもできるというものではありませんが、ある程度経験や知識のある方なら表示は速くすることができます。</p>
+<p style="text-align: center;"><img alt="2018-04-02-pagespeed-module.jpg" src="https://blog.ideamans.com/images/2018-04-02-pagespeed-module.jpg" width="1280" height="800" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">CMSプロレスで実際に設定した.htaccessの中身</span></p>
+<p><strong>今回は、Googleが提供する PageSpeed Module (Apache版)を利用した場合の説明です。</strong></p>
+<ul><li><a href="https://developers.google.com/speed/pagespeed/module/" target="_blank">PageSpeed Tools &gt; PageSpeed Module</a></li></ul>
+<h2>Pagespeedモジュールの設定値の参考例</h2>
+<p>今回は、PageSpeedモジュールを利用した方法の説明です。以前参加した 「<a href="https://blog.ideamans.com/2018/02/cmsvol03-result.html">スマホ表示最速王決定戦！CMSプロレスvol.03に参加してきました！</a>」の時の設定値になります。これで完璧とかではないので、あくまで参考値です。イベントの条件として、他の人が構築したページをどこまでチューニングできるかということだったのですが、<strong>できるだけ汎用的に課題解決するのがアイデアマンズ流</strong>ということで、<strong>ソースコードには一切手を入れない</strong>というやり方になります。</p>
+<pre class="prettyprint"><code class="lang-bsh"># pagespeedの有効化
+#ModPagespeed off
+ModPagespeed on
+
+# 有効化
+
+ModPagespeedEnableFilters sprite_images,rewrite_css,combine_css,inline_google_font_css,prioritize_critical_css,outline_css,remove_comments,collapse_whitespace
+# ModPagespeedEnableFilters rewrite_javascript,combine_javascript,inline_javascript,defer_javascript
+ModPagespeedEnableFilters rewrite_javascript,combine_javascript,inline_javascript
+ModPagespeedEnableFilters make_google_analytics_async,trim_urls
+
+# 無効化
+
+ModPagespeedDisableFilters lazyload_images,inline_preview_images
+ModPagespeedCriticalImagesBeaconEnabled false</code></pre>
+<p> </p>
+<h2>PageSpeed Moduleはなにしてくれるの？</h2>
+<p><a href="https://developers.google.com/speed/pagespeed/module/" target="_blank">PageSpeed Module</a>は、サイトを自動的に最適化してくれるサーバモジュールです。Apache版のほかnginx版があります。今回はWebサーバとして普及が多いApache版での設定値の説明です。さて、どんなことをしてくれるのかの一例をあげます。</p>
+<ol><li>minify化してソースコードを軽くしてくれる</li><li>キャッシュして応答時間を向上してくれる</li><li>WebP対応ブラウザには、WebP配信で軽くしてくれる</li><li>画像をCSSスプライトしてリクエストを減らしてくれる</li><li>レイアウトに必要なCSSのみ、表示するページ側に記述して画面描画を速くしてくれる</li><li>CSSをいい感じにまとめてくれる</li><li>Javascriptをいい感じにまとめてくれる</li></ol>
+<p>上記は一例ですが、これらを自動で処理してくれます。各設定のON/OFFももちろん可能です。</p>
+<p>画像の軽量化もしてくれるのですが、けっこう画像が荒くなります（その分、軽くなります）。そのため、画像の最適化については弊社のLightFileを利用するほうがよく、イベントでも画像最適化に関しては設定をOFFにしました。</p>
+<div class="serviceBox">
+<div class="serviceImage"><a href="https://core.lightfile.net/" target="_blank"><img src="https://blog.ideamans.com/assets/service-lfc.jpg" alt="JPGの最適化は、LightFile Core | 画像の最適化でページ表示を高速に！"></a></div>
+<div class="serviceText">
+<p class="serviceTitle"><a href="https://core.lightfile.net/" target="_blank">JPGの最適化は、LightFile Core | 画像の最適化でページ表示を高速に！</a></p>
+<p class="serviceDesc">自動でJPEGファイルを容量削減し、表示の高速化/転送量の削減を実現します。</p>
+<p class="serviceLink"><a href="https://core.lightfile.net/" target="_blank">https://core.lightfile.net/</a></p>
+</div>
+</div>
+<h2>ポイントは2つ</h2>
+<p>表示高速化のポイントは２つあります。</p>
+<ol><li>自動化して、表示高速化の効果をずっと得られること</li><li>導入の敷居が高くないこと</li></ol>
+<p> </p>
+<h3>1. 自動化して、表示高速化の効果をずっと得られること</h3>
+<p>せっかく苦労して表示高速化をしても、またすぐに遅くなってしまっては元も子もありません。属人的な対応を行わず、しっかりと自動化することが重要です。Pagespeedモジュールは、インストールして設定してしまえば、あとはずっと効果が続きます。利用しているシステムがかわっても関係なく、CMSリプレースでも効果は続きます。</p>
+<h3>2. 導入の敷居が高くないこと</h3>
+<p>サーバにモジュールを追加するので、敷居が低いとは言えないかもしれません。しかし、<a href="https://developers.google.com/speed/pagespeed/module/" target="_blank">PageSpeedモジュール</a>のインストールは、コマンドを数回叩くだけです。導入作業自体は敷居が低いです。</p>
+<p>サーバモジュールの追加なので、他システムへの影響などもあるでしょう。しかし、それを考慮しても十分な効果が得られますので、ぜひトライしてみてください。ドキュメントもあるので、比較的かんたんに導入できるはずです。</p>
+<ul><li><a href="https://www.modpagespeed.com/doc/configuration" target="_blank">ドキュメント PageSpeed Configuration</a></li></ul>
+<p> </p>
+<h2>最後に</h2>
+<p>表示高速化は、意外と属人的に対応しているケースが多いようです。個人の力量で対応するのではなく、システムとしてまるっと対応するほうが、効率よく表示高速化が行なえます。gzip圧縮やキャッシュ設定など、表示高速化に関する記事を引き続きアップしていきます。</p>
+<p> </p>

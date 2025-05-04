@@ -1,0 +1,211 @@
+---
+# Astrowind
+title: '日経電子版が爆速になったということで、その対応策にあるWebP（ウェッピー）について、JPGと比べてどのくらい軽くなるのか試してみた'
+excerpt: '以前は日経電子版を読んでいました。今は読売新聞の紙面を読んでいます。通勤がないの...'
+updateDate: 2018-03-16
+publishedDate: 2017-11-13
+tags: 
+  - web-imaging
+
+  - lightfile
+
+author: nose
+image: https://blog.ideamans.com/assets/b66df45415a9d469f84c1c68eeaaf004a910dd83.jpg
+category: web-imaging
+
+# カスタム
+updatedAt: 2018-03-16 16:40:40
+publishedAt: 2017-11-13 13:55:18
+categories: 
+  - web-imaging
+
+  - lightfile
+
+categoryLabels: 
+  - Web画像最適化
+
+  - 画像軽量化AI LightFile
+
+authorId: nose
+subTheme: 
+recommended: false
+---
+
+<p>以前は<a href="https://www.nikkei.com/" target="_blank">日経電子版</a>を読んでいました。今は読売新聞の紙面を読んでいます。通勤がないので、紙面でもゆっくりと情報を読んでいる毎日です。ちなみに<a href="https://www.nikkei.com/" target="_blank">日経電子版</a>は大好きです（紙面と電子版のセットがオススメ！）。</p>
+<p>なにやらTwitterで「<a href="https://twitter.com/search?q=%E6%97%A5%E7%B5%8C%E9%9B%BB%E5%AD%90%E7%89%88&amp;src=tren&amp;lang=ja" target="_blank">日経電子版が爆速！</a>」ということなので、<a href="https://developers.google.com/web/fundamentals/performance/http2/?hl=ja" target="_blank">http/2</a>すげーなーとか、<a href="https://www.fastly.com/" target="_blank">Fastly</a>いいのかーとか、いろいろ読んでいました。その中で、画像フォーマットはWebP（ウェッピー）にした！という説明があったので、WebPについて検証したいと思います。</p>
+<h2>WebP（ウェッピー）ってなに？</h2>
+<p>WebPは、いわゆる画像フォーマットです。まずはWikipediaで調べてみましょう。</p>
+<ul><li><a href="https://ja.wikipedia.org/wiki/WebP" target="_blank">WebP - Wikipedia</a></li></ul>
+<blockquote>
+<p>ウェブサイトのトラフィック量軽減と表示速度短縮を目的としており、インターネットのWebページで広く使われている非可逆圧縮のJPEGや可逆圧縮のGIF、PNGの置き換えを意図する規格である。JPEGとは異なり、非可逆圧縮でもアルファチャンネルを扱える。</p>
+</blockquote>
+<p>Googleさんが開発した画像フォーマットで、JPGよりも軽くて、アルファチャンネルも持てる、夢のような画像フォーマットです。アルファチャンネルは、現時点では透過した画像が作れるよ！くらいの解釈で問題ないです。アルファチャンネルを操作するということもそうないはずなので。</p>
+<p>対応ブラウザは、こちらから確認できます。IE全滅、Firefoxも記述なしです。</p>
+<ul><li><a href="https://developers.google.com/speed/webp/faq#which_web_browsers_natively_support_webp" target="_blank">Which web browsers natively support WebP?</a></li></ul>
+<p> </p>
+<h2>WebPでどのくらい軽くなるのか検証してみよう</h2>
+<p>では、JPGファイルがどのくらいWebPに変換すると軽くなるのか、実際に試してみます。例によって、Macで<a href="https://brew.sh/index_ja.html" target="_blank">Homebrew</a>が入っているとサクッとインストールできます。超便利。</p>
+<pre class="prettyprint"><code class="lang-bsh">$ brew install webp</code></pre>
+<p> </p>
+<p>インストールが開始されると、つらつらと以下の内容が流れます。</p>
+<pre class="prettyprint"><code class="lang-bsh">$ brew install webp
+Updating Homebrew...
+==&gt; Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==&gt; New Formulae
+csvkit                     e2tools                    just                       simg2img
+dps8m                      heartbeat                  kaitai-struct-compiler
+==&gt; Updated Formulae
+...
+==&gt; Renamed Formulae
+newsbeuter -&gt; newsboat
+==&gt; Deleted Formulae
+bchunk
+
+==&gt; Installing dependencies for webp: libpng
+==&gt; Installing webp dependency: libpng
+==&gt; Downloading <https://homebrew.bintray.com/bottles/libpng-1.6.34.sierra.bottle.tar.gz>
+######################################################################## 100.0%
+==&gt; Pouring libpng-1.6.34.sierra.bottle.tar.gz
+</code></pre>
+<p> </p>
+<h2>WebPを使ってみる</h2>
+<p>今回検証に使用した画像はこちらです。</p>
+<p><a href="https://blog.ideamans.com/assets/kimson-doan-37947.jpg"><img alt="kimson-doan-37947.jpg" src="https://blog.ideamans.com/assets_c/2017/11/kimson-doan-37947-thumb-1200xauto-77.jpg" width="1200" height="798" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></a></p>
+<p><a href="https://unsplash.com/photos/AZMmUy2qL6A" target="_blank">https://unsplash.com/photos/AZMmUy2qL6A<br></a>Photo by <a href="https://unsplash.com/photos/AZMmUy2qL6A?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kimson Doan</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>オリジナル画像のスペックは、以下のとおりです。</p>
+<ul><li>ファイルサイズ：約1.5M　大きさ：4426×2943(px)</li></ul>
+<p>コマンドで、WebPにコンバートします。<strong>コマンドは、webpではなくcwebpなので要注意</strong>。使い方は、こんな感じです。</p>
+<pre class="prettyprint"><code class="lang-bsh">$ cwebp [options] -q quality input.png -o output.webp</code></pre>
+<p> </p>
+<p>実際に実行したものがこちら。</p>
+<pre class="prettyprint"><code class="lang-bsh">$ cwebp /path/to/kimson-doan-37947.jpg -o /path/to/kimson-doan-37947.webp
+Saving file '/path/to/kimson-doan-37947.webp'
+File:      /path/to/kimson-doan-37947.jpg
+Dimension: 4426 x 2943
+Output:    237060 bytes Y-U-V-All-PSNR 43.75 47.84 47.98   44.75 dB
+block count:  intra4: 19832
+              intra16: 31136  (-&gt; 61.09%)
+              skipped block: 2670 (5.24%)
+bytes used:  header:            273  (0.1%)
+             mode-partition:  52543  (22.2%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       0%|       1%|       4%|      93%|   50968
+      quantizer:  |      36 |      36 |      32 |      25 |
+   filter level:  |      11 |      23 |      55 |      38 |
+</code></pre>
+<p>なんと、約237KBまでファイルサイズが落ちました！元画像が約1.5MBなので、大幅な最適化ができましたね！</p>
+<p>弊社の<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>で処理した結果を、あわせて記載します。</p>
+<ul><li>元画像：　約1.5MB</li><li><span style="color: #ff0000;"><strong>WebP：　約237KB</strong></span></li><li>LFC最高画質：　約1.5MB</li><li>LFC高画質：　約1.1MB</li><li>LFC標準画質：　約890KB</li><li><span style="color: #ff0000;"><strong>LFC低画質：　約243KB</strong></span></li></ul>
+<p><span style="color: #ff0000;"><strong>4KBの差</strong></span>で、WebPのほうが<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>よりも軽くなっています。今までまけ知らずでしたが、WebPすごいですね。。。画質に関しては、こちらにすべての比較データをまとめているので、ダウンロードしてご確認いただけます。なお、WebPの画像は、対応ビュワーが必要なので、Google Chromeに直接ドラッグアンドドロップすれば閲覧可能です。</p>
+<ul><li><a href="https://blog.ideamans.com/assets/webp.zip" target="_blank">WebP比較画像のダウンロード（約5.4MB）</a></li></ul>
+<p>実際にWebP画像を見てみましょう。WebP画像、ほぼ違和感ないですね。上記の比較画像で見てみると、空の部分で、雲のグラデーションに若干変化があるのがわかりますが、許容範囲内でした。</p>
+<p><strong>※WebP画像がみれない場合は、Google Chromeでみてみてください。</strong></p>
+<table border="0">
+<tbody>
+<tr>
+<td><img alt="e1917cb198eb8c62c0c81346185559f4dc3d3dca.jpg" src="https://blog.ideamans.com/assets/e1917cb198eb8c62c0c81346185559f4dc3d3dca.jpg" width="512" class="mt-image-none"><br> オリジナル画像</td>
+<td><img alt="73c7000ca7098bbdf241dc2190c65a25235b1d54.jpg" src="https://blog.ideamans.com/assets/73c7000ca7098bbdf241dc2190c65a25235b1d54.jpg" width="512" class="mt-image-none"><br> LightFile Core標準画質</td>
+</tr>
+<tr>
+<td><img alt="b66df45415a9d469f84c1c68eeaaf004a910dd83.jpg" src="https://blog.ideamans.com/assets/b66df45415a9d469f84c1c68eeaaf004a910dd83.jpg" width="512" class="mt-image-none"><br> LightFile Core低画質</td>
+<td><picture> <source type="image/webp" srcset="https://blog.ideamans.com/assets/kimson-doan-37947.webp" width="512"> <img src="https://blog.ideamans.com/assets/kimson-doan-37947.webp" width="512"></picture><br> WebP</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>WebPは、まだ未対応ブラウザがある状況なので、指定の方法がいろいろ複雑な状況です。対応ブラウザを考慮して出力の出し分けが必要になります。が、これもそのうちほぼすべてのブラウザが実装してくるのではないでしょうか。未来のブラウザというよりも、むしろ過去のブラウザの対応の話が強いことが多いので。</p>
+<p><a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は、現状スタンダードなJPGの最適化を行うツールです。出し分けもしなくて良いですし、WebPとほぼ変わらないくらいのファイルサイズになることが検証してわかりました。レンダリングの速度はまた別の話になってくるのですが、まずはファイルサイズの軽量化をするのが指標としては間違いないですね。</p>
+<p><a href="https://core.lightfile.net/" target="_blank"></a></p>
+<div class="serviceBox">
+<div class="serviceImage"><a href="https://core.lightfile.net/" target="_blank" onclick="ga('send','event','blog_servicelink','service-click','lightfilecore',,{'nonInteraction':1});"><img src="https://blog.ideamans.com/assets/service-lfc.jpg" alt="JPGの最適化は、LightFile Core | 画像の最適化でページ表示を高速に！"></a></div>
+<div class="serviceText">
+<p class="serviceTitle"><a href="https://core.lightfile.net/" target="_blank" onclick="ga('send','event','blog_servicelink','service-click','lightfilecore',,{'nonInteraction':1});">JPGの最適化は、LightFile Core | 画像の最適化でページ表示を高速に！</a></p>
+<p class="serviceDesc">自動でJPEGファイルを容量削減し、表示の高速化/転送量の削減を実現します。</p>
+<p class="serviceLink"><a href="https://core.lightfile.net/" target="_blank" onclick="ga('send','event','blog_servicelink','service-click','lightfilecore',,{'nonInteraction':1});">https://core.lightfile.net/</a></p>
+</div>
+</div>
+<p> </p>
+<p> </p>
+<p> </p>
+<h2>最後に、cwebp --help の中身</h2>
+<p>ヘルプの一覧を記載しておきます。<strong>品質の指定、大きさやファイルサイズ指定、切り抜き</strong>なんかもオプションをみるとできそうですね。いろいろできそうです。</p>
+<pre class="prettyprint"><code class="lang-bsh">$ cwebp --help
+Error! Unknown option '--help'
+Usage:
+ cwebp [-preset &lt;...&gt;] [options] in_file [-o out_file]
+
+If input size (-s) for an image is not specified, it is
+assumed to be a PNG, JPEG, TIFF or WebP file.
+
+Options:
+  -h / -help ............. short help
+  -H / -longhelp ......... long help
+  -q <float> ............. quality factor (0:small..100:big), default=75
+  -alpha_q <int> ......... transparency-compression quality (0..100),
+                           default=100
+  -preset <string> ....... preset setting, one of:
+                            default, photo, picture,
+                            drawing, icon, text
+     -preset must come first, as it overwrites other parameters
+  -z <int> ............... activates lossless preset with given
+                           level in [0:fast, ..., 9:slowest]
+
+  -m <int> ............... compression method (0=fast, 6=slowest), default=4
+  -segments <int> ........ number of segments to use (1..4), default=4
+  -size <int> ............ target size (in bytes)
+  -psnr <float> .......... target PSNR (in dB. typically: 42)
+
+  -s <int> <int> ......... input size (width x height) for YUV
+  -sns <int> ............. spatial noise shaping (0:off, 100:max), default=50
+  -f <int> ............... filter strength (0=off..100), default=60
+  -sharpness <int> ....... filter sharpness (0:most .. 7:least sharp), default=0
+  -strong ................ use strong filter instead of simple (default)
+  -nostrong .............. use simple filter instead of strong
+  -sharp_yuv ............. use sharper (and slower) RGB-&gt;YUV conversion
+  -partition_limit <int> . limit quality to fit the 512k limit on
+                           the first partition (0=no degradation ... 100=full)
+  -pass <int> ............ analysis pass number (1..10)
+  -crop <x> <y> <w> <h> .. crop picture with the given rectangle
+  -resize <w> <h> ........ resize picture (after any cropping)
+  -mt .................... use multi-threading if available
+  -low_memory ............ reduce memory usage (slower encoding)
+  -map <int> ............. print map of extra info
+  -print_psnr ............ prints averaged PSNR distortion
+  -print_ssim ............ prints averaged SSIM distortion
+  -print_lsim ............ prints local-similarity distortion
+  -d <file.pgm> .......... dump the compressed output (PGM file)
+  -alpha_method <int> .... transparency-compression method (0..1), default=1
+  -alpha_filter <string> . predictive filtering for alpha plane,
+                           one of: none, fast (default) or best
+  -exact ................. preserve RGB values in transparent area, default=off
+  -blend_alpha <hex> ..... blend colors against background color
+                           expressed as RGB values written in
+                           hexadecimal, e.g. 0xc0e0d0 for red=0xc0
+                           green=0xe0 and blue=0xd0
+  -noalpha ............... discard any transparency information
+  -lossless .............. encode image losslessly, default=off
+  -near_lossless <int> ... use near-lossless image
+                           preprocessing (0..100=off), default=100
+  -hint <string> ......... specify image characteristics hint,
+                           one of: photo, picture or graph
+
+  -metadata <string> ..... comma separated list of metadata to
+                           copy from the input to the output if present.
+                           Valid values: all, none (default), exif, icc, xmp
+
+  -short ................. condense printed message
+  -quiet ................. don't print anything
+  -version ............... print version number and exit
+  -noasm ................. disable all assembly optimizations
+  -v ..................... verbose, e.g. print encoding/decoding times
+  -progress .............. report encoding progress
+
+Experimental Options:
+  -jpeg_like ............. roughly match expected JPEG size
+  -af .................... auto-adjust filter strength
+  -pre <int> ............. pre-processing filter</int></string></string></int></hex></string></int></file.pgm></int></h></w></h></w></y></x></int></int></int></int></int></int></int></float></int></int></int></int></string></int></float><!--...--></code></pre>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>

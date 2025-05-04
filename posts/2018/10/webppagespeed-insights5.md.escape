@@ -1,0 +1,89 @@
+---
+# Astrowind
+title: 'WebP対応によりPageSpeed Insightsのスコアが5ポイント改善'
+excerpt: ' 先日、このブログとコーポレートサイトの画像をWebPに対応しました。 その結果...'
+updateDate: 2018-10-19
+publishedDate: 2018-10-19
+tags: 
+  - web-imaging
+
+author: miyanaga
+image: https://blog.ideamans.com/assets/cd252d8d66e44fa39320dcc75f7640bf612ebe44.png
+category: web-imaging
+
+# カスタム
+updatedAt: 2018-10-19 14:52:33
+publishedAt: 2018-10-19 14:46:46
+categories: 
+  - web-imaging
+
+categoryLabels: 
+  - Web画像最適化
+
+authorId: miyanaga
+subTheme: 
+recommended: false
+---
+
+<style><!--
+table.table { width: 100% }
+table.table tr th, table.table tr td { width: 50%; vertical-align: top }
+table.table tr td img { max-width: 100% }
+--></style>
+<p>先日、この<a href="https://blog.ideamans.com/">ブログ</a>と<a href="https://www.ideamans.com/">コーポレートサイト</a>の画像をWebPに対応しました。</p>
+<p>その結果、PageSpeed InsightsとLighthouseのスコアが次のように改善されました。</p>
+<h2>PageSpeed Insights</h2>
+<p>モバイルスコアは改善がありませんでした。モバイルではWebP対応前から画像の最適ががされていると判定されたため、WebP対応が改善に繋がることはありませんでした。</p>
+<table class="table table-striped table-bordered">
+<tbody>
+<tr><th>WebP対応前</th><th>WebP対応後</th></tr>
+<tr>
+<td><img alt="psi-blog-sp-before.png" src="https://blog.ideamans.com/assets/psi-blog-sp-before.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+<td><img alt="psi-blog-sp-after.png" src="https://blog.ideamans.com/assets/psi-blog-sp-after.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+</tr>
+</tbody>
+</table>
+<p>PCスコアは70から75に改善されました。</p>
+<table class="table table-striped table-bordered">
+<tbody>
+<tr><th>WebP対応前</th><th>WebP対応後</th></tr>
+<tr>
+<td><img alt="psi-blog-pc-before.png" src="https://blog.ideamans.com/assets/psi-blog-pc-before.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+<td><img alt="psi-blog-pc-after.png" src="https://blog.ideamans.com/assets/psi-blog-pc-after.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+</tr>
+</tbody>
+</table>
+<p>WebP対応前は以下のように画像の最適化についての指摘がありましたが、WebPに対応したところこれが表示されなくなりました。画像の分、5ポイント改善されたと解釈することができます。</p>
+<table class="table table-striped table-bordered">
+<tbody>
+<tr><th>WebP対応前</th><th>WebP対応後</th></tr>
+<tr>
+<td><img alt="psi-blog-before-images.png" src="https://blog.ideamans.com/assets/psi-blog-before-images.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+<td style="text-align: center;">画像についての指摘なし</td>
+</tr>
+</tbody>
+</table>
+<h2>Lighthouse</h2>
+<p>ついでにLightouseも試してみました。</p>
+<p> </p>
+<p>パフォーマンススコアが46から49に3ポイント改善されましたが、LighthouseはクライアントPC上で実行するため、実行したときでタイミングがまちまちなので、単発での結果はあまり信憑性がありません。</p>
+<p>画像の監査項目の指摘事項は大幅に削減されたことは確認できます。</p>
+<table class="table table-striped table-bordered">
+<tbody>
+<tr><th>WebP対応前</th><th>WebP対応後</th></tr>
+<tr>
+<td><img alt="lighthouse-blog-before.png" src="https://blog.ideamans.com/assets/lighthouse-blog-before.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+<td><img alt="lighthouse-blog-after.png" src="https://blog.ideamans.com/assets/lighthouse-blog-after.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+</tr>
+</tbody>
+</table>
+<table class="table table-striped table-bordered">
+<tbody>
+<tr><th>WebP対応前</th><th>WebP対応後</th></tr>
+<tr>
+<td><img alt="lighthouse-blog-before-images.png" src="https://blog.ideamans.com/assets/lighthouse-blog-before-images.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+<td><img alt="lighthouse-blog-after-images.png" src="https://blog.ideamans.com/assets/lighthouse-blog-after-images.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></td>
+</tr>
+</tbody>
+</table>
+

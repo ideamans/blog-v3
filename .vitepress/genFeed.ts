@@ -18,16 +18,18 @@ export async function genFeed(config: SiteConfig) {
       'Copyright (c) 2021-present, Yuxi (Evan) You and blog contributors'
   })
 
-  const posts = await createContentLoader('posts/*.md', {
+  const posts = await createContentLoader('posts/**/*.md', {
     excerpt: true,
     render: true
   }).load()
 
-  posts.sort(
-    (a, b) =>
-      +new Date(b.frontmatter.date as string) -
-      +new Date(a.frontmatter.date as string)
-  )
+  posts
+    .slice(0, 10)
+    .sort(
+      (a, b) =>
+        +new Date(b.frontmatter.date as string) -
+        +new Date(a.frontmatter.date as string)
+    )
 
   for (const { url, excerpt, frontmatter, html } of posts) {
     feed.addItem({
@@ -76,7 +78,7 @@ export async function genNotesFeed(config: SiteConfig) {
       +new Date(a.frontmatter.date as string)
   )
 
-  for (const { url, excerpt, frontmatter, html } of posts) {
+  for (const { url, excerpt, frontmatter, html } of posts.slice(0, 10)) {
     feed.addItem({
       title: frontmatter.title,
       id: `${baseUrl}${url}`,
