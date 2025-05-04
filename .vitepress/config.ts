@@ -47,6 +47,7 @@ export default withMermaid({
   title: `ideaman's Notes`,
   description: 'アイデアマンズ株式会社の研究ノート',
   cleanUrls: false,
+  ignoreDeadLinks: true,
   head: [
     ['meta', { name: 'twitter:site', content: '@ideamans' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],

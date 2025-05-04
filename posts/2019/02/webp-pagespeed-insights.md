@@ -1,39 +1,45 @@
----
+(---
+
 # Astrowind
+
 title: 'WebPの活用によるPageSpeed Insigntsのスコア改善を本気で検証'
 excerpt: 'Googleの検索順位には、ページの表示スピード(パフォーマンス)も影響すると言...'
 updateDate: 2019-02-18
 publishedDate: 2019-02-18
-tags: 
-  - webp
+tags:
 
-  - web-imaging
+- webp
 
-  - performance
+- web-imaging
+
+- performance
 
 author: miyanaga
-image: https://blog.ideamans.com/assets/webp-psi-ogp.png
+image: <https://blog.ideamans.com/assets/webp-psi-ogp.png>
 category: webp
 
 # カスタム
+
 updatedAt: 2019-02-18 08:49:33
 publishedAt: 2019-02-18 04:18:33
-categories: 
-  - webp
+categories:
 
-  - web-imaging
+- webp
 
-  - performance
+- web-imaging
 
-categoryLabels: 
-  - WebP
+- performance
 
-  - Web画像最適化
+categoryLabels:
 
-  - 表示高速化
+- WebP
+
+- Web画像最適化
+
+- 表示高速化
 
 authorId: miyanaga
-subTheme: 
+subTheme:
 recommended: false
 ---
 
@@ -83,7 +89,7 @@ Googleの検索順位には、ページの表示スピード(パフォーマン�
 ご覧になりたい方は、以下のフォームからお申し込みください。メールアドレスに共有URLをお送りします。
 
 <div style="text-align: center">
-<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/23" width="640" height="240" style="max-width: 100%;"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.ideamans.com/_mautic/form/23" width="640" height="240" style="max-width: 100%;"><p>Your browser does not support iframes.</p></iframe>
 </div>
 
 ## 検証の手順
@@ -98,8 +104,8 @@ Googleの検索順位には、ページの表示スピード(パフォーマン�
 
 それぞれ元のままのデータと、画像を全てWebPに変換したデータの2種類ずつ、ディレクトリを分けて公開しました。
 
-* [元データのまま公開したサイトの例](https://www.ideamans.com/_samples/original/stuff/index.html)
-* [WebP対応して公開したページの例](https://www.ideamans.com/_samples/webp/stuff/index.html)
+- [元データのまま公開したサイトの例](https://www.ideamans.com/_samples/original/stuff/index.html)
+- [WebP対応して公開したページの例](https://www.ideamans.com/_samples/webp/stuff/index.html)
 
 スプレッドシートにはすべてのページのリンクを掲載しています。
 

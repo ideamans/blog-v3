@@ -45,7 +45,7 @@ NodeJSがインストールしてある環境であればすぐにお使いい�
 
 弊社でこのツールを使ったチェックを代行します。こちらのフォームからご相談ください。
 
-<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/34" width="100%" height="350"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.ideamans.com/_mautic/form/34" width="100%" height="350"><p>Your browser does not support iframes.</p></iframe>
 
 ## 使ってみよう
 
@@ -73,4 +73,4 @@ HTML上の行番号も出力するので探しやすくなっています。
 
 試してみたいけど詳しいエンジニアがいない...といった状況でしたらぜひご相談ください！
 
-<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/34" width="100%" height="350"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.ideamans.com/_mautic/form/34" width="100%" height="350"><p>Your browser does not support iframes.</p></iframe>

@@ -128,4 +128,4 @@ PageSpeed InsightsにLighthouse 6がいつから導入されるかは未定で�
 
 また別の記事で、既存サイトにどのような影響があるか詳しく検証してみたいと思います。
 
-<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/37" width="100%" height="700"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.ideamans.com/_mautic/form/37" width="100%" height="700"><p>Your browser does not support iframes.</p></iframe>

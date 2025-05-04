@@ -63,7 +63,7 @@ recommended: false
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7jKZVCU8I11B-dDJan1xFODTgm2S6SKv6ZgTbe9xO7UUXav6F0Yqek-rn9JbhlpvHaWSYsVMgnVzm/pubhtml?gid=352764755&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500"></iframe>
 
-<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/40" width="100%" height="700"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.ideamans.com/_mautic/form/40" width="100%" height="700"><p>Your browser does not support iframes.</p></iframe>
 
 ## Core Web Vitals と Web Vitals
 
@@ -234,4 +234,4 @@ LCPは表示速度を定量化する上での一面的な指標にすぎず、**
 
 Core Web VitalsはSEOにも関係して名実ともに魅力がありますが、過度に固執したり極端な最適化で暗黒面に陥らないことが大切です。
 
-<iframe src="https://blog.ideamans.com//www.ideamans.com/_mautic/form/40" width="100%" height="700"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.ideamans.com/_mautic/form/40" width="100%" height="700"><p>Your browser does not support iframes.</p></iframe>
