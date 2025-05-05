@@ -7,6 +7,7 @@ import Category from './Category.vue'
 import Monthly from './Monthly.vue'
 import NotFound from './NotFound.vue'
 import { data as categories } from './categories.data.js'
+import Dayjs from 'dayjs'
 
 const { page, frontmatter } = useData()
 const { path } = useRoute()
@@ -81,5 +82,13 @@ const yearMonthIndex = computed(() => {
       <NotFound v-else-if="page.isNotFound" />
       <Article v-else />
     </main>
+    <footer class="footer footer-center bg-neutral text-neutral-content p-4">
+      <aside>
+        <p>
+          Copyright © {{ Dayjs().year() }} - All right reserved by
+          <a href="https://www.ideamans.com/" class="link">ideaman's Inc.</a>
+        </p>
+      </aside>
+    </footer>
   </div>
 </template>
