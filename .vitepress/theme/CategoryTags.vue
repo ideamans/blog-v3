@@ -10,11 +10,12 @@ const byBasename = new Map(categories.map((c) => [c.basename, c]))
 
 <template>
   <div class="flex flex-wrap gap-2">
-    <span
+    <a
       v-for="category of props.categories"
       :key="category"
-      class="badge badge-outline badge-neutral"
-      >{{ byBasename.get(category)?.name ?? category }}</span
+      class="badge badge-outline hover:link"
+      :href="`/${category}/`"
+      >{{ byBasename.get(category)?.name ?? category }}</a
     >
   </div>
 </template>
