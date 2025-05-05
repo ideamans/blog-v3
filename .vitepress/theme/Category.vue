@@ -2,6 +2,7 @@
 import { Category } from '../../categories.js'
 import { data as allPosts } from './posts.data.js'
 import ArticleList from './ArticleList.vue'
+import MainCategoriesMenu from './MainCategoriesMenu.vue'
 const props = defineProps<{
   category: Category
 }>()
@@ -17,8 +18,9 @@ const posts = allPosts.filter((post) => {
       <h1
         class="text-2xl leading-9 font-extrabold text-gray-900 dark:text-white tracking-tight sm:text-3xl sm:leading-10 md:text-5xl md:leading-14"
       >
-        {{ category.name }}
+        <small class="text-slate-500">カテゴリー</small> {{ category.name }}
       </h1>
+      <MainCategoriesMenu />
     </div>
     <ArticleList :posts="posts" />
   </div>

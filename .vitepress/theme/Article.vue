@@ -5,6 +5,7 @@ import { computed } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import { data as posts } from './posts.data.js'
 import CategoryTags from './CategoryTags.vue'
+import AllCategoriesWidget from './AllCategoriesWidget.vue'
 
 const { frontmatter: data } = useData()
 
@@ -36,15 +37,19 @@ const prevPost = computed(() => posts[findCurrentIndex() + 1])
       class="divide-y xl:divide-y-0 divide-gray-200 dark:divide-slate-200/5 xl:grid xl:grid-cols-4 xl:gap-x-10 pb-16 xl:pb-20"
       style="grid-template-rows: auto 1fr"
     >
-      <Author />
       <div
-        class="divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:row-span-2"
+        class="pt-6 pb-10 xl:pt-11 xl:border-b xl:border-gray-200 dark:xl:border-slate-200/5 xl:col-start-4 xl:row-start-1"
+      >
+        <Author />
+      </div>
+      <div
+        class="divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:col-start-1 xl:row-span-2"
       >
         <Content class="prose dark:prose-invert max-w-none pt-10 pb-8" />
       </div>
 
       <footer
-        class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-1 xl:row-start-2"
+        class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-4 xl:row-start-2"
       >
         <div v-if="nextPost" class="py-8">
           <h2
@@ -66,6 +71,7 @@ const prevPost = computed(() => posts[findCurrentIndex() + 1])
             <a :href="prevPost.url">{{ prevPost.title }}</a>
           </div>
         </div>
+        <AllCategoriesWidget />
         <div class="py-8">
           <a class="link" href="/">← ブログトップに戻る</a>
         </div>
