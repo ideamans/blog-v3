@@ -50,7 +50,8 @@ export default withMermaid({
   ignoreDeadLinks: true,
   rewrites: {
     'posts/:year/:month/:slug.md': ':year/:month/:slug.md',
-    'categories/:category.md': ':category/index.md'
+    'categories/:category.md': ':category/index.md',
+    'monthly/:year-:month.md': ':year/:month/index.md'
   },
   paths: [{ category: 'webp' }],
   head: [

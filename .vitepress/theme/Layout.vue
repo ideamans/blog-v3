@@ -4,6 +4,7 @@ import { useData, useRoute } from 'vitepress'
 import Home from './Home.vue'
 import Article from './Article.vue'
 import Category from './Category.vue'
+import Monthly from './Monthly.vue'
 import NotFound from './NotFound.vue'
 import { data as categories } from './categories.data.js'
 
@@ -14,6 +15,17 @@ const firstPath = path.split('/')[1]
 const category = computed(() =>
   categories.find((category) => category.basename === firstPath)
 )
+
+const yearMonthIndex = computed(() => {
+  const matches = path.match(/^\/(\d{4})\/(\d{2})\/(index.html)?$/)
+  if (matches) {
+    return {
+      year: Number(matches[1]),
+      month: Number(matches[2])
+    }
+  }
+  return null
+})
 </script>
 
 <template>
@@ -66,6 +78,11 @@ const category = computed(() =>
     <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <Home v-if="frontmatter.index" />
       <Category v-else-if="category" :category="category" />
+      <Monthly
+        v-else-if="yearMonthIndex"
+        :year="yearMonthIndex.year"
+        :month="yearMonthIndex.month"
+      />
       <NotFound v-else-if="page.isNotFound" />
       <Article v-else />
     </main>

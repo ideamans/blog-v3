@@ -1,13 +1,18 @@
 <script setup lang="ts">
-import { Category } from '../../categories.js'
+import Dayjs from 'dayjs'
 import { data as allPosts } from './posts.data.js'
+import ArticleList from './ArticleList.vue'
 
 const props = defineProps<{
-  category: Category
+  year: number
+  month: number
 }>()
 
+const startingWith = Dayjs(new Date(props.year, props.month - 1, 1)).format(
+  'YYYY-MM'
+)
 const posts = allPosts.filter((post) => {
-  return post.categories?.includes(props.category.basename)
+  return post.publishedAt?.startsWith(startingWith)
 })
 </script>
 
@@ -17,7 +22,7 @@ const posts = allPosts.filter((post) => {
       <h1
         class="text-2xl leading-9 font-extrabold text-gray-900 dark:text-white tracking-tight sm:text-3xl sm:leading-10 md:text-5xl md:leading-14"
       >
-        {{ category.name }}
+        {{ year }}年{{ month }}月
       </h1>
     </div>
     <ArticleList :posts="posts" />
