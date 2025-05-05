@@ -64,4 +64,3 @@ recommended: false
 <a href="https://blog.ideamans.com/assets/purple-and-green.png"><img alt="purple-and-green.png" src="https://blog.ideamans.com/assets_c/2019/02/purple-and-green-thumb-800xauto-919.png" width="800" height="421" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
 
 デバッグにも便利ですが、WebPを採用しているサイトが一目でわかるので面白いです。
-

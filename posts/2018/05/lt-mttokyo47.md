@@ -37,7 +37,7 @@ recommended: false
 <p>当日は座席の数が足りなくなりそうな勢いで、たくさんの方にご参加いただきました。お忙しいところ＆プレミアムフライデーの中、ご来場いただき誠にありがとうございました。また、運営のオウンドメディア勉強会様、MT東京様、会場をご提供いただいたPeatix様、本当にありがとうございました。</p>
 <h2>登壇スライド</h2>
 
-<iframe src="https://blog.ideamans.com//www.slideshare.net/slideshow/embed_code/key/uQTNk6G9eTdxk2" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://blog.ideamans.com//www.slideshare.net/2nose1/ss-98699546" title="表示に何秒かかりますか？" target="_blank">表示に何秒かかりますか？</a> </strong> from <strong><a href="https://www.slideshare.net/2nose1" target="_blank">H N</a></strong> </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/key/uQTNk6G9eTdxk2" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/2nose1/ss-98699546" title="表示に何秒かかりますか？" target="_blank">表示に何秒かかりますか？</a> </strong> from <strong><a href="https://www.slideshare.net/2nose1" target="_blank">H N</a></strong> </div>
 
 <p>Googleの計測ツールは、以下の３つです。まずはTest Mysiteで計測してみましょう。9秒以上かかっている場合は、なる早での対応が望ましいです。</p>
 <ul><li><strong><a href="https://testmysite.withgoogle.com/intl/ja-jp" target="_blank">Test Mysite</a></strong></li><li><a href="https://developers.google.com/speed/pagespeed/insights/?hl=ja" target="_blank">Pagespeed Insight</a></li><li><a href="https://developers.google.com/web/tools/lighthouse/?hl=ja" target="_blank">Lighthouse</a></li></ul>

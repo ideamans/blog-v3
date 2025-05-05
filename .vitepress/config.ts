@@ -1,7 +1,7 @@
 import Dayjs from 'dayjs'
 // import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
-import { genNotesFeed } from './genFeed.js'
+import { genFeed } from './genFeed.js'
 
 function indexImageUrl(bgUrl: string, subTitle: string): string {
   const ogp = new URL('https://banners.ideamans.com/banners/type-a')
@@ -48,6 +48,11 @@ export default withMermaid({
   description: 'アイデアマンズ株式会社の研究ノート',
   cleanUrls: false,
   ignoreDeadLinks: true,
+  rewrites: {
+    'posts/:year/:month/:slug.md': ':year/:month/:slug.md',
+    'categories/:category.md': ':category/index.md'
+  },
+  paths: [{ category: 'webp' }],
   head: [
     ['meta', { name: 'twitter:site', content: '@ideamans' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -94,7 +99,7 @@ gtag('config', 'G-YQBLSY0PKS');
 `
     ]
   ],
-  buildEnd: genNotesFeed,
+  buildEnd: genFeed,
   transformHead: ({ head, pageData }) => {
     const ogpBgUrl = 'https://notes.ideamans.com/ogp-background.jpg'
     const xBgUrl = 'https://notes.ideamans.com/x-background.jpg'
@@ -121,7 +126,7 @@ gtag('config', 'G-YQBLSY0PKS');
       // 記事ページ
       const title = pageData.frontmatter.title
       const id = pageData.frontmatter.id
-      const date = Dayjs(pageData.frontmatter.date).format('YYYY-MM-DD')
+      const date = pageData.frontmatter.publishedDate
 
       // Twitter Card
       head.push([

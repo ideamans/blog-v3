@@ -1,21 +1,23 @@
 import path from 'path'
 import { writeFileSync } from 'fs'
 import { Feed } from 'feed'
+import Dayjs from 'dayjs'
 import { createContentLoader, type SiteConfig } from 'vitepress'
 
-const baseUrl = `https://blog.vuejs.org`
+const baseUrl = `https://blog.ideamans.com`
 
 export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
-    title: 'The Vue Point',
-    description: 'The official blog for the Vue.js project',
+    title: 'アイデアマンズブログ',
+    description:
+      'サイトの高速化「Webフィットネス」を使命とするアイデアマンズ株式会社のブログ',
     id: baseUrl,
     link: baseUrl,
-    language: 'en',
-    image: 'https://vuejs.org/images/logo.png',
-    favicon: `${baseUrl}/notes.svg`,
-    copyright:
-      'Copyright (c) 2021-present, Yuxi (Evan) You and blog contributors'
+    language: 'ja',
+    image: 'https://alogorithm2.ideamans.com/v2/rect.svg?width=800&seed=notes',
+    favicon:
+      'https://alogorithm2.ideamans.com/v2/icon.svg?width=128&seed=notes',
+    copyright: `Copyright (c) 2017- ideaman's Inc.`
   })
 
   const posts = await createContentLoader('posts/**/*.md', {
@@ -27,15 +29,15 @@ export async function genFeed(config: SiteConfig) {
     .slice(0, 10)
     .sort(
       (a, b) =>
-        +new Date(b.frontmatter.date as string) -
-        +new Date(a.frontmatter.date as string)
+        +Dayjs(b.frontmatter?.publishedAt) - +Dayjs(a.frontmatter?.publishedAt)
     )
 
   for (const { url, excerpt, frontmatter, html } of posts) {
+    const rewriteUrl = url.replace(/^\/posts\//, '/')
     feed.addItem({
       title: frontmatter.title,
-      id: `${baseUrl}${url}`,
-      link: `${baseUrl}${url}`,
+      id: `${baseUrl}${rewriteUrl}`,
+      link: `${baseUrl}${rewriteUrl}`,
       description: excerpt,
       content: html?.replaceAll('&ZeroWidthSpace;', ''),
       author: [
@@ -46,54 +48,7 @@ export async function genFeed(config: SiteConfig) {
             : undefined
         }
       ],
-      date: frontmatter.date
-    })
-  }
-
-  writeFileSync(path.join(config.outDir, 'feed.rss'), feed.rss2())
-}
-
-const notesUrl = 'https://notes.ideamans.com'
-
-export async function genNotesFeed(config: SiteConfig) {
-  const feed = new Feed({
-    title: `ideaman's Notes`,
-    description: 'アイデアマンズ株式会社の研究ノート',
-    id: notesUrl,
-    link: notesUrl,
-    language: 'ja',
-    image: 'https://alogorithm2.ideamans.com/v2/rect.svg?width=800&seed=notes',
-    favicon: `${baseUrl}/notes.svg`,
-    copyright: `Copyright (c) 2024-present, ideaman's Inc.`
-  })
-
-  const posts = await createContentLoader('posts/**/*.md', {
-    excerpt: true,
-    render: true
-  }).load()
-
-  posts.sort(
-    (a, b) =>
-      +new Date(b.frontmatter.date as string) -
-      +new Date(a.frontmatter.date as string)
-  )
-
-  for (const { url, excerpt, frontmatter, html } of posts.slice(0, 10)) {
-    feed.addItem({
-      title: frontmatter.title,
-      id: `${baseUrl}${url}`,
-      link: `${baseUrl}${url}`,
-      description: excerpt,
-      content: excerpt, // html?.replaceAll('&ZeroWidthSpace;', ''),
-      author: [
-        {
-          name: frontmatter.author || frontmatter.id,
-          link: frontmatter.twitter
-            ? `https://twitter.com/${frontmatter.twitter}`
-            : undefined
-        }
-      ],
-      date: frontmatter.date
+      date: frontmatter.publishedAt
     })
   }
 

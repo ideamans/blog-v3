@@ -1,13 +1,25 @@
 import { createContentLoader } from 'vitepress'
+import Dayjs from 'dayjs'
 
 interface Post {
-  title: string
   url: string
-  date: {
-    time: number
-    string: string
-  }
-  excerpt: string | undefined
+
+  title: string
+  excerpt?: string
+  updatedDate: string
+  publishedDate: string
+  tags: string[]
+  author: string
+  image?: string
+  category: string
+
+  updatedAt: string
+  publishedAt: string
+  categories?: string[]
+  categoryLabels?: string[]
+  authorId?: string
+  subTheme?: string
+  recommended: boolean
 }
 
 declare const data: Post[]
@@ -18,24 +30,10 @@ export default createContentLoader('posts/**/*.md', {
   transform(raw): Post[] {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
-        title: frontmatter.title,
-        url,
-        excerpt,
-        date: formatDate(frontmatter.date)
+        ...frontmatter,
+
+        url: url.replace(/^\/posts\//, '/')
       }))
-      .sort((a, b) => b.date.time - a.date.time)
+      .sort((a, b) => Dayjs(b.publishedAt) - Dayjs(a.publishedAt))
   }
 })
-
-function formatDate(raw: string): Post['date'] {
-  const date = new Date(raw)
-  date.setUTCHours(9)
-  return {
-    time: +date,
-    string: date.toLocaleDateString('ja-JP', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
-}
