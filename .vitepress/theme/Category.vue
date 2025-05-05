@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Category } from '../../categories.js'
 import { data as allPosts } from './posts.data.js'
-
+import ArticleList from './ArticleList.vue'
 const props = defineProps<{
   category: Category
 }>()

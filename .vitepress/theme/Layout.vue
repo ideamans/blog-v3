@@ -11,10 +11,11 @@ import { data as categories } from './categories.data.js'
 const { page, frontmatter } = useData()
 const { path } = useRoute()
 
-const firstPath = path.split('/')[1]
-const category = computed(() =>
-  categories.find((category) => category.basename === firstPath)
-)
+const category = computed(() => {
+  const matches = path.match(/^\/(.+?)\/(index.html)?$/)
+  if (!matches) return null
+  return categories.find((category) => category.basename === matches[1])
+})
 
 const yearMonthIndex = computed(() => {
   const matches = path.match(/^\/(\d{4})\/(\d{2})\/(index.html)?$/)
@@ -53,12 +54,6 @@ const yearMonthIndex = computed(() => {
           <!-- <a class="hover:text-gray-700 dark:hover:text-gray-200" href="https://github.com/ideamans/notes"
             target="_blank" rel="noopener"><span class="hidden sm:inline">GitHub </span>Source</a>
           <span class="mr-2 ml-2">·</span> -->
-          <a
-            class="hover:text-gray-700 dark:hover:text-gray-200"
-            href="/feed.rss"
-            >WebP</a
-          >
-          <span class="mr-2 ml-2">·</span>
           <a
             class="hover:text-gray-700 dark:hover:text-gray-200"
             href="/feed.rss"

@@ -17,10 +17,10 @@ const props = defineProps<{
       <article
         class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline"
       >
-        <Date :date="publishedAt" />
         <div class="space-y-5 xl:col-span-3">
           <div class="space-y-6">
             <div class="flex flex-col gap-2">
+              <Date :date="publishedAt" />
               <h2 class="text-2xl leading-8 font-bold tracking-tight">
                 <a class="text-gray-900 dark:text-white" :href="url">{{
                   title
