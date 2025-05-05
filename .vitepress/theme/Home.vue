@@ -38,6 +38,6 @@ const mainCategories = [
         </li>
       </ul>
     </div>
-    <ArticleList :posts="posts.slice(0, 10)" />
+    <ArticleList :posts="posts.slice(0, 20)" />
   </div>
 </template>

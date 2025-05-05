@@ -71,7 +71,7 @@ const yearMonthIndex = computed(() => {
         </div>
       </nav>
     </div>
-    <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 xl:max-w-6xl xl:px-0">
       <Home v-if="frontmatter.index" />
       <Category v-else-if="category" :category="category" />
       <Monthly
