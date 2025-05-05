@@ -3,7 +3,7 @@ import type { Post } from './posts.data.js'
 import Date from './Date.vue'
 import CategoryTags from './CategoryTags.vue'
 import { data as categories } from './categories.data.js'
-import { makeExcerpt } from '../helper.js'
+import AllCategoriesWidget from './AllCategoriesWidget.vue'
 
 const props = defineProps<{
   posts: Post[]
@@ -57,21 +57,7 @@ const props = defineProps<{
     <footer
       class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-4 xl:row-start-2"
     >
-      <div class="py-8 space-y-2">
-        <h2
-          class="text-xs tracking-wide uppercase text-gray-500 dark:text-white"
-        >
-          すべてのカテゴリー
-        </h2>
-        <div class="flex flex-wrap gap-2">
-          <a
-            v-for="category in categories"
-            class="link"
-            :href="`/${category.basename}`"
-            >{{ category.name }}</a
-          >
-        </div>
-      </div>
+      <AllCategoriesWidget />
     </footer>
   </div>
 </template>

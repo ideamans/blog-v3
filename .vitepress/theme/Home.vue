@@ -1,22 +1,11 @@
 <script setup lang="ts">
 import Date from './Date.vue'
 import { data as posts } from './posts.data.js'
-import { data as categories } from './categories.data.js'
 import { useData } from 'vitepress'
 import ArticleList from './ArticleList.vue'
+import MainCategoriesMenu from './MainCategoriesMenu.vue'
 
 const { frontmatter } = useData()
-
-const categoriesByBasename = new Map(categories.map((c) => [c.basename, c]))
-const mainCategories = [
-  'pagespeed-insights',
-  'lightfile',
-  'cloud-cost',
-  'webp',
-  'ranklet'
-]
-  .map((basename) => categoriesByBasename.get(basename))
-  .filter(Boolean)
 </script>
 
 <template>
@@ -30,13 +19,7 @@ const mainCategories = [
       <p class="text-lg leading-7 text-gray-500 dark:text-white">
         {{ frontmatter.subtext }}
       </p>
-      <ul
-        class="menu bg-base-200 menu-horizontal rounded-box menu-sm md:menu-md"
-      >
-        <li v-for="category of mainCategories">
-          <a :href="`/${category.basename}/`">{{ category.name }}</a>
-        </li>
-      </ul>
+      <MainCategoriesMenu />
     </div>
     <ArticleList :posts="posts.slice(0, 20)" />
   </div>
