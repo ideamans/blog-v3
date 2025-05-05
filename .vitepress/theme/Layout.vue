@@ -82,7 +82,7 @@ const yearMonthIndex = computed(() => {
       <NotFound v-else-if="page.isNotFound" />
       <Article v-else />
     </main>
-    <footer class="footer footer-center bg-neutral text-neutral-content p-4">
+    <footer class="footer footer-center p-4">
       <aside>
         <p>
           Copyright © {{ Dayjs().year() }} - All right reserved by

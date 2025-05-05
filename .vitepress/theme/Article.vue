@@ -66,7 +66,7 @@ const prevPost = computed(() => posts[findCurrentIndex() + 1])
             <a :href="prevPost.url">{{ prevPost.title }}</a>
           </div>
         </div>
-        <div class="pt-8">
+        <div class="py-8">
           <a class="link" href="/">← ブログトップに戻る</a>
         </div>
       </footer>
