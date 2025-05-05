@@ -68,7 +68,7 @@ export default withMermaid({
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/notes.svg'
+        href: '/blog.svg'
       }
     ],
     // [
