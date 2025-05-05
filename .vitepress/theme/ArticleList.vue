@@ -16,7 +16,7 @@ const props = defineProps<{
     style="grid-template-rows: auto 1fr"
   >
     <div
-      class="divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:row-span-2"
+      class="divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:col-start-1 xl:row-span-2"
     >
       <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
         <li
@@ -55,7 +55,7 @@ const props = defineProps<{
     </div>
 
     <footer
-      class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-1 xl:row-start-2"
+      class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-4 xl:row-start-2"
     >
       <div class="py-8 space-y-2">
         <h2
