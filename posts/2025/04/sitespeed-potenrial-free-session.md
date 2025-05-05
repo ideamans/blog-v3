@@ -112,4 +112,4 @@ recommended: false
 
 本無料診断が、サイトスピード改善の効果を客観的に把握し、売上向上に向けた具体的な一歩となれば幸いです。ご参加を心よりお待ちしております。
 
-<iframe src="http://mautic.ideamans.com/form/7" width="100%" height="1000"><p>Your browser does not support iframes.</p></iframe>
+<iframe src="http://mautic.ideamans.com/form/7" width="100%" height="1000"></iframe>

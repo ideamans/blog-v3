@@ -1,7 +1,7 @@
 import { createContentLoader } from 'vitepress'
 import Dayjs from 'dayjs'
 
-interface Post {
+export interface Post {
   url: string
 
   title: string
