@@ -107,6 +107,13 @@ export default defineConfig({
 
     gtag('config', 'G-N79QY0ZG5M');
     `
+    ],
+    [
+      'script',
+      {
+        async: '1',
+        src: 'https://free.ranklet4.com/widgets/CAUCzJlNf1OGoYooG8uf.js'
+      }
     ]
   ],
   buildEnd: genFeed,

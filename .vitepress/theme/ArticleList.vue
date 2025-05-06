@@ -4,6 +4,7 @@ import Date from './Date.vue'
 import CategoryTags from './CategoryTags.vue'
 import { data as categories } from './categories.data.js'
 import AllCategoriesWidget from './AllCategoriesWidget.vue'
+import Ranklet4Widget from './Ranklet4Widget.vue'
 
 const props = defineProps<{
   posts: Post[]
@@ -58,6 +59,7 @@ const props = defineProps<{
       class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-4 xl:row-start-2"
     >
       <AllCategoriesWidget />
+      <Ranklet4Widget />
     </footer>
   </div>
 </template>

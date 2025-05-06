@@ -6,6 +6,7 @@ import { useData, useRoute } from 'vitepress'
 import { data as posts } from './posts.data.js'
 import CategoryTags from './CategoryTags.vue'
 import AllCategoriesWidget from './AllCategoriesWidget.vue'
+import Ranklet4Widget from './Ranklet4Widget.vue'
 
 const { frontmatter: data } = useData()
 
@@ -72,6 +73,7 @@ const prevPost = computed(() => posts[findCurrentIndex() + 1])
           </div>
         </div>
         <AllCategoriesWidget />
+        <Ranklet4Widget />
         <div class="py-8">
           <a class="link" href="/">← ブログトップに戻る</a>
         </div>
