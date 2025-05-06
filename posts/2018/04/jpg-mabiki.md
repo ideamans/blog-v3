@@ -62,6 +62,5 @@ recommended: false
 <p>いかがでしたでしょうか？画像それぞれの特性を知っておくことで、キレイで軽い画像を作り出すことができます。画質にこだわることで、きれいなものをキレイに、美味しいものを美味しそうに、感動的なものを感動的に伝えることができるでしょう。</p>
 <p> </p>
 <h4>参考URL</h4>
-<ul><li><a href="http://funini.com/kei/math/jpeg.shtml" target="_blank"><span>JPEG の仕組み</span></a></li></ul>
+<ul><li><a href="https://funini.com/kei/math/jpeg.shtml" target="_blank"><span>JPEG の仕組み</span></a></li></ul>
 <p> </p>
-

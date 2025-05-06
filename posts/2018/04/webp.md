@@ -77,7 +77,7 @@ recommended: false
 <h2>どうやってWebP画像をつくるの？</h2>
 <h3>Photoshopで作る</h3>
 <p>Webデザイナーの方は、コマンドラインよりもPhotoshopの方が利用頻度は高いと思います（最近ではgulpなどでコマンドラインを扱う人もかなり増えてきました）。PhotoshopでWebPを書き出すには、プラグインをインストールすれば可能です。利用は自己責任でお願いします。</p>
-<ul><li><a href="http://telegraphics.com.au/sw/product/WebPFormat" target="_blank">WebP Photoshop Plugin | Telegraphics - Free plugins for Photoshop &amp; Illustrator...and other software</a></li></ul>
+<ul><li><a href="https://telegraphics.com.au/sw/product/WebPFormat" target="_blank">WebP Photoshop Plugin | Telegraphics - Free plugins for Photoshop &amp; Illustrator...and other software</a></li></ul>
 <p>なんと、MacのPhotoshopであればCS2から対応しているっぽいです！</p>
 <h3>cwebpコマンドで作る</h3>
 <p>コマンドラインからも作成できます。WebPはHomebrewを使うと、すぐにインストールすることができます。コマンド例はこんな感じです。</p>

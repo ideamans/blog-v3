@@ -31,7 +31,7 @@ subTheme:
 recommended: false
 ---
 
-<p><strong><a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>の「Web用に保存」で設定する値を、最高画質〜高画質でどのくらいの変化があるのか</strong>調べてみました。前回と同様に、ファイルサイズと画像の差分で見ていきます。すべての差分画像を載せることはできないので、もし調査画像一式ほしいという方は、<a href="https://www.facebook.com/ideamans/" target="_blank">Facebook</a>か<a href="https://twitter.com/ideamans" target="_blank">Twitter</a>からご連絡くださいませ。</p>
+<p><strong><a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>の「Web用に保存」で設定する値を、最高画質〜高画質でどのくらいの変化があるのか</strong>調べてみました。前回と同様に、ファイルサイズと画像の差分で見ていきます。すべての差分画像を載せることはできないので、もし調査画像一式ほしいという方は、<a href="https://www.facebook.com/ideamans/" target="_blank">Facebook</a>か<a href="https://twitter.com/ideamans" target="_blank">Twitter</a>からご連絡くださいませ。</p>
 <p>前回の記事はこちら。</p>
 <blockquote class="twitter-tweet" data-lang="ja">
 <p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%83%86%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#ラーメンテロ</a> じゃないですよ！<a href="https://twitter.com/hashtag/Photoshop?src=hash&amp;ref_src=twsrc%5Etfw">#Photoshop</a> の"Web用に保存"でファイルを書き出す際の画質にを調べてみました。意外と調整を行わなかったり、<a href="https://twitter.com/hashtag/PNG?src=hash&amp;ref_src=twsrc%5Etfw">#PNG</a> で書き出しな方は、ファイルサイズにも注目！軽くなれば表示が速くなりますよ！<a href="https://t.co/JttJarPZ4n">https://t.co/JttJarPZ4n</a></p>
@@ -44,10 +44,10 @@ recommended: false
 <p> </p>
 <h2>画質の設定は、数値指定で100-80まで</h2>
 <p><a href="https://blog.ideamans.com/assets/2017-12-22-ps-panel01.jpg"><img alt="2017-12-22-ps-panel01.jpg" src="https://blog.ideamans.com/assets_c/2017/12/2017-12-22-ps-panel01-thumb-1200xauto-197.jpg" width="1200" height="440" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></a></p>
-<p><a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>の画質の設定は、今回は数値で入力しました。高画質といっても99-80まであるので、20パターン存在します。数値入力は、スライダーでも調整が可能です。</p>
+<p><a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>の画質の設定は、今回は数値で入力しました。高画質といっても99-80まであるので、20パターン存在します。数値入力は、スライダーでも調整が可能です。</p>
 <p> </p>
 <h2>JPGの差分は、ImageMagickのcompareコマンドで調べる</h2>
-<p>今回も、<a href="http://imagemagick.org/script/index.php" target="_blank">ImageMagick</a>のcompareコマンドで調べてみます。以前も同じようにして調べていますので、興味のある方は参考にしてください。</p>
+<p>今回も、<a href="https://imagemagick.org/script/index.php" target="_blank">ImageMagick</a>のcompareコマンドで調べてみます。以前も同じようにして調べていますので、興味のある方は参考にしてください。</p>
 <blockquote class="twitter-tweet" data-lang="ja">
 <p lang="ja" dir="ltr">違いがわかれば変化がわかる！<a href="https://twitter.com/hashtag/imagemagick?src=hash&amp;ref_src=twsrc%5Etfw">#imagemagick</a> で <a href="https://twitter.com/hashtag/%E7%94%BB%E5%83%8F%E6%9C%80%E9%81%A9%E5%8C%96?src=hash&amp;ref_src=twsrc%5Etfw">#画像最適化</a> ツールの処理後の差分をみてみよう！画質優先型は、にじむように差分があるのが確認できるんです。<a href="https://twitter.com/hashtag/jpegmini?src=hash&amp;ref_src=twsrc%5Etfw">#jpegmini</a> <a href="https://twitter.com/hashtag/tinypng?src=hash&amp;ref_src=twsrc%5Etfw">#tinypng</a> <a href="https://twitter.com/hashtag/lightfilecore?src=hash&amp;ref_src=twsrc%5Etfw">#lightfilecore</a><a href="https://t.co/4rF2rmhXSI">https://t.co/4rF2rmhXSI</a></p>
 -- アイデアマンズ (@ideamans) <a href="https://twitter.com/ideamans/status/937517930069229569?ref_src=twsrc%5Etfw">2017年12月4日</a></blockquote>

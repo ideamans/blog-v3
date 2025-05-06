@@ -67,7 +67,7 @@ Configuration:
   --additional-trace-categories  Additional categories to capture with the trace (comma-delimited).
   --config-path                  The path to the config JSON.
   --preset                       Use a built-in configuration.                                 [選択してください: "full", "perf", "mixed-content"]
-  --chrome-flags                 Custom flags to pass to Chrome (space-delimited). For a full list of flags, see <http://bit.ly/chrome-flags>
+  --chrome-flags                 Custom flags to pass to Chrome (space-delimited). For a full list of flags, see <https://bit.ly/chrome-flags>
                                  Additionally, use the CHROME_PATH environment variable to use a specific Chrome binary. Requires Chromium version
                                  54.0 or later. If omitted, any detected Chrome Canary or Chrome stable will be used.             [デフォルト: ""]
   --port                         The port to use for the debugging protocol. Use 0 for a random port                               [デフォルト: 0]

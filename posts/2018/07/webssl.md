@@ -45,7 +45,7 @@ recommended: false
 <p>SSLへの対応の調査は、事前にリダイレクトを解決した上、トップページに対する<a href="https://developers.google.com/web/tools/lighthouse/?hl=ja">Lighthouse</a>を実行して判定します。そのためモバイル端末としてアクセスした結果となります。</p>
 <p>もしかしたらSSL化から漏れている下層ページがあるかもしれませんが、少数のケースと思われるのでトップページで代表して確認しました。</p>
 <p>ジャンルごとのサンプル抽出方法は以下の通りです。</p>
-<ul><li><span><strong>上場企業コーポレートサイト </strong></span><a href="https://www.jpx.co.jp/listing/co/" title="JPX上場企業">JPX上場企業</a>3から抽出</li><li><span><strong>ブログ/メディアサイト </strong></span><a href="http://tophatenar.com/" title="TopHatenar">TopHatener</a>の購読者上位から抽出</li><li><span><strong>ECサイト</strong></span> 独自のクローラーで収集した、会員登録機能とショッピングカート機能を有すると判断される一般的なインターネット通販サイト(楽天などのモールも含む)</li></ul>
+<ul><li><span><strong>上場企業コーポレートサイト </strong></span><a href="https://www.jpx.co.jp/listing/co/" title="JPX上場企業">JPX上場企業</a>3から抽出</li><li><span><strong>ブログ/メディアサイト </strong></span><a href="https://tophatenar.com/" title="TopHatenar">TopHatener</a>の購読者上位から抽出</li><li><span><strong>ECサイト</strong></span> 独自のクローラーで収集した、会員登録機能とショッピングカート機能を有すると判断される一般的なインターネット通販サイト(楽天などのモールも含む)</li></ul>
 <p>これらの候補の中から、Lighthouseを正常に実行できなかったサイトや、閉鎖や移転のお知らせで簡素な内容になっているサイトを除きます。</p>
 <p>具体的なサンプル数は以下の通りです。</p>
 <table border="1" cellpadding="5" cellapacing="0" class="tablestyle" style="width: 591px; height: 137px;">

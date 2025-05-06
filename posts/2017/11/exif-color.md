@@ -42,7 +42,7 @@ recommended: false
 <pre class="prettyprint"><code class="lang-bsh">Color Space Data                : RGB</code></pre>
 <pre class="prettyprint"><code class="lang-bsh">Photometric Interpretation      : RGB</code></pre>
 <pre class="prettyprint"><code class="lang-bsh">Color Mode                      : CMYK</code></pre>
-<p><strong>Color Space Data</strong>は、たいていの画像に含まれているもののようで、これはカメラの機種ごとに固定または変更ができるようになっています。ハイエンドなカメラだと、カラースペースの変更が可能ですね。自分もデジイチや<a href="http://www.ricoh-imaging.co.jp/japan/products/gr-digital4/" target="_blank">RICHO GR DIGITAL</a>で変更できるようになっていました。</p>
+<p><strong>Color Space Data</strong>は、たいていの画像に含まれているもののようで、これはカメラの機種ごとに固定または変更ができるようになっています。ハイエンドなカメラだと、カラースペースの変更が可能ですね。自分もデジイチや<a href="https://www.ricoh-imaging.co.jp/japan/products/gr-digital4/" target="_blank">RICHO GR DIGITAL</a>で変更できるようになっていました。</p>
 <p> </p>
 <h2>Color Space DataがRGBの時、そのカラースペースを削除すると色味がかわる</h2>
 <p>テスト用のデータを使って比べてみましょう。テストデータはこちらを利用させていただきました。</p>

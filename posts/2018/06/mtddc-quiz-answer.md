@@ -100,5 +100,4 @@ recommended: false
 <p>デザイナーさんやブランド担当者は、画質を落としたくない。エンジニアやインフラ担当者はファイルサイズを軽くしたい。そんな2つのニーズを同時に叶えてくるのがLightFileなのです。</p>
 <h2>最後に</h2>
 <p>大盛況だったMTDDC Meetup HOKKAIDO 2018は、皆さまにとって素晴らしいイベントであったことだと思います。アイデアマンズのクイズ楽しんでいただけましたでしょうか？また皆さまが楽しめる企画を用意して、ブースを出展していきたいと思います。</p>
-<ul><li><a href="https://core.lightfile.net/contents/web-developer.html" target="_blank"><span><span>そのサイト、もっと速くなります！画質劣化が少ない画像軽量化で、Webサイトの表示を高速化！ | LightFile[ライトファイル]</span></span></a></li><li><a href="http://mtddc2018.mt-ezo.net/" target="_blank"><span>MTDDC MEETUP HOKKAIDO 2018 | MT:Ezo | MT蝦夷</span></a></li></ul>
-
+<ul><li><a href="https://core.lightfile.net/contents/web-developer.html" target="_blank"><span><span>そのサイト、もっと速くなります！画質劣化が少ない画像軽量化で、Webサイトの表示を高速化！ | LightFile[ライトファイル]</span></span></a></li><li><a href="https://mtddc2018.mt-ezo.net/" target="_blank"><span>MTDDC MEETUP HOKKAIDO 2018 | MT:Ezo | MT蝦夷</span></a></li></ul>

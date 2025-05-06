@@ -39,8 +39,7 @@ recommended: false
 <p> </p>
 <h2>最後に</h2>
 <p>北海道で開催されるMTDDC Meetup HOKKAIDOは、実に4年ぶりの開催となります。Movable Typeもメジャーバージョンが7となり、コンテンツタイプという概念が導入されています。既存のMTではできなかったことが、いろいろと柔軟に構築できるようになり、運用側にとってのメリットがとても大きいメジャーバージョンアップですでの、ぜひこの機会に情報をアップデートしましょう。</p>
-<ul><li><a href="http://mtddc2018.mt-ezo.net/" target="_blank"><span>MTDDC MEETUP HOKKAIDO 2018 | MT:Ezo | MT蝦夷</span></a></li><li><a href="https://mtddcmeetup-hokkaido-2018.peatix.com/" target="_blank">イベント参加お申し込みページ</a></li></ul>
+<ul><li><a href="https://mtddc2018.mt-ezo.net/" target="_blank"><span>MTDDC MEETUP HOKKAIDO 2018 | MT:Ezo | MT蝦夷</span></a></li><li><a href="https://mtddcmeetup-hokkaido-2018.peatix.com/" target="_blank">イベント参加お申し込みページ</a></li></ul>
 <p> </p>
 <p><span style="color: #888888;">※懇親会のお申込みは、イベントページよりお申し込みください。<br>※Amazon、Amazon.co.jp およびそのロゴはAmazon.com, Inc. またはその関連会社の商標です。本プレゼントについてのお問い合わせはAmazonではお受けしておりません。<br>※本クイズは予告なく中止する場合がございます。<br>※収集した個人情報は、正解者への当選結果の連絡と、弊社からのセールスレターの送信に利用する他の目的では使用しません</span></p>
 <p> </p>
-

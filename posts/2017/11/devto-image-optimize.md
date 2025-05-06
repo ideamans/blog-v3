@@ -35,7 +35,7 @@ recommended: false
 <h2>dev.toの表示が爆速で、ページ遷移も待たされない</h2>
 <p style="text-align: center;"><img alt="devto01.png" src="https://blog.ideamans.com/assets/devto01.png" width="1288" height="685" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #999999;">表示が爆速なdev.to</span></p>
 <p><a href="https://dev.to/" target="_blank">dev.to</a>というエンジニアの広場的なサービスが話題です。というのも、その表示がハンパなく速い！という。自分もアカウント登録（Twitter認証で）したり、ページ閲覧や投稿を試してみましたが、すべてのページの表示と遷移が爆速でした。AMPよりも速いんじゃないか？！と思えるほどで、社内Slackでもちょっとワイワイガヤガヤしてました。</p>
-<ul><li><a href="https://dev.to/" target="_blank"><span>The DEV Community</span></a></li><li><a href="http://www.itmedia.co.jp/news/articles/1711/15/news133.html" target="_blank"><span>「爆速すぎて笑う」　表示速度が"異常な"Webサイト「dev.to」　その仕組みは</span></a></li></ul>
+<ul><li><a href="https://dev.to/" target="_blank"><span>The DEV Community</span></a></li><li><a href="https://www.itmedia.co.jp/news/articles/1711/15/news133.html" target="_blank"><span>「爆速すぎて笑う」　表示速度が"異常な"Webサイト「dev.to」　その仕組みは</span></a></li></ul>
 <p> </p>
 <h2><span>どうしてページ表示が爆速なのか</span></h2>
 <p><span>dev.toのエンジニアの方が、少しタネ明かしをしています。詳しくはそちらを見ていただくのが間違いないです。</span></p>
@@ -46,8 +46,8 @@ recommended: false
 <p style="text-align: center;"><span><span><img alt="cloudinary01.png" src="https://blog.ideamans.com/assets/cloudinary01.png" width="1288" height="685" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #999999;">クラウドの画像管理サービス Cloudinary</span></span></span></p>
 <p><span>画像の最適化には、<a href="https://cloudinary.com/" target="_blank">Cloudinary</a>というサービスが採用されています。</span></p>
 <ul><li><span><a href="https://cloudinary.com/" target="_blank"><span>Cloudinary - Cloud image service, upload, storage &amp; CDN</span></a><br></span></li></ul>
-<p>2012年の<a href="http://jp.techcrunch.com/" target="_blank">TechCrunch</a>の記事では、<a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>いらず！とまでいわれているサービスでした。<strong>サイズ変更やトリミング、角丸処理などもクラウド上で出来ちゃう</strong>ようです。さらにAPIが充実してて、今は<a href="https://www.heroku.com/" target="_blank">Heroku</a>の拡張機能に対応しているとのこと。</p>
-<ul><li><a href="http://jp.techcrunch.com/2012/06/01/20120531goodbye-photoshop-hello-cloudinary/" target="_blank">さらばPhotoshop。Cloudinaryはクラウドで画像を変換する</a></li></ul>
+<p>2012年の<a href="https://jp.techcrunch.com/" target="_blank">TechCrunch</a>の記事では、<a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>いらず！とまでいわれているサービスでした。<strong>サイズ変更やトリミング、角丸処理などもクラウド上で出来ちゃう</strong>ようです。さらにAPIが充実してて、今は<a href="https://www.heroku.com/" target="_blank">Heroku</a>の拡張機能に対応しているとのこと。</p>
+<ul><li><a href="https://jp.techcrunch.com/2012/06/01/20120531goodbye-photoshop-hello-cloudinary/" target="_blank">さらばPhotoshop。Cloudinaryはクラウドで画像を変換する</a></li></ul>
 <p>使用感などは、フリーミアムのアカウントが取得できるようなので、あとで試してみよっと。</p>
 <p> </p>
 <h2>dev.toでは、ブラウザごとに配信する画像が最適化されている</h2>

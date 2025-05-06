@@ -115,7 +115,7 @@ recommended: false
 <p>今回、動画による訴求は1社有りましたが、それ以外はオーソドックスなレイアウトでした。<strong>メインビジュアルのスライダーは、もう出始めてから5年以上たってあますが、その利便性の高さから根強い人気</strong>です。最も重要なファーストビューにあり、複数の訴求コンテンツを見せることができるのはいいですよね。動画は流れてしまいますが、スライダーは閲覧者が操作することも可能です。</p>
 <p style="text-align: center;"><img alt="2018-04-23-kaden-02.jpg" src="https://blog.ideamans.com/images/2018-04-23-kaden-02.jpg" width="1280" height="623" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">jQueryが不要で、スワイプ操作にも対応している「Swiper」が人気</span></p>
 <p>スライダーバナーはPhotoshopなどの画像処理アプリを利用して作ることが一般的です。Photoshopでの書き出し時の画質設定は、各Webデザイナーさんの個別設定になっていますので、どのくらいの画質になっているのか確認しましょう。</p>
-<ul><li><a href="http://idangero.us/swiper/" target="_blank"><span>Swiper - Most Modern Mobile Touch Slider</span></a></li></ul>
+<ul><li><a href="https://idangero.us/swiper/" target="_blank"><span>Swiper - Most Modern Mobile Touch Slider</span></a></li></ul>
 <h3>画質の最適化はWebデザイナーの仕事なのか？</h3>
 <p>画質最適化は、人の仕事ではなく、プログラムの仕事ではないかと考えています。というのは、<strong>人間の目でみて、画質99と98の違いはわからないでしょう。</strong>しかし、コンピュータでは処理されています。あくまでコンピュータが判断して処理しているのです。</p>
 <p style="text-align: center;"><img alt="diff-lfc-best.jpg" src="https://blog.ideamans.com/assets/diff-lfc-best.jpg" width="640" height="427" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">Imagemagickでの画像処理の差分を出した結果。コンピュータなら差分がわかるが、人間の目では難しいことも多い。白が差分なしで、赤が差分ありを表してます。</span></p>
@@ -128,4 +128,3 @@ recommended: false
 <h2>最後に</h2>
 <p>家電の寿命はいきなりくるので、うちもそろそろ買い替え時期が近そうと思っています。利用頻度が多いせいか掃除機と電子レンジ（オーブン付）、洗濯機は買い替えが多いような気が。。。小さくて、必要十分な機能で、耐久性がある家電がベストなので、誰かよいメーカーを知っていましたら、TwitterかFacebookページでコメントください(^-^)</p>
 <p> </p>
-

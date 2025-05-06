@@ -30,7 +30,7 @@ recommended: false
 <p style="margin: 0px;"></p>
 <p style="margin: 0px;"><img alt="SS 2017-10-20 18.03.40.jpg" src="https://blog.ideamans.com/SS%202017-10-20%2018.03.40.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="2220" height="654"></p>
 <p style="margin: 0px;">DrupalSummit 2017</p>
-<p style="margin: 0px;"><a href="http://drupal-summit.tokyo/">http://drupal-summit.tokyo/</a></p>
+<p style="margin: 0px;"><a href="https://drupal-summit.tokyo/">https://drupal-summit.tokyo/</a></p>
 <p style="margin: 0px;"></p>
 <p style="margin: 0px;">今年は<a href="https://2017.tokyo.wordcamp.org/" target="_blank">WordCamp</a>（Wordpress）、<a href="https://www.sixapart.jp/seminar/sa/2017/08/21-1342.html" target="_blank">MTDDC</a>（Movable type）と続けて参加することができ、ちょっと気になっていたDrupalのイベントにも参加してきました。<br><br>参加されている人の顔ぶれや雰囲気、各CMSの展望などを含めてバタバタとしましたが連続でイベント参加できたのは結果的には非常に参考になりました。<br><br></p>
 <p style="margin: 0px;">DrupalSummitでは当日現地に行ってみると知っている会社さんも多く、2トラックありで登壇内容も多岐にわたり同時通訳でのゲストなど盛りだくさんでした。</p>
@@ -54,4 +54,3 @@ recommended: false
 <p>また色々なイベントに参加できればと思います。</p>
 <p> </p>
 <p> </p>
-

@@ -65,7 +65,7 @@ recommended: false
 <p>例えば、通常10kgあるダンボールがあるとします。これを1kgまで軽量化します。すると、重い荷物を運ぶための機械は必要なくなり、小学生のでも運べる程度のものになります。<strong>重い荷物を運ぶための屈強なスタッフを雇わなくても、通常のスタッフが手伝って運搬が終わってしまうでしょう</strong>。</p>
 <h3>2. ページの表示が速くなる</h3>
 <p><img alt="2017-12-07-jpgdietshowdown02.jpg" src="https://blog.ideamans.com/assets/2017-12-07-jpgdietshowdown02.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="1200" height="630"></p>
-<p>最近は、画像がないページというのは少なくなりました。<strong>画像は視覚的に表現することができ、言葉では伝わりづらい「状況」や「状態」、そして訴求力の高さなど、非常に有用な表現手段の1つ</strong>です。Adobe社の<a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>や<a href="http://www.adobe.com/jp/products/illustrator.html" target="_blank">Illustrator</a>というグラフィックツールは、それらの表現を行うのに適したツールです。最近ではクラウド上でも操作できるツールもあります。</p>
+<p>最近は、画像がないページというのは少なくなりました。<strong>画像は視覚的に表現することができ、言葉では伝わりづらい「状況」や「状態」、そして訴求力の高さなど、非常に有用な表現手段の1つ</strong>です。Adobe社の<a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>や<a href="https://www.adobe.com/jp/products/illustrator.html" target="_blank">Illustrator</a>というグラフィックツールは、それらの表現を行うのに適したツールです。最近ではクラウド上でも操作できるツールもあります。</p>
 <p>また、スマホ全盛の時代です。スマートフォンに搭載されるカメラの性能はますます高性能化し、<strong>SNSやチャットツールで気軽にやり取りする時代</strong>です。高性能なデジタル一眼レフ、全方位が撮影可能なデジタルカメラなど、高性能化はとどまるところを知りません。</p>
 <p><strong>ページの表示が速くなるというのは、実は２点ポイント</strong>があります。</p>
 <h4>①ファイルサイズが軽いので、すぐに転送できる</h4>

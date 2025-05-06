@@ -57,7 +57,7 @@ recommended: false
 </blockquote>
 <h2>SEOとして、検索順位に影響がある？</h2>
 <p><del datetime="2018-07-05T08:31:43+09:00">当初「明らかに表示に時間がかかる場合のみ、検索順位に影響がある」という認識でした。しかし、表示速度が速ければ、プラスアルファの要因として用いられるような流れになっています。</del></p>
-<ul><li><a href="https://www.suzukikenichi.com/blog/the-faster-you-can-make-your-pages-the-more-speed-uptate-can-take-that-into-account/" target="_blank">今月導入される Google Speed Uptate は速ければ速いほど評価が上がるアルゴリズムだった｜海外SEO情報ブログ</a></li><li><a href="http://www.sem-r.com/google-2010/20180702025520.html" target="_blank">Google Speed Update、読込速度改善で検索順位上昇も｜SEMリサーチ</a></li></ul>
+<ul><li><a href="https://www.suzukikenichi.com/blog/the-faster-you-can-make-your-pages-the-more-speed-uptate-can-take-that-into-account/" target="_blank">今月導入される Google Speed Uptate は速ければ速いほど評価が上がるアルゴリズムだった｜海外SEO情報ブログ</a></li><li><a href="https://www.sem-r.com/google-2010/20180702025520.html" target="_blank">Google Speed Update、読込速度改善で検索順位上昇も｜SEMリサーチ</a></li></ul>
 <p><del datetime="2018-07-05T08:31:43+09:00">上記の2つのサイトでは、それぞれ当初と少し違いがあるというようなニュアンスで伝えています。SEMリサーチの渡辺さんは、アイレップの渡辺さんだと思うのですが、ずっと昔からSEOの情報を発信されていますね。それこそHTML4.01以前からだと思うので、相当な経験値と知識力がある方だと思います。</del></p>
 <p><span style="color: #ff0000;">上記の２サイトでも、「表示が速ければ上位表示される」ということではなく「著しく遅い場合に、検索順位に影響が出る」というようになっております。情報が変わっておりますので、ぜひご確認ください。</span></p>
 <h2>表示高速化は「かんたん」と「かんたんじゃない」がある</h2>
@@ -92,7 +92,7 @@ recommended: false
 <ul><li><a href="https://developers.google.com/speed/pagespeed/module/" target="_blank">Pagespeed module (Apache or nginx)</a></li></ul>
 <h3>SQLのクエリを減らす</h3>
 <p>動的なサイトでは、データベースに情報を投げたり取り出したりして、ページの表示を行います。その場合、表示するときに「これ表示したい」とシステムに投げ、「じゃあ、これでよろしく」という感じで表示するものを渡す、というようになります。そのため、問い合わせする→回答する　というセットがあり、このやり取りが多いと表示するまでに時間がかかります。DBにインデックスをもたせたり、パーシャルキャッシュを作ったりすれば、大幅に改善することが可能です。</p>
-<ul><li><a href="http://gihyo.jp/dev/serial/01/mysql-road-construction-news/0007" target="_blank">第7回　スロークエリーログを使って遅いクエリを収集する | gihyo.jp</a></li><li><a href="https://aws.amazon.com/jp/rds/" target="_blank">AWS RDS</a></li></ul>
+<ul><li><a href="https://gihyo.jp/dev/serial/01/mysql-road-construction-news/0007" target="_blank">第7回　スロークエリーログを使って遅いクエリを収集する | gihyo.jp</a></li><li><a href="https://aws.amazon.com/jp/rds/" target="_blank">AWS RDS</a></li></ul>
 <h3>AMP対応する</h3>
 <p>Google検索のみに影響ですが、AMP対応することで検索結果でタップされたページが高速表示されます。bingとかでは意味がありません。AMP対応はGoogle対応のひとつなので、検索エンジン対策としてはやるべきものだと思います。</p>
 <ul><li><a href="https://www.ampproject.org/ja/" target="_blank">Accelerated Mobile Pages Project - AMP</a></li></ul>

@@ -40,10 +40,10 @@ recommended: false
 <h2>1．KAMPLOG さま</h2>
 <p><img alt="SS 2018-02-26 13.37.07.jpg" src="https://blog.ideamans.com/assets_c/2018/02/768b54994c7629bf7ba8037ed7c384f767a81d07-thumb-800xauto-335.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="800" height="445"></p>
 <p>サイト名：KAMPLOG</p>
-<p>URL：<a href="http://blog.tanakamp.com" target="_blank">http://blog.tanakamp.com</a></p>
+<p>URL：<a href="https://blog.tanakamp.com" target="_blank">https://blog.tanakamp.com</a></p>
 <p>設置箇所：右サイドエリア</p>
 <p>表示数：5件</p>
-<p>右メニュー非常にシンプルで読みやすいblogで個人的にも好きな作りのサイトございます。<a href="http://blog.tanakamp.com/profile" target="_blank">プロフィールページ</a>なども拝見させていただきましたが、同世代のような雰囲気がひしひしとつたわりまして、ヘッダーの 「とにかくパーティを続けよう。」 でニンマリしてしまいました...w</p>
+<p>右メニュー非常にシンプルで読みやすいblogで個人的にも好きな作りのサイトございます。<a href="https://blog.tanakamp.com/profile" target="_blank">プロフィールページ</a>なども拝見させていただきましたが、同世代のような雰囲気がひしひしとつたわりまして、ヘッダーの 「とにかくパーティを続けよう。」 でニンマリしてしまいました...w</p>
 <p> </p>
 <p>以上、Rankletをご活用いただいているサイト様事例のご紹介でした。</p>
 <p>これからも引き続きRankletユーザーさまの素敵なサイトをご紹介をさせていただければと思っております。</p>

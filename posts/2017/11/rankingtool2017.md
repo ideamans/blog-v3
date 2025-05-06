@@ -52,7 +52,7 @@ recommended: false
 <p>プラグインリストからのキーワード検索だと結構な数がヒットしてしまうので、個人的な選別でいくつかピックアップしました。</p>
 <ul><li><a href="https://fwww-lab.com/" target="_blank">WP Rankinger</a>
 <blockquote>WP Rankinger Proはキャッチコピーの通り、HTMLが苦手な初心者の方でも視覚的に手軽にアフィリエイトが行えるまったく新しいコンセプトのプラグインです。</blockquote>
-</li><li><a href="http://simple-ga-ranking.org/" target="_blank">Simple GA Ranking</a>
+</li><li><a href="https://simple-ga-ranking.org/" target="_blank">Simple GA Ranking</a>
 <blockquote>This is a WordPress plugin that shows articles ranking using Google Analytics.The feature to work very lightweight, because it is not save ranking data in WordPress DB.</blockquote>
 </li><li><a href="https://plugmize.jp/product/wp-ranking-pro/" target="_blank">WP-Ranking PRO</a>
 <blockquote>「WP-Ranking PRO」は、日々の記事PV（ページビュー）を集計し、様々な期間、様々な要素でランキングを生成し、表示させるプラグインです。</blockquote>

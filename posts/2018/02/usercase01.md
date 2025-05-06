@@ -45,10 +45,10 @@ recommended: false
 <h2>2．higuchi.com blog さま</h2>
 <p><a href="https://blog.ideamans.com/assets/SS%202018-02-16%2010.55.08.jpg"><img alt="SS 2018-02-16 10.55.08.jpg" src="https://blog.ideamans.com/assets_c/2018/02/SS%202018-02-16%2010.55.08-thumb-800xauto-318.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="800" height="435"></a></p>
 <p>サイト名：higuchi.com blog</p>
-<p>URL：<a href="http://www.higuchi.com/" title="higuchi.com blog" target="_blank">http://www.higuchi.com/</a><br><br>設置箇所：右サイドエリア<br><br>表示数：10件</p>
+<p>URL：<a href="https://www.higuchi.com/" title="higuchi.com blog" target="_blank">https://www.higuchi.com/</a><br><br>設置箇所：右サイドエリア<br><br>表示数：10件</p>
 <p> </p>
 <p>higuchi.com blogさんのようなシンプルな個人も大好きなのですが、個人ブログを2002年から続けてらっしゃるのがすばらしい！そしてそんな素敵blogにRankletをご利用頂けているなんで大変恐縮でございます。</p>
-<p>またまたアーカイブを読み漁ってしまい、、今週末まで我慢ができなければこの記事にもされていた「<a href="http://www.higuchi.com/item/879" target="_blank">薄い財布シリーズ</a>」ポチってしまうかもしれません、、</p>
+<p>またまたアーカイブを読み漁ってしまい、、今週末まで我慢ができなければこの記事にもされていた「<a href="https://www.higuchi.com/item/879" target="_blank">薄い財布シリーズ</a>」ポチってしまうかもしれません、、</p>
 <p>ご利用ありがとうございます！</p>
 <p> </p>
 <p>以上、今回のご活用事例の紹介となりますがまたRankletユーザーさまの素敵なサイトをご紹介をさせていただければと思っております。</p>

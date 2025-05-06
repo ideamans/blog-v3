@@ -40,7 +40,7 @@ recommended: false
 <p>クラウドの転送量は、定額制のサービスもありますが、従量課金の場合もあります。Amazon Web Serviceは従量課金制になっています。手軽に始められるクラウドサービスですが、サイトの人気が出てくると転送量＆転送料が気になり始めます。</p>
 <h2>AWSでは、$0.140/GBで転送料金がかかる</h2>
 <p>AWSでは、見積もりを簡単に作ることができるシステムがあります。これを利用して、いくらくらいの費用感になるのか見てみましょう。</p>
-<ul><li><a href="http://calculator.s3.amazonaws.com/index.html?lng=ja_JP" target="_blank">SIMPLE MONTHLY CALCULATOR</a></li></ul>
+<ul><li><a href="https://calculator.s3.amazonaws.com/index.html?lng=ja_JP" target="_blank">SIMPLE MONTHLY CALCULATOR</a></li></ul>
 <p style="text-align: center;"><span style="color: #888888;"><img alt="2018-06-22-cloud-transfer-02.jpg" src="https://blog.ideamans.com/assets/2018-06-22-cloud-transfer-02.jpg" width="1265" height="1024" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;">項目ごとに設定することで見積もりがわかる</span></p>
 <p>転送量を月間20TBとして計算します。なお、毎月アウトバウンド1GBは無料です。</p>
 <ul><li>転送量（月）：20TB</li><li>見積り金額（月）：$3095.29</li></ul>
@@ -55,4 +55,3 @@ recommended: false
 <p>いかがでしたでしょうか。クラウドのインフラを利用するのは、本当に便利だし、あっという間に構築できてしまします。以前のようにハードウェアを用意する必要がないというのは、本当に快適です。転送量については、国内のクラウドベンダーは定額制などもありますので、色々なサービスを検討するのが良いです。</p>
 <p>画像の軽量化は転送料金に良い影響があります。さらに、閲覧者にはウェブページを今までよりも高速に表示できるメリットもあります。表示高速化の際に実施する第一歩でもあるので、ぜひ取り組んでいきましょう。</p>
 <p> </p>
-

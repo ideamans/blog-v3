@@ -44,7 +44,7 @@ recommended: false
 元記事のコメント欄で許可を受けたので公開します。
 
 * [PDFダウンロード](https://blog.ideamans.com/assets/Smush-Guide-to-Image-formates-JP.pdf)
-* [PNGダウンロード](http://mt.ideamans.com/assets/Smush-Guide-to-Image-formates-JP-fs8.png)
+* [PNGダウンロード](https://mt.ideamans.com/assets/Smush-Guide-to-Image-formates-JP-fs8.png)
 
 <a href="https://blog.ideamans.com/assets/Smush-Guide-to-Image-formates-JP.pdf">
 <img alt="Smush-Guide-to-Image-formates-JP-fs8.png" src="https://blog.ideamans.com/assets/Smush-Guide-to-Image-formates-JP-fs8.png" width="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" />
@@ -53,4 +53,3 @@ recommended: false
 PDFの編集ツールがよくないのか、一部色味が変わってしまいました。どうにも直せず...(非可逆圧縮と可逆圧縮やラスターグラフィック、などのあたり)
 
 うまく直せたら差し替えます。
-

@@ -115,7 +115,7 @@ recommended: false
 <p style="text-align: center;"><span style="color: #888888;">Webデザインの先端を行くAppleのWebサイト。デザインもナビゲーションも秀逸。</span></p>
 <p>CSSフレームワークも、カラムレイアウトは次の時代に移ろうとしています。Flexboxを利用したカラムレイアウトが可能になると、今までfloatなどで表示バグに悩まされていた人たちも、少しラクになるかもしれません。</p>
 <p><img alt="2018-04-23-reform-04.jpg" src="https://blog.ideamans.com/images/2018-04-23-reform-04.jpg" width="1280" height="660" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;">最も人気があるCSSフレームワークのBootstrapもバージョン4の時代に（現在はまだα版）</p>
-<ul><li><span><a href="http://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap &amp;middot; The most popular HTML, CSS, and JS framework in the world.</a></span></li></ul>
+<ul><li><span><a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap &amp;middot; The most popular HTML, CSS, and JS framework in the world.</a></span></li></ul>
 <p> </p>
 <h2>無料のシミュレータで、今すぐチェックしよう</h2>
 <p>アイデアマンズが提供するLightFile Simulatorを利用すれば、ページでどのぐらい画像が割合を占めているのかがすぐにわかります。また、各画像が最適化するとどのくらい軽量化され、その画質がどのくらい良いのかもみることができます。ぜひ試してみてください。</p>
@@ -124,4 +124,3 @@ recommended: false
 <h2>最後に</h2>
 <p>住宅設備・リフォーム業界はBtoB企業が多く、Webサイトはとてもわかりやすく情報整理が行われていました。さらにエンドユーザーである消費者にも伝わる工夫をしている企業があり、Webサイトをしっかりと有効利用している印象が強いです。ストーリー仕立ての動画は作り手の意図が伝わりやすく、わかりやすくていいですね。</p>
 <p> </p>
-

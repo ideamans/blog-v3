@@ -38,7 +38,7 @@ recommended: false
 ---
 
 <p><a href="https://core.lightfile.net/" target="_blank">画像最適化ツールのLightFile</a>ですが、現在<strong>新型シュミレーション画面</strong>を準備しています。</p>
-<p>現在、詳細機能をブラッシュアップしている段階ですが、<a href="http://www.mt-tokyo.net/" target="_blank">MT東京</a>さんのイベント「<a href="https://mt-tokyo.doorkeeper.jp/events/69723" target="_blank">【MT東京-44】 Data API 4.0</a>」でライトニングトークしてきました！その様子をお伝えします！</p>
+<p>現在、詳細機能をブラッシュアップしている段階ですが、<a href="https://www.mt-tokyo.net/" target="_blank">MT東京</a>さんのイベント「<a href="https://mt-tokyo.doorkeeper.jp/events/69723" target="_blank">【MT東京-44】 Data API 4.0</a>」でライトニングトークしてきました！その様子をお伝えします！</p>
 <p> </p>
 <h2>新型シュミレータの特徴</h2>
 <p style="text-align: center;"><img alt="2018-02-23-mttokyo44-01.jpg" src="https://blog.ideamans.com/assets/2018-02-23-mttokyo44-01.jpg" width="1200" height="675" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">Lightning Talkで、新型シミュレータを操作する宮永さん</span></p>

@@ -56,16 +56,16 @@ recommended: false
 <p>もともとは、瞬間的なアクセス過多でサイトが見れなくなることがありました。画像もふんだんに利用しているサイトだったので、インフラ増強（CDNや画像サーバたてるなど）も視野に入れつつ、テキストファイルのminify化や画像の圧縮などを行って、最適化しようとしたのがきっかけです。</p>
 <p> </p>
 <h2>JPGダイエットしてみた結果</h2>
-<p>今回は、弊社の<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>と、人気サービスの<a href="http://www.jpegmini.com/" target="_blank">JpegMini</a>、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>の軽量化の比較を行ってみました。先に結果からいうと、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>の軽量化もすごいけど、設定次第で<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>のがさらに軽くなりました。</p>
-<p>こちらのグラフにそれぞれの削減結果を乗せています。<a href="http://www.jpegmini.com/" target="_blank">JpegMini</a>とTinyPNGは画質設定ができないので、それぞれ一回処理をしたもの。<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は画質設定ごとに測定しています。</p>
+<p>今回は、弊社の<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>と、人気サービスの<a href="https://www.jpegmini.com/" target="_blank">JpegMini</a>、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>の軽量化の比較を行ってみました。先に結果からいうと、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>の軽量化もすごいけど、設定次第で<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>のがさらに軽くなりました。</p>
+<p>こちらのグラフにそれぞれの削減結果を乗せています。<a href="https://www.jpegmini.com/" target="_blank">JpegMini</a>とTinyPNGは画質設定ができないので、それぞれ一回処理をしたもの。<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は画質設定ごとに測定しています。</p>
 <p><img alt="hikaku-graph.jpg" src="https://blog.ideamans.com/2017/10/hikaku-graph.jpg" width="763" height="418" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><img alt="hikaku-table.png" src="https://blog.ideamans.com/2017/10/hikaku-table.png" width="652" height="210" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
-<p><a href="http://www.jpegmini.com/" target="_blank">JpegMini</a>と<a href="https://tinypng.com/" target="_blank">TinyPNG</a>を比べると、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>の方がファイル容量が削減されています。すごいですね、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>。 <a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は、最高画質と高画質では、ファイル容量削減はされませんでした。標準画質では<a href="http://www.jpegmini.com/" target="_blank">JpegMini</a>よりは削減しているものの、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>よりは削減していません。 低画質では、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>よりもファイル容量を削減していますね。</p>
+<p><a href="https://www.jpegmini.com/" target="_blank">JpegMini</a>と<a href="https://tinypng.com/" target="_blank">TinyPNG</a>を比べると、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>の方がファイル容量が削減されています。すごいですね、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>。 <a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は、最高画質と高画質では、ファイル容量削減はされませんでした。標準画質では<a href="https://www.jpegmini.com/" target="_blank">JpegMini</a>よりは削減しているものの、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>よりは削減していません。 低画質では、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>よりもファイル容量を削減していますね。</p>
 <p><strong>LFC低画質　＜　TinyPNG　＜　LFC標準画質　＜　JpegMini　という結果になりました！</strong></p>
 <p>今回処理したファイルの結果は、こちらのZIPファイルにまとめていますので、ダウンロードして確認することができます。元画像と、それぞれ処理したファイルが入っていますので、画質も比較することが可能です。やっぱり、ファイルサイズが軽いものは、ちょっと違いがあります。でも、ほぼ見た目変わらないレベルです。</p>
 <ul><li><a href="https://www.ideamans.com/_mautic/asset/3:jpgdietzip" target="_blank" ga="" send="" event="" download="" zip="" jpgdiet="" 1="">集計に利用したファイル（約1.9MB）</a></li></ul>
 <p> </p>
 <h2>JPGダイエットした結果</h2>
-<p>今回はファイル容量削減にのみ焦点を当てています。画質との兼ね合いがあるので、単純にファイル容量が軽いことがよいわけではありません（ここ注意）。 <a href="http://www.jpegmini.com/" target="_blank">JpegMini</a>、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>、<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>と、それぞれ画質が劣化しないわけではないので、試してみてから利用するようにしましょう。<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>のトライアル申込は、こちらからどうぞ。</p>
+<p>今回はファイル容量削減にのみ焦点を当てています。画質との兼ね合いがあるので、単純にファイル容量が軽いことがよいわけではありません（ここ注意）。 <a href="https://www.jpegmini.com/" target="_blank">JpegMini</a>、<a href="https://tinypng.com/" target="_blank">TinyPNG</a>、<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>と、それぞれ画質が劣化しないわけではないので、試してみてから利用するようにしましょう。<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>のトライアル申込は、こちらからどうぞ。</p>
 <ul><li><a href="https://core.lightfile.net/pages/contact.html" target="_blank">LightFile Coreトライアル申込</a></li></ul>
 <p> </p>
 <h2>JPGダイエットした結果得られたメリット</h2>
@@ -74,7 +74,7 @@ recommended: false
 <p>JPGダイエットをやらない理由がないですね！</p>
 <p> </p>
 <h2>まずはやってみよう！</h2>
-<p>まずは、<a href="http://www.jpegmini.com/" target="_blank">JpegMini</a>も<a href="https://tinypng.com/" target="_blank">TinyPNG</a>も<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>もお試しができるようになっています。必ず画質チェックして、どのサービスを利用するのか判断するようにしましょう。また、ブツ撮りの場合やスタジオ撮影、レタッチ作業などのフローに組み込む場合は、作業フローに滞りなく組み込めるものがいいですね。 <a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は、ディレクトリに画像をおくだけで自動で処理しますので、今までの作業フローをかえることなくJPGダイエットができちゃいます！</p>
+<p>まずは、<a href="https://www.jpegmini.com/" target="_blank">JpegMini</a>も<a href="https://tinypng.com/" target="_blank">TinyPNG</a>も<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>もお試しができるようになっています。必ず画質チェックして、どのサービスを利用するのか判断するようにしましょう。また、ブツ撮りの場合やスタジオ撮影、レタッチ作業などのフローに組み込む場合は、作業フローに滞りなく組み込めるものがいいですね。 <a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>は、ディレクトリに画像をおくだけで自動で処理しますので、今までの作業フローをかえることなくJPGダイエットができちゃいます！</p>
 <div class="serviceBox">
 <div class="serviceImage"><a href="https://core.lightfile.net/" target="_blank" onclick="ga('send','event','blog_servicelink','service-click','lightfilecore',,{'nonInteraction':1});"><img src="https://blog.ideamans.com/assets/service-lfc.jpg" alt="JPGの最適化は、LightFile Core | 画像の最適化でページ表示を高速に！"></a></div>
 <div class="serviceText">
@@ -85,5 +85,5 @@ recommended: false
 </div>
 <p>それではまた！</p>
 <h4>参考URL</h4>
-<ul><li><a href="https://core.lightfile.net/" target="_blank">LightFile Core</a></li><li><a href="http://www.jpegmini.com/" target="_blank">JpegMini</a></li><li><a href="https://tinypng.com/" target="_blank">TinyPNG</a></li></ul>
+<ul><li><a href="https://core.lightfile.net/" target="_blank">LightFile Core</a></li><li><a href="https://www.jpegmini.com/" target="_blank">JpegMini</a></li><li><a href="https://tinypng.com/" target="_blank">TinyPNG</a></li></ul>
 <p> </p>

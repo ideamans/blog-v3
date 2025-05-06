@@ -127,7 +127,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 </tr>
 <tr>
 <td style="text-align: right">4</td>
-<td style="text-align: left"><a href="http://www.agara.co.jp/">AGARA紀伊民報</a></td>
+<td style="text-align: left"><a href="https://www.agara.co.jp/">AGARA紀伊民報</a></td>
 <td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-c9d5b31c-741c-4f67-953d-b061269520b4"><img src="https://sim.lightfile.net/_resources/news-c9d5b31c-741c-4f67-953d-b061269520b4/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">48</td>
 <td style="text-align: right">6</td>
@@ -167,7 +167,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 </tr>
 <tr>
 <td style="text-align: right">9</td>
-<td style="text-align: left"><a href="http://www.ogpress.com/">小笠原新聞</a></td>
+<td style="text-align: left"><a href="https://www.ogpress.com/">小笠原新聞</a></td>
 <td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-9774996a-7a25-4ebe-bc32-387b02307ade"><img src="https://sim.lightfile.net/_resources/news-9774996a-7a25-4ebe-bc32-387b02307ade/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">43</td>
 <td style="text-align: right">1</td>
@@ -175,7 +175,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 </tr>
 <tr>
 <td style="text-align: right">10</td>
-<td style="text-align: left"><a href="http://www.zakzak.co.jp/sports/sports.htm">ZAKZAK（夕刊フジ）</a></td>
+<td style="text-align: left"><a href="https://www.zakzak.co.jp/sports/sports.htm">ZAKZAK（夕刊フジ）</a></td>
 <td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0dcbea61-0252-4162-aee8-e62ddf639c86"><img src="https://sim.lightfile.net/_resources/news-0dcbea61-0252-4162-aee8-e62ddf639c86/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">93</td>
 <td style="text-align: right">2</td>
@@ -207,7 +207,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 </tr>
 <tr>
 <td style="text-align: right">14</td>
-<td style="text-align: left"><a href="http://www.shigahochi.co.jp/">滋賀報知新聞</a></td>
+<td style="text-align: left"><a href="https://www.shigahochi.co.jp/">滋賀報知新聞</a></td>
 <td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0029946d-ae1d-4d3b-a10f-569308025cc1"><img src="https://sim.lightfile.net/_resources/news-0029946d-ae1d-4d3b-a10f-569308025cc1/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">60</td>
 <td style="text-align: right">1</td>
@@ -271,7 +271,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 </tr>
 <tr>
 <td style="text-align: right">22</td>
-<td style="text-align: left"><a href="http://www.news24.jp/">日テレＮＥＷＳ２４</a></td>
+<td style="text-align: left"><a href="https://www.news24.jp/">日テレＮＥＷＳ２４</a></td>
 <td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-96f39912-dee7-45e4-b5ae-6676c211f44e"><img src="https://sim.lightfile.net/_resources/news-96f39912-dee7-45e4-b5ae-6676c211f44e/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">126</td>
 <td style="text-align: right">1</td>
@@ -279,7 +279,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 </tr>
 <tr>
 <td style="text-align: right">23</td>
-<td style="text-align: left"><a href="http://yamagata-np.jp/">やまがたニュースオンライン - 山形新聞</a></td>
+<td style="text-align: left"><a href="https://yamagata-np.jp/">やまがたニュースオンライン - 山形新聞</a></td>
 <td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0f42e458-bd77-49a4-9984-0aef9f8c8984"><img src="https://sim.lightfile.net/_resources/news-0f42e458-bd77-49a4-9984-0aef9f8c8984/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">174</td>
 <td style="text-align: right">1</td>
@@ -293,5 +293,3 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 Appleが全面的に非対応であるため特に日本国内でシェアが振るわないWebPですが、[今だからこそ導入する意味](/2019/02/iphonewebp.html)があります。
 
 対応を検討したい、もっと詳しく知りたいといったお問い合せ、お待ちしております。
-
-

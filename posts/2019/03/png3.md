@@ -37,8 +37,6 @@ recommended: false
 
 そんなPNGファイルをできるだけ軽くする方法は4種類あります。
 
-
-
 ## PNG8で保存する・変換する(256色への減色)
 
 PNGにはフルカラー(約1670万色)を扱うことができるPNG24(アルファチャンネルを含むPNG32)と、256色までしか扱えないPNG8があります。
@@ -65,7 +63,7 @@ PNG8の利用でお勧めの方法は、ひとつはPhotoshopで書き出すと�
 
 ## ロスレス圧縮
 
-PNGの画質を一切落とさず、圧縮データの最適化によりファイルサイズを削減する手法です。[OptiPNG](http://optipng.sourceforge.net/)が有名です。
+PNGの画質を一切落とさず、圧縮データの最適化によりファイルサイズを削減する手法です。[OptiPNG](https://optipng.sourceforge.net/)が有名です。
 
 以前、この[PNGロスレス最適化ツールの比較ページを紹介](https://blog.ideamans.com/2018/08/11-png-tools-benchmark.html)しました。
 

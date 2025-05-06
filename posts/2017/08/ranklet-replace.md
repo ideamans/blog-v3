@@ -32,15 +32,14 @@ recommended: false
 <p>Rankletでは、２つの置換方法が用意されています。</p>
 <ol>
 <li>キーワード</li>
-<li><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a></li>
+<li><a class="keyword" href="https://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a></li>
 </ol>
 <h4>キーワードによる置換</h4>
 <p>キーワードによる置換は、一般的な方法です。「AAAAA」を「BBB」にしたいなど、１パターンごとの置換となります。Rankletでは、キーワードによる置換を複数ご利用いただけます。</p>
-<h4><a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>による置換</h4>
-<p>エンジニアの方向けに<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>による置換もできちゃいます。<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>を使えば、一つの設定で複数のパターンを網羅できるので、設定も簡単になりますね。<a class="keyword" href="http://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>がわからない方が使う場合は、ぜひエンジニアの方に聞いてみてください。とても便利です。</p>
+<h4><a class="keyword" href="https://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>による置換</h4>
+<p>エンジニアの方向けに<a class="keyword" href="https://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>による置換もできちゃいます。<a class="keyword" href="https://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>を使えば、一つの設定で複数のパターンを網羅できるので、設定も簡単になりますね。<a class="keyword" href="https://d.hatena.ne.jp/keyword/%C0%B5%B5%AC%C9%BD%B8%BD">正規表現</a>がわからない方が使う場合は、ぜひエンジニアの方に聞いてみてください。とても便利です。</p>
 <p> </p>
 <p>いかがでしたか？Rankletは広告表示もなく、無料でランキングを１つ作ることができます。複数のランキングを使いたい場合は、有料プランをご利用いただくことで実現可能です。</p>
 <p>まだお使いいただいたいない方は、ぜひ利用してみてください。</p>
 <p><iframe class="embed-card embed-webcard" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="Ranklet [ランクレット]" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Franklet.com%2F" frameborder="0" scrolling="no"></iframe><cite class="hatena-citation"><a href="https://ranklet.com/">ranklet.com</a></cite></p>
 <p> </p>
-

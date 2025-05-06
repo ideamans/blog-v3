@@ -42,9 +42,8 @@ recommended: false
 <p>MT7は管理画面のインターフェースが、以前のバージョンとだいぶ印象が異なっていますね。管理画面からプラグイン設定に遷移するには、MT6とは変わっています。注意しましょう。</p>
 <ul><li>MT6: 「ツール」の中に「プラグイン」がある</li><li>MT7: 「設定」の中に「プラグイン」が移動</li></ul>
 <h3>関連URL</h3>
-<ul><li><a href="http://www.keitaikit.jp/" target="_blank"><span>ケータイキット for Movable Type</span></a></li><li><a href="https://www.sixapart.jp/movabletype/solutions/keitaikit.html" target="_blank"><span><span>ケータイキット for Movable Type | CMS プラットフォーム Movable Type</span></span></a></li></ul>
+<ul><li><a href="https://www.keitaikit.jp/" target="_blank"><span>ケータイキット for Movable Type</span></a></li><li><a href="https://www.sixapart.jp/movabletype/solutions/keitaikit.html" target="_blank"><span><span>ケータイキット for Movable Type | CMS プラットフォーム Movable Type</span></span></a></li></ul>
 <h3>お問い合わせ</h3>
 <p>アイデアマンズ株式会社<br>担当：　能勢<br>Email：　contact@ideamans.com</p>
 <p> </p>
 <p>以上です。</p>
-

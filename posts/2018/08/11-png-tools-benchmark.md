@@ -31,7 +31,7 @@ subTheme:
 recommended: false
 ---
 
-<p>PNGのファイルサイズを削減するツールとして<a href="http://optipng.sourceforge.net/">OptiPNG</a>や<a href="https://pngquant.org/">pngquant</a>が有名ですが、他にもたくさんあってどれを使ったらよいのか迷うところです。</p>
+<p>PNGのファイルサイズを削減するツールとして<a href="https://optipng.sourceforge.net/">OptiPNG</a>や<a href="https://pngquant.org/">pngquant</a>が有名ですが、他にもたくさんあってどれを使ったらよいのか迷うところです。</p>
 <p>PNG関連ツールについて調べていたところ、<strong>11種類のツールの比較ベンチマーク</strong>という、とても興味深いページを見つけたので紹介します。</p>
 <p><a href="https://css-ig.net/png-tools-overview#pingo">PNG tools overview (benchmark)</a></p>
 <p>このページでは<strong>ロスレス(減色や間引きを行わず画質を落とさない)タイプのPNGサイズ削減ツールについて、サイズの削減性能、処理時間がレポート</strong>されています。</p>
@@ -52,4 +52,3 @@ recommended: false
 <p> </p>
 <p>ロスレスPNGサイズ削減ツールを選定するときのひとつの材料にしてみてはいかがでしょうか。</p>
 <p>また、pingoの最新版がダウンロードできたら方法を教えてください！</p>
-

@@ -46,7 +46,7 @@ recommended: false
 <tbody>
 <tr><th>対象</th><th>総ﾀﾞｳﾝﾛｰﾄﾞ量</th><th>総画像容量</th><th>JPG容量</th><th>JPG枚数</th><th>LightFile効果<br class="visible-1200">(ページ)</th><th>LightFile効果<br class="visible-1200">(JPG)</th></tr>
 <tr class="greenline">
-<td><a href="http://www.calbee.co.jp/" target="_blank">カルビー</a></td>
+<td><a href="https://www.calbee.co.jp/" target="_blank">カルビー</a></td>
 <td style="text-align: right;">8.67MB</td>
 <td style="text-align: right;">3.95MB</td>
 <td style="text-align: right;">3.76MB</td>
@@ -73,7 +73,7 @@ recommended: false
 <td style="text-align: center;">-46.88%</td>
 </tr>
 <tr class="greenlinebold">
-<td><a href="http://www.morinaga.co.jp/" target="_blank">森永製菓</a></td>
+<td><a href="https://www.morinaga.co.jp/" target="_blank">森永製菓</a></td>
 <td style="text-align: right;">1.66MB</td>
 <td style="text-align: right;">1.35MB</td>
 <td style="text-align: right;">1.17MB</td>

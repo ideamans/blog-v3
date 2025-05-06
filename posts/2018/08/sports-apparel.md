@@ -33,7 +33,7 @@ recommended: false
 
 <p>運動している時は、普段とは異なる格好をしてそれが「スイッチ」になってやる気アップすることも多いですね。夜間でも視認性が高い蛍光色や反射板がついているもの、濃色で引き締まってみえるもの、ストレッチ素材で動きやすくなど、見た目と機能性が見事に両立されているのがスポーツアパレルです。</p>
 <p>マラソンブームも引き続き順調ですし、スポーツ人口は増えています。週一回でも運動することで、しない場合よりも肉体的にも精神的にも、良好な状態を保つことができるようになります。</p>
-<ul><li><a href="http://www.mext.go.jp/sports/b_menu/shingi/001_index/bunkabukai002/attach/__icsFiles/afieldfile/2018/03/02/1401662_1_2.pdf" target="_blank">平成29年度｢スポーツの実施状況等に関する世論調査｣について</a> スポーツ庁</li></ul>
+<ul><li><a href="https://www.mext.go.jp/sports/b_menu/shingi/001_index/bunkabukai002/attach/__icsFiles/afieldfile/2018/03/02/1401662_1_2.pdf" target="_blank">平成29年度｢スポーツの実施状況等に関する世論調査｣について</a> スポーツ庁</li></ul>
 <p>スポーツアパレルもコラボレーションモデルが多く発売されており、本当に洗練されたアイテムが多数発売されています。自分の好みのブランドで統一したり、組み合わせを楽しんだりと、スポーツをより楽しむようにしましょう！今回はそんなスポーツアパレルを取り上げます。</p>
 <h2>総ダウンロード容量は、最大 7.55MB、最小 2.28MB。画像軽量化対応しているウェブサイトも。</h2>
 <p><img alt="2018-08-24-sports-apparel-01.jpg" src="https://blog.ideamans.com/assets/2018-08-24-sports-apparel-01.jpg" width="1200" height="675" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>

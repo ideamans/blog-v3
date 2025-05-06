@@ -70,7 +70,7 @@ recommended: false
 <p>会社の所在地は東京なので、東京の会社です。今はちいさな会社で、人数もとても少ないです。代表がプログラマな社長なので、エンジニアの考え方や気持ちは理解が深いのですが、社内にプログラマは代表だけです。エンジニア探してます。ruby書ける人を探しています。</p>
 <h3>どんなサービスを作ってるの？</h3>
 <p>アイデアマンズは、インターネットに関する技術で、さまざまな驚きや便利なツールを提供しています。</p>
-<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/Google%20Analytics">Google Analytics</a>のデータを利用したランキング表示サービスの</p>
+<p><a class="keyword" href="https://d.hatena.ne.jp/keyword/Google%20Analytics">Google Analytics</a>のデータを利用したランキング表示サービスの</p>
 <p><a href="https://ranklet.com/">Ranklet [ランクレット]</a></p>
 <p>は、昨年リリースしたものです。無料版と有料版があり、無料版でも機能減がないので、たいていのことは無料版でできてしまいます。</p>
 <div class="serviceBox">
@@ -82,7 +82,7 @@ recommended: false
 </div>
 </div>
 <p><br><cite class="hatena-citation"></cite></p>
-<p>このほか、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%C3%A5%AF%A5%B9%A1%A6%A5%A2%A5%D1%A1%BC%A5%C8">シックス・アパート</a>さんが提供している<a class="keyword" href="http://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>の関連ソリューションをリリースしています。多くの企業で利用されている<a class="keyword" href="http://d.hatena.ne.jp/keyword/CMS">CMS</a>なので、MT<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>の開発はとても多いです。</p>
+<p>このほか、<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%B7%A5%C3%A5%AF%A5%B9%A1%A6%A5%A2%A5%D1%A1%BC%A5%C8">シックス・アパート</a>さんが提供している<a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>の関連ソリューションをリリースしています。多くの企業で利用されている<a class="keyword" href="https://d.hatena.ne.jp/keyword/CMS">CMS</a>なので、MT<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>の開発はとても多いです。</p>
 <p>
 <iframe width="320" height="240" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="CMS プラットフォーム Movable Type - クラウドもオンプレミスも幅広く対応可能なCMS - Six Apart" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.sixapart.jp%2Fmovabletype%2F" frameborder="0" scrolling="no"></iframe>
  <cite class="hatena-citation"><a href="https://www.sixapart.jp/movabletype/">www.sixapart.jp</a></cite></p>
@@ -92,15 +92,15 @@ recommended: false
 <p>
 <iframe width="320" height="240" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="Uploader for Movable Type | アイデアマンズ株式会社" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.ideamans.com%2Fmt%2Fuploader%2F" frameborder="0" scrolling="no"></iframe>
  <cite class="hatena-citation"><a href="https://www.ideamans.com/mt/uploader/">www.ideamans.com</a></cite></p>
-<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/CMS">CMS</a>の<a class="keyword" href="http://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>については、ずっとパートナーとして受託案件を行っていました。今は受託は受けていないのですが、よいパートナーをご紹介できますので、お問い合せください。</p>
-<h3>人気が高い<a class="keyword" href="http://d.hatena.ne.jp/keyword/Wiki">Wiki</a>サポートアドオン</h3>
-<p>意外と人気があるのは、<a class="keyword" href="http://d.hatena.ne.jp/keyword/Wiki">Wiki</a>でエクセルを貼り付ける際に変換をしてくれる<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>です。多くの企業で<a class="keyword" href="http://d.hatena.ne.jp/keyword/Wiki">Wiki</a>が使われているので、オフィスソフトのエクセルとの連携ができるものは人気があるみたいですね。こちらはフリーウェアです。</p>
+<p><a class="keyword" href="https://d.hatena.ne.jp/keyword/CMS">CMS</a>の<a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>については、ずっとパートナーとして受託案件を行っていました。今は受託は受けていないのですが、よいパートナーをご紹介できますので、お問い合せください。</p>
+<h3>人気が高い<a class="keyword" href="https://d.hatena.ne.jp/keyword/Wiki">Wiki</a>サポートアドオン</h3>
+<p>意外と人気があるのは、<a class="keyword" href="https://d.hatena.ne.jp/keyword/Wiki">Wiki</a>でエクセルを貼り付ける際に変換をしてくれる<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>です。多くの企業で<a class="keyword" href="https://d.hatena.ne.jp/keyword/Wiki">Wiki</a>が使われているので、オフィスソフトのエクセルとの連携ができるものは人気があるみたいですね。こちらはフリーウェアです。</p>
 <p>
 <iframe width="320" height="240" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="Wikiサポート &quot;Excel&quot; アドイン | アイデアマンズ株式会社" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.ideamans.com%2Fsoftware%2Fwiki-support-addin%2F" frameborder="0" scrolling="no"></iframe>
  <cite class="hatena-citation"><a href="https://www.ideamans.com/software/wiki-support-addin/">www.ideamans.com</a></cite></p>
 <h3>ロゴが毎日変わるアロゴリズム</h3>
 <p>いつの間にかに作られていた、毎日ロゴが変わるアロゴリズムというものもあります。</p>
-<p>誰得なのかわかりませんが、スタッフには得です。名刺交換の際にちょこっと話題として盛り上がれます。<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>はよくわかりません。</p>
+<p>誰得なのかわかりませんが、スタッフには得です。名刺交換の際にちょこっと話題として盛り上がれます。<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>はよくわかりません。</p>
 <p>
 <iframe width="320" height="240" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="2017-07-26のアイデアマンズロゴマーク" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.ideamans.com%2Fabout%2Falogorithm%2F" frameborder="0" scrolling="no"></iframe>
  <cite class="hatena-citation"><a href="https://www.ideamans.com/about/alogorithm/">www.ideamans.com</a></cite></p>
@@ -121,8 +121,8 @@ recommended: false
 <p>黙々と開発中なのですが、「利用してみたい！」という方のために、優先登録をはじめました。とりあえずどんなサービスなのか知りたいという方でも、まずはご登録してみてください。サービスがみなさまにお見せできる段階になりましたら、優先的にご連絡を差し上げます。</p>
 <h3 style="color: #3d3f44; font-family: 'Helvetica Neue', Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">新しいサービスを考えています[LightFile Core]</h3>
 <p><img class="hatena-fotolife" title="f:id:ideamans:20170727112852p:plain" src="https://cdn-ak.f.st-hatena.com/images/fotolife/i/ideamans/20170727/20170727112852.png" alt="f:id:ideamans:20170727112852p:plain"></p>
-<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%AF%A5%E9%A5%A6%A5%C9">クラウド</a>サービスが数多くのウェブサイトなどのインフラになり、高性能なモバイル端末がユーザーのほとんどを占めています。そうなると、「データ転送料金」と「表示の高速化」が課題となってきます。</p>
-<p>LightFile Coreは、JPG画像を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>により最小限の劣化に押さえてファイル容量を削減します。<a class="keyword" href="http://d.hatena.ne.jp/keyword/AWS">AWS</a> S3限定となりますが、操作はS3にファイルをアップロードするだけ。あとは自動でファイル容量が削減されます。平均で30%程度のファイル容量削減が可能です。</p>
+<p><a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%AF%A5%E9%A5%A6%A5%C9">クラウド</a>サービスが数多くのウェブサイトなどのインフラになり、高性能なモバイル端末がユーザーのほとんどを占めています。そうなると、「データ転送料金」と「表示の高速化」が課題となってきます。</p>
+<p>LightFile Coreは、JPG画像を<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>により最小限の劣化に押さえてファイル容量を削減します。<a class="keyword" href="https://d.hatena.ne.jp/keyword/AWS">AWS</a> S3限定となりますが、操作はS3にファイルをアップロードするだけ。あとは自動でファイル容量が削減されます。平均で30%程度のファイル容量削減が可能です。</p>
 <div class="serviceBox">
 <div class="serviceImage"><a href="https://core.lightfile.net/" target="_blank" onclick="ga('send','event','blog_servicelink','service-click','lightfilecore',,{'nonInteraction':1});"><img src="https://blog.ideamans.com/assets/service-lfc.jpg" alt="JPGの最適化は、LightFile Core | 画像の最適化でページ表示を高速に！"></a></div>
 <div class="serviceText">

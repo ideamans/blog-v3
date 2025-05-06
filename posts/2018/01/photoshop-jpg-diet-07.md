@@ -32,14 +32,14 @@ recommended: false
 ---
 
 <p>東京はまだ積雪はしませんが、雪国は今年は雪が多いみたいですね！東京からスキーやスノボにいく新潟の湯沢あたりはかなり雪が降っているとか。フカフカのパウダースノーで、一番上から一番下まで一気に滑走したいですね！</p>
-<p>さて今回は、<strong>JPGダイエット対決 vol.07として、<a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>との対決</strong>です。<strong>実際にウェブサイトで利用されている画像に近い条件</strong>で、それぞれどのくらいのファイル容量になるのかを対決します。また、各比較データはZIPファイルでダウンロードいただけます。</p>
+<p>さて今回は、<strong>JPGダイエット対決 vol.07として、<a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>との対決</strong>です。<strong>実際にウェブサイトで利用されている画像に近い条件</strong>で、それぞれどのくらいのファイル容量になるのかを対決します。また、各比較データはZIPファイルでダウンロードいただけます。</p>
 <p>今回以外の対決シリーズはこちらのページにまとめています。</p>
 <ul><li><a href="https://blog.ideamans.com/2017/12/jpgdiet-matome.html" target="_blank">JPGダイエットまとめ｜どうして画像最適化をするの？それは、コストダウンや表示の高速化ができるから！</a></li></ul>
 <p> </p>
 <h2>今回の対戦相手はAdobe Photoshop、メインバナーの容量軽量化の対決</h2>
 <p>いつもは写真をオリジナルデータとして対決しています。写真以外にも、広告用のバナーも画像ファイルとして作成されています。今回は、<strong>ウェブサイトのトップページによくあるメインバナー</strong>をオリジナル素材として用います。PC用のバナーとしたので、表示サイズも横1200px 縦540pxと大きめなものにしています。</p>
-<ul><li><a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Adobe Photoshop</a></li></ul>
-<p><a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>の説明はいらないくらい有名なアプリです。<strong>今回はWeb制作のように<a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>でバナーを作成し、そのバナーを書き出したものを利用します。参考のためにPNGでも書き出してみました。</strong><a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>は非常に高機能なツールであり、Web業界ではデファクトスタンダードなツールです。Javascriptも動作できるので、単なる制作ツールの枠を超えた感じもあります。</p>
+<ul><li><a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Adobe Photoshop</a></li></ul>
+<p><a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>の説明はいらないくらい有名なアプリです。<strong>今回はWeb制作のように<a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>でバナーを作成し、そのバナーを書き出したものを利用します。参考のためにPNGでも書き出してみました。</strong><a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>は非常に高機能なツールであり、Web業界ではデファクトスタンダードなツールです。Javascriptも動作できるので、単なる制作ツールの枠を超えた感じもあります。</p>
 <p> </p>
 <h2>利用した素材はこちら</h2>
 <p>今回の素材はこちら！ゲレンデといえば、リフト！麓の方のリフトよりも、頂上付近や山を超えるタイプのリフトはワクワクしますね！</p>
@@ -126,7 +126,7 @@ recommended: false
 </tbody>
 </table>
 <p> </p>
-<p><a href="http://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>の画質100を基準として、それぞれの削減量と削減割合を表示しています。<strong>こうしてみると、いかにPNG画像が巨大なのか、よくわかります。基準データと比較して実に約2.2倍、<a href="https://core.lightfile.net/" target="_blank">LightFile</a>の処理済みと比較して約6倍ものファイルサイズとなっています。</strong>実はPhotoshopは、PNG画像の書き出しが非常に簡単にでき、ついついPNGで書き出してしまうことがあると思います。<strong>「PNGの方が画像が綺麗だから」なんてコメントをつけることも多いかもしれませんが、果たしてこのファイルサイズを補うほどの効果があるかどうか考えてみたい</strong>ですね。</p>
+<p><a href="https://www.adobe.com/jp/products/photoshop/beginner.html" target="_blank">Photoshop</a>の画質100を基準として、それぞれの削減量と削減割合を表示しています。<strong>こうしてみると、いかにPNG画像が巨大なのか、よくわかります。基準データと比較して実に約2.2倍、<a href="https://core.lightfile.net/" target="_blank">LightFile</a>の処理済みと比較して約6倍ものファイルサイズとなっています。</strong>実はPhotoshopは、PNG画像の書き出しが非常に簡単にでき、ついついPNGで書き出してしまうことがあると思います。<strong>「PNGの方が画像が綺麗だから」なんてコメントをつけることも多いかもしれませんが、果たしてこのファイルサイズを補うほどの効果があるかどうか考えてみたい</strong>ですね。</p>
 <p><strong>Photoshopの画質80ですと、基準データに比べて約半分のファイルサイズになります。ファイルサイズは半分になると、あきらかに体感する事ができるレベル</strong>です。Photoshopは画質設定値を記憶しているので、一度80に設定してしまえば、しばらくは設定を変えない限りファイルサイズが小さい状態で書き出すことができます。</p>
 <p><a href="https://core.lightfile.net/" target="_blank">LightFile</a>との比較ですが、LightFileは今回の基準データに対して各画質で処理をかけましたが、すべて同じ書き出しとなりました。ファイルサイズは、<strong>Photoshopの画質70とほぼ同等のファイルサイズとなります。約65%の削減なので、あきらかに体感できるほどの軽量化</strong>となります。</p>
 <p>最も軽量化できたのは、Photoshopの画質60でした。この設定値は、Photoshopでも「やや高画質」となっており、一応高画質の部類に入ります。画質を確認しても大きなモアレなどは目立たず、文字周りがちょっとノイズが入っている感じでした。これが気になるのなら、もう少し画質を上げて書き出すほうが良いですね。</p>

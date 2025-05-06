@@ -57,7 +57,7 @@ recommended: false
 <h3>調査に利用した条件</h3>
 <ol><li>月間転送量</li><li>画像削減率</li><li>転送時の画像割合</li></ol>
 <p>従量課金の計算には、AWSの見積ツールを利用しました。</p>
-<ul><li><a href="http://calculator.s3.amazonaws.com/index.html?lng=ja_JP" target="_blank">AWS SIMPLE MONTHLY CALCULATOR</a></li></ul>
+<ul><li><a href="https://calculator.s3.amazonaws.com/index.html?lng=ja_JP" target="_blank">AWS SIMPLE MONTHLY CALCULATOR</a></li></ul>
 <p style="text-align: center;"><img alt="2018-11-29-trafic-costdown-01.jpg" src="https://blog.ideamans.com/assets/2018-11-29-trafic-costdown-01.jpg" width="1280" height="609" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">AWSの見積ツールは誰でも利用ができて非常に便利</span></p>
 <h3>CDNのコストダウン (画像軽量化)</h3>
 <p>では、転送量毎にどのぐらいの費用になるのかチェックしていきます。10TBよりも少ない場合はもともとそんなに費用がかからないため、今回は10TBを最も少ない転送量として表にまとめました。</p>
@@ -118,4 +118,3 @@ recommended: false
 <h2>最後に</h2>
 <p>いかがでしたでしょうか。実際に画像軽量化でコストダウンができているお客様がいるため、今回のそのご紹介となりました。LightFileは定額＆低額なので、コストダウンの差額をしっかりと別予算として検討することができます。重たい画像で幸せになる人は誰もいないので、ぜひ取り組んでいきましょう。</p>
 <p>無料で画像軽量化の診断レポートをお送りしています。お気軽に以下のフォームよりリクエストください！</p>
-

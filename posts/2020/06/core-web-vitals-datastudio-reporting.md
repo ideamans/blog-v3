@@ -115,9 +115,8 @@ PageSpeed Insightsは標準的な端末とネットワーク(ただし世界水�
 
 上記の考え方は、チャートの割合がユーザーベースではなくPVベースである前提で、Chrome UX Reportがどちらなのか明言は見当たらなかったのですが、以下の記述を見るとやはりPVベースかなと思います。
 
-> For example, the above shows a sample record from the Chrome User Experience Report, which indicates that 12.3% of page loads had a "first paint time" measurement in the range of 1000-1200 milliseconds when loading "http://example.com" on a "phone" device over a "4G"-like connection.
+> For example, the above shows a sample record from the Chrome User Experience Report, which indicates that 12.3% of page loads had a "first paint time" measurement in the range of 1000-1200 milliseconds when loading "<https://example.com>" on a "phone" device over a "4G"-like connection.
 >
 > [Chrome User Experience Report](https://developers.google.com/web/tools/chrome-user-experience-report)より
 
 PageSpeed Insightsのような標本値や、Google Analyticsの速度のようにならされた平均値を見ているとなんとなく**「みんな単一の同じ体験をしている」と錯覚しがち**です。しかし分布を見ると、満足している人も、そうでない人も両方いる**「ユーザーの顔」**を想像できるようで面白いですね。
-

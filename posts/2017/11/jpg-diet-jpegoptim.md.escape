@@ -36,7 +36,7 @@ recommended: false
 <ul><li><a href="https://blog.ideamans.com/2017/11/jpg-diet-jpegoptim.html">マルチな環境で動作する"jpegoptim"との対決は、劣化の最適化が決め手！[JPGダイエット対決 vol.01]</a></li><li><a href="https://blog.ideamans.com/2017/11/wp-ewww-image-optimizer.html">WordPressの人気画像最適化プラグイン「EWWW Image Optimizer」は、有料APIを利用すると本気になる？[JPGダイエット対決 vol.02]</a></li><li><a href="https://blog.ideamans.com/2017/11/wp-tinypng.html">最強の相手はTinyPNG。そのWordPressプラグインの実力は？「Compress JPEG &amp; PNG images」を試してみた。[JPGダイエット対決 vol.03]</a></li><li><a href="https://blog.ideamans.com/2017/12/jpegmini.html">お手軽！かんたん！PCにインストールする「JPEGmini」アプリは画質を優先した画像の最適化が得意！[JPGダイエット対決 vol.04]</a></li></ul>
 <p> </p>
 <h2>画像最適化ツール "jpegoptim" vs "LightFile Core"</h2>
-<p>今回のテーマは、<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>の実力をみなさんに知ってもらうために、競合との差を比較しようと思います。画像の最適化ツールは一般的な処理のため、さまざまなツールが存在します。GUI（Graffic User Interface）のものだと<a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photopshop</a>が有名ですね。OS標準のツールもあります。CUI(Charactor User Interface)だと、<a href="https://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a>などがあります。</p>
+<p>今回のテーマは、<a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>の実力をみなさんに知ってもらうために、競合との差を比較しようと思います。画像の最適化ツールは一般的な処理のため、さまざまなツールが存在します。GUI（Graffic User Interface）のものだと<a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photopshop</a>が有名ですね。OS標準のツールもあります。CUI(Charactor User Interface)だと、<a href="https://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a>などがあります。</p>
 <p>そんな中、今回の対戦相手はマルチな環境で動作する <strong>jpegoptim</strong> です！</p>
 <ul><li><a href="https://github.com/tjko/jpegoptim" target="_blank">jpegoptim</a></li></ul>
 <p> </p>

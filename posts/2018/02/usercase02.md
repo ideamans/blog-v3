@@ -37,7 +37,7 @@ recommended: false
 <h2>1．遊々空間 さま</h2>
 <p><img alt="SS 2018-02-19 15.16.25.jpg" src="https://blog.ideamans.com/assets_c/2018/02/SS%202018-02-19%2015.16.25-thumb-800xauto-321.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="800" height="466"></p>
 <p>サイト名：遊々空間</p>
-<p>URL：<a href="http://youyoukukan.com/" target="_blank">http://youyoukukan.com/</a></p>
+<p>URL：<a href="https://youyoukukan.com/" target="_blank">https://youyoukukan.com/</a></p>
 <p>設置箇所：右サイドエリア</p>
 <p>表示数：10件</p>
 <p>記事作成の際にランキング表示をみて作成する記事の参考にされているということで、閲覧者向け以外でのご活用方法をお伺い出来て非常に参考になりました。</p>
@@ -53,7 +53,7 @@ recommended: false
 <h2>2．がらくたチップス さま</h2>
 <p><img alt="SS 2018-02-19 15.29.53.jpg" src="https://blog.ideamans.com/assets_c/2018/02/SS%202018-02-19%2015.29.53-thumb-800xauto-323.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="800" height="452"></p>
 <p>サイト名：がらくたチップス</p>
-<p>URL：<a href="http://garakuta.chips.jp/blog/" target="_blank">http://garakuta.chips.jp/blog/</a><br><br>設置箇所：右サイドエリア<br><br>表示数：10件</p>
+<p>URL：<a href="https://garakuta.chips.jp/blog/" target="_blank">https://garakuta.chips.jp/blog/</a><br><br>設置箇所：右サイドエリア<br><br>表示数：10件</p>
 <p> </p>
 <p>アイキャッチ画像も昭和感が最高なのですが、BBSって単語も久々にみたきがします。懐かしいなぁ、、</p>
 <p>アンケートにて、過去記事へのアクセス（ランクイン？でですかね）があることに気づき加筆などのフォローができましたということでした。</p>

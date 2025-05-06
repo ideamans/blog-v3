@@ -39,11 +39,11 @@ Webページの表示速度と成果についてよく見かけるフレーズ�
 
 昔からいろいろなブログに引用され、よく見かけるフレーズです。
 
-Google 2006年 [Marissa Mayer at Web 2.0](http://glinden.blogspot.com/2006/11/marissa-mayer-at-web-20.html)
+Google 2006年 [Marissa Mayer at Web 2.0](https://glinden.blogspot.com/2006/11/marissa-mayer-at-web-20.html)
 
 > サイト表示が0.5秒遅くなると、検索数が20%減少する
 
-Amazon 2007年 [Web experiments generate insights and promote innovation.](http://robotics.stanford.edu/~ronnyk/2007IEEEComputerOnlineExperiments.pdf)
+Amazon 2007年 [Web experiments generate insights and promote innovation.](https://robotics.stanford.edu/~ronnyk/2007IEEEComputerOnlineExperiments.pdf)
 
 > サイト表示が0.1秒遅くなると、売り上げが1%減少し、1秒高速化すると10%の売上が向上する。
 
@@ -62,7 +62,7 @@ Forbes 2012年? (出典元 Aberdeen Groupがリンク切れ) [Don't Let a Slow W
 > コンバージョンが7％下がる
 > 顧客満足度が16％下がる
 
-↑こちら大元は[Aberdeenグループのレポート](http://www.aberdeen.com/Aberdeen-Library/5136/RA-performance-web-application.aspx)のようなのですが、記事が削除されたのかアクセスができませんでした。
+↑こちら大元は[Aberdeenグループのレポート](https://www.aberdeen.com/Aberdeen-Library/5136/RA-performance-web-application.aspx)のようなのですが、記事が削除されたのかアクセスができませんでした。
 
 ## 新しいフレーズ
 
@@ -102,5 +102,3 @@ Web担当者Forum 2014年
 > モバイル経由のアクセスでは表示速度が3秒のときにコンバージョン率が最大化し、表示時間が長くなるにつれてコンバージョン率が下がり、7秒で半減したという。
 
 他にもありそうですが、手元のメモにあったのが以上です。いい記事があったら教えてください！
-
-

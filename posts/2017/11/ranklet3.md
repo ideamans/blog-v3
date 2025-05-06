@@ -31,9 +31,9 @@ recommended: false
 <p>平均としてもクリック率は1.4%となっており、サイトの種類などで上限はあるかとおもいますがある程度のクリックを稼げる（=サイトのPVを向上させることがきたいできる）コンテンツではあるんですね。</p>
 <p>以下はチラッと<strong><a href="https://ranklet.com/" target="_self">Ranklet</a></strong>を導入いただいているユーザーさまの平均クリック率（総合：実績）の変動グラフです。すごくじわじわ〜っと伸びています。定番化しているのですが、またるクリック率が伸びてきているようですね！</p>
 <p><img alt="SS 2017-11-24 12.31.33.jpg" src="https://blog.ideamans.com/assets/SS%202017-11-24%2012.31.33.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="801" height="353"></p>
-<p>過去にも、<a href="http://netafull.net/blog/052237.html" target="_blank"><strong>ネタフル</strong></a>さんでは5%程度の数値がでていたりと、閲覧されるユーザーの属性次第ではランキングコンテンツは必須コンテンツとして優先度の高い位置に置かれ続けていくのかなと思います。</p>
+<p>過去にも、<a href="https://netafull.net/blog/052237.html" target="_blank"><strong>ネタフル</strong></a>さんでは5%程度の数値がでていたりと、閲覧されるユーザーの属性次第ではランキングコンテンツは必須コンテンツとして優先度の高い位置に置かれ続けていくのかなと思います。</p>
 <blockquote>
-<p>クリック率は5%超！アクセスランキングをブログに表示できる「Ranklet」導入でセッション平均PVと直帰率が4〜5%改善：（2016年2月 4日）<br><a href="http://netafull.net/blog/052237.html" target="_blank">http://netafull.net/blog/052237.html</a></p>
+<p>クリック率は5%超！アクセスランキングをブログに表示できる「Ranklet」導入でセッション平均PVと直帰率が4〜5%改善：（2016年2月 4日）<br><a href="https://netafull.net/blog/052237.html" target="_blank">https://netafull.net/blog/052237.html</a></p>
 </blockquote>
 <p> </p>
 <p>クリック率が上がれば回遊率や滞在時間など、関連する指標も上がってくるかと思いますので、ランキングコンテンツはサイト改善のタイミングで見直してみるのも良いのではないのでしょうか。</p>

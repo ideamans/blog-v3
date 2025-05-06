@@ -25,7 +25,7 @@ recommended: false
 
 しかしその状態では [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=ja) もスコアを計測できません。
 
-<p class="text-muted"><small>URLに基本認証のユーザー名とパスワードを含める方法があります(例: `http://ユーザ名:パスワード@example.com`)。しかしPageSpeed Insightsで現在この方法は使えません。</small></p>
+<p class="text-muted"><small>URLに基本認証のユーザー名とパスワードを含める方法があります(例: `https://ユーザ名:パスワード@example.com`)。しかしPageSpeed Insightsで現在この方法は使えません。</small></p>
 
 代わりにChrome DevTools の `Lighthouse`タブ(旧`Audit`タブ)の`Performance`カテゴリを用いて計測できるのですが、他のメンバーと共有したり、時系列で比較しにくいことが難点です。
 
@@ -67,7 +67,7 @@ WebサーバーはApache 2.4以上、`.htaccess`への記述を前提としま�
 
 ブラウザからアクセスすると基本認証( `test` / `test` )が必要ですが、PageSpeed Insightsでは測定可能です。
 
-* [サンプルページ](http://apache2.ideamans.com/pagespeed-closed-example/)
+* [サンプルページ](https://apache2.ideamans.com/pagespeed-closed-example/)
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fapache2.ideamans.com%2Fpagespeed-closed-example%2F)
 
 これで**「リリースしたらPageSpeedスコアが低かった！」**という悲劇を防ぐため、サイトの公開前からPageSpeedスコアを細かくチェックできますね。

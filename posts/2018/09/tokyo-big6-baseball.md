@@ -32,7 +32,7 @@ recommended: false
 ---
 
 <p>大学生の秋のスポーツも盛り上がってくる９月は、６大学野球の秋季リーグもスタートします。大学からプロに進む選手も多くいるので、応援にも熱が入りますね！母校の応援や、お気に入りの選手の応援など、神宮球場で楽しみましょう！６大学野球はウェブサイトもあり、AbemaTVなどでも放送があります。詳しくはいかのサイトからチェックしましょう。</p>
-<ul><li><a href="http://www.big6.gr.jp/index.php" target="_blank"><span>一般財団法人 東京六大学野球連盟</span></a></li></ul>
+<ul><li><a href="https://www.big6.gr.jp/index.php" target="_blank"><span>一般財団法人 東京六大学野球連盟</span></a></li></ul>
 <h2>総ダウンロード容量は、最大 23.10MB、最小 2.41MB。洗練されたウェブサイトもあり、大学生への感度の高さを感じる</h2>
 <p><img alt="2018-09-03-6big-baseball-01.jpg" src="https://blog.ideamans.com/assets/2018-09-03-6big-baseball-01.jpg" width="1200" height="675" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <p style="text-align: center;"><span style="color: #888888;">多感な時期の高校生がみて、洗練されている印象があるウェブサイトが多い。</span></p>
@@ -69,7 +69,7 @@ recommended: false
 <td style="text-align: center;"><span>-0.21MB(-8.63%)</span></td>
 </tr>
 <tr class="bg-success text-white">
-<td><a href="http://www.hosei.ac.jp/" target="_blank">法政大学</a></td>
+<td><a href="https://www.hosei.ac.jp/" target="_blank">法政大学</a></td>
 <td style="text-align: right;">4.26MB</td>
 <td style="text-align: right;">1.18MB</td>
 <td style="text-align: right;">1.06MB</td>
@@ -85,7 +85,7 @@ recommended: false
 <td style="text-align: center;">-9.37MB(-40.56%)</td>
 </tr>
 <tr>
-<td><a href="http://www.rikkyo.ac.jp/" target="_blank">立教大学</a></td>
+<td><a href="https://www.rikkyo.ac.jp/" target="_blank">立教大学</a></td>
 <td style="text-align: right;">11.92MB</td>
 <td style="text-align: right;">6.44MB</td>
 <td style="text-align: right;">3.07MB</td>

@@ -31,7 +31,7 @@ subTheme:
 recommended: false
 ---
 
-<p>AIがJpeg画像を最適に軽量化する<a href="http://core.lightfile.net/">LightFile</a>をDropboxとの連携で簡単に使える新サービスをリリースしました。</p>
+<p>AIがJpeg画像を最適に軽量化する<a href="https://core.lightfile.net/">LightFile</a>をDropboxとの連携で簡単に使える新サービスをリリースしました。</p>
 <p style="text-align: center;"><a href="https://dropbox.lightfile.net/"><img alt="lightfile-dropbox.pngのサムネイル画像" src="https://blog.ideamans.com/assets/lightfile-dropbox.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></a></p>
 <p style="text-align: center;"><a href="https://dropbox.lightfile.net/">LightFile for Dropbox PREVIEW</a></p>
 <p>決まったアプリフォルダにJpegファイルをコピーや保存するだけで、あとは勝手に画質を落とさず、そのファイルを軽量化します。</p>
@@ -52,4 +52,3 @@ recommended: false
 <p>例えば決まったフォルダにファイルを放り込んで置くと、画像認識して仕訳されたり、CMSなどのシステムに転送するといった使い方もあり得ます。</p>
 <p>Dropbox APIも、かなり以前に調べたときはまだ機能の不足があったり、利用までの敷居が高かった印象がありましたが。相当整備されており、今回はとても使いやすく感じました。</p>
 <p>Dropbox APIとAWSサーバーレスアプリケーションのメイキングなども今後、ネタにしてみたいと思っています。</p>
-

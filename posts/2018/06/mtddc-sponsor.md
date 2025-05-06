@@ -38,6 +38,5 @@ recommended: false
 </p>
 <p> </p>
 <h2>イベント情報</h2>
-<ul><li>イベント名：「MTDDC Meetup HOKKAIDO 2018」</li><li>日時：2018年6月9日（土）12：30 ～ 19：00</li><li>場所：TKP札幌駅カンファレンスセンター(札幌市北区北7条西2丁目9 / JR札幌駅北口より徒歩2分)</li><li>公式サイト：<a href="http://mtddc2018.mt-ezo.net/" target="_blank">http://mtddc2018.mt-ezo.net/</a></li></ul>
+<ul><li>イベント名：「MTDDC Meetup HOKKAIDO 2018」</li><li>日時：2018年6月9日（土）12：30 ～ 19：00</li><li>場所：TKP札幌駅カンファレンスセンター(札幌市北区北7条西2丁目9 / JR札幌駅北口より徒歩2分)</li><li>公式サイト：<a href="https://mtddc2018.mt-ezo.net/" target="_blank">https://mtddc2018.mt-ezo.net/</a></li></ul>
 <p>皆様のご来場を心よりお待ち申し上げます。</p>
-

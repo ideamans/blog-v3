@@ -31,17 +31,17 @@ subTheme:
 recommended: false
 ---
 
-<p><a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>使ってますか？写真の加工をしたり、Webデザインをしたりと、Web系では万能ツールとして<a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>は利用されています。</p>
-<p><strong><a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>で加工・作成したものを書き出す時、「Web用に保存」という方法で書き出すことが多い</strong>のですないでしょうか。<strong>今回は、「Web用に保存」で行う際の画質に注目</strong>してみました。</p>
+<p><a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>使ってますか？写真の加工をしたり、Webデザインをしたりと、Web系では万能ツールとして<a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>は利用されています。</p>
+<p><strong><a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>で加工・作成したものを書き出す時、「Web用に保存」という方法で書き出すことが多い</strong>のですないでしょうか。<strong>今回は、「Web用に保存」で行う際の画質に注目</strong>してみました。</p>
 <p> </p>
 <h2>画質の設定は、選択するか数値指定する</h2>
-<p><a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>では画質の設定は「Web用に保存」で書き出す場合、２種類の方法で行うことができます。</p>
+<p><a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>では画質の設定は「Web用に保存」で書き出す場合、２種類の方法で行うことができます。</p>
 <ol><li>プルダウンから選択する</li><li>画質に数値を入れる</li></ol>
 <p><a href="https://blog.ideamans.com/assets/2017-12-21-ps-panel.jpg"><img alt="2017-12-21-ps-panel.jpg" src="https://blog.ideamans.com/assets_c/2017/12/2017-12-21-ps-panel-thumb-1200xauto-191.jpg" width="1200" height="513" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></a></p>
 <p>プルダウンは５つの選択肢から、数値入力は０〜１００までの数値を入力します。画像ごとに毎回細かく設定するのも面倒だと思うので、なんとなく８０や８５に設定していたりする人も多いかもしれません。</p>
 <p> </p>
 <h2>JPGの差分は、ImageMagickのcompareコマンドで調べる</h2>
-<p>今回も、<a href="http://imagemagick.org/script/index.php" target="_blank">ImageMagick</a>のcompareコマンドで調べてみます。以前も同じようにして調べていますので、興味のある方は参考にしてください。</p>
+<p>今回も、<a href="https://imagemagick.org/script/index.php" target="_blank">ImageMagick</a>のcompareコマンドで調べてみます。以前も同じようにして調べていますので、興味のある方は参考にしてください。</p>
 <blockquote class="twitter-tweet" data-lang="ja">
 <p lang="ja" dir="ltr">違いがわかれば変化がわかる！<a href="https://twitter.com/hashtag/imagemagick?src=hash&amp;ref_src=twsrc%5Etfw">#imagemagick</a> で <a href="https://twitter.com/hashtag/%E7%94%BB%E5%83%8F%E6%9C%80%E9%81%A9%E5%8C%96?src=hash&amp;ref_src=twsrc%5Etfw">#画像最適化</a> ツールの処理後の差分をみてみよう！画質優先型は、にじむように差分があるのが確認できるんです。<a href="https://twitter.com/hashtag/jpegmini?src=hash&amp;ref_src=twsrc%5Etfw">#jpegmini</a> <a href="https://twitter.com/hashtag/tinypng?src=hash&amp;ref_src=twsrc%5Etfw">#tinypng</a> <a href="https://twitter.com/hashtag/lightfilecore?src=hash&amp;ref_src=twsrc%5Etfw">#lightfilecore</a><a href="https://t.co/4rF2rmhXSI">https://t.co/4rF2rmhXSI</a></p>
 -- アイデアマンズ (@ideamans) <a href="https://twitter.com/ideamans/status/937517930069229569?ref_src=twsrc%5Etfw">2017年12月4日</a></blockquote>
@@ -111,7 +111,7 @@ recommended: false
 </table>
 <p> </p>
 <p><strong>高画質処理から、全体的に差分が見られます（全体的に赤い）。ファイルサイズの削減量も半分以上</strong>となっており、かなりの削減量です。<strong>やや高画質までは画質も見て悪いレベルにはなさそう</strong>です。中画質〜低画質になると、器の店名の部分にブロックノイズが入ってきているのがわかります。半熟卵のシズル感も荒くなってきています。<strong>食べ物系のサイトであれば、高画質くらいの画質をキープしないと美味しそうに見えない</strong>でしょう。個人ブログであれば、やや高画質でも問題なさそうです。</p>
-<p><a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>でも試してみましたが、<strong>元画像のファイル容量が小さかったので、大幅なファイルサイズの削減は行なえませんでしたが、それでも約５９％の削減ができています。<a href="http://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>の高画質よりも軽量化</strong>されています。</p>
+<p><a href="https://core.lightfile.net/" target="_blank">LightFile Core</a>でも試してみましたが、<strong>元画像のファイル容量が小さかったので、大幅なファイルサイズの削減は行なえませんでしたが、それでも約５９％の削減ができています。<a href="https://www.adobe.com/jp/products/photoshop.html" target="_blank">Photoshop</a>の高画質よりも軽量化</strong>されています。</p>
 <table border="0">
 <tbody>
 <tr>

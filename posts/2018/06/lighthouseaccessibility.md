@@ -53,7 +53,7 @@ recommended: false
 <p><img alt="contrast.png" src="https://blog.ideamans.com/assets/contrast.png" width="900" height="358" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <h2>Chrome Developer Toolsによるコントラストチェック</h2>
 <p>コントラスト比のチェックを支援するさまざまなツールがあります。</p>
-<p><a href="http://bashalog.c-brains.jp/18/02/28-153729.php" title="色のアクセシビリティ対応で役に立ったツール">色のアクセシビリティ対応で役に立ったツール</a></p>
+<p><a href="https://bashalog.c-brains.jp/18/02/28-153729.php" title="色のアクセシビリティ対応で役に立ったツール">色のアクセシビリティ対応で役に立ったツール</a></p>
 <p>自分はChromeのDeveloper Toolsにコントラスト比のチェック機能があったのでそれが重宝しました。</p>
 <p>チェックしたい要素のStylesで、文字色を表すcolorプロパティのカラーチップをクリックすると表示されるカラーピッカーに、アクセシビリティ観点でのコントラスト比の判定結果が表示されます。</p>
 <p>はじめは背景のグレーが少し明るかったのでNGとなっていましたが、</p>

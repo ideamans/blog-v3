@@ -113,11 +113,11 @@ jQueryプラグインまたは依存ライブラリ不要の有名どころで�
   <th><a href="https://kenwheeler.github.io/slick/">Slick Slider</a></th>
   <th><a href="https://glidejs.com/">Glide</a></th>
   <th><a href="https://swiperjs.com/">Swiper</a></th>
-  <th><a href="http://ganlanyuan.github.io/tiny-slider/">tiny slider</a></th>
+  <th><a href="https://ganlanyuan.github.io/tiny-slider/">tiny slider</a></th>
   <th><a href="https://flickity.metafizzy.co/">Flickity</a></th>
   <th><a href="https://bxslider.com/">bxSlider</a></th>
-  <th><a href="http://flexslider.woothemes.com/">Flex Slider2</a></th>
-  <th><a href="http://sachinchoolur.github.io/lightslider/">Light Slider</a></th>
+  <th><a href="https://flexslider.woothemes.com/">Flex Slider2</a></th>
+  <th><a href="https://sachinchoolur.github.io/lightslider/">Light Slider</a></th>
   <th><a href="https://nickpiscitelli.github.io/Glider.js/">Glider</a></th>
  </tr>
  <tr>

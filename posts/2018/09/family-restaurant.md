@@ -91,7 +91,7 @@ recommended: false
 <td style="text-align: center;"><span>-41.72%</span></td>
 </tr>
 <tr class="greenlinebold">
-<td><a href="http://www.volks-steak.jp/" target="_blank">ステーキハウス フォルクス</a></td>
+<td><a href="https://www.volks-steak.jp/" target="_blank">ステーキハウス フォルクス</a></td>
 <td style="text-align: right;">2.62MB</td>
 <td style="text-align: right;">2.49MB</td>
 <td style="text-align: right;">1.96MB</td>

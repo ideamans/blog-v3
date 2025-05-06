@@ -65,7 +65,7 @@ recommended: false
 <p>
 <iframe width="595" height="485" style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="https://www.slideshare.net/slideshow/embed_code/key/JOWNQavwkC7OuK" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen=""></iframe>
 </p>
-<div style="margin-bottom: 5px;"><strong> <a href="http://www.slideshare.net/2nose1/seo-108834851" title="SEOにも効いてくる表示高速化のはじめの一歩「画像軽量化」" target="_blank">SEOにも効いてくる表示高速化のはじめの一歩「画像軽量化」</a> </strong> from <strong><a href="https://www.slideshare.net/2nose1" target="_blank">H N</a></strong></div>
+<div style="margin-bottom: 5px;"><strong> <a href="https://www.slideshare.net/2nose1/seo-108834851" title="SEOにも効いてくる表示高速化のはじめの一歩「画像軽量化」" target="_blank">SEOにも効いてくる表示高速化のはじめの一歩「画像軽量化」</a> </strong> from <strong><a href="https://www.slideshare.net/2nose1" target="_blank">H N</a></strong></div>
 <p>表示高速化は、SEOに関わらず取り組むべきものだと考えています。不要なダウンロードをなくし、ソースコードやプログラムを最適化し、高速なインフラで配信するのがやるべきことですが、非常に広範囲なものです。即効性のあるものから対応して、一歩一歩進めていくのが良い方法となります。</p>
 <h2>最後に</h2>
 <p>イベント関連のリンクを記載いたしますので、ご参考ください。</p>

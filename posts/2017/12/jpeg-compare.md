@@ -33,7 +33,7 @@ recommended: false
 
 <p>今回は、画像最適化した際に、実際に表示される画像にどのくらいの差分が発生しているのかをみてみます。<strong>注意点としては、「差分がある」＝「劣化」という捉え方ではない</strong>ということです。<strong>「劣化」はあくまで人間の目がみて感じるものであり、差分は機械的にみて違いを表しているもの</strong>となります。</p>
 <h2>JPGの差分は、ImageMagickのcompareコマンドで調べる</h2>
-<p>今回は、<a href="http://imagemagick.org/script/index.php" target="_blank">ImageMagick</a>のcompareコマンドで調べてみます。また、グラフィカルにわかるように、差分を画像として出力します。普段実施することはないコマンドですが、比較する時にはとても便利です。また、今回は差分の見え方がメインなので、ファイルサイズを小さくしたものを利用しています（長辺640px）</p>
+<p>今回は、<a href="https://imagemagick.org/script/index.php" target="_blank">ImageMagick</a>のcompareコマンドで調べてみます。また、グラフィカルにわかるように、差分を画像として出力します。普段実施することはないコマンドですが、比較する時にはとても便利です。また、今回は差分の見え方がメインなので、ファイルサイズを小さくしたものを利用しています（長辺640px）</p>
 <p><img alt="2017-12-04-ogp-compare.jpg" src="https://blog.ideamans.com/assets/2017-12-04-ogp-compare.jpg" width="1200" height="800" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <p>今回の素材は、こちらを利用させていただきました。</p>
 <ul><li><a href="https://unsplash.com/photos/_0JpjeqtSyg" target="_blank">https://unsplash.com/photos/_0JpjeqtSyg</a><br><span>Photo by </span><a href="https://unsplash.com/photos/_0JpjeqtSyg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carissa Gan</a><span> on </span><a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></li></ul>

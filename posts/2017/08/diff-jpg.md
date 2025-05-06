@@ -37,7 +37,7 @@ recommended: false
 <p>というもの。</p>
 <p>単純にファイルサイズの削減をするのであれば、画質を気にせずにどんどん荒くすれば大きく削減できます。でもそれでは、あなたのウェブサイトにある素晴らしい商品の魅力が正しく伝えることができません。荒れた画像を見た瞬間に、商品の素晴らしさは半減してしまうことでしょう。</p>
 <h3>どうやって劣化を調整しているの？</h3>
-<p>LightFile Coreは、<span style="font-size: 150%;">「視覚に現れる劣化を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>に」</span>しています。あたかも人の目で見ているかのように、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%B5%A1%B3%A3%C5%AA">機械的</a>ではなく視覚に現れる劣化に感じる部分を<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>で計算し、その中で最も劣化が少ない結果を選択します。</p>
+<p>LightFile Coreは、<span style="font-size: 150%;">「視覚に現れる劣化を<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>に」</span>しています。あたかも人の目で見ているかのように、<a class="keyword" href="https://d.hatena.ne.jp/keyword/%B5%A1%B3%A3%C5%AA">機械的</a>ではなく視覚に現れる劣化に感じる部分を<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>で計算し、その中で最も劣化が少ない結果を選択します。</p>
 <p>一度処理をして完了！というタイプのものではなく、複数枚生成して、それらを比較して決定する！というプロセスがあるのが特徴です。</p>
 <h4>プロセスの簡単な流れ</h4>
 <p><img class="hatena-fotolife" title="f:id:ideamans:20170822114209j:plain" src="https://cdn-ak.f.st-hatena.com/images/fotolife/i/ideamans/20170822/20170822114209.jpg" alt="f:id:ideamans:20170822114209j:plain"></p>
@@ -45,7 +45,7 @@ recommended: false
 <ol><li><span style="font-size: 150%;">画像ファイルが追加（変更）されたことを検知</span></li><li><span style="font-size: 150%;">複数枚の圧縮率が異なる画像を生成</span></li><li><span style="font-size: 150%;">その中で、劣化が最も少ない画像をピックアップ</span></li><li><span style="font-size: 150%;">ファイルサイズを削減した画像を決定！</span></li></ol>
 <p>これらの処理は、人間の手を介さずに<span style="font-size: 150%;">すべて自動</span>で行われるので、ミスや漏れは発生しません。とっても楽ちんなのです。</p>
 <p> </p>
-<p><a class="keyword" href="http://d.hatena.ne.jp/keyword/AWS">AWS</a> S3に画像をおいていること、JPGファイルに限定していること、というような制限はあるのですが、</p>
+<p><a class="keyword" href="https://d.hatena.ne.jp/keyword/AWS">AWS</a> S3に画像をおいていること、JPGファイルに限定していること、というような制限はあるのですが、</p>
 <ul><li>複数枚の軽量化画像を比較し、最も劣化が少ないものを選択する</li><li>全自動で行われる</li></ul>
 <p>というのは、本プロダクトだけかもしれません。</p>
 <p> </p>

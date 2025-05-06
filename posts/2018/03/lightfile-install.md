@@ -57,7 +57,7 @@ recommended: false
 <h3>CMSプラグイン型画像最適化サービス</h3>
 <ul><li><a href="https://wordpress.org/plugins/ewww-image-optimizer/" target="_blank">EWWW Image Optimizer - WordPress Plugins</a></li><li><a href="https://wordpress.org/plugins/ewww-image-optimizer/" target="_blank"></a><a href="https://ja.wordpress.org/plugins/tiny-compress-images/" target="_blank">Compress JPEG &amp; PNG images</a></li></ul>
 <h3>ローカルPCインストール型画像最適化サービス</h3>
-<ul><li><a href="http://www.jpegmini.com/" target="_blank">JPEGmini - Your Photos on a Diet!</a></li></ul>
+<ul><li><a href="https://www.jpegmini.com/" target="_blank">JPEGmini - Your Photos on a Diet!</a></li></ul>
 <p>この他、Webサービス型として手軽にブラウザからファイルをアップロードする<a href="https://tinypng.com/" target="_blank">TinyPNG</a>があります。海外はクラウド型が主流ですね。</p>
 <p> </p>
 <h2>定額制か従量課金か、どちらがよい？</h2>
@@ -67,4 +67,3 @@ recommended: false
 <h2>最後に</h2>
 <p>意外と話を聞くことが多いのが、社内のエンジニアさんが画像処理のタスクをされていることが多いこと。サーバの容量削減や、ファイルサイズが大きい画像ファイルを抽出して、手作業でリサイズするなどの地道な作業をされているそうです。あまり生産的な作業ではないので、こういった作業はツールやサービスの導入で、エンジニアさんのリソースを借りないようにしたいですね！</p>
 <p> </p>
-

@@ -94,7 +94,7 @@ recommended: false
 <td style="text-align: center;">-1.09MB(-22.51%)</td>
 </tr>
 <tr>
-<td><a href="http://www.tokyoinfo.com/shop/use/lunch/" target="_blank">TOKYO INFO</a></td>
+<td><a href="https://www.tokyoinfo.com/shop/use/lunch/" target="_blank">TOKYO INFO</a></td>
 <td style="text-align: right;">5.36MB</td>
 <td style="text-align: right;">2.41MB</td>
 <td style="text-align: right;">1.18MB</td>
