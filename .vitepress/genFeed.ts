@@ -13,7 +13,7 @@ export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
     title: 'アイデアマンズブログ',
     description:
-      'サイトの高速化「Webフィットネス」を使命とするアイデアマンズ株式会社のブログ',
+      'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズのブログ',
     id: baseUrl,
     link: baseUrl,
     language: 'ja',

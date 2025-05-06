@@ -11,7 +11,7 @@ function indexImageUrl(bgUrl: string, subTitle: string): string {
   ogp.searchParams.set('text0width', '60%')
 
   ogp.searchParams.set('text1', subTitle)
-  ogp.searchParams.set('text1width', '60%')
+  ogp.searchParams.set('text1width', '80%')
 
   return ogp.href
 }
@@ -55,7 +55,7 @@ export default defineConfig({
   mpa: true,
   title: `ideaman's Blog`,
   description:
-    'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズ株式会社のブログ',
+    'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズのブログ',
   cleanUrls: false,
   ignoreDeadLinks: true,
   rewrites: {
