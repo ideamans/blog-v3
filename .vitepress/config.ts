@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ],
   buildEnd: genFeed,
   transformHead: ({ head, pageData }) => {
-    const ogpBgUrl = 'https://blog.ideamans.com/ogp-background.jpg'
+    const ogpBgUrl = 'https://blog.ideamans.com/ogp-bg.jpg'
 
     if (pageData.frontmatter?.index || !pageData.frontmatter?.title) {
       // インデックスページ
