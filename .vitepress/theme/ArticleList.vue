@@ -2,7 +2,6 @@
 import type { Post } from './posts.data.js'
 import Date from './Date.vue'
 import CategoryTags from './CategoryTags.vue'
-import { data as categories } from './categories.data.js'
 import AllCategoriesWidget from './AllCategoriesWidget.vue'
 import Ranklet4Widget from './Ranklet4Widget.vue'
 
@@ -36,7 +35,7 @@ const props = defineProps<{
                       title
                     }}</a>
                   </h2>
-                  <CategoryTags :categories="categories" />
+                  <CategoryTags :categories="categories || []" />
                 </div>
                 <div
                   v-if="excerpt"
