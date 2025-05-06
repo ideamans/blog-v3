@@ -65,7 +65,7 @@ export default defineConfig({
   },
   head: [
     ['meta', { name: 'twitter:site', content: '@ideamans' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
     // [
     //   'meta',
     //   {
@@ -92,22 +92,24 @@ export default defineConfig({
     // ]
     [
       'script',
-      {
-        src: 'https://www.googletagmanager.com/ns.html?id=GTM-PBS7ZCP',
-        async: '1'
-      }
-    ],
-    [
-      'script',
       {},
-      `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-N79QY0ZG5M');
-    `
+      `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PBS7ZCP');`
     ],
+    // [
+    //   'script',
+    //   {},
+    //   `
+    // window.dataLayer = window.dataLayer || [];
+    // function gtag(){dataLayer.push(arguments);}
+    // gtag('js', new Date());
+
+    // gtag('config', 'G-N79QY0ZG5M');
+    // `
+    // ],
     [
       'script',
       {
@@ -141,8 +143,9 @@ export default defineConfig({
     } else {
       // 記事ページ
       const title = pageData.frontmatter.title
-      const id = pageData.frontmatter.id
-      const date = pageData.frontmatter.publishedDate
+      const authorId = pageData.frontmatter.authorId
+      const date = Dayjs(pageData.frontmatter.publishedAt).format('YYYY/MM/DD')
+      const image = pageData.frontmatter.image
 
       // Twitter Card
       head.push([
@@ -174,7 +177,8 @@ export default defineConfig({
         'meta',
         {
           property: 'og:image',
-          content: articleImageUrl(ogpBgUrl, title, `${date} @${id}`)
+          content:
+            image ?? articleImageUrl(ogpBgUrl, title, `${date} @${authorId}`)
         }
       ])
     }
