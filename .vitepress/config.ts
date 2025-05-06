@@ -151,13 +151,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       head.push([
         'meta',
         {
-          name: 'twitter:card',
-          content: 'summary'
-        }
-      ])
-      head.push([
-        'meta',
-        {
           name: 'twitter:title',
           content: title
         }
