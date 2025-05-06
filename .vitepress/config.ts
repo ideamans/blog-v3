@@ -96,18 +96,18 @@ export default defineConfig({
         src: 'https://www.googletagmanager.com/ns.html?id=GTM-PBS7ZCP',
         async: '1'
       }
-    ]
-    //     [
-    //       'script',
-    //       {},
-    //       `
-    // window.dataLayer = window.dataLayer || [];
-    // function gtag(){dataLayer.push(arguments);}
-    // gtag('js', new Date());
+    ],
+    [
+      'script',
+      {},
+      `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    // gtag('config', 'G-YQBLSY0PKS');
-    // `
-    //     ]
+    gtag('config', 'G-N79QY0ZG5M');
+    `
+    ]
   ],
   buildEnd: genFeed,
   transformHead: ({ head, pageData }) => {
