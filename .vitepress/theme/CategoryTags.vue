@@ -14,7 +14,7 @@ const byBasename = new Map(categories.map((c) => [c.basename, c]))
       v-for="category of props.categories"
       :key="category"
       class="badge badge-outline hover:link"
-      :href="`/${category}/`"
+      :href="`/${category}/index.html`"
       >{{ byBasename.get(category)?.name ?? category }}</a
     >
   </div>

@@ -16,7 +16,7 @@ const mainCategories = [
 <template>
   <ul class="menu bg-base-200 menu-horizontal rounded-box menu-sm md:menu-md">
     <li v-for="category of mainCategories">
-      <a :href="`/${category.basename}/`">{{ category.name }}</a>
+      <a :href="`/${category.basename}/index.html`">{{ category.name }}</a>
     </li>
   </ul>
 </template>

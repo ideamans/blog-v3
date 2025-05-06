@@ -1,13 +1,13 @@
 import Dayjs from 'dayjs'
 // import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
+import { defineConfig } from 'vitepress'
 import { genFeed } from './genFeed.js'
 
 function indexImageUrl(bgUrl: string, subTitle: string): string {
   const ogp = new URL('https://banners.ideamans.com/banners/type-a')
   ogp.searchParams.set('bgUrl', bgUrl)
 
-  ogp.searchParams.set('text0', `ideaman's Notes`)
+  ogp.searchParams.set('text0', `ideaman's Blog`)
   ogp.searchParams.set('text0width', '60%')
 
   ogp.searchParams.set('text1', subTitle)
@@ -20,7 +20,7 @@ function articleImageUrl(bgUrl: string, title: string, meta: string): string {
   const ogp = new URL('https://banners.ideamans.com/banners/type-a')
   ogp.searchParams.set('bgUrl', bgUrl)
 
-  ogp.searchParams.set('text0', `ideaman's Notes`)
+  ogp.searchParams.set('text0', `ideaman's Blog`)
   ogp.searchParams.set('text0width', '60%')
 
   ogp.searchParams.set('text1', title)
@@ -37,15 +37,25 @@ function articleImageUrl(bgUrl: string, title: string, meta: string): string {
 
 function articleTwitterImageUrl(slug: string): string {
   const image = new URL('https://alogorithm2.ideamans.com/v2/rect.png')
-  image.searchParams.set('seed', [slug, 'notes'].join('@'))
+  image.searchParams.set('seed', [slug, 'blog'].join('@'))
   image.searchParams.set('width', '256')
   image.searchParams.set('height', '256')
   return image.href
 }
 
-export default withMermaid({
-  title: `ideaman's Notes`,
-  description: 'アイデアマンズ株式会社の研究ノート',
+function indexTwitterImageUrl(): string {
+  const image = new URL('https://alogorithm2.ideamans.com/v2/rect.png')
+  image.searchParams.set('seed', 'blog')
+  image.searchParams.set('width', '256')
+  image.searchParams.set('height', '256')
+  return image.href
+}
+
+export default defineConfig({
+  mpa: true,
+  title: `ideaman's Blog`,
+  description:
+    'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズ株式会社のブログ',
   cleanUrls: false,
   ignoreDeadLinks: true,
   rewrites: {
@@ -53,7 +63,6 @@ export default withMermaid({
     'categories/:category.md': ':category/index.md',
     'monthly/:year-:month.md': ':year/:month/index.md'
   },
-  paths: [{ category: 'webp' }],
   head: [
     ['meta', { name: 'twitter:site', content: '@ideamans' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -61,7 +70,7 @@ export default withMermaid({
     //   'meta',
     //   {
     //     name: 'twitter:image',
-    //     content: 'https://logo.ideamans.com/ogp.svg?width=800&phrase=notes'
+    //     content: 'https://logo.ideamans.com/ogp.svg?width=800&phrase=blog'
     //   }
     // ],
     [
@@ -84,26 +93,25 @@ export default withMermaid({
     [
       'script',
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-YQBLSY0PKS',
+        src: 'https://www.googletagmanager.com/ns.html?id=GTM-PBS7ZCP',
         async: '1'
       }
-    ],
-    [
-      'script',
-      {},
-      `
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-YQBLSY0PKS');
-`
     ]
+    //     [
+    //       'script',
+    //       {},
+    //       `
+    // window.dataLayer = window.dataLayer || [];
+    // function gtag(){dataLayer.push(arguments);}
+    // gtag('js', new Date());
+
+    // gtag('config', 'G-YQBLSY0PKS');
+    // `
+    //     ]
   ],
   buildEnd: genFeed,
   transformHead: ({ head, pageData }) => {
-    const ogpBgUrl = 'https://notes.ideamans.com/ogp-background.jpg'
-    const xBgUrl = 'https://notes.ideamans.com/x-background.jpg'
+    const ogpBgUrl = 'https://blog.ideamans.com/ogp-background.jpg'
 
     if (pageData.frontmatter?.index || !pageData.frontmatter?.title) {
       // インデックスページ
@@ -120,7 +128,7 @@ gtag('config', 'G-YQBLSY0PKS');
         'meta',
         {
           property: 'twitter:image',
-          content: indexImageUrl(xBgUrl, subTitle)
+          content: indexTwitterImageUrl()
         }
       ])
     } else {

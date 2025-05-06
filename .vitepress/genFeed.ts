@@ -17,7 +17,7 @@ export async function genFeed(config: SiteConfig) {
     id: baseUrl,
     link: baseUrl,
     language: 'ja',
-    image: 'https://alogorithm2.ideamans.com/v2/rect.svg?width=800&seed=notes',
+    image: 'https://alogorithm2.ideamans.com/v2/rect.svg?width=800&seed=blog',
     favicon: 'https://blog.ideamans.com/blog.svg',
     copyright: `Copyright (c) 2017- ideaman's Inc.`
   })

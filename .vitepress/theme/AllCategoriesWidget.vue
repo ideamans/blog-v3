@@ -11,7 +11,7 @@ import { data as categories } from './categories.data.js'
       <a
         v-for="category in categories"
         class="link"
-        :href="`/${category.basename}`"
+        :href="`/${category.basename}/index.html`"
         >{{ category.name }}</a
       >
     </div>
