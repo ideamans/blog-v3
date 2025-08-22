@@ -6,11 +6,13 @@ categories: ['lightfile', 'cloud-cost', 'web-imaging']
 recommended: false
 ---
 
-アイデアマンズ株式会社が画像最適化技術を無料で提供する「LightFile Self」を本日リリースしました。
+画像最適化技術を無料で提供する「LightFile Self」を本日リリースしました。
 
 Web サイトの画像を ZIP ファイルにまとめてアップロードするだけで、独自のアルゴリズムで 1 ファイルずつ最適な圧縮率を判定。画質を保ちながらファイルサイズを大幅に削減します。
 
 **サービス URL**: [LightFile Self - 無料の Web 画像最適化](https://self.lightfile.net/)
+
+---
 
 ## 画像最適化の課題を解決
 
