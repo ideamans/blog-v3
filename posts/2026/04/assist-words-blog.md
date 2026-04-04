@@ -1,5 +1,6 @@
 ---
 title: 通販サイトの「添え言葉」を集めるブログを始めました
+excerpt: カートボタン横の一言がCVRを左右するマイクロコピー（添え言葉）の実例を集めるブログを開設。Amazon・コメ兵など実在の通販サイトのスクリーンショットとともに、効果的な添え言葉を解説します。
 authorId: miyanaga
 publishedAt: 2026-04-02 10:00:00
 categories: ['cvr', 'performance']

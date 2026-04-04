@@ -1,9 +1,11 @@
 ---
 title: 無料サービス「LightFile Self」をリリース
+excerpt: ZIPファイルをアップロードするだけでJPEG・PNG画像を一括最適化できる無料サービス「LightFile Self」をリリース。会員登録不要で、クラウドコスト削減やユーザー体験向上に貢献します。
 authorId: miyanaga
 publishedAt: 2025-08-22 11:00:00
 categories: ['lightfile', 'cloud-cost', 'web-imaging']
 recommended: false
+image: /images/2025/lightfile-self/ogp.jpg
 ---
 
 画像最適化技術を無料で提供する「LightFile Self」を本日リリースしました。

@@ -1,5 +1,6 @@
 ---
 title: 画像最適化無料診断に「画像配信効率」と「次世代フォーマット採用率」を追加
+excerpt: LightFile Simulatorに新指標を追加。解像度あたりのデータ量を示す「画像配信効率」（KB/Mpx）と「次世代フォーマット採用率」で、サイトの画像配信の現状を無料で5段階評価できます。
 authorId: miyanaga
 publishedAt: 2026-04-02 16:00:00
 categories: ['lightfile', 'web-imaging', 'performance']

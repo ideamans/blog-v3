@@ -1,9 +1,11 @@
 ---
 title: 「サイトスピード クロニクル」が「サイトスピード 振り返り・競合比較」にリブランディング。AIレビュー・スライドモード・カスタムレポートを追加
+excerpt: サイトスピード クロニクルを「振り返り・競合比較」にリブランディング。Core Web VitalsのAI自動コメント、スライド／PDF出力モード、Googleサインインで使えるカスタムレポート機能を追加しました。
 authorId: miyanaga
 publishedAt: 2026-04-01 12:00:00
 categories: ['performance', 'core-web-vitals']
 recommended: false
+image: /images/2026/sitespeed-lookback/ogp.jpg
 ---
 
 2025年10月に公開した「サイトスピード クロニクル」を、**「サイトスピード 振り返り・競合比較」** としてリブランディングしました。URLも `chronicle.sitespeed.info` から `lookback.sitespeed.info` に変更しています（旧URLは自動リダイレクトされるため、ブックマークの変更は不要です）。
