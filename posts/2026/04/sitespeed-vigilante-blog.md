@@ -2,7 +2,7 @@
 title: 表示速度ボトルネックの「実例研究」ブログを始めました
 excerpt: 実在するサイトを題材に、フロントエンドの本当のボトルネックを探して、解消したらどれくらい速くなるかを特許技術のシミュレーションで検証する研究ブログを開設しました。
 authorId: miyanaga
-publishedAt: 2026-04-17 10:00:00
+publishedAt: 2026-04-19 10:00:00
 categories: ['performance', 'core-web-vitals']
 recommended: false
 image: /images/2026/sitespeed-vigilante/site-ogp.png
