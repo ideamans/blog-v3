@@ -3,6 +3,9 @@ import Dayjs from 'dayjs'
 import { defineConfig } from 'vitepress'
 import { genFeed } from './genFeed.js'
 import { crosslinkPlugin } from './crosslink-plugin.js'
+import { categories as categoryList } from '../categories.js'
+
+const categoryNameByBasename = new Map(categoryList.map((c) => [c.basename, c.name]))
 
 
 export default defineConfig({
@@ -94,8 +97,14 @@ export default defineConfig({
     const pageTitle = pageData.frontmatter?.title || `ideaman's Blog`
     head.push(['meta', { property: 'og:title', content: pageTitle }])
 
-    if (pageData.frontmatter?.index || !pageData.frontmatter?.title) {
-      // インデックスページ
+    // monthly/category はテンプレートのダミーfrontmatter (title: 'monthly' / 'category')
+    // を使用する月別・カテゴリアーカイブページ。記事JSON-LDは不適切なため、
+    // インデックス扱いでメタのみ出力する。
+    const templateTitles = new Set(['monthly', 'category'])
+    const isArchiveTemplate = templateTitles.has(pageData.frontmatter?.title)
+
+    if (pageData.frontmatter?.index || !pageData.frontmatter?.title || isArchiveTemplate) {
+      // インデックス/アーカイブページ
       const subTitle = pageData.frontmatter.subtext
       const description =
         pageData.frontmatter.description || pageData.frontmatter.subtext ||
@@ -190,6 +199,57 @@ export default defineConfig({
         'script',
         { type: 'application/ld+json' },
         JSON.stringify(jsonLd)
+      ])
+
+      // 構造化データ (JSON-LD) - BreadcrumbList
+      // ホーム > (カテゴリ) > 記事タイトル
+      const firstCatBasename = Array.isArray(pageData.frontmatter.categories)
+        ? pageData.frontmatter.categories[0]
+        : undefined
+      const firstCatName = firstCatBasename
+        ? categoryNameByBasename.get(firstCatBasename)
+        : undefined
+
+      const breadcrumbItems: Array<{
+        '@type': 'ListItem'
+        position: number
+        name: string
+        item: string
+      }> = [
+        { '@type': 'ListItem', position: 1, name: 'ホーム', item: `${siteUrl}/` }
+      ]
+      if (firstCatBasename && firstCatName) {
+        breadcrumbItems.push({
+          '@type': 'ListItem',
+          position: 2,
+          name: firstCatName,
+          item: `${siteUrl}/${firstCatBasename}/`
+        })
+        breadcrumbItems.push({
+          '@type': 'ListItem',
+          position: 3,
+          name: title,
+          item: pageUrl
+        })
+      } else {
+        breadcrumbItems.push({
+          '@type': 'ListItem',
+          position: 2,
+          name: title,
+          item: pageUrl
+        })
+      }
+
+      const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: breadcrumbItems
+      }
+
+      head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(breadcrumbLd)
       ])
     }
   },
