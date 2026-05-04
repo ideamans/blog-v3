@@ -1,201 +1,107 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.vp-code span {
-  color: var(--shiki-dark, inherit);
+@import 'tailwindcss';
+@source "../../posts/**/*.md";
+@source "./**/*.vue";
+@source "./**/*.ts";
+@plugin '@tailwindcss/typography';
+@plugin 'daisyui' {
+  themes: ideamans --default
+}
+@plugin 'daisyui/theme' {
+  name: 'ideamans';
+  default: true;
+  color-scheme: light;
+  --color-primary: #3eaf7c;
+  --color-primary-content: #ffffff;
+  --color-secondary: #2c8a64;
+  --color-secondary-content: #ffffff;
+  --color-accent: #4abf8a;
+  --color-accent-content: #ffffff;
+  --color-neutral: #1f2937;
+  --color-neutral-content: #ffffff;
+  --color-info: #0ea5e9;
+  --color-info-content: #ffffff;
+  --color-success: #16a34a;
+  --color-success-content: #ffffff;
+  --color-warning: #f59e0b;
+  --color-warning-content: #1f2937;
+  --color-error: #dc2626;
+  --color-error-content: #ffffff;
+  --color-base-100: #ffffff;
+  --color-base-200: #f5f7f6;
+  --color-base-300: #e5eae8;
+  --color-base-content: #1f2937;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
 }
 
-:root {
-  --c-brand: #3eaf7c;
-  --c-brand-light: #4abf8a;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-nav img {
-  vertical-align: middle;
-}
-
-p img {
-  margin: 0px auto;
-}
-
-.prose hr {
-  border-top: 1px solid #e5e7eb;
-}
-
-.link {
-  color: var(--c-brand);
-}
-
-.link:hover {
-  color: var(--c-brand-light);
-}
-
+/* VitePress のヘッダーアンカー（不要） */
 .header-anchor {
   display: none;
 }
 
-h3 .header-anchor {
-  display: inline-block;
-  position: absolute;
-  left: -1em;
-  text-decoration: none;
-  color: var(--c-brand);
-}
-
-h3 .header-anchor:before {
-  content: '#';
-}
-
-/**
- * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML.
- * Based on https://github.com/chriskempson/tomorrow-theme
- *
- * @author Rose Pritchard
- */
-.token.comment,
-.token.block-comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-  color: #999;
-}
-
-.token.punctuation {
-  color: #ccc;
-}
-
-.token.tag,
-.token.attr-name,
-.token.namespace,
-.token.deleted {
-  color: #e2777a;
-}
-
-.token.function-name {
-  color: #6196cc;
-}
-
-.token.boolean,
-.token.number,
-.token.function {
-  color: #f08d49;
-}
-
-.token.property,
-.token.class-name,
-.token.constant,
-.token.symbol {
-  color: #f8c555;
-}
-
-.token.selector,
-.token.important,
-.token.atrule,
-.token.keyword,
-.token.builtin {
-  color: #cc99cd;
-}
-
-.token.string,
-.token.char,
-.token.attr-value,
-.token.regex,
-.token.variable {
-  color: #7ec699;
-}
-
-.token.operator,
-.token.entity,
-.token.url {
-  color: #67cdcc;
-}
-
-.token.important,
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-.token.entity {
-  cursor: help;
-}
-
-.token.inserted {
-  color: #67cdcc;
-}
-
-button.copy {
-  display: none;
-}
-
-span.lang {
-  position: absolute;
-  right: 0.5em;
-  font-size: 0.75em;
-  color: #999;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
-}
-
-.custom-block {
-  margin: 28px 0;
-  padding: 0 24px 2px;
-  border-radius: 8px;
+/* シンタックスハイライト（ダーク） */
+.prose pre {
+  background-color: #1f2937 !important;
+  border-radius: 0.5rem;
+  padding: 1.25em;
   overflow-x: auto;
-  position: relative;
-  font-size: 14px;
-  line-height: 1.3;
+}
+.prose pre code {
+  color: #e5e7eb;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.875em;
+}
+.prose pre code span {
+  background-color: transparent !important;
+}
+
+/* インラインコード */
+.prose :where(:not(pre) > code):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  color: var(--color-secondary);
+  background-color: var(--color-base-200);
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
   font-weight: 500;
-  color: #444;
-  background-color: #f9f9f9;
 }
-.custom-block .custom-block-title {
-  margin-bottom: 8px;
-  font-size: 15px;
-  font-weight: bold;
+.prose :where(code):not(:where([class~='not-prose'], [class~='not-prose'] *))::before { content: '' !important; }
+.prose :where(code):not(:where([class~='not-prose'], [class~='not-prose'] *))::after { content: '' !important; }
+
+/* 記事内画像 */
+.prose figure {
+  text-align: center;
+  margin: 2em 0;
+}
+.prose figure img {
+  display: inline-block;
+  max-width: 100%;
+  border: 1px solid var(--color-base-300);
+  border-radius: 0.5rem;
+}
+.prose figcaption {
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  color: var(--color-base-content);
+  opacity: 0.6;
 }
 
-.custom-block.tip {
-  border: 1px solid #42b883;
-}
-.custom-block.tip:before {
-  color: #42b883;
+.prose p img {
+  margin: 0 auto;
 }
 
-.prose
-  :where(:not(pre) > code):not(
-    :where([class~='not-prose'], [class~='not-prose'] *)
-  ) {
-  color: #0a3760;
-  padding: 0.25em 0.4em;
-  border-radius: 4px;
-  background-color: #eee;
+/* リンク */
+.link {
+  color: var(--color-primary);
 }
-
-.prose
-  :where(code):not(
-    :where([class~='not-prose'], [class~='not-prose'] *)
-  )::before {
-  content: '' !important;
-}
-
-.prose
-  :where(code):not(
-    :where([class~='not-prose'], [class~='not-prose'] *)
-  )::after {
-  content: '' !important;
-}
-
-@media (prefers-color-scheme: dark) {
-  .prose
-    :where(:not(pre) > code):not(
-      :where([class~='not-prose'], [class~='not-prose'] *)
-    ) {
-    color: #d1e9ff;
-    background-color: #3c3a5b;
-  }
+.link:hover {
+  color: var(--color-accent);
 }

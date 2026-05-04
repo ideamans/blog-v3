@@ -1,64 +1,64 @@
 <script setup lang="ts">
 import type { Post } from './posts.data.js'
-import Date from './Date.vue'
-import CategoryTags from './CategoryTags.vue'
-import AllCategoriesWidget from './AllCategoriesWidget.vue'
-import Ranklet4Widget from './Ranklet4Widget.vue'
+import CategoryBadge from './CategoryBadge.vue'
+import ArticleThumbnail from './ArticleThumbnail.vue'
 
-const props = defineProps<{
+defineProps<{
   posts: Post[]
 }>()
+
+function primaryCategory(p: Post): string {
+  return p.categories?.[0] ?? ''
+}
+
+function displayDate(s?: string): string {
+  return (s ?? '').slice(0, 10)
+}
 </script>
 
 <template>
-  <div
-    class="divide-y xl:divide-y-0 divide-gray-200 dark:divide-slate-200/5 xl:grid xl:grid-cols-4 xl:gap-x-10 pb-16 xl:pb-20"
-    style="grid-template-rows: auto 1fr"
-  >
-    <div
-      class="divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:col-start-1 xl:row-span-2"
+  <div class="flex flex-col gap-6">
+    <a
+      v-for="post in posts"
+      :key="post.url"
+      :href="post.url"
+      class="group flex gap-4 items-start"
     >
-      <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
-        <li
-          class="py-12"
-          v-for="{ title, url, publishedAt, excerpt, categories } of posts"
+      <div
+        class="w-40 min-w-40 sm:w-56 sm:min-w-56 aspect-[2/1] rounded overflow-hidden shrink-0"
+      >
+        <ArticleThumbnail :src="post.image" :alt="post.title" />
+      </div>
+      <div class="py-1 min-w-0">
+        <div class="flex items-center gap-2 flex-wrap mb-2">
+          <CategoryBadge
+            v-if="primaryCategory(post)"
+            :category="primaryCategory(post)"
+            size="xs"
+            :link="false"
+          />
+          <span class="text-xs text-base-content/50">{{
+            displayDate(post.publishedAt)
+          }}</span>
+        </div>
+        <h3
+          class="text-base font-bold leading-snug mb-2 group-hover:text-primary transition-colors line-clamp-2"
         >
-          <article
-            class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline"
-          >
-            <div class="space-y-5 xl:col-span-4">
-              <div class="space-y-6">
-                <div class="flex flex-col gap-2">
-                  <Date :date="publishedAt" />
-                  <h2 class="text-2xl leading-8 font-bold tracking-tight">
-                    <a class="text-gray-900 dark:text-white" :href="url">{{
-                      title
-                    }}</a>
-                  </h2>
-                  <CategoryTags :categories="categories || []" />
-                </div>
-                <div
-                  v-if="excerpt"
-                  class="prose dark:prose-invert max-w-none text-gray-500 dark:text-gray-300"
-                  v-html="excerpt"
-                ></div>
-              </div>
-              <div class="text-base leading-6 font-medium">
-                <a class="link" aria-label="read more" :href="url"
-                  >続きを読む →</a
-                >
-              </div>
-            </div>
-          </article>
-        </li>
-      </ul>
-    </div>
+          {{ post.title }}
+        </h3>
+        <p
+          v-if="post.excerpt"
+          class="text-sm text-base-content/60 leading-relaxed line-clamp-2"
+          v-html="post.excerpt"
+        ></p>
+      </div>
+    </a>
 
-    <footer
-      class="text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-4 xl:row-start-2"
+    <div
+      v-if="posts.length === 0"
+      class="text-center py-12 text-base-content/40"
     >
-      <AllCategoriesWidget />
-      <Ranklet4Widget />
-    </footer>
+      記事はありません。
+    </div>
   </div>
 </template>

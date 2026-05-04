@@ -1,6 +1,6 @@
 import Dayjs from 'dayjs'
-// import { defineConfig } from 'vitepress'
 import { defineConfig } from 'vitepress'
+import tailwindcss from '@tailwindcss/vite'
 import { genFeed } from './genFeed.js'
 import { crosslinkPlugin } from './crosslink-plugin.js'
 import { categories as categoryList } from '../categories.js'
@@ -11,6 +11,9 @@ const categoryNameByBasename = new Map(categoryList.map((c) => [c.basename, c.na
 export default defineConfig({
   mpa: true,
   lang: 'ja',
+  vite: {
+    plugins: [tailwindcss()]
+  },
   title: `ideaman's Blog`,
   description:
     'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズのブログ',
