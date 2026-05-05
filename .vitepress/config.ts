@@ -100,11 +100,16 @@ export default defineConfig({
     const pageTitle = pageData.frontmatter?.title || `ideaman's Blog`
     head.push(['meta', { property: 'og:title', content: pageTitle }])
 
-    // monthly/category はテンプレートのダミーfrontmatter (title: 'monthly' / 'category')
-    // を使用する月別・カテゴリアーカイブページ。記事JSON-LDは不適切なため、
-    // インデックス扱いでメタのみ出力する。
-    const templateTitles = new Set(['monthly', 'category'])
-    const isArchiveTemplate = templateTitles.has(pageData.frontmatter?.title)
+    // monthly/category/tag はテンプレートのダミーfrontmatter
+    // (title: 'monthly' / 'category' / 'tag') を使用するアーカイブページ。
+    // 記事JSON-LDは不適切なため、インデックス扱いでメタのみ出力する。
+    // categoriesIndex / tagsIndex / tagPage フラグもアーカイブとして扱う。
+    const templateTitles = new Set(['monthly', 'category', 'tag'])
+    const isArchiveTemplate =
+      templateTitles.has(pageData.frontmatter?.title) ||
+      pageData.frontmatter?.categoriesIndex ||
+      pageData.frontmatter?.tagsIndex ||
+      pageData.frontmatter?.tagPage
 
     if (pageData.frontmatter?.index || !pageData.frontmatter?.title || isArchiveTemplate) {
       // インデックス/アーカイブページ

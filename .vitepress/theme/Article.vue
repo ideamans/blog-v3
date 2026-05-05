@@ -3,7 +3,7 @@ import { computed, ref, onMounted } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import { data as posts } from './posts.data.js'
 import { data as authors } from './authors.data.js'
-import { getCategoryLabel } from '../../categories.js'
+import { getCategoryLabel, slugifyTag } from '../../categories.js'
 import CategoryBadge from './CategoryBadge.vue'
 import ArticleThumbnail from './ArticleThumbnail.vue'
 import BlogSidebar from './BlogSidebar.vue'
@@ -142,11 +142,12 @@ function tagsArray(): string[] {
           </div>
           <span v-if="tagsArray().length > 0" class="text-xs text-base-content/30">|</span>
           <div v-if="tagsArray().length > 0" class="flex flex-wrap gap-1.5">
-            <span
+            <a
               v-for="tag in tagsArray()"
               :key="tag"
-              class="badge badge-outline badge-sm whitespace-nowrap"
-              >#{{ tag }}</span
+              :href="`/tags/${slugifyTag(tag)}.html`"
+              class="badge badge-outline badge-sm whitespace-nowrap hover:bg-primary hover:text-primary-content transition-colors"
+              >#{{ tag }}</a
             >
           </div>
         </div>

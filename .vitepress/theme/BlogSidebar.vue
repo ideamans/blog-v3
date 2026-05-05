@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { data as posts } from './posts.data.js'
-import { categories } from '../../categories.js'
+import { categories, slugifyTag } from '../../categories.js'
 
 defineProps<{
   hideFeaturedMobile?: boolean
@@ -70,8 +70,9 @@ const topTags = Array.from(tagCounts.entries())
 
     <!-- カテゴリ -->
     <div>
-      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300">
-        カテゴリー
+      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300 flex items-center justify-between">
+        <span>カテゴリー</span>
+        <a href="/categories.html" class="text-xs font-normal text-base-content/50 hover:text-primary">一覧 →</a>
       </h3>
       <ul class="menu menu-sm p-0 gap-0">
         <li v-for="cat in visibleCategories" :key="cat.basename">
@@ -85,17 +86,19 @@ const topTags = Array.from(tagCounts.entries())
       </ul>
     </div>
 
-    <!-- タグ（リンク無効・テキストのみ） -->
+    <!-- タグ -->
     <div v-if="topTags.length > 0">
-      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300">
-        タグ
+      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300 flex items-center justify-between">
+        <span>タグ</span>
+        <a href="/tags.html" class="text-xs font-normal text-base-content/50 hover:text-primary">一覧 →</a>
       </h3>
       <div class="flex flex-wrap gap-1.5">
-        <span
+        <a
           v-for="tag in topTags"
           :key="tag"
-          class="badge badge-outline badge-sm whitespace-nowrap"
-          >#{{ tag }}</span
+          :href="`/tags/${slugifyTag(tag)}.html`"
+          class="badge badge-outline badge-sm whitespace-nowrap hover:bg-primary hover:text-primary-content transition-colors"
+          >#{{ tag }}</a
         >
       </div>
     </div>

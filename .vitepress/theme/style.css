@@ -10,26 +10,26 @@
   name: 'ideamans';
   default: true;
   color-scheme: light;
-  --color-primary: #3eaf7c;
+  --color-primary: #3582b2;
   --color-primary-content: #ffffff;
-  --color-secondary: #2c8a64;
+  --color-secondary: #55858f;
   --color-secondary-content: #ffffff;
-  --color-accent: #4abf8a;
+  --color-accent: #5a7c7c;
   --color-accent-content: #ffffff;
-  --color-neutral: #1f2937;
-  --color-neutral-content: #ffffff;
-  --color-info: #0ea5e9;
+  --color-neutral: #000000;
+  --color-neutral-content: #ceebd7;
+  --color-info: #55858f;
   --color-info-content: #ffffff;
-  --color-success: #16a34a;
-  --color-success-content: #ffffff;
+  --color-success: #5a7c7c;
+  --color-success-content: #ceebd7;
   --color-warning: #f59e0b;
-  --color-warning-content: #1f2937;
+  --color-warning-content: #000000;
   --color-error: #dc2626;
   --color-error-content: #ffffff;
   --color-base-100: #ffffff;
-  --color-base-200: #f5f7f6;
-  --color-base-300: #e5eae8;
-  --color-base-content: #1f2937;
+  --color-base-200: #f4f9f5;
+  --color-base-300: #ceebd7;
+  --color-base-content: #1a2424;
   --radius-field: 0.25rem;
   --radius-box: 0.5rem;
   --border: 1px;
@@ -49,7 +49,7 @@ body {
 
 /* シンタックスハイライト（ダーク） */
 .prose pre {
-  background-color: #1f2937 !important;
+  background-color: #0d1a1a !important;
   border-radius: 0.5rem;
   padding: 1.25em;
   overflow-x: auto;

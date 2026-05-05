@@ -5,6 +5,9 @@ import Home from './Home.vue'
 import Article from './Article.vue'
 import Category from './Category.vue'
 import Monthly from './Monthly.vue'
+import CategoriesIndex from './CategoriesIndex.vue'
+import TagsIndex from './TagsIndex.vue'
+import Tag from './Tag.vue'
 import NotFound from './NotFound.vue'
 import { categories } from '../../categories.js'
 import { data as posts } from './posts.data.js'
@@ -56,18 +59,27 @@ onMounted(() => {
         class="max-w-6xl mx-auto px-5 h-16 md:h-20 flex items-center"
       >
         <a href="/" class="flex items-center gap-3 shrink-0" aria-label="ideaman's Blog">
-          <img src="/logo.svg" alt="ideaman's Blog" class="h-8 md:h-10 w-auto" />
-          <span class="hidden md:inline text-base-content/70 font-bold text-sm">Blog</span>
+          <img src="/blog-inline-custom.svg" alt="ideaman's Blog" class="h-8 md:h-10 w-auto" />
         </a>
 
         <!-- デスクトップナビ -->
         <nav class="ml-auto hidden md:flex items-center gap-4">
           <a
-            v-for="cat in visibleCategories.slice(0, 6)"
+            v-for="cat in visibleCategories.slice(0, 5)"
             :key="cat.basename"
             :href="`/${cat.basename}/index.html`"
             class="text-xs font-medium hover:text-primary transition-colors whitespace-nowrap"
             >{{ cat.name }}</a
+          >
+          <a
+            href="/categories.html"
+            class="text-xs font-medium hover:text-primary transition-colors whitespace-nowrap"
+            >カテゴリ一覧</a
+          >
+          <a
+            href="/tags.html"
+            class="text-xs font-medium hover:text-primary transition-colors whitespace-nowrap"
+            >タグ一覧</a
           >
           <a
             href="/feed.rss"
@@ -149,6 +161,12 @@ onMounted(() => {
               </li>
             </ul>
             <div class="mt-4 pt-4 border-t border-base-300 flex flex-col gap-2">
+              <a href="/categories.html" class="btn btn-ghost btn-sm gap-2 justify-start"
+                >カテゴリ一覧</a
+              >
+              <a href="/tags.html" class="btn btn-ghost btn-sm gap-2 justify-start"
+                >タグ一覧</a
+              >
               <a href="/feed.rss" class="btn btn-ghost btn-sm gap-2 justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -179,6 +197,9 @@ onMounted(() => {
     <!-- コンテンツ -->
     <main class="flex-1">
       <Home v-if="frontmatter.index" />
+      <CategoriesIndex v-else-if="frontmatter.categoriesIndex" />
+      <TagsIndex v-else-if="frontmatter.tagsIndex" />
+      <Tag v-else-if="frontmatter.tagPage" />
       <Category v-else-if="category" :category="category" />
       <Monthly
         v-else-if="yearMonthIndex"
@@ -199,7 +220,9 @@ onMounted(() => {
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8 text-sm">
           <div class="col-span-2">
-            <div class="font-bold mb-3 opacity-80">カテゴリー</div>
+            <div class="font-bold mb-3 opacity-80">
+              <a href="/categories.html" class="hover:opacity-100 transition-opacity">カテゴリー</a>
+            </div>
             <ul class="grid grid-cols-2 gap-x-4 gap-y-2 opacity-70">
               <li v-for="cat in visibleCategories" :key="cat.basename">
                 <a
@@ -211,8 +234,18 @@ onMounted(() => {
             </ul>
           </div>
           <div>
-            <div class="font-bold mb-3 opacity-80">フィード</div>
+            <div class="font-bold mb-3 opacity-80">アーカイブ</div>
             <ul class="space-y-2 opacity-70">
+              <li>
+                <a href="/categories.html" class="hover:opacity-100 transition-opacity"
+                  >カテゴリ一覧</a
+                >
+              </li>
+              <li>
+                <a href="/tags.html" class="hover:opacity-100 transition-opacity"
+                  >タグ一覧</a
+                >
+              </li>
               <li>
                 <a href="/feed.rss" class="hover:opacity-100 transition-opacity"
                   >RSS Feed</a
