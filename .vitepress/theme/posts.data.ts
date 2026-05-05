@@ -45,6 +45,34 @@ function normalizePublishedAt(fm: Record<string, any>): string {
   )
 }
 
+// excerpt はマークダウンの先頭ブロックがHTML化された文字列で、img タグなどを
+// 含むことがあり v-html 描画でレイアウトを破壊する。タグを全部落として
+// プレーンテキスト化し、長さも制限する。
+function normalizeExcerpt(
+  fm: Record<string, any>,
+  rawExcerpt: string | undefined
+): string {
+  // フロントマターの excerpt を最優先（手書きの要約を尊重）
+  const fmExcerpt = typeof fm.excerpt === 'string' ? fm.excerpt : ''
+  const source = fmExcerpt || rawExcerpt || ''
+  if (!source) return ''
+
+  const text = source
+    .replace(/<[^>]+>/g, ' ') // HTMLタグ除去
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim()
+
+  const MAX = 140
+  if (text.length <= MAX) return text
+  return text.slice(0, MAX).replace(/\s+\S*$/, '') + '…'
+}
+
 export default createContentLoader('posts/**/*.md', {
   excerpt: true,
   transform(raw): Post[] {
@@ -53,7 +81,7 @@ export default createContentLoader('posts/**/*.md', {
         return {
           ...frontmatter,
           url: url.replace(/^\/posts\//, '/'),
-          excerpt: excerpt || '',
+          excerpt: normalizeExcerpt(frontmatter, excerpt),
           publishedAt: normalizePublishedAt(frontmatter),
           categories: normalizeCategories(frontmatter),
           tags: frontmatter.tags ?? [],

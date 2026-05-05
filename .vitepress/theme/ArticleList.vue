@@ -49,8 +49,7 @@ function displayDate(s?: string): string {
         <p
           v-if="post.excerpt"
           class="text-sm text-base-content/60 leading-relaxed line-clamp-2"
-          v-html="post.excerpt"
-        ></p>
+        >{{ post.excerpt }}</p>
       </div>
     </a>
 
