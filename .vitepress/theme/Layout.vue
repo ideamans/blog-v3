@@ -214,8 +214,7 @@ onMounted(() => {
     <footer class="bg-neutral text-neutral-content pt-10 pb-6 mt-12">
       <div class="max-w-6xl mx-auto px-5">
         <div class="flex items-center gap-3 mb-8">
-          <img src="/logo.svg" alt="" class="h-8 w-auto invert" />
-          <span class="text-sm font-bold opacity-70">Blog</span>
+          <img src="/blog-custom-dark.svg" alt="ideaman's Blog" class="h-10 w-auto" />
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8 text-sm">
