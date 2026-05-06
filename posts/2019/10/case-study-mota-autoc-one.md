@@ -57,7 +57,7 @@ recommended: false
 
 プログラムで一律に圧縮を行うと画像によってノイズが目立つため、はじめは <a href="https://tinypng.com/" target="_blank" rel="noopener">tinypng</a> や <a href="https://boldright.co.jp/products/antelope/" target="_blank" rel="noopener">Antelope</a> などのクライアントツールを検討していました。
 
-しかし実務に落とすとなると、月何千枚とサイトにアップしているので、**編集部での運用は現実的ではありません**でした。
+しかし実務に落とすうえで、月何千枚もサイトにアップしているので、**編集部での運用は現実的でない**と感じました。
 
 LightFileは画質が落ちない上、**導入に対してシステム工数が少ない点、編集部の工数がまったくかからない点は非常に魅力**を感じました。
 

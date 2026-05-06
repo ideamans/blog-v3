@@ -29,7 +29,7 @@ Safari 12.1で追加される新機能が公表されました。
 
 [New WebKit Features in Safari 12.1](https://webkit.org/blog/8718/new-webkit-features-in-safari-12-1/)
 
-WebPがサポートされたらいいなぁと思いました。しかし残念ながらサポートされないようです(される場合は先に**Technology Preview**に搭載されると思うのですが...)。
+WebPがサポートされたらいいなぁと思いました。しかし残念ながらサポートされないようです(される場合は事前に**Technology Preview**へ搭載されると思うのですが...)。
 
 せっかくなので見出しを斜め読みしてみます。
 

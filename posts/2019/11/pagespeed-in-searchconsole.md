@@ -103,7 +103,7 @@ recommended: false
 
 最後にPRです。
 
-スコアが「低速」にある場合、残念ながら**PageSpeed Inshgtsのレポートに表示される指摘事項に対応してもスコアが上がる確率は低いです**。
+スコアが「低速」域にある場合、残念ながら**PageSpeed Insightsの指摘事項へ対応してもスコアが上がる確率は低いです**。
 
 弊社の[PageSpeed改善リハーサル \| アイデアマンズ株式会社](https://www.ideamans.com/services/pagespeed/)では、「サイトをどう改修すればスコアが何点上がるか」、お客様の代わりに事前検証します。
 

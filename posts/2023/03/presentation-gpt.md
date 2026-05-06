@@ -78,7 +78,7 @@ print(text)
 
 ### ChatGPTで原稿を整える
 
-次にスライドごとにChatGPTに原稿作成をお願いします。有料プランを契約しているのでさっそくGPT-4を使いました。
+次に、各スライドの原稿作成をChatGPTへお願いします。有料プランを契約しているのでさっそくGPT-4を使いました。
 
 <img alt="1-prompt.png" src="https://blog.ideamans.com/assets/1-prompt.png" width="672" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" />
 
