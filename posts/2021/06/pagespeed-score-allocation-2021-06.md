@@ -39,7 +39,7 @@ recommended: false
 
 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) が示すスコアは、6つの指標から計算されます。
 
-本日6月3日、その6つの指標の配点が変更されたことが確認されました。
+本日6月3日、その6つの指標の配点変更が確認されました。
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMee-_xS4Rr1waMzpJfMRYkufHYZN37FbdtnX2P4KYYypRI7Yrc2AYb0-c8WdhECG_EeN4xfVeywYh/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="320px"></iframe>
 
@@ -51,11 +51,11 @@ recommended: false
 
 今回の変更は一言にいえば、**Core Web VitalsとPageSpeed Insightsの相関性強化**でしょう。
 
-**Core Web Vitalsの3指標、LCP・FID(TBT)・CLSの評価が高いほど、総合スコアが高くなる傾向が強く**なりました。
+**Core Web Vitalsの3指標、LCP・FID(TBT)・CLSの評価次第で、総合スコアの高くなる傾向が強く**なりました。
 
 Core Web Vitalsに直接関係のないSpeed Index、FCP、TTIがそれぞれ配点10%にダウン。
 
-シミュレーションではFID(ユーザーの最初の操作に対する応答時間)を計測できません。関係性が強いのがTBTとされており、今回の変更でそのTBTが配点上最大となる30%を占めるようになりました。
+シミュレーションではFID(ユーザーの最初の操作に対する応答時間)を計測できません。関係性が強いのはTBTとされており、今回の変更でそのTBTが配点上最大となる30%を占めるようになりました。
 
 また、以前まで5%とおまけ程度だった CLSが一気に15%に大幅アップしています。
 

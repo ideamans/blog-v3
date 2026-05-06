@@ -87,7 +87,7 @@ WebPに対応したブラウザは、「sample.pngではなくもっと軽いsam
 * **sample.png.webp**は**sample.png**を元に作られたコピーのWebPファイル
 * **sample.webp**は元々WebPとして作られた画像ファイル
 
-もう一点、Webサーバー上で振り分け設定を行う場合にも拡張子を重ねた方が記述がスッキリする利点があります。
+もう一点、Webサーバー上で振り分け設定を行う場合にも、拡張子を重ねたほうが記述のすっきりする利点もあります。
 
 ## (2) Webサーバー上での振り分け
 
@@ -134,7 +134,7 @@ Apacheであれば**.htaccess**ファイルで簡単にできます。実質7行
 
 * [WebPと従来の画像を正しく振り分ける.htaccessファイル](https://blog.ideamans.com/2019/02/webphtaccess.html)
 * [ページの画像をまるごとWebP変換してPageSpeed Insightsスコアを今すぐ改善するチュートリアル](https://blog.ideamans.com/2019/02/webppagespeed-insights.html)
-* [.htaccessによるWebPの選択的レスポンスとその問題点と改善案](https://qiita.com/miyanaga/items/6570c3c9ae8e15dbb57c)
+* [.htaccessによるWebPの選択的レスポンス、その問題点と改善案](https://qiita.com/miyanaga/items/6570c3c9ae8e15dbb57c)
 * [nginxにおけるWebP画像の選択的レスポンスの設定方法](https://qiita.com/miyanaga/items/94447efae0bf767b9f2b)
 * [CloudFrontにおけるWebPの選択的レスポンス](https://qiita.com/miyanaga/items/e9c7eed19ea16652f04d)
 
