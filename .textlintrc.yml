@@ -1,10 +1,9 @@
-# textlint 設定（blog 第1段階）
-# - 既存記事への影響を最小化するため、誤検知が多いルールは当面オフ
-#   （no-doubled-joshi / ja-no-successive-word）
-# - 古い記事に である調ベースのものが含まれるため no-mix-dearu-desumasu もオフ
-# - 数式・ディレクティブ・URL末尾などで誤検知が多いため ja-no-mixed-period もオフ
+# textlint 設定（blog 第2段階）
+# - 読みやすさ系ルール（ja-no-successive-word / no-doubled-joshi）を有効化
+# - 古い記事に である調ベースのものが含まれるため no-mix-dearu-desumasu はオフ継続
+# - 数式・ディレクティブ・URL末尾などの誤検知が多いため ja-no-mixed-period もオフ継続
 # - 書き手向け資料・動的ルートテンプレは .textlintignore で除外
-# - 既存記事の整理が進んだら第2段階で各ルールを再有効化する
+# - 既存記事は順次修正していく
 filters:
   comments: true
   allowlist:
@@ -23,6 +22,9 @@ filters:
       - "─"
       # 慣用表現（同語連続が言葉の本来の形）
       - "まあまあ"
+      - "ほどほど"
+      - "一つ一つ"
+      - "ひとつひとつ"
       # 統計・固有表記
       - "p値"
       - "ＳＨＯＰ"
@@ -37,9 +39,9 @@ rules:
     no-exclamation-question-mark: false
     ja-no-weak-phrase: false
     ja-no-redundant-expression: false
-    # 読みやすさ系（第2段階で再有効化）
-    ja-no-successive-word: false
-    no-doubled-joshi: false
+    # 読みやすさ系（第2段階で有効化）
+    ja-no-successive-word: true
+    no-doubled-joshi: true
     # 致命度の高い誤りに絞って検知
     ja-no-abusage: true
     ja-unnatural-alphabet: true
