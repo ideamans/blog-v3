@@ -37,7 +37,7 @@ recommended: false
 
 読み方はWeppy(ウェッピー)とされています。されています、というのは[オフィシャルページ](https://developers.google.com/speed/webp/)に言及がないからです。[Wikipedia](https://ja.wikipedia.org/wiki/WebP)にはウェッピーと明記されています。
 
-英語ではWebPのbがほとんど発音されないからそう聞こえる、という考察もありました。
+英語ではWebPの末尾の音がほとんど発音されないからそう聞こえる、という考察もありました。
 
 引き続き「ウェッピー」と呼びます。
 

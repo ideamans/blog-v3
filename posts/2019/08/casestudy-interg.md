@@ -78,7 +78,7 @@ recommended: false
 
 ### 表示時間が-0.7秒短くなった
 
-<a href="https://www.thinkwithgoogle.com/intl/ja-jp/feature/testmysite/" target="_blank" rel="noopener">test my site</a>（4G回線相当)で**導入前は4.3秒でしたが、3.6秒まで短縮**できました。
+<a href="https://www.thinkwithgoogle.com/intl/ja-jp/feature/testmysite/" target="_blank" rel="noopener">test my site</a>（4G回線相当）で**導入前は4.3秒でしたが、3.6秒まで短縮**できました。
 
 <!-- ★★★画像はここ★★★（testmysite20190716） -->
 <figure>

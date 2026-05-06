@@ -43,7 +43,7 @@ subTheme: bs4
 recommended: false
 ---
 
-[UIとしてはアンチパターンと言われがち](https://uxmilk.jp/54114)なスライダー(カルーセルやスライドショーとも呼ばれますが、今回はスライダーで統一)ですが、ファーストビューの「にぎやかし」として根強い人気があり、Web制作の現場でよく遭遇します。
+[UIとしてはアンチパターンと言われがち](https://uxmilk.jp/54114)なスライダー(カルーセルやスライドショーとも呼ばれるものを、今回はスライダーで統一)ですが、ファーストビューの「にぎやかし」として根強い人気があり、Web制作の現場でよく遭遇します。
 
 <video autoplay loop src="https://blog.ideamans.com/assets/sliders.mp4" width="320px"></video>
 
