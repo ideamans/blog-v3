@@ -29,7 +29,7 @@ recommended: false
 
 [2021年からGoogleの検索順位に影響する](https://webtan.impress.co.jp/e/2020/06/05/36210)と言われている [Core Web Vitals](https://developers-jp.googleblog.com/2020/05/web-vitals.html) は、実際に測定されたユーザーにとっての軽快さとSEOという、**実利を兼ね備えた指標**として注目に値します。
 
-しかし改善に取り組もうとしたとき、**時系列での変化を確認できるレポートツールがない**ことが不満でした。以前、[Google謹製のレポート](https://blog.ideamans.com/2020/06/core-web-vitals-datastudio-reporting.html)を紹介しましたが、各指標の時系列でひと目で見ることはできません。
+しかし改善に取り組もうとしたとき、**時系列での変化を確認できるレポートツールがない**点に不満を感じました。以前、[Google謹製のレポート](https://blog.ideamans.com/2020/06/core-web-vitals-datastudio-reporting.html)を紹介しましたが、各指標を時系列でひと目見ることはできません。
 
 そこでCore Web Vitalsのデータソースである[Chrome UX Report](https://developers.google.com/web/tools/chrome-user-experience-report)を用いたGoogleデータポータルのレポートを作ってみました。**好きなドメインのCore Web Vitals + おまけ指標の推移が1ページ**でわかります。
 
@@ -47,7 +47,7 @@ recommended: false
 
 <img alt="switch-domain.png" src="https://blog.ideamans.com/assets_c/2020/10/switch-domain-thumb-900xauto-1270.png" width="900" height="242" class="img-fluid img-thumbnail">
 
-データの更新に数秒〜十数秒かかります。Chrome UX Reportはパブリックデータなので、自社のデータでなくても表示できます。ただし、十分なサンプルデータがないサイト(アクセスが少ないサイト)については表示されないことがあります。
+データの更新に数秒〜十数秒かかります。Chrome UX Reportはパブリックデータなので、自社のデータでなくても表示できます。ただし、十分なサンプルデータがないサイト(アクセスの少ないサイト)については表示されないケースもあります。
 
 例えば[トヨタ自動車](https://toyota.jp)を例にするとこんな感じです。
 
@@ -67,7 +67,7 @@ recommended: false
 
 ## このテンプレートを販売します
 
-以上、対象ドメインの変更と条件の絞り込みまでは無料でご利用いただけますが、**カスタマイズしてビジネスに活かしたい企業向けにコピーを販売**したいと思います。
+以上、対象ドメインの変更と条件の絞り込みまでは無料でご利用いただけますが、**カスタマイズしてビジネスへ活かしたい企業向けにコピーを販売**したいと思います。
 
 * 複製レポートを作成してフルアクセス権限を付与します。
 * 著作権表示などは不要です。自社の独自レポートとしてお客さんへの説明、提案、再販などにお使いいただけます。
