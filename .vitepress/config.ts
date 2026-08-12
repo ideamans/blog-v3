@@ -5,6 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 import { genFeed } from './genFeed.js'
 import { crosslinkPlugin } from './crosslink-plugin.js'
 import { categories as categoryList } from '../categories.js'
+import { getCategoryLabel } from '../categories.js'
+// @ts-ignore ビルド済みの単一ファイル（services/knowledge が配布元）
+import { buildKnowledgePackage } from './knowledge-indexer.mjs'
 
 const categoryNameByBasename = new Map(categoryList.map((c) => [c.basename, c.name]))
 
@@ -81,7 +84,54 @@ export default defineConfig({
       }
     ]
   ],
-  buildEnd: genFeed,
+  buildEnd: async (config) => {
+    await genFeed(config)
+
+    // ナレッジパッケージ。deploy.sh が knowledge.ideamans.com へ送る。
+    const pkg = await buildKnowledgePackage(config, {
+      id: 'blog',
+      title: "ideaman's Blog",
+      description:
+        'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズの技術ブログ',
+      origin: 'https://blog.ideamans.com',
+      include: 'posts/**/*.md',
+      out: 'knowledge/blog.zip',
+      outline: { group_by: 'date' },
+      search: { facets: ['category_path', 'tags', 'author', 'year'] },
+      map: (page) => {
+        const fm = page.frontmatter
+        if (fm.draft) return null
+
+        // 旧Astrowind由来のキーと新キーが同じファイルに二重で入っている。
+        // theme/posts.data.ts と同じ優先順で正規化する。
+        const categories: string[] =
+          Array.isArray(fm.categories) && fm.categories.length > 0
+            ? fm.categories
+            : typeof fm.category === 'string' && fm.category
+              ? [fm.category]
+              : []
+
+        return {
+          // rewrites で posts/ が URL から落ちるが createContentLoader は
+          // 適用前の URL を返すので、ここで合わせる
+          url: page.url.replace(/^\/posts\//, '/'),
+          title: fm.title,
+          summary: fm.excerpt ?? page.excerpt,
+          published_at:
+            fm.publishedAt ?? fm.publishedDate ?? fm.updatedAt ?? fm.updatedDate,
+          updated_at: fm.updatedAt ?? fm.updatedDate,
+          category_path: categories,
+          category_labels: categories.map(getCategoryLabel),
+          tags: fm.tags,
+          author: fm.authorId ?? fm.author,
+          image: fm.image,
+        }
+      },
+    })
+    console.log(
+      `[knowledge] ${pkg.out} (${pkg.documents}件 / ${(pkg.bytes / 1024).toFixed(1)}KB / ${pkg.generation})`
+    )
+  },
   transformHead: ({ head, pageData }) => {
     const siteUrl = 'https://blog.ideamans.com'
 
