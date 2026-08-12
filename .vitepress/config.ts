@@ -79,6 +79,15 @@ export default defineConfig({
     [
       'script',
       {
+        // ナレッジ基盤の検索UI。MPAなのでVueのハンドラは使えず素のJSで動く。
+        // 本体（InstantSearch）は検索を始めた人だけが読む遅延ロード。
+        src: '/knowledge-search.js',
+        defer: ''
+      }
+    ],
+    [
+      'script',
+      {
         async: '1',
         src: 'https://free.ranklet4.com/widgets/CAUCzJlNf1OGoYooG8uf.js'
       }
@@ -97,7 +106,7 @@ export default defineConfig({
       include: 'posts/**/*.md',
       out: 'knowledge/blog.zip',
       outline: { group_by: 'date' },
-      search: { facets: ['category_path', 'tags', 'author', 'year'] },
+      search: { facets: ['category_labels', 'category_path', 'tags', 'author', 'year'] },
       map: (page) => {
         const fm = page.frontmatter
         if (fm.draft) return null

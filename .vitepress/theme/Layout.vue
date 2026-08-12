@@ -63,7 +63,13 @@ onMounted(() => {
         </a>
 
         <!-- デスクトップナビ -->
-        <nav class="ml-auto hidden md:flex items-center gap-4">
+        <div
+          data-knowledge-search
+          data-set="blog"
+          data-label="ブログ内を検索"
+          class="ml-auto"
+        ></div>
+        <nav class="hidden md:flex items-center gap-4">
           <a
             v-for="cat in visibleCategories.slice(0, 5)"
             :key="cat.basename"
