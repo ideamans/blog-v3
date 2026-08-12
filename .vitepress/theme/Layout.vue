@@ -92,7 +92,7 @@ onMounted(() => {
           data-knowledge-search
           data-set="blog"
           data-label="ブログ内を検索"
-          class="ml-auto mr-4"
+          class="ml-auto mr-3 md:mr-4"
         ></div>
         <nav class="hidden md:flex items-center gap-4">
           <a
@@ -127,7 +127,7 @@ onMounted(() => {
         </nav>
 
         <!-- モバイル ハンバーガー -->
-        <div class="ml-auto md:hidden relative">
+        <div class="md:hidden relative">
           <input id="mobile-menu" type="checkbox" class="peer hidden" />
           <label
             for="mobile-menu"
