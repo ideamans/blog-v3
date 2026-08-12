@@ -23,7 +23,9 @@ export default defineConfig({
     'フロントエンド高速化・画像軽量化で「Webフィットネス」を推進するアイデアマンズのブログ',
   cleanUrls: false,
   ignoreDeadLinks: true,
-  srcExclude: ['CLAUDE.md'],
+  // CLAUDE.md は社内向けのAI指示書、deadlink.md はリンク切れ調査のメモ。
+  // どちらも読者向けではないので公開ページにしない
+  srcExclude: ['CLAUDE.md', 'deadlink.md'],
   sitemap: {
     hostname: 'https://blog.ideamans.com',
     transformItems: (items) => {
