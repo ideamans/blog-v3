@@ -34,12 +34,37 @@ const yearMonthIndex = computed(() => {
   return null
 })
 
-// 記事が1件以上あるカテゴリのみ表示（ヘッダー/フッター用）
+// 記事が1件以上あるカテゴリのみ表示（フッター/モバイルメニュー用）
 const visibleCategories = computed(() =>
   categories.filter((c) =>
     posts.some((p) => p.categories?.includes(c.basename))
   )
 )
+
+// ヘッダーは横幅が限られる。全カテゴリを並べると読む前に疲れるので、
+// **直近の記事でよく使っているカテゴリ**だけに絞る。
+// 直近から数えるので、書くテーマが変われば手を入れなくても入れ替わる。
+// 網羅的な導線はカテゴリ一覧・フッター・モバイルメニューが持つ。
+const HEADER_RECENT_POSTS = 60
+const HEADER_CATEGORY_LIMIT = 3
+
+const headerCategories = computed(() => {
+  const recent = [...posts]
+    .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
+    .slice(0, HEADER_RECENT_POSTS)
+
+  const counts = new Map<string, number>()
+  for (const post of recent) {
+    for (const basename of post.categories ?? []) {
+      counts.set(basename, (counts.get(basename) ?? 0) + 1)
+    }
+  }
+
+  return categories
+    .filter((c) => counts.has(c.basename))
+    .sort((a, b) => (counts.get(b.basename) ?? 0) - (counts.get(a.basename) ?? 0))
+    .slice(0, HEADER_CATEGORY_LIMIT)
+})
 
 // ハンバーガーを開いた状態でルート遷移したらトップへスクロール（VitePress 既定）
 onMounted(() => {
@@ -67,11 +92,11 @@ onMounted(() => {
           data-knowledge-search
           data-set="blog"
           data-label="ブログ内を検索"
-          class="ml-auto"
+          class="ml-auto mr-4"
         ></div>
         <nav class="hidden md:flex items-center gap-4">
           <a
-            v-for="cat in visibleCategories.slice(0, 5)"
+            v-for="cat in headerCategories"
             :key="cat.basename"
             :href="`/${cat.basename}/index.html`"
             class="text-xs font-medium hover:text-primary transition-colors whitespace-nowrap"
@@ -81,11 +106,6 @@ onMounted(() => {
             href="/categories.html"
             class="text-xs font-medium hover:text-primary transition-colors whitespace-nowrap"
             >カテゴリ一覧</a
-          >
-          <a
-            href="/tags.html"
-            class="text-xs font-medium hover:text-primary transition-colors whitespace-nowrap"
-            >タグ一覧</a
           >
           <a
             href="/feed.rss"
