@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'カンタンに今みているページの表示時間計測ができる！Chrome拡張機能「Page Load Time」はDevToolsよりもお手軽で使いやすい！'
-excerpt: 'もっとカンタンに、今みているページの表示されるまでの時間がわからないかなぁ...。毎回操作したり、あれこれするのは面倒...。ChromeのDevToolsは非常に高機能で、詳細まで情報を出してくれる素晴らしいツールです。'
+excerpt: '今見ているページの表示時間を、クリックひとつで確かめられる Chrome拡張「Page Load Time」を紹介します。DevTools ほどの情報は要らないときに手軽に使えます。'
 updateDate: 2018-03-16
 publishedDate: 2018-02-07
 tags: 

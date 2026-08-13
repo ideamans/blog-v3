@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '「KAMPLOG」：Ranklet活用事例'
-excerpt: 'こんにちは、Rankletサポートチームです。いつもRankletのご活用ありがとうございます！本日もRankletユーザー様の導入事例をご紹介させていただきます。'
+excerpt: 'アクセスランキング Ranklet の導入事例です。ブログ「KAMPLOG」がサイドエリアにランキングを5件表示している例を、設置の意図とあわせて紹介します。'
 updateDate: 2018-03-19
 publishedDate: 2018-02-26
 tags: 

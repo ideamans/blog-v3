@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '「＊ひだまりさん日記＊」「higuchi.com blog」：Ranklet活用事例 '
-excerpt: 'いつもRankletをご活用いただきありがとうございます！Rankletサポートチームです。本日は先日のキャンペーンにお申込みいただきましたユーザー様の中から実装事例としてご紹介の許可をいただきましたサイトを幾つかご紹介したいと思います。'
+excerpt: 'アクセスランキング Ranklet の導入事例です。「＊ひだまりさん日記＊」と「higuchi.com blog」の2サイトについて、設置場所や表示件数などの使い方を紹介します。'
 updateDate: 2018-03-19
 publishedDate: 2018-02-16
 tags: 
