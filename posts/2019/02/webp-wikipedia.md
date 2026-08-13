@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの意外な事例: Wikipedia'
-excerpt: '多くの人がお世話になっているWikipedia。実はWebPが使われています。地球儀のロゴはPNGでしたが、ユーザーのアップロードした画像や見出しテキストなど、蛍光色で強調された画像がWebPです。'
+excerpt: 'Wikipedia が画像配信に WebP を使っています。WebP Highlighter で可視化した結果と、レスポンスヘッダから推測できる配信の仕組みを紹介します。'
 updateDate: 2019-02-23
 publishedDate: 2019-02-22
 tags: 

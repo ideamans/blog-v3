@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの利用事例: YouTube・Google PlayなどGoogleのサービス'
-excerpt: 'Googleは当然ながら積極的にWebPを利用しています。YouTube、Google Play、Google HomeやChrome Castなどのハードウェア紹介サイトの画像のほとんどはWebPで配信されています。'
+excerpt: 'Google 自身のサービスにおける WebP の利用状況を見ます。YouTube、Google Play、Google Home や Chromecast の紹介ページなど、画像のほとんどが WebP で配信されています。'
 updateDate: 2019-03-21
 publishedDate: 2019-03-21
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPと従来の画像を正しく振り分ける.htaccessファイル'
-excerpt: 'ページまるごとWebP変換・効果測定と一括ダウンロードがWeb担当者Forumで紹介されて利用者増加中です。このツールでWebPファイルを一括ダウンロードすると、.htaccessファイルがおまけで付いてきます。'
+excerpt: 'WebP と従来の画像を、ブラウザの対応状況に応じて振り分ける .htaccess の書き方を説明します。非対応ブラウザには元の画像を返すため、既存の画像はそのまま残せます。'
 updateDate: 2019-02-22
 publishedDate: 2019-02-22
 tags: 

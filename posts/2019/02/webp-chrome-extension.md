@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPウザいめんどくさいという方におすすめChrome拡張機能・JpegやPNGで画像をダウンロード'
-excerpt: 'Twitterを見ていると、WebPウザいめんどくさいという意見を目にします。普通気づかないのになんでだろう？と思ったら、画像をダウンロードしても開けないということなんですね。'
+excerpt: 'WebP でダウンロードした画像が開けなくて困る、という声への対処法です。JPEG や PNG で保存し直せる Chrome拡張機能と、コピペで済ませる方法を紹介します。'
 updateDate: 2020-12-19
 publishedDate: 2019-02-25
 tags: 

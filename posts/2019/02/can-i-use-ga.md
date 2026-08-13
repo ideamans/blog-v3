@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Can I use ... をGA連携で自分用にカスタマイズ'
-excerpt: '小ネタです。新しいブラウザ技術がどのくらいのユーザーに普及しているかを調べる定番ツールが Can I use ... です。このサイトにはGoogle Analyticsとの連携機能があって、自分のサイトにおける普及率を簡単に表示することができます。'
+excerpt: 'ブラウザ対応状況を調べる定番サイト Can I use... を Google Analytics と連携させ、自分のサイトの利用者における普及率で見る方法を紹介します。'
 updateDate: 2019-02-18
 publishedDate: 2019-02-15
 tags: 

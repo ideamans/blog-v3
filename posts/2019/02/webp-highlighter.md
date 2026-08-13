@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebP画像を目立たせるChrome拡張機能 WebP Highlighter'
-excerpt: '画像が意図したとおりWebPフォーマットで配信されているかを確認するとき、もちろん見分けがつかないのでDeveloper Toolsで確認してきました。もっと楽な方法ないかなーと調べたところ、ちょうどいいChrome拡張機能がありました。'
+excerpt: 'ページ内で WebP として配信されている画像を蛍光色の枠で目立たせる Chrome拡張機能 WebP Highlighter を紹介します。Developer Tools を開かずに確認できます。'
 updateDate: 2019-02-22
 publishedDate: 2019-02-21
 tags: 
