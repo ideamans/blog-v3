@@ -56,7 +56,8 @@ export default defineConfig(
   },
   head: [
     ['meta', { name: 'twitter:site', content: '@ideamans' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    // OGP画像を持っているので大きい方。summary だと小さいサムネイルになる
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     // [
     //   'meta',
     //   {
@@ -352,7 +353,7 @@ export default defineConfig(
     // このサイトは概要文を excerpt で書いている
     map: { description: ['excerpt'] },
     defaultImage: '/ogp-bg.jpg',
-    twitter: { site: '@ideamans', card: 'summary' },
+    twitter: { site: '@ideamans', card: 'summary_large_image' },
     // フィードは /feed.xml の1本。旧 /atom.xml と /feed.rss はリダイレクトで受ける
     feed: { pattern: 'posts/**/*.md', title: "ideaman's Blog" },
     // Markdown の原本も配る（LLMがHTMLから本文を復元しなくて済む）
