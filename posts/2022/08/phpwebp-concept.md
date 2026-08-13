@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebP時代を全自動で先取りする PHPWebP Concept をオープンソースとして公開'
-excerpt: '前置きはいいから早く使い方を教えて！という方はこちら。2022年現在、95%以上のブラウザが軽量な次世代画像フォーマットWebPをサポートするようになりました。'
+excerpt: '既存のサイトに置くだけで WebP 対応を自動化する PHPWebP Concept をオープンソースで公開しました。95%以上のブラウザが WebP に対応した今の状況もあわせて説明します。'
 updateDate: 2023-02-16
 publishedDate: 2022-08-16
 tags: 

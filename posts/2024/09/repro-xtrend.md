@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '日経クロストレンドでRepro社との対談記事が公開'
-excerpt: 'タグを挿入するだけでサイトが高速になるRepro Boosterを手がけるRepro社のお誘いで、Webページの表示速度に関する対談記事に登場させていただきました。'
+excerpt: '日経クロストレンドで Repro 社との対談記事が公開されました。遅いサイトはなぜ悪目立ちするのか、表示速度とSEO・CVRの関係について話しています。'
 updateDate: 2024-09-19
 publishedDate: 2024-09-19
 tags: 

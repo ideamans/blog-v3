@@ -1,6 +1,6 @@
 ---
 title: Ranklet4の新機能 - JSON API / デザインギャラリー / AIレビュー / ビルボード
-excerpt: GA4連携ランキングウィジェット「Ranklet4」に新機能を追加。JSON APIでサーバーサイド取得、14種のデザインテンプレート、AIによる自動分析メール配信、時系列のビルボード表示が利用可能に。
+excerpt: 'GA4連携のランキングウィジェット Ranklet4 に、JSON API とデザインギャラリーを追加しました。既存のAIレビューとビルボード機能とあわせて紹介します。'
 authorId: miyanaga
 publishedAt: 2026-03-27 12:00:00
 categories: ['ranklet']

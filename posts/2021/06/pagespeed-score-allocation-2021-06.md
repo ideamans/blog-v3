@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed Insightsの配点に変化！ 採点エンジンLighthouse 8.0.0でCore Web Vitalsとの相関性強化'
-excerpt: 'PageSpeed Insights が示すスコアは、6つの指標から計算されます。本日6月3日、その6つの指標の配点変更が確認されました。以前まで採点エンジンLighthouseのバージョンが7.3.xでしたが、今日の観測から8.0.0に変更されています。'
+excerpt: 'PageSpeed Insights の配点が変わりました。採点エンジンが Lighthouse 8.0.0 になり、6つの指標の重みが Core Web Vitals との相関を強める方向に調整されています。'
 updateDate: 2021-06-03
 publishedDate: 2021-06-03
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Core Web Vitalsの推移をひと目でチェック！ Googleデータポータル無料レポートを公開'
-excerpt: '2021年からGoogleの検索順位に影響すると言われている Core Web Vitals は、実際に測定されたユーザーにとっての軽快さとSEOという、実利を兼ね備えた指標として注目に値します。'
+excerpt: 'Core Web Vitals の推移を時系列で見られる Googleデータポータルのレポートを公開しました。期間とデバイスで絞り込め、改善の効果を追いかけられます。'
 updateDate: 2020-10-04
 publishedDate: 2020-10-04
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '【保存版】知らないと画質が落ちるWebP変換おすすめパラメーター設定例 JPEG/PNG編'
-excerpt: '従来のJPEG画像やPNG画像をWebPに変換する代表的なコマンドがcwebp です。ImageMagickのconvertコマンドのように多くの開発シーンで使われると予想されます。'
+excerpt: 'JPEGやPNGを WebP に変換するときの推奨パラメーター設定をまとめました。既定のまま使うと画質が落ちることがあります。形式別に、まず何を指定すべきかを示します。'
 updateDate: 2020-08-05
 publishedDate: 2020-08-05
 tags: 
