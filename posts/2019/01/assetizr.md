@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Assetizrは、WindowsでもMacでも利用できる画像リサイズ・最適化ツール。JPEGからWebPに変換すると重くなる？！'
-excerpt: 'Assetizrは、WindowsでもMacでも利用できる画像リサイズ・最適化ツールです。シンプルなインターフェースで、対応する画像フォーマットも多く、使いやすいツールではないでしょうか。'
+excerpt: 'WindowsでもMacでも使える画像リサイズ・最適化ツール Assetizr を試しました。対応形式が多く扱いやすい一方、JPEGからWebPに変換すると逆に重くなる場合があります。'
 updateDate: 2019-01-23
 publishedDate: 2019-01-23
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '1時間でできる！インフォグラフィックづくりで楽しく学ぶGoogleデータスタジオ'
-excerpt: 'LightFileや社内のレポート作成にGoogleデータスタジオを使い始めました。その一環で、社内の資料作成作業にLightFileの導入成果を示すインフォグラフィックを作るレポートを作りました。'
+excerpt: 'Googleデータスタジオを使って、1時間でインフォグラフィックを作る手順を紹介します。LightFile の導入成果を示すレポートを題材に、実際の作業をたどります。'
 updateDate: 2020-06-18
 publishedDate: 2018-10-11
 tags: 

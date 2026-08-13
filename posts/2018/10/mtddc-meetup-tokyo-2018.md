@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '2018年11月3日開催「 #MTDDC MEETUP TOKYO 2018」登壇のお知らせ'
-excerpt: '今週末の2018年11月3日（土）に東京で開催される「MTDDC MEETUP TOKYO 2018」に弊社代表の宮永が登壇いたします。アイデアマンズは、ゴールドスポンサーとして協賛しています。'
+excerpt: 'MTDDC MEETUP TOKYO 2018 に代表の宮永が登壇します。Webデザイナーが日常的に扱う画像について、JPEGとPNGの使い分けを中心にお話しします。ゴールドスポンサーとしても協賛します。'
 updateDate: 2020-06-18
 publishedDate: 2018-10-29
 tags: 

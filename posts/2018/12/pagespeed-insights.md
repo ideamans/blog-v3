@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Google Pagespeed Insights 画像の４項目について調査＆考えてみた結果、画像軽量化とオフスクリーンの画像遅延読み込みはやるべきである'
-excerpt: 'ウェブ担当者の方が毎日チェックするツールの一つ「Google Pagespeed Insights」は、2018年11月14日から分析エンジンが Lighthouse に変更されました。'
+excerpt: 'PageSpeed Insights の分析エンジンが Lighthouse に変わりました。画像に関する4つの指摘項目を調べ、軽量化とオフスクリーン画像の遅延読み込みは取り組む価値があると結論します。'
 updateDate: 2020-06-18
 publishedDate: 2018-12-20
 tags: 

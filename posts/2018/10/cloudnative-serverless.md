@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'LightFile for Dropboxはクラウドネイティブでサーバーレス'
-excerpt: '内容は完全に技術者向けですが、LightFile for Dropboxがどんな技術を利用しているかをQiitaに書きました。'
+excerpt: 'LightFile for Dropbox がどんな技術で動いているかを紹介します。クラウドネイティブとサーバーレスという言葉の意味も整理し、実装例は Qiita にまとめました。'
 updateDate: 2018-10-11
 publishedDate: 2018-10-05
 tags: 

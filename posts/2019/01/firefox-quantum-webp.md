@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Firefox Quantumがついに登場！FirefoxもWebPをサポートし、残るメジャーブラウザはSafariのみ未対応。'
-excerpt: '2019年1月29日に、Firefoxのバージョン65となる「Firefox Q...'
+excerpt: 'Firefox 65「Firefox Quantum」が WebP に対応しました。これでメジャーブラウザで未対応なのは Safari だけになります。実際に表示を確認した結果を報告します。'
 updateDate: 2020-06-18
 publishedDate: 2019-01-31
 tags: 

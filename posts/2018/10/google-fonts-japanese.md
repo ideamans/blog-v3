@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '正式版になった日本語Google Fontsは表示の高速化を期待できる'
-excerpt: '先月、Google Fontsに正式に追加された日本語フォントが表示の高速化が期...'
+excerpt: '正式版になった日本語 Google Fonts が、表示の高速化を期待できる仕様になりました。自社サーバー配信や早期アクセス版を使っているサイトが乗り換えを検討すべき理由を説明します。'
 updateDate: 2018-10-03
 publishedDate: 2018-10-03
 tags: 
