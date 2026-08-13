@@ -147,6 +147,21 @@ export default defineConfig(
   // そのまま title になる（111ページが揃って "monthly" になっていた）。
   // params からページ固有の title を作る。
   transformPageData: (pageData) => {
+    // **長い題の記事からはサイト名の付加を外す。** 既定の
+    // `:title | ideaman's Blog` は17字を毎ページ食う。日本語の題は Google が
+    // 全角30字前後で切るので、その17字は「題が何字表示されるか」に直接効く。
+    //
+    // ただし外しっぱなしにすると、今度は「月報 2024年8月」のような短い題が
+    // 単体で残って短すぎになる（L2-21 の下限15字を割る）。だから題の長さで
+    // 付ける／外すを決める。
+    //   43字以下 … サフィックスを付けても60字に収まる → ブランドを残す
+    //   43字超   … 付けると60字を超える → 外して題だけにする
+    //
+    // relativePath は rewrites 適用後なので使えない。filePath が実体。
+    const SUFFIX = " | ideaman's Blog".length // 17
+    if (pageData.filePath?.startsWith('posts/') && (pageData.title?.length ?? 0) > 60 - SUFFIX) {
+      return { titleTemplate: false }
+    }
     const params = pageData.params as Record<string, string> | undefined
     if (!params) return
     // **説明文も動的ルートごとに作る。** 付けないとサイト共通の1文が

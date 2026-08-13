@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '画像最適化しているかどうかがわかるLightFile Simulatorに、体験機能がつきました！最適化したあとのページが実際にみれちゃいます！'
+title: 'LightFile Simulatorに、最適化後のページを実際に見られる体験機能を追加'
 excerpt: 'LightFile シミュレータに体験機能を追加しました。数値のレポートだけでなく、最適化したあとのページを実際に開いて、表示の速さと画質をその場で確かめられます。'
 updateDate: 2018-05-25
 publishedDate: 2018-05-11

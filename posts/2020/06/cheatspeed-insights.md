@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'PageSpeed Insightsスコア集中アップのための無料裏レポートツール「PageSpeed Insights 試験対策」をリリース'
+title: '無料ツール「PageSpeed Insights 試験対策」をリリースしました'
 excerpt: 'PageSpeed Insights のレポート通りに直しても点数が上がらないのはなぜか。配点の仕組みと本当の弱点がわかる無料ツール「PageSpeed Insights 試験対策」を公開しました。'
 updateDate: 2020-06-18
 publishedDate: 2020-06-01

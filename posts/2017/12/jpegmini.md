@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'お手軽！かんたん！PCにインストールする「JPEGmini」アプリは画質を優先した画像の最適化が得意！[JPGダイエット対決 vol.04]'
+title: '「JPEGmini」は画質を優先した画像最適化が得意なデスクトップアプリ'
 excerpt: 'PCにインストールして使う画像最適化アプリ「JPEGmini」と LightFile Core を比べました。画質を優先するタイプの最適化がどこまで削減できるのか、同じ画像で検証しています。'
 updateDate: 2018-07-03
 publishedDate: 2017-12-01

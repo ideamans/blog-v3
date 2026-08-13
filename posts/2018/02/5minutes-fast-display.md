@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'たった５分でスマホ表示を速くして！シンプルでかんたんなLightFileなら、それできちゃいます。画像が軽くなれば表示は速くなる！'
+title: 'たった5分でスマホ表示を速くする。画像が軽くなれば表示は速くなる'
 excerpt: 'スマホの表示を速くしたいけれど何から手を付けるか、という方に向けて、画像の軽量化を5分で始める方法を説明します。LightFile なら導入後は自動で処理し続けます。'
 updateDate: 2018-03-16
 publishedDate: 2018-02-09
@@ -77,7 +77,7 @@ recommended: false
 <p><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Pagespeed Insight</a>で計測されるのは、以下の項目です。このブログのトップページを、試しに計測してみました。</p>
 <p style="text-align: center;"><img alt="2018-02-09-5minutes-fast-display02.jpg" src="https://blog.ideamans.com/assets/2018-02-09-5minutes-fast-display02.jpg" width="872" height="218" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">左がモバイル表示／右がPC表示の計測結果。モバイルはかなり高得点。</span></p>
 <p style="text-align: center;"></p>
-<h4>最適化についての提案</h4>
+<h3>最適化についての提案</h3>
 <ol><li>スクロールせずに見えるコンテンツのレンダリングをブロックしている JavaScript/CSS を排除する</li><li>ブラウザのキャッシュを活用する</li></ol>
 <h4>適用済みの最適化</h4>
 <ol><li>CSS を縮小する</li><li>HTML を縮小する</li><li>JavaScript を縮小する</li><li>サーバーの応答時間を短縮する</li><li>リンク先ページのリダイレクトを使用しない</li><li>圧縮を有効にする</li><li>画像を最適化する</li><li>表示可能コンテンツの優先順位を決定する</li></ol>

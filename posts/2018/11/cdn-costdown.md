@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'CDNの料金を大幅コストダウン！AWS CloudFrontなどの従量課金型のCDNなら、LightFileの画像軽量化でグッとお得に！'
+title: '従量課金型のCDNは、画像軽量化で料金を大幅にコストダウンできる'
 excerpt: '従量課金型のCDNは、画像を軽くするとそのまま料金が下がります。AWS CloudFront を例に費用の計算方法を説明します。転送料金が月10万円以上下がった例もあります。'
 updateDate: 2020-06-18
 publishedDate: 2018-11-29

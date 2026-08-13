@@ -33,11 +33,11 @@ recommended: false
 <p>適当にテキストを入力するとロゴマークの模様がくるくる変化する様をお楽しみいただけます。</p>
 <p><img alt="ideamans-logo.gif" src="https://blog.ideamans.com/assets/ideamans-logo.gif" width="475" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <p>たとえば、2018-09-25</p>
-<p><img src="https://logo.ideamans.com/line.svg?width=400&amp;phrase=2018-09-25"></p>
+<p><img alt="2018-09-25" src="https://logo.ideamans.com/line.svg?width=400&amp;phrase=2018-09-25"></p>
 <p>2018-09-26</p>
-<p><img src="https://logo.ideamans.com/line.svg?width=400&amp;phrase=2018-09-26"></p>
+<p><img alt="2018-09-26" src="https://logo.ideamans.com/line.svg?width=400&amp;phrase=2018-09-26"></p>
 <p>テキストならなんでもOKで、「いつもお世話になっております。」のロゴ。</p>
-<p><img src="https://logo.ideamans.com/line.svg?width=400&amp;phrase=%E3%81%84%E3%81%A4%E3%82%82%E3%81%8A%E4%B8%96%E8%A9%B1%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82"></p>
+<p><img alt="いつもお世話になっております。" src="https://logo.ideamans.com/line.svg?width=400&amp;phrase=%E3%81%84%E3%81%A4%E3%82%82%E3%81%8A%E4%B8%96%E8%A9%B1%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82"></p>
 <p> </p>
 <p>ソフトウェアによる新しい発明を世の中に問う企業なので、ロゴマークも静止画という固定観念を捨てて、プログラム仕掛けだったら面白いなという着想です。</p>
 <p>お、いちおうアイデンティティっぽい。</p>

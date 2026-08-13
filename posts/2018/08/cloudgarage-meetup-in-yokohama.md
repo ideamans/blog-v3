@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'SEOにも効いてくる表示高速化のはじめの一歩「画像軽量化」 #CloudGarage Meetup in Yokohama'
+title: 'SEOにも効く表示高速化のはじめの一歩は「画像軽量化」'
 excerpt: 'CloudGarage Meetup in Yokohama で「SEOにも効いてくる表示高速化のはじめの一歩・画像軽量化」というライトニングトークをしました。当日の内容をお伝えします。'
 updateDate: 2020-06-18
 publishedDate: 2018-08-07

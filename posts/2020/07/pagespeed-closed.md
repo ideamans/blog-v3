@@ -1,5 +1,5 @@
 ---
-title: '公開前サイトでも PageSpeed Insights したい！ リリース前から計測するためのWebサーバー設定テクニック (Apache編)'
+title: '公開前のサイトを PageSpeed Insights で計測するApache設定'
 excerpt: '基本認証やIP制限がかかった公開前サイトでも PageSpeed Insights で計測する方法です。計測元のアクセスだけを通す .htaccess の書き方を紹介します。'
 updateDate: 2020-07-17
 publishedDate: 2020-07-17

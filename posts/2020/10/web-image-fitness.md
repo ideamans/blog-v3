@@ -55,7 +55,7 @@ recommended: false
 <div id="app" style="margin-top: 80px">
     <div class="row">
       <div class="col-md-5">
-        <h4>統計的に適度なファイルサイズの目安</h4>
+        <h3>統計的に適度なファイルサイズの目安</h3>
         <label class="form-group mt-4">
           <label>画像のピクセル数</label>
           <div class="form-inline">
@@ -357,7 +357,7 @@ Webの画像は、**画質に違和感さえなければ軽い(データ効率�
 <img alt="all-image-types.png" src="https://blog.ideamans.com/assets/all-image-types.png" width="1636" height="805" class="img-fluid" />
 
 <div class="alert alert-info">
-<h5>対数正規分布</h5>
+<h3>対数正規分布</h3>
 <p>偏りのある正規分布。人間の体重は正規分布ではなくこの対数正規分布に従うと言われています。PageSpeed Insightsでもスコアの推定と計算に用いられます。</p>
 </div>
 

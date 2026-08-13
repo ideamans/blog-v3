@@ -84,6 +84,6 @@ recommended: false
 </div>
 </div>
 <p>それではまた！</p>
-<h4>参考URL</h4>
+<h3>参考URL</h3>
 <ul><li><a href="https://core.lightfile.net/" target="_blank">LightFile Core</a></li><li><a href="https://www.jpegmini.com/" target="_blank">JpegMini</a></li><li><a href="https://tinypng.com/" target="_blank">TinyPNG</a></li></ul>
 <p> </p>

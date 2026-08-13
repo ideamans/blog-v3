@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'MTDDC Meetup HOKKAIDO 2018を応援しています！ブースではLightFile シミュレータを利用した表示高速化相談も！'
+title: 'MTDDC Meetup HOKKAIDO 2018にブース出展します'
 excerpt: '札幌で開かれる MTDDC Meetup HOKKAIDO 2018 をアイデアマンズが応援します。当日はブースで、LightFile シミュレータを使った表示高速化の相談も承ります。'
 updateDate: 2020-06-18
 publishedDate: 2018-03-27
@@ -30,7 +30,7 @@ recommended: false
 <p>イベント当日は、ブースセッションの他、ブースの展示を行う予定です。ブースでは、LightFileのシミュレータなどを利用した表示高速化に関する相談窓口などを設ける予定です。ご来場の際は、ぜひ弊社ブースまでお立ち寄りください！</p>
 <p><img alt="2018-03-27-mtddc-hokkaido2018-ogp.jpg" src="https://blog.ideamans.com/images/2018-03-27-mtddc-hokkaido2018-ogp.jpg" width="1440" height="720" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <p style="text-align: center;"><span style="color: #888888;">MTDDC Meetup Hokkaido 2018 公式サイト</span></p>
-<h3>イベント概要</h3>
+<h2>イベント概要</h2>
 <p><span>2007年8月に初めて開催されたMovable Type Developers Conference。2009年からはMTDDC(Movable Type Developers &amp; Designers Conference)と名称を変え、開発者だけではなくデザイナーも参加するカンファレンスへと成長しました。 その後、2011年に福島県でMovable Typeユーザーが実行委員会を組織して主催する「MTDDC Meetup」が初開催となり、 2013年10月には北海道でも初開催され、90名ほどが参加するイベントとなりました。</span></p>
 <p><span></span><span>そして2018年、4年半ぶり2度めの北海道開催を実現すべく実行委員会を組織。 北海道内に留まっていてはなかなか知ることのできない「Movable Typeの最新情報」「Webデザインのトレンド・最新手法」 や「Web・ITに関する最新知識・技術」の 習得だけなく、北海道内のMovable Type技術者、あるいはデザイナー・ディレクター・ウェブサイト制作会社などが互いの交 流を深め、北海道内ウェブ制作業界のスキルを底上げし、参加者の1人1人が、今後も継続して発展できるよう様々な情報提供を行いたいと考えています。</span></p>
 <p><span></span><span>また、本イベント終了後には登壇者を始め、参加者同士の活発な交流の場となる懇親会も予定しておりますので、ぜひご参加ください。</span></p>

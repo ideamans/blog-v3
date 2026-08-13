@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'ECサイトでPageSpeed Insightsスコア80なら偏差値70相当！ パフォーマンス偏差値表(通販サイト編)を作ってみた'
+title: '通販サイトのPageSpeed Insightsスコア80は偏差値70相当だった'
 excerpt: '国内の通販サイトを対象に、PageSpeed Insights のスコアを偏差値に換算した表を作りました。スコア80なら偏差値70相当。自社の立ち位置を測る目安になります。'
 updateDate: 2020-06-18
 publishedDate: 2019-04-15

@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'MTプラグインをオープンソース化します[FlexField, ChangeDraft for Movable Type, InstaPost for Movable Type]'
+title: 'MTプラグイン3種をオープンソース化しました'
 excerpt: 'Movable Type プラグインの FlexField・ChangeDraft・InstaPost をオープンソース化しました。カスタムフィールドの拡張、公開記事の変更予約など、それぞれの役割を紹介します。'
 updateDate: 2017-10-17
 publishedDate: 2017-08-14
@@ -35,7 +35,7 @@ recommended: false
 FlexFieldは、カスタムフィールドを拡張するMT<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>です。MTのカスタムフィールドは、複雑な構造の入力フィールドを持つことができないため、大量の入力項目が必要となりカスタムフィールドの数が増えることがあります。</p>
 <p>この<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>は、１つのカスタムフィールド内に、複数の入力項目をもたせることができ、柔軟なデータ管理、そして入力のしやすさを提供します。</p>
 <p> </p>
-<h3>ChangeDraft for <a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a></h3>
+<h2>ChangeDraft for <a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a></h2>
 <p href="https://www.ideamans.com/mt/changedraft/index.html">
 <iframe width="320" height="240" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="ChangeDraft for Movable Type | アイデアマンズ株式会社" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.ideamans.com%2Fmt%2Fchangedraft%2Findex.html" frameborder="0" scrolling="no"></iframe>
 ChangeDraft for <a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>は、公開中の記事やウェブページの変更管理ができるMT<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>です。すでに公開している記事やウェブページは、MT標準では変更を日時指定で差し替えることはできず、すぐに変更するか、一度下書きにするかとなります。</p>

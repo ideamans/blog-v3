@@ -46,7 +46,7 @@ recommended: false
 <p><strong>スマホ表示の最速王は誰なのか。土曜日に勝利したものが最速王になる。</strong></p>
 <p>今週土曜日に開催されるロフトワークさん主催の「<a href="https://loftwork.com/jp/event/20180217_cms_wrestling" target="_blank">第3回CMSプロレス　ウェブサイト表示速度　最速王者決定戦</a>」に、アイデアマンズも参加してきます！</p>
 <ul><li><a href="https://loftwork.com/jp/event/20180217_cms_wrestling" target="_blank">第3回CMSプロレス　ウェブサイト表示速度　最速王者決定戦</a></li></ul>
-<h3>イベントの参加レポートはこちら</h3>
+<h2>イベントの参加レポートはこちら</h2>
 <ul><li><a href="https://blog.ideamans.com/2018/02/cmsvol03-result.html">スマホ表示最速王決定戦！CMSプロレスvol.03に参加してきました！</a></li></ul>
 <p style="text-align: center;"><img alt="2018-02-15-cmsprowrestling03-01.jpg" src="https://blog.ideamans.com/assets/2018-02-15-cmsprowrestling03-01.jpg" width="1297" height="613" class="mt-image-center"><span></span><span style="color: #888888;">イベントの公式サイト。今回が第3回目。</span></p>
 <p> </p>

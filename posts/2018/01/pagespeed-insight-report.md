@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'Google PageSpeed Insightでわかるのは、画像の表示サイズが適切かどうか。画質の軽量化でもっと表示は速くなる。'
+title: 'PageSpeed Insightsで分かるのは表示サイズの適否まで'
 excerpt: 'Google PageSpeed Insights の使い方と、レポートの読み方を説明します。このツールでわかるのは画像の表示サイズが適切かどうかで、画質の軽量化はさらに別の余地として残ります。'
 updateDate: 2018-03-16
 publishedDate: 2018-01-15
@@ -36,7 +36,7 @@ recommended: false
 <p>利用の仕方は、表示をチェックしたいURLを入力して「分析ボタン」をクリックするだけ。しばらく待つと、チェック結果がレポートされます。</p>
 <p style="text-align: center;"><img alt="2018-01-15-psi-01.jpg" src="https://blog.ideamans.com/assets/2018-01-15-psi-01.jpg" width="968" height="599" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">シンプルなインターフェース。URLを入力し、「分析」ボタンをクリック</span></p>
 <p> </p>
-<h3>診断結果レポートをみる</h3>
+<h2>診断結果レポートをみる</h2>
 <p><img alt="2018-01-15-psi-02.jpg" src="https://blog.ideamans.com/assets/2018-01-15-psi-02.jpg" width="970" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <p>1分も待たずに診断レポートが生成されます。モバイルでの表示と、デスクトップでの表示、２種類のレポートが行われます。今回は、本ブログ記事の中から１ページを診断にかけてみました。</p>
 <ul><li>対象ページ　<a href="https://blog.ideamans.com/2017/12/photoshop-qualitycheck-100-80.html" target="_blank">元画像に近いのは画質99まで！Photoshopの画質設定を100から80まで試してみた結果、画質80でいいんじゃない？と思った話</a></li></ul>

@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'カンタンにページで読み込まれる画像がわかる！Google Chromeのデベロッパーツールの「Networkパネル」を使ってみよう！'
+title: 'Chrome デベロッパーツールのNetworkパネルで読み込み画像を調べる'
 excerpt: 'Google Chrome のデベロッパーツールの Network パネルで、開いているページがどんな画像を何KB読み込んでいるかを調べる手順を説明します。表示が重い原因を特定する最初の一歩です。'
 updateDate: 2018-12-10
 publishedDate: 2018-01-25

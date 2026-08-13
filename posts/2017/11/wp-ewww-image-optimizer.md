@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '画像を軽量化しよう！WordPressの人気画像最適化プラグイン「EWWW Image Optimizer」は、有料APIを利用すると本気になる？[JPGダイエット対決 vol.02]'
+title: 'WordPressの「EWWW Image Optimizer」は有料APIで本気になるか'
 excerpt: 'WordPress で人気の画像最適化プラグイン「EWWW Image Optimizer」と LightFile Core を比べました。有料APIを使うと結果がどう変わるかを、削減率と画質の両面で検証します。'
 updateDate: 2018-07-03
 publishedDate: 2017-11-20

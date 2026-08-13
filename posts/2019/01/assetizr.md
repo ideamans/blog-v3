@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'Assetizrは、WindowsでもMacでも利用できる画像リサイズ・最適化ツール。JPEGからWebPに変換すると重くなる？！'
+title: 'Assetizrで画像をリサイズ・最適化する。JPEGからWebPで重くなる？'
 excerpt: 'WindowsでもMacでも使える画像リサイズ・最適化ツール Assetizr を試しました。対応形式が多く扱いやすい一方、JPEGからWebPに変換すると逆に重くなる場合があります。'
 updateDate: 2019-01-23
 publishedDate: 2019-01-23
@@ -34,7 +34,7 @@ recommended: false
 <p><strong>Assetizr</strong>は、WindowsでもMacでも利用できる画像リサイズ・最適化ツールです。シンプルなインターフェースで、対応する画像フォーマットも多く、使いやすいツールではないでしょうか。</p>
 <p style="text-align: center;"><img alt="2019-01-23-asstizr-04.jpeg" src="https://blog.ideamans.com/assets/dummy-1-1.png" data-echo="https://blog.ideamans.com/assets/2019-01-23-asstizr-04.jpeg" width="1280" height="609" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"><span style="color: #888888;">Mac App StoreでAssetizrをダウンロード</span></p>
 <ul><li><a href="https://itunes.apple.com/de/app/assetizr/id1449126727?l=en&amp;mt=12" target="_blank">Assetizr on the Mac App Store</a></li><li><a href="https://www.microsoft.com/ja-jp/p/assetizr/9pj6j7v92n8n" target="_blank">Assetizr on Microsoft Store</a></li></ul>
-<h3>対応する画像フォーマット</h3>
+<h2>対応する画像フォーマット</h2>
 <ol><li>JPEG</li><li>PNG</li><li>GIF</li><li>SVG</li><li>WebP</li><li>TIFF</li><li>BMP</li></ol>
 <p>ウェブ上で利用する画像フォーマットのほとんどに対応しています。</p>
 <h2>JPEG / PNG / WebP で利用してみたが、少しクセがある</h2>

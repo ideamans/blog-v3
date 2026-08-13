@@ -36,10 +36,10 @@ recommended: false
 <p><span style="font-size: 200%;">画質の劣化が最も少ない状態で、ファイルサイズを削減する</span></p>
 <p>というもの。</p>
 <p>単純にファイルサイズの削減をするのであれば、画質を気にせずにどんどん荒くすれば大きく削減できます。でもそれでは、あなたのウェブサイトにある素晴らしい商品の魅力が正しく伝えることができません。荒れた画像を見た瞬間に、商品の素晴らしさは半減してしまうことでしょう。</p>
-<h3>どうやって劣化を調整しているの？</h3>
+<h2>どうやって劣化を調整しているの？</h2>
 <p>LightFile Coreは、<span style="font-size: 150%;">「視覚に現れる劣化を<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>に」</span>しています。あたかも人の目で見ているかのように、<a class="keyword" href="https://d.hatena.ne.jp/keyword/%B5%A1%B3%A3%C5%AA">機械的</a>ではなく視覚に現れる劣化に感じる部分を<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>で計算し、その中で最も劣化が少ない結果を選択します。</p>
 <p>一度処理をして完了！というタイプのものではなく、複数枚生成して、それらを比較して決定する！というプロセスがあるのが特徴です。</p>
-<h4>プロセスの簡単な流れ</h4>
+<h3>プロセスの簡単な流れ</h3>
 <p><img class="hatena-fotolife" title="f:id:ideamans:20170822114209j:plain" src="https://cdn-ak.f.st-hatena.com/images/fotolife/i/ideamans/20170822/20170822114209.jpg" alt="f:id:ideamans:20170822114209j:plain"></p>
 <p>LightFile Coreは、以下のような流れで処理をおこなっています。</p>
 <ol><li><span style="font-size: 150%;">画像ファイルが追加（変更）されたことを検知</span></li><li><span style="font-size: 150%;">複数枚の圧縮率が異なる画像を生成</span></li><li><span style="font-size: 150%;">その中で、劣化が最も少ない画像をピックアップ</span></li><li><span style="font-size: 150%;">ファイルサイズを削減した画像を決定！</span></li></ol>

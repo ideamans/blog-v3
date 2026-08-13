@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'AWS Lambdaはカーシェアと同じ？低コストで確実に動作する！AWS SUMMIT2017でも発表されていたLambdaでの画像最適化の高いメリット'
+title: 'AWS Lambdaでの画像最適化は低コストで確実に動く'
 excerpt: 'AWS Lambda で画像最適化を動かすと、コストと運用がどう変わるのかを日本経済新聞社の事例から見ています。EC2で同等の構成を組む場合と比べて10分の1程度という数字も紹介します。'
 updateDate: 2018-03-16
 publishedDate: 2018-01-31

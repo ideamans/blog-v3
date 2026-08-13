@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'AWS S3に Cyberduck と Transmit でつないでみよう！レンタルサーバのようにドラッグ＆ドロップでファイル管理できるのは便利！'
+title: 'AWS S3に Cyberduck と Transmit でつないでファイル管理する'
 excerpt: 'AWS S3 に Cyberduck や Transmit で接続し、レンタルサーバーのようにドラッグ＆ドロップでファイルを扱う方法です。LightFile と組み合わせると置くだけで軽量化されます。'
 updateDate: 2018-09-19
 publishedDate: 2018-09-19

@@ -35,7 +35,7 @@ PageSpeedスコアの改善でお悩みの企業に向けた実践的レポー�
 
 約20通りのWebページ表示高速化の手法をお客様のページに適用すると、それぞれPageSpeedスコアが何点上がるか**リハーサルして**結果をレポートします。
 
-<img src="https://www.ideamans.com/services/pagespeed/images/reports/thumbnail/index.png">
+<img alt="ページスピード改善リハーサルのレポート画面" src="https://www.ideamans.com/services/pagespeed/images/reports/thumbnail/index.png">
 
 * [PageSpeed改善リハーサル \| アイデアマンズ株式会社](https://www.ideamans.com/services/pagespeed/)
 * [プレスリリース](https://www.ideamans.com/release/20190821/)

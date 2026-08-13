@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'ご利用いただいている方から&quot;ご要望が多かった&quot;Ranklet追加機能ランキング。最も多かったのは...'
+title: 'Ranklet利用者に聞いた、追加してほしい機能ランキング'
 excerpt: 'Ranklet のユーザーアンケートから、追加してほしい機能の要望を集計しました。ランキング数の増加が最も多く、そのほか上位に挙がった要望もあわせて紹介します。'
 updateDate: 2018-03-16
 publishedDate: 2018-02-08
@@ -30,7 +30,7 @@ recommended: false
 <p>先日の1,000アカウント達成記念！ 数量限定キャンペーンでお申込みの際にご回答いただきましたアンケートから「Ranklet追加機能のご要望ランキング」としまして、一部アンケート結果をまとめさせていただきました！</p>
 <p>キャンペーンの応募は<a href="https://docs.google.com/forms/d/e/1FAIpQLSdikkgTiBHOLV6P1qAptgwSJMjGhDi3dIcQrUbKjzih8MKZSQ/viewform" target="_self">こちらから（限定枠残りわずか！）</a><br><br>今回も多数のお申込みをいただき、ご協力いただいたユーザーの皆様には、大変感謝いたしております。</p>
 <p>誠にありがとうございました。<br><br></p>
-<h3>Rankletへの要望について</h3>
+<h2>Rankletへの要望について</h2>
 <p><img alt="アンケートbnr.jpgのサムネイル画像" src="https://blog.ideamans.com/assets_c/2017/11/6e41a76b2a0a9ef8540f28a8acce7619ee2691f7-thumb-800xauto-120.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="800" height="420">ご要望が多かった機能面でのご要望 <span style="background-color: #ff9900;"><strong>Top3</strong></span> となります。</p>
 <ol><li>ランキング数の増加（15位や20位以上の表示など）</li><li>テンプレートカスタマイズ機能の拡充</li><li>別URLとなったしまったページをまとめる機能</li></ol>
 <p>などなど、他にもニッチな機能でのご要望もいただきましたので、もっとRankletをご活用いただけるよう今後のサービス展開の参考とさせていただきます。<br>誠にありがとうございました。</p>

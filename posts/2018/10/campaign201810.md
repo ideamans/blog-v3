@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '[限定3社] Movable Type事例キャンペーンで、画像軽量化ツールの「LightFile」がお得にご利用いただけます！スマホ表示の遅さにお悩みの方はチャンス！'
+title: '[限定3社] Movable Type事例キャンペーンで LightFile をお得に'
 excerpt: 'Movable Type で構築されたサイトを対象に、画像軽量化ツール LightFile を優待価格で導入いただけるキャンペーンを、3社限定で実施します。条件と申込方法をご案内します。'
 updateDate: 2018-12-10
 publishedDate: 2018-10-23

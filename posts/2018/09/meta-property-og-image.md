@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'OGP画像の指定には、&lt;meta property=&quot;og:image&quot; content=&quot;OGP画像のURL&quot;&gt;と指定しよう！'
+title: 'OGP画像は meta property=og:image で指定しよう'
 excerpt: 'OGP画像の正しい指定方法を説明します。Ranklet はOGP画像をサムネイルに使うため、meta property=og:image が未設定だとサムネイルを表示できません。'
 updateDate: 2018-09-20
 publishedDate: 2018-09-20

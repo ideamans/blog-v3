@@ -27,7 +27,7 @@ recommended: false
 
 <p>メディア系サイトやブログなどでも必ずといっていいほど設置されているコンテンツの「ランキング」ですが、ベーシックな機能すぎていつも同じツールを使い続けてしまうことが多いので、Movable TypeとWord Pressのみですが更新状況など比較的使われていそうなものを簡単にですが調べてみました。</p>
 <p>まずは</p>
-<h3>Movable Typeプラグイン</h3>
+<h2>Movable Typeプラグイン</h2>
 <p>単体のプラグインとして<a href="https://plugins.movabletype.jp/search.html?q=%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0&amp;_r=0.2909047209840194" target="_blank">プラグインディレクトリ</a>に「ランキング」のキーワードで引っかかるのは</p>
 <ul><li><a href="https://plugins.movabletype.jp/masato_mori_1/access-counter.html" target="_blank">Access Counter</a>
 <blockquote>アクセスランキングを表示できます。ブログ記事のアクセス数をカウントします。アクセス数順で指定した数のブログ記事を一覧することができます。ブログ記事のランキング表示は、MTEntries のモディファイア sort_by に accessed_count を指定します。</blockquote>

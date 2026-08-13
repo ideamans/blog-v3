@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '画像フォーマットの今が1枚でわかるチートシート SMUSH PRO Guide to Image Formats 日本語版'
+title: '画像フォーマットのチートシート日本語版を公開しました'
 excerpt: '画像フォーマットの特徴が1枚でわかるチートシート「SMUSH PRO Guide to Image Formats」を、著者の許可を得て日本語に翻訳しました。PDFでダウンロードできます。'
 updateDate: 2020-06-18
 publishedDate: 2019-02-28

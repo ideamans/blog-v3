@@ -97,5 +97,5 @@ JavaScriptやCSSを軽量化するにはデザイナーやエンジニアのス�
 あなたのサイトの[CloudFront料金がどのくらい安くなるか、すぐにシミュレーション](https://www.ideamans.com/lightfile/simulator/)できます。コストが気になる方はぜひお試しください！
 
 例えば東京オリンピックのサイトが**もし1000万PVだとしたら、100万円以上コストを削減できるかも？**
-<img src="https://sim.lightfile.net/_resources/7e0402e0-9fc3-41af-bcc2-1395a581089e/summary.png" style="max-width:100%">
+<img alt="計測レポートのサマリー" src="https://sim.lightfile.net/_resources/7e0402e0-9fc3-41af-bcc2-1395a581089e/summary.png" style="max-width:100%">
 

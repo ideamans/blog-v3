@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'トップページに表示するスライダーバナーは、どこまで軽くなる？Photoshopで作ったバナーをしっかり軽量化しよう！[JPGダイエット対決 vol.07]'
+title: 'トップページのスライダーバナーはどこまで軽くなるか'
 excerpt: '実際のWebサイトで使われるスライダーバナーに近い条件で、Photoshop の書き出しと LightFile Core の削減率を比べました。比較に使ったデータ一式もダウンロードできます。'
 updateDate: 2018-03-16
 publishedDate: 2018-01-16

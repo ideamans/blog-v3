@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'クリアな画質のまま軽くするには？Photoshop作ったバナーを、最高画質で書き出したファイルにLightFileの処理をしてみた'
+title: 'Photoshopで最高画質に書き出したバナーをLightFileで軽量化する'
 excerpt: 'Photoshop で作ったバナーを最高画質で書き出し、そこに LightFile の処理をかけました。書き出し時の画質設定をどうすべきかを、ファイルサイズと画質の両面から検証します。'
 updateDate: 2018-03-16
 publishedDate: 2018-03-15

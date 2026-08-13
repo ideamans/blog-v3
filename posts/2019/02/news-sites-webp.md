@@ -69,7 +69,7 @@ recommended: false
 
 Googleスプレッドシートで全158サイトの詳細レポートを公開中です。複製など自由にご利用いただいて結構です。
 
-<a href="https://docs.google.com/spreadsheets/d/1J3DwXzSK35aSgK0BTdsss9trlVDJ6JofmtgQeIpfHT8/edit?usp=sharing" onclick="ga('send','event','report','view','news-webp',1)"> <img src="https://blog.ideamans.com/assets_c/2019/02/f16817c6e8331cb3529ed845992cb11252c73ad7-thumb-600xauto-937.png" width="600" height="266" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
+<a href="https://docs.google.com/spreadsheets/d/1J3DwXzSK35aSgK0BTdsss9trlVDJ6JofmtgQeIpfHT8/edit?usp=sharing" onclick="ga('send','event','report','view','news-webp',1)"> <img alt="計測結果のグラフ" src="https://blog.ideamans.com/assets_c/2019/02/f16817c6e8331cb3529ed845992cb11252c73ad7-thumb-600xauto-937.png" width="600" height="266" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
 
 <a href="https://docs.google.com/spreadsheets/d/1J3DwXzSK35aSgK0BTdsss9trlVDJ6JofmtgQeIpfHT8/edit?usp=sharing"  onclick="ga('send','event','report','view','news-webp',1)">国内新聞・ニュースサイト158サイトのWebP導入によるサイト改善効果の試算(2019年2月)</a>
 
@@ -104,7 +104,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">1</td>
 <td style="text-align: left"><a href="https://www.yomiuri.co.jp/">YOMIURI ONLINE(読売新聞)</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-c6cce3e1-9de1-424f-82a8-6efa570ba582"><img src="https://sim.lightfile.net/_resources/news-c6cce3e1-9de1-424f-82a8-6efa570ba582/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-c6cce3e1-9de1-424f-82a8-6efa570ba582"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-c6cce3e1-9de1-424f-82a8-6efa570ba582/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">120</td>
 <td style="text-align: right">85</td>
 <td style="text-align: right">70.8%</td>
@@ -112,7 +112,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">2</td>
 <td style="text-align: left"><a href="https://www.iwate-np.co.jp/">岩手日報</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-a0e30da6-ebb1-4c28-b4f9-bf0b36e0d944"><img src="https://sim.lightfile.net/_resources/news-a0e30da6-ebb1-4c28-b4f9-bf0b36e0d944/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-a0e30da6-ebb1-4c28-b4f9-bf0b36e0d944"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-a0e30da6-ebb1-4c28-b4f9-bf0b36e0d944/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">86</td>
 <td style="text-align: right">34</td>
 <td style="text-align: right">39.5%</td>
@@ -120,7 +120,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">3</td>
 <td style="text-align: left"><a href="https://www.nikkei.com/">日経新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-7d1eb3a7-6921-4cba-8113-05c8c74c1802"><img src="https://sim.lightfile.net/_resources/news-7d1eb3a7-6921-4cba-8113-05c8c74c1802/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-7d1eb3a7-6921-4cba-8113-05c8c74c1802"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-7d1eb3a7-6921-4cba-8113-05c8c74c1802/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">88</td>
 <td style="text-align: right">30</td>
 <td style="text-align: right">34.1%</td>
@@ -128,7 +128,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">4</td>
 <td style="text-align: left"><a href="https://www.agara.co.jp/">AGARA紀伊民報</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-c9d5b31c-741c-4f67-953d-b061269520b4"><img src="https://sim.lightfile.net/_resources/news-c9d5b31c-741c-4f67-953d-b061269520b4/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-c9d5b31c-741c-4f67-953d-b061269520b4"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-c9d5b31c-741c-4f67-953d-b061269520b4/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">48</td>
 <td style="text-align: right">6</td>
 <td style="text-align: right">12.5%</td>
@@ -136,7 +136,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">5</td>
 <td style="text-align: left"><a href="https://blog.goo.ne.jp/ks-press">紀州新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-6a370358-07fb-4733-bc5e-8e275c75d12e"><img src="https://sim.lightfile.net/_resources/news-6a370358-07fb-4733-bc5e-8e275c75d12e/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-6a370358-07fb-4733-bc5e-8e275c75d12e"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-6a370358-07fb-4733-bc5e-8e275c75d12e/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">74</td>
 <td style="text-align: right">6</td>
 <td style="text-align: right">8.1%</td>
@@ -144,7 +144,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">6</td>
 <td style="text-align: left"><a href="https://www.sponichi.co.jp/">スポニチアネックス</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-46584649-dad8-40f0-98b9-717d530aa845"><img src="https://sim.lightfile.net/_resources/news-46584649-dad8-40f0-98b9-717d530aa845/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-46584649-dad8-40f0-98b9-717d530aa845"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-46584649-dad8-40f0-98b9-717d530aa845/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">142</td>
 <td style="text-align: right">10</td>
 <td style="text-align: right">7.0%</td>
@@ -152,7 +152,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">7</td>
 <td style="text-align: left"><a href="https://dotsu.co.jp/">DOTSU-NET - 北海道通信</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-60216026-f165-4c73-8e15-da587a13d270"><img src="https://sim.lightfile.net/_resources/news-60216026-f165-4c73-8e15-da587a13d270/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-60216026-f165-4c73-8e15-da587a13d270"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-60216026-f165-4c73-8e15-da587a13d270/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">29</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">3.4%</td>
@@ -160,7 +160,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">8</td>
 <td style="text-align: left"><a href="https://www.newsweekjapan.jp/">ニューズウィーク日本版</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-a0eb2c4c-ce0f-4496-88b2-ea68b09e1682"><img src="https://sim.lightfile.net/_resources/news-a0eb2c4c-ce0f-4496-88b2-ea68b09e1682/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-a0eb2c4c-ce0f-4496-88b2-ea68b09e1682"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-a0eb2c4c-ce0f-4496-88b2-ea68b09e1682/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">128</td>
 <td style="text-align: right">3</td>
 <td style="text-align: right">2.3%</td>
@@ -168,7 +168,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">9</td>
 <td style="text-align: left"><a href="https://www.ogpress.com/">小笠原新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-9774996a-7a25-4ebe-bc32-387b02307ade"><img src="https://sim.lightfile.net/_resources/news-9774996a-7a25-4ebe-bc32-387b02307ade/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-9774996a-7a25-4ebe-bc32-387b02307ade"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-9774996a-7a25-4ebe-bc32-387b02307ade/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">43</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">2.3%</td>
@@ -176,7 +176,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">10</td>
 <td style="text-align: left"><a href="https://www.zakzak.co.jp/sports/sports.htm">ZAKZAK（夕刊フジ）</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0dcbea61-0252-4162-aee8-e62ddf639c86"><img src="https://sim.lightfile.net/_resources/news-0dcbea61-0252-4162-aee8-e62ddf639c86/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0dcbea61-0252-4162-aee8-e62ddf639c86"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-0dcbea61-0252-4162-aee8-e62ddf639c86/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">93</td>
 <td style="text-align: right">2</td>
 <td style="text-align: right">2.2%</td>
@@ -184,7 +184,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">11</td>
 <td style="text-align: left"><a href="https://www.saitama-np.co.jp/">埼玉新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-8f6be0a4-2bb4-4ddb-8ae5-ba2a3817fd30"><img src="https://sim.lightfile.net/_resources/news-8f6be0a4-2bb4-4ddb-8ae5-ba2a3817fd30/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-8f6be0a4-2bb4-4ddb-8ae5-ba2a3817fd30"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-8f6be0a4-2bb4-4ddb-8ae5-ba2a3817fd30/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">53</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">1.9%</td>
@@ -192,7 +192,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">12</td>
 <td style="text-align: left"><a href="https://togech.jp/">トゥギャッチ</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-6f21b5a7-d3a1-45b4-acb4-11695b14ede2"><img src="https://sim.lightfile.net/_resources/news-6f21b5a7-d3a1-45b4-acb4-11695b14ede2/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-6f21b5a7-d3a1-45b4-acb4-11695b14ede2"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-6f21b5a7-d3a1-45b4-acb4-11695b14ede2/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">56</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">1.8%</td>
@@ -200,7 +200,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">13</td>
 <td style="text-align: left"><a href="https://www.sakigake.jp/">さきがけonTheWeb - 秋田魁新報</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-ab3d0088-f369-421b-b75c-bfb3b7e4a78f"><img src="https://sim.lightfile.net/_resources/news-ab3d0088-f369-421b-b75c-bfb3b7e4a78f/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-ab3d0088-f369-421b-b75c-bfb3b7e4a78f"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-ab3d0088-f369-421b-b75c-bfb3b7e4a78f/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">118</td>
 <td style="text-align: right">2</td>
 <td style="text-align: right">1.7%</td>
@@ -208,7 +208,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">14</td>
 <td style="text-align: left"><a href="https://www.shigahochi.co.jp/">滋賀報知新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0029946d-ae1d-4d3b-a10f-569308025cc1"><img src="https://sim.lightfile.net/_resources/news-0029946d-ae1d-4d3b-a10f-569308025cc1/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0029946d-ae1d-4d3b-a10f-569308025cc1"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-0029946d-ae1d-4d3b-a10f-569308025cc1/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">60</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">1.7%</td>
@@ -216,7 +216,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">15</td>
 <td style="text-align: left"><a href="https://www.sanspo.com/">サンケイスポーツ（サンスポ・コム）</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-362e6958-3351-45ca-bd5a-902c0b22c2af"><img src="https://sim.lightfile.net/_resources/news-362e6958-3351-45ca-bd5a-902c0b22c2af/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-362e6958-3351-45ca-bd5a-902c0b22c2af"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-362e6958-3351-45ca-bd5a-902c0b22c2af/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">125</td>
 <td style="text-align: right">2</td>
 <td style="text-align: right">1.6%</td>
@@ -224,7 +224,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">16</td>
 <td style="text-align: left"><a href="https://minkei.net/">みんなの経済新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-aabbe8ca-1606-4fd0-9695-20120f861a43"><img src="https://sim.lightfile.net/_resources/news-aabbe8ca-1606-4fd0-9695-20120f861a43/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-aabbe8ca-1606-4fd0-9695-20120f861a43"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-aabbe8ca-1606-4fd0-9695-20120f861a43/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">63</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">1.6%</td>
@@ -232,7 +232,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">17</td>
 <td style="text-align: left"><a href="https://www.nishinippon.co.jp/">西日本新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-e8132271-4778-45e2-b56b-a6bf2cb26263"><img src="https://sim.lightfile.net/_resources/news-e8132271-4778-45e2-b56b-a6bf2cb26263/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-e8132271-4778-45e2-b56b-a6bf2cb26263"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-e8132271-4778-45e2-b56b-a6bf2cb26263/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">70</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">1.4%</td>
@@ -240,7 +240,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">18</td>
 <td style="text-align: left"><a href="https://www.townnews.co.jp/i/">タウンニュース</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-7b014ef7-c091-4591-ad53-cdd02ff89b81"><img src="https://sim.lightfile.net/_resources/news-7b014ef7-c091-4591-ad53-cdd02ff89b81/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-7b014ef7-c091-4591-ad53-cdd02ff89b81"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-7b014ef7-c091-4591-ad53-cdd02ff89b81/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">143</td>
 <td style="text-align: right">2</td>
 <td style="text-align: right">1.4%</td>
@@ -248,7 +248,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">19</td>
 <td style="text-align: left"><a href="https://www.fukuishimbun.co.jp/">福井新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-5d21ef5d-418c-4d78-ba0d-9a8329bb5a48"><img src="https://sim.lightfile.net/_resources/news-5d21ef5d-418c-4d78-ba0d-9a8329bb5a48/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-5d21ef5d-418c-4d78-ba0d-9a8329bb5a48"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-5d21ef5d-418c-4d78-ba0d-9a8329bb5a48/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">189</td>
 <td style="text-align: right">2</td>
 <td style="text-align: right">1.1%</td>
@@ -256,7 +256,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">20</td>
 <td style="text-align: left"><a href="https://jp.reuters.com/">ロイター.co.jp</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-60c3e298-33ed-4ae9-b3a3-c314399c9e4f"><img src="https://sim.lightfile.net/_resources/news-60c3e298-33ed-4ae9-b3a3-c314399c9e4f/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-60c3e298-33ed-4ae9-b3a3-c314399c9e4f"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-60c3e298-33ed-4ae9-b3a3-c314399c9e4f/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">104</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">1.0%</td>
@@ -264,7 +264,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">21</td>
 <td style="text-align: left"><a href="https://www.nikkansports.com/">日刊スポ-ツ</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-59040f5d-7c66-4c52-b856-e9275a282b44"><img src="https://sim.lightfile.net/_resources/news-59040f5d-7c66-4c52-b856-e9275a282b44/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-59040f5d-7c66-4c52-b856-e9275a282b44"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-59040f5d-7c66-4c52-b856-e9275a282b44/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">107</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">0.9%</td>
@@ -272,7 +272,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">22</td>
 <td style="text-align: left"><a href="https://www.news24.jp/">日テレＮＥＷＳ２４</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-96f39912-dee7-45e4-b5ae-6676c211f44e"><img src="https://sim.lightfile.net/_resources/news-96f39912-dee7-45e4-b5ae-6676c211f44e/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-96f39912-dee7-45e4-b5ae-6676c211f44e"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-96f39912-dee7-45e4-b5ae-6676c211f44e/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">126</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">0.8%</td>
@@ -280,7 +280,7 @@ Googleスプレッドシートで全158サイトの詳細レポートを公開�
 <tr>
 <td style="text-align: right">23</td>
 <td style="text-align: left"><a href="https://yamagata-np.jp/">やまがたニュースオンライン - 山形新聞</a></td>
-<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0f42e458-bd77-49a4-9984-0aef9f8c8984"><img src="https://sim.lightfile.net/_resources/news-0f42e458-bd77-49a4-9984-0aef9f8c8984/thumbnail.png" style="max-width: 120px"></a></td>
+<td style="text-align: left"><a href="https://sim.lightfile.net/webp/reports/news-0f42e458-bd77-49a4-9984-0aef9f8c8984"><img alt="計測レポートのサムネイル" src="https://sim.lightfile.net/_resources/news-0f42e458-bd77-49a4-9984-0aef9f8c8984/thumbnail.png" style="max-width: 120px"></a></td>
 <td style="text-align: right">174</td>
 <td style="text-align: right">1</td>
 <td style="text-align: right">0.6%</td>

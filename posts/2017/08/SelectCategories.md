@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'カテゴリーの選択をラクにしてくれるMTプラグイン「SelectCategories for Movable Type」は、全選択・全選択解除がワンクリックでできちゃいます！'
+title: 'MTプラグイン「SelectCategories」で全選択・全解除をワンクリックに'
 excerpt: 'Movable Type でカテゴリ数の多いブログの選択作業を、ワンクリックで済ませるプラグイン「SelectCategories」を紹介します。全選択・全解除に加え、修飾キーで子カテゴリをまとめて選択できます。'
 updateDate: 2017-10-17
 publishedDate: 2017-08-04
@@ -29,9 +29,9 @@ recommended: false
 <p><a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>を利用していて、カテゴリが多いブログを運用していますか？カテゴリの選択は<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%C1%A5%A7%A5%C3%A5%AF%A5%DC%A5%C3%A5%AF%A5%B9">チェックボックス</a>なので、クリックでON/OFFできます。簡単ですよね。</p>
 <p>でも、選択するカテゴリの数が多いと選択するのも大変...</p>
 <p>ということで、ワンクリックで「全選択・全選択解除」ができちゃう<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>の登場です！</p>
-<h3>MT<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>「SelectCategories for <a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>」</h3>
+<h2>MT<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>「SelectCategories for <a class="keyword" href="https://d.hatena.ne.jp/keyword/Movable%20Type">Movable Type</a>」</h2>
 <p>この<a class="keyword" href="https://d.hatena.ne.jp/keyword/%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3">プラグイン</a>を使うと、以下のことができるようになります。</p>
-<h4>全選択・全選択解除</h4>
+<h3>全選択・全選択解除</h3>
 <ul>
 <li>カテゴリ選択欄の上部に「すべて選択」と「すべて解除」が追加されます。</li>
 </ul>

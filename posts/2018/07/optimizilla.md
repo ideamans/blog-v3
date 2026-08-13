@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '後から画質調整ができる！Optimizillaは、きめ細かく画質を確認しながら画像軽量化したい人のための最適なツール[JPGダイエット対決 vol.09]'
+title: 'Optimizillaは後から画質調整ができる、きめ細かく確認したい人向けのツール'
 excerpt: '画質を後から細かく調整できる海外の軽量化サービス Optimizilla と LightFile Core を比べました。削減率と画質、そしてアップロード先がわからない点にも触れます。'
 updateDate: 2018-07-09
 publishedDate: 2018-07-09

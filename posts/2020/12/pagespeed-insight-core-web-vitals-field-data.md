@@ -141,7 +141,7 @@ CLSだけは時間や速度の指標ではありません。読み込まれる�
 
 タップやクリックの操作ミスを招くことから、当然ながらズレがない、あるいは少ないほうがよいです。
 
-<img src="https://webdev.imgix.net/cls/layout-shift-3.png" class="img-fluid" style="width: 50%">
+<img alt="レイアウトシフトの例" src="https://webdev.imgix.net/cls/layout-shift-3.png" class="img-fluid" style="width: 50%">
 
 [Cumulative Layout Shift \(CLS\)](https://web.dev/cls/)より
 

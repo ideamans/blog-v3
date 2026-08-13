@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '3G回線で何秒かかりますか？手軽に回線速度をかえて表示ができるChrome DevToolsのPerformanceパネルを使ってみよう！'
+title: 'Chrome DevToolsのPerformanceパネルで3G回線の表示時間を測る'
 excerpt: 'Chrome DevTools の Performance パネルで回線速度を擬似的に落とし、3G回線ではページが何秒で表示されるかを確かめる方法です。高速回線では気づけない遅さを再現できます。'
 updateDate: 2018-03-16
 publishedDate: 2018-02-08

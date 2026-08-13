@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'どんなCMSにもプラグイン不要でランキング設置！Google Analyticsのデータから自動生成して運用負荷の軽減とSEO改善を'
+title: 'Google Analyticsのデータからランキングを自動生成する'
 excerpt: 'Google Analytics のデータからアクセスランキングを自動生成する Ranklet の使いどころを紹介します。CMSを問わずプラグイン不要で設置でき、運用の手間を減らしながら回遊を増やせます。'
 updateDate: 2018-03-27
 publishedDate: 2017-11-16

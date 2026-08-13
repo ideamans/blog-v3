@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'ロスレスもロッシーも選べる！Compressor.ioは、4種類の画像に対応する便利なWebサービス[JPGダイエット対決 vol.08]'
+title: 'Compressor.io はロスレスもロッシーも選べる4形式対応のWebサービス'
 excerpt: '4種類の画像形式に対応し、ロスレスとロッシーを選べるWebサービス Compressor.io と LightFile Core の削減率を比べました。同じ画像で画質の差も検証しています。'
 updateDate: 2018-06-28
 publishedDate: 2018-06-28

@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '100ユーザー突破！ストレージの節約には #LightFile for Dropbox がオススメ！現在93%以上の削減率を達成しています！'
+title: 'LightFile for Dropbox が100ユーザーを突破。削減率は93%以上'
 excerpt: 'Dropbox と連携する LightFile for Dropbox が100ユーザーを突破しました。プレビュー版ながら、現在93%以上の削減率を達成しています。'
 updateDate: 2018-11-13
 publishedDate: 2018-11-13

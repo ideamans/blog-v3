@@ -27,7 +27,7 @@ recommended: false
 
 <p>こんにちは！<br><a href="https://ranklet.com/" target="_blank">Ranklet</a>サポートチームです。</p>
 <p>この度、<a href="https://ranklet.com/" target="_blank">Ranklet</a>の1,000アカウント突破を記念し<strong><span style="font-size: 16px;">「Ranklet 1,000アカウント達成キャンペーン！」</span></strong>と致しまして、以下キャンペーンの実施をさせていただきます。</p>
-<h3>お申込み先着様限定！Ranklet 1,000アカウント達成キャンペーン！（終了しました）</h3>
+<h2>お申込み先着様限定！Ranklet 1,000アカウント達成キャンペーン！（終了しました）</h2>
 <ul><li><a href="https://ranklet.com/#pricing" target="_blank">有料プラン</a>（サイトオーナー/プロダクション）ご利用中のユーザー様への<strong><span style="font-size: 16px;">ランキングウィジェットを1つ追加</span></strong></li><li><a href="https://ranklet.com/#pricing" target="_blank">無料プラン</a>ご利用中のユーザー様からアンケートにお答え頂きました先着100名様へ<strong>ランキングウィジェットを1つ追加<span style="font-size: 16px;"></span></strong></li></ul>
 <p> </p>
 <p><del datetime="2018-02-13T14:57:27+09:00">以下キャンペーンお申込みページからお申込みください。</del></p>

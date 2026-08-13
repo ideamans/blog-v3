@@ -54,7 +54,7 @@ recommended: false
 <p>先日の日経電子版の高速化でもありましたが、こちらもWebPが採用されています。</p>
 <ul><li><a href="https://blog.ideamans.com/2017/11/webp.html" target="_blank">日経電子版が爆速になったということで、その対応策にあるWebP（ウェッピー）について、JPGと比べてどのくらい軽くなるのか試してみた</a></li></ul>
 <p>手元のMacで確認したところ、以下のような結果が得られました。</p>
-<h4>Google Chromeで閲覧</h4>
+<h3>Google Chromeで閲覧</h3>
 <ul><li>WebP画像が配信される</li><li>配信された画像は、約5KBだった</li></ul>
 <h4>Safariで閲覧</h4>
 <ul><li>JPG画像が配信される</li><li>配信された画像は、約7KBだった</li></ul>

@@ -363,7 +363,7 @@ jQueryプラグインまたは依存ライブラリ不要の有名どころで�
 スライダーの実装に9種類のライブラリを使い分けたときの`LCP`です。それぞれ10回測定した結果の[箱ひげ図](https://ja.wikipedia.org/wiki/%E7%AE%B1%E3%81%B2%E3%81%92%E5%9B%B3)です。
 
 <div class="alert alert-info">
-<h4>LCP = Largest Conentful Paint</h4>
+<h3>LCP = Largest Conentful Paint</h3>
 <div>Core Web Vitalsの構成指標のひとつでファーストビューの最大要素の描画タイミング。この例では「スライダーの描画タイミング」とほぼ同義です。</div>
 </div>
 

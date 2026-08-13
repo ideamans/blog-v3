@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'Movable Type 7 に対応した「ケータイキット for Movable Type」の最新版 Ver.1.70をリリースしました。'
+title: '「ケータイキット for Movable Type」Ver.1.70をリリースしました'
 excerpt: 'Movable Type 7 に対応した「ケータイキット for Movable Type」Ver.1.70 をリリースしました。フィーチャーフォンとスマートフォン対応サイトの構築を支援するプラグインです。'
 updateDate: 2018-09-03
 publishedDate: 2018-09-03
@@ -34,7 +34,7 @@ recommended: false
 <p>アイデアマンズ株式会社は、Movable Typeでフューチャーフォンやスマートフォン対応ウェブサイト構築を便利にする「ケータイキット for Movable Type」の、最新版となるVer.1.70をリリースしました。Movable Typeの最新バージョンである MT7 に対応しています。</p>
 <p>ダウンロードなどの詳細については、弊社のプレスリリースをご覧ください。</p>
 <ul><li><a href="https://www.ideamans.com/release/20180831/" target="_blank">Movable Type 7 に対応したケータイキット for Movable Type Ver.1.70の提供を開始</a></li></ul>
-<h3>Ver.1.70の特徴</h3>
+<h2>Ver.1.70の特徴</h2>
 <p><img alt="2018-09-03-keitaikit.jpg" src="https://blog.ideamans.com/assets/2018-09-03-keitaikit.jpg" width="1280" height="623" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p>
 <p style="text-align: center;"><span style="color: #888888;">ケータイキット for Movable Type のウェブサイト</span></p>
 <p>今回のバージョンアップでは、以下の３点に対応しています。</p>

@@ -30,7 +30,7 @@ recommended: false
 <p>今回は急なアンケートにもかかわらず、多数のご回答をいただきました。ご協力いただいたユーザーの皆様には、大変感謝いたしております。誠にありがとうございました。</p>
 <p>それでは抜粋とはなりますが、早速アンケート結果のおさらいをさせていただければと思います。</p>
 <p> </p>
-<h3>アンケートのご回答（抜粋）</h3>
+<h2>アンケートのご回答（抜粋）</h2>
 <p><span class="freebirdAnalyticsViewQuestionTitle" data-questiontitle="1515163519">現在ご利用中のプランについて</span></p>
 <p><span class="freebirdAnalyticsViewQuestionTitle" data-questiontitle="1515163519"><a href="https://blog.ideamans.com/assets/SS%202017-11-29%2011.04.03.jpg"><img alt="SS 2017-11-29 11.04.03.jpg" src="https://blog.ideamans.com/assets_c/2017/11/SS%202017-11-29%2011.04.03-thumb-800xauto-122.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" width="800" height="402"></a>Rankletではフリープランで「とりあえず」で使い初めていただいているユーザーさまが多くいらっしゃいます。これはサービス側としても注力しているところで、ランキングコンテンツ開発時にあまり時間とコストをかけられないというお話しや、とりあえず使ってみたかったというご意見がおおいため、フリープランでも有償プランに遜色ない機能を実装させていただいており、ご検討いただけているケースが多いようです。</span></p>
 <p> </p>

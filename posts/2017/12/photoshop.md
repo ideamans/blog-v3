@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: 'Web制作の必須アプリ！みんな大好きPhotoshop！書き出すファイルのファイルサイズは画質設定次第、意外と画質60でも...[JPGダイエット対決 vol.05]'
+title: 'Photoshopの書き出しは画質設定次第、意外と画質60でも通用する'
 excerpt: 'Web制作の定番 Photoshop の「Web用に保存」と LightFile Core を比べました。画質設定によってファイルサイズがどう変わるか、画質60でも実用に耐えるのかを検証します。'
 updateDate: 2018-03-16
 publishedDate: 2017-12-06
