@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'アイデアマンズの日々変化するDI(ダイナミックアイデンティティ)'
-excerpt: 'Goodpatch Blogで変化するロゴマークの紹介がありました。 可変的なロ...'
+excerpt: 'Goodpatch Blogで変化するロゴマークの紹介がありました。可変的なロゴデザイン、DI（ダイナミックアイデンティティ）とは？かなりの好物で読んでてワクワクしました。'
 updateDate: 2018-09-27
 publishedDate: 2018-09-25
 tags: 

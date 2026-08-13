@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'iPhoneの非対応でシェア劣勢でも、いまWebPに対応する意味'
-excerpt: '画像データを半分に軽くするWebP。普及に向けた最後にして最大の砦がiPhone...'
+excerpt: '画像データを半分まで軽くするWebP。普及に向けた最後の最大の砦がiPhoneです。全世界で約72%のユーザーがすでにWebPを利用可能であるにも関わらず、日本ではそれが35%程度に留まっています(2019年2月現在)。'
 updateDate: 2020-06-18
 publishedDate: 2019-02-21
 tags: 

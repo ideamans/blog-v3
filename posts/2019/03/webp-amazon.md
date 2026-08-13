@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの意外な事例: Amazon'
-excerpt: 'AmazonでもついにWebPの利用が始まっています。 執筆時点(2019年3月...'
+excerpt: 'AmazonでもついにWebPの利用が始まっています。執筆時点(2019年3月11日)は商品一覧ページのサムネイルだけのようです。画質に問題がなければ商品詳細や、バナーにも適用されるかもしれません。'
 updateDate: 2019-03-11
 publishedDate: 2019-03-11
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '11種類のロスレスPNGサイズ削減ツールの比較ベンチマークレポート'
-excerpt: 'PNGのファイルサイズを削減するツールとしてOptiPNGやpngquantが有...'
+excerpt: 'PNGのファイルサイズを削減するツールとしてOptiPNGやpngquantが有名ですが、他にもたくさんあってどれを使ったらよいのか迷うところです。PNG関連ツールについて調べていたところ、11種類のツールの比較ベンチマークという、とても興味深いページを見つけたので紹介します。'
 updateDate: 2020-06-18
 publishedDate: 2018-08-15
 tags: 

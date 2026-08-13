@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'お手軽！かんたん！PCにインストールする「JPEGmini」アプリは画質を優先した画像の最適化が得意！[JPGダイエット対決 vol.04]'
-excerpt: 'JPGダイエット対決 vol.04 ということで、今回はパソコンにインストールし...'
+excerpt: 'JPGダイエット対決 vol.04 ということで、今回はパソコンにインストールして利用するタイプのJPEGminiとの対決です。FreeTrialがあるので、画像を扱っているかたは一度はインストールしたことがあるのではないでしょうか！'
 updateDate: 2018-07-03
 publishedDate: 2017-12-01
 tags: 

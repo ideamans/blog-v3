@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '人間の目ではなかなかわからない！Photoshopの画質設定ごとに、画像にどんな差分があるのか調べてみた。'
-excerpt: 'Photoshop使ってますか？写真の加工をしたり、Webデザインをしたりと、W...'
+excerpt: 'Photoshop使ってますか？写真の加工をしたり、Webデザインをしたりと、Web系では万能ツールとしてPhotoshopは利用されています。Photoshopで加工・作成したものを書き出す時、「Web用に保存」という方法で書き出すことが多いのですないでしょうか。'
 updateDate: 2018-03-16
 publishedDate: 2017-12-21
 tags: 

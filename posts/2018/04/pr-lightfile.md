@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '画像最適化ツールLightFileのご紹介'
-excerpt: '今回は、画像最適化ツール「LightFile」のご紹介です。 画像最適化は、ファ...'
+excerpt: '今回は、画像最適化ツール「LightFile」のご紹介です。画像最適化は、ファイルサイズ削減による表示高速化のほか、クラウドサービスの転送量削減にも貢献します。'
 updateDate: 2018-04-19
 publishedDate: 2018-04-03
 tags: 

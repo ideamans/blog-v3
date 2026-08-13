@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの意外な事例: マイクロソフト'
-excerpt: 'EdgeがWebPに対応したマイクロソフトも、いつからか画像がすっかりWebPに...'
+excerpt: 'EdgeがWebPに対応したマイクロソフトも、いつからか画像がすっかりWebPになっています。もちろん米国向けサイトも。WebP HighlighterでWebP画像を目立つように可視化しています。'
 updateDate: 2019-02-27
 publishedDate: 2019-02-23
 tags: 

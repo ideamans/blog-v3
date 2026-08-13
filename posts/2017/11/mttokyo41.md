@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'MT7のDeveloper Preview 1.1公開！MT東京 vol.41 「MTDDC 2017 play again」に参加してきました！'
-excerpt: '先日開催されたMT東京の11月のイベントに、参加してきました！MT7のリリースは...'
+excerpt: '先日開催されたMT東京の11月のイベントに、参加してきました！MT7のリリースは来年ですが、やはりコンテンツ・タイプの部分や、管理画面がどのようにかわるのか、新しい機能は？'
 updateDate: 2017-12-12
 publishedDate: 2017-11-27
 tags: 

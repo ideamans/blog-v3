@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの利用事例: 新R25 (r25.jp)'
-excerpt: '新R25で全面的にWebPが利用されています。 新R25 - 20代ビジネスパー...'
+excerpt: '新R25で全面的にWebPが利用されています。新R25 - 20代ビジネスパーソンのバイブル 多くの画像をr25.jpドメイン以外で配信しておりCDNを利用しているようですが、HTTPヘッダを見ても特定のCDNサービスの形跡がありません。'
 updateDate: 2019-04-24
 publishedDate: 2019-04-18
 tags: 

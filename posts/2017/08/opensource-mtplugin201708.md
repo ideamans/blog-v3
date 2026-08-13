@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'MTプラグインをオープンソース化します[FlexField, ChangeDraft for Movable Type, InstaPost for Movable Type]'
-excerpt: ' アイデアマンズ株式会社が開発したMTプラグインのうち、以下の３プロダクトのライ...'
+excerpt: 'アイデアマンズ株式会社が開発したMTプラグインのうち、以下の３プロダクトのライセンス形態をオープンソースとしました。FlexField FlexFieldは、カスタムフィールドを拡張するMTプラグインです。'
 updateDate: 2017-10-17
 publishedDate: 2017-08-14
 tags: 

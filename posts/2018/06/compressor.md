@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'ロスレスもロッシーも選べる！Compressor.ioは、4種類の画像に対応する便利なWebサービス[JPGダイエット対決 vol.08]'
-excerpt: 'ひさびさのJPGダイエット対決となる今回、対戦相手はCompressor.ioで...'
+excerpt: 'ひさびさのJPGダイエット対決となる今回、対戦相手はCompressor.ioです。もしかすると、あまり馴染みがない方も多いかもしれません。しかしこのサービス、非常に強力なサービスであることがわかりました。'
 updateDate: 2018-06-28
 publishedDate: 2018-06-28
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPウザいめんどくさいという方におすすめChrome拡張機能・JpegやPNGで画像をダウンロード'
-excerpt: 'Twitterを見ていると、WebPウザいめんどくさいという意見を目にします。 ...'
+excerpt: 'Twitterを見ていると、WebPウザいめんどくさいという意見を目にします。普通気づかないのになんでだろう？と思ったら、画像をダウンロードしても開けないということなんですね。'
 updateDate: 2020-12-19
 publishedDate: 2019-02-25
 tags: 

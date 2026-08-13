@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Core Web Vitals (コアウェブバイタル) 競合調査の手順を紹介・無料のデータポータルでプログラミングも不要'
-excerpt: '2021年から検索順位に加わるとされるCore Web Vitals (コアウェ...'
+excerpt: '2021年から検索順位に加わるとされるCore Web Vitals (コアウェブバイタル)。その関係でSearch Console (サーチコンソール)での自社データ閲覧がよく知られていますが、元々はChrome Ux Reportとして全サイトの情報が公開されているパブリックデータです。'
 updateDate: 2020-06-22
 publishedDate: 2020-06-22
 tags: 

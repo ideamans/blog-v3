@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'SEOにも配慮したHTML遅延読み込み Hybrid Include で Core Web Vitals を改善する試み'
-excerpt: '小さいHTMLは正義 HTMLはWebページ全体(数mb)から見ると小さなリソー...'
+excerpt: 'HTMLはWebページ全体(数mb)から見ると小さなリソース(数十Kb)なので、10kbや20kb増えたところで大した影響はないだろうと思われがちです。確かに10kbや20kbのダウンロード時間は些末な差で、昨今はスマホも高性能です。'
 updateDate: 2021-06-16
 publishedDate: 2021-06-15
 tags: 

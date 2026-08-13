@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Photoshopの書き出した画像は、どこがかわっているの？画像処理の結果は、人間の目ではわからなくても、差分をとればみえてくる。'
-excerpt: 'Webデザイナーさん御用達ツールの１つでもあるAdobe Photoshopは、...'
+excerpt: 'Webデザイナーさん御用達ツールの１つでもあるAdobe Photoshopは、非常に高機能な画像処理ツールです。画像を作り出すこともできますし、写真の加工もお手のもの。'
 updateDate: 2018-04-25
 publishedDate: 2018-04-25
 tags: 

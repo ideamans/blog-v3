@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '「遊々空間」「がらくたチップス」：Ranklet活用事例'
-excerpt: 'こんにちは、Rankletサポートチームです。 いつもRankletをご利用いた...'
+excerpt: 'こんにちは、Rankletサポートチームです。いつもRankletをご利用いただきありがとうございます！今回も先日のキャンペーン時にお申込みいただきましたユーザー様の導入事例をご紹介させていただければと思います。'
 updateDate: 2018-03-19
 publishedDate: 2018-02-20
 tags: 

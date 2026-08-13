@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '「ヒビコレ」「くにくにネット」：Ranklet活用事例'
-excerpt: 'こんにちは、Rankletサポートチームです。 いつもRankletのご活用あり...'
+excerpt: 'こんにちは、Rankletサポートチームです。いつもRankletのご活用ありがとうございます！本日もRankletユーザー様の導入事例をご紹介させていただきますので、是非ご参考にしていただければと思います。'
 updateDate: 2018-03-19
 publishedDate: 2018-03-12
 tags: 

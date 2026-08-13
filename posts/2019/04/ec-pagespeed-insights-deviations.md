@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'ECサイトでPageSpeed Insightsスコア80なら偏差値70相当！ パフォーマンス偏差値表(通販サイト編)を作ってみた'
-excerpt: 'Webページの表示速度(パフォーマンス)を数値スコアとして評価できるPageSp...'
+excerpt: 'Webページの表示速度(パフォーマンス)を数値スコアとして評価できるPageSpeed Insights。100点がとれればもちろん言うことなしですが、ほとんどのサイトにとってそれは至難の業で現実的な目標になりません。'
 updateDate: 2020-06-18
 publishedDate: 2019-04-15
 tags: 

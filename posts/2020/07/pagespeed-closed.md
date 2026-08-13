@@ -1,6 +1,6 @@
 ---
 title: '公開前サイトでも PageSpeed Insights したい！ リリース前から計測するためのWebサーバー設定テクニック (Apache編)'
-excerpt: '認証付きサイトをPageSpeed Insightsできない問題 公開前のサイト...'
+excerpt: '公開前のサイトは関係者以外に見られたくないので、基本認証やIPアドレスによるアクセス制限を設けます。しかしその状態では PageSpeed Insights もスコアを計測できません。'
 updateDate: 2020-07-17
 publishedDate: 2020-07-17
 tags: 

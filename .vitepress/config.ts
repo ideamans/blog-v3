@@ -149,14 +149,28 @@ export default defineConfig(
   transformPageData: (pageData) => {
     const params = pageData.params as Record<string, string> | undefined
     if (!params) return
+    // **説明文も動的ルートごとに作る。** 付けないとサイト共通の1文が
+    // 147ページに出て、検索結果でどれも同じ説明になる。
     if (params.year && params.month) {
-      return { title: `${params.year}年${Number(params.month)}月の記事` }
+      const month = Number(params.month)
+      return {
+        title: `${params.year}年${month}月の記事`,
+        description: `${params.year}年${month}月にアイデアマンズブログで公開した記事の一覧です。フロントエンド高速化・画像軽量化・WebP対応など、Webフィットネスに関する記事をまとめています。`
+      }
     }
     if (params.category) {
-      return { title: `${getCategoryLabel(params.category)}の記事` }
+      const label = getCategoryLabel(params.category)
+      return {
+        title: `${label}の記事`,
+        description: `${label}に関する記事の一覧です。アイデアマンズブログでは、フロントエンドの高速化と画像の軽量化について、実測にもとづく知見を記事にしています。`
+      }
     }
     if (params.tag) {
-      return { title: `${params.tagLabel ?? params.tag} の記事` }
+      const label = params.tagLabel ?? params.tag
+      return {
+        title: `${label} の記事`,
+        description: `「${label}」の付いた記事の一覧です。アイデアマンズブログでは、フロントエンドの高速化と画像の軽量化について、実測にもとづく知見を記事にしています。`
+      }
     }
   },
   transformHead: ({ head, pageData }) => {

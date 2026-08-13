@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'うちのトップページ重すぎ...？ Googleの推奨は1.6MB！7,866のウェブサイトトップページをチェックした結果、モバイルデバイス向けトップページの平均サイズは2.43MBだった'
-excerpt: 'Lighthouseの監査項目のひとつに、Webページ全体のデータサイズがありま...'
+excerpt: 'Lighthouseの監査項目のひとつに、Webページ全体のデータサイズがあります。HTML、画像、CSS、JavaScript、フォントなど、Webページの表示に必要なデータの総量のことで、Webページの重さに直結する指標です。'
 updateDate: 2020-06-18
 publishedDate: 2018-08-20
 tags: 

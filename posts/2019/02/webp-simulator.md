@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'あなたのサイトはもっと速くなる！新しい画像フォーマット「WebP」にしたら、どのぐらいかわるか無料のWebP変換シュミレータでチェックしてみよう！'
-excerpt: '先日FirefoxがWebPに対応したということで、多くのブラウザが対応してきて...'
+excerpt: '先日FirefoxがWebPに対応したということで、多くのブラウザが対応してきています。残るブラウザはSafariとIE。IEは、Edgeが対応しているので、対応することはなさそうです。'
 updateDate: 2019-02-19
 publishedDate: 2019-02-19
 tags: 

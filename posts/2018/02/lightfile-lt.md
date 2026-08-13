@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'LightFileの新型シミュレータ画面を、MT東京vol.44でLightning Talkしてきました！'
-excerpt: '画像最適化ツールのLightFileですが、現在新型シュミレーション画面を準備し...'
+excerpt: '画像最適化ツールのLightFileですが、現在新型シュミレーション画面を準備しています。現在、詳細機能をブラッシュアップしている段階ですが、MT東京さんのイベント「【MT東京-44】 Data API 4.0」でライトニングトークしてきました！'
 updateDate: 2018-03-16
 publishedDate: 2018-02-23
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '2018年6月9日「MTDDC MEETUP HOKKAIDO 2018」登壇＆ブース出展のお知らせ'
-excerpt: '今週末の2018年6月9日（土）に北海道で開催される「MTDDC MEETUP ...'
+excerpt: '今週末の2018年6月9日（土）に北海道で開催される「MTDDC MEETUP HOKKAIDO 2018」に弊社代表の宮永がブースセッションに登壇いたします。'
 updateDate: 2020-06-18
 publishedDate: 2018-06-06
 tags: 

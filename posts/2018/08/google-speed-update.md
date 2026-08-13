@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Google Speed Updateで遅いサイトが「検索順位に影響がでた」について思う「２つ」のこと'
-excerpt: '今回は、Web担さんの以下の記事を読んでいて感じた２つのことについてブログを書き...'
+excerpt: '今回は、Web担さんの以下の記事を読んでいて感じた２つのことについてブログを書きます。実録：Googleスピードアップデートで遅いサイトの検索順位が本当に落ちた！'
 updateDate: 2020-06-18
 publishedDate: 2018-08-03
 tags: 

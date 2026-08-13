@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの本格利用に備えるための企業向け個別セミナーをスタート'
-excerpt: 'もしAppleがWebPをサポートすると... もしAppleがWebPに対応す...'
+excerpt: 'もしAppleがWebPに対応すると、日本においても対応シェアが一気に90%を超えてくると予想されます。そうなるとWebP非対応サイトは、WebP対応サイトに比べて画像データが2倍の重さになります。'
 updateDate: 2019-03-06
 publishedDate: 2019-03-06
 tags: 

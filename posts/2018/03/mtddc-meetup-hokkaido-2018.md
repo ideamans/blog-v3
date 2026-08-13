@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'MTDDC Meetup HOKKAIDO 2018を応援しています！ブースではLightFile シミュレータを利用した表示高速化相談も！'
-excerpt: '6月9日(土)に北海道札幌で開催される MTDDC Meetup HOKKAID...'
+excerpt: '6月9日(土)に北海道札幌で開催される MTDDC Meetup HOKKAIDO 2018 を、アイデアマンズは応援しています！アイデアマンズは、MT東京のスポンサーの他、Movable Typeのイベントに引き続きスポンサードしています。'
 updateDate: 2020-06-18
 publishedDate: 2018-03-27
 tags: 

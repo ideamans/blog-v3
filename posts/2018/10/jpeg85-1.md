@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '「Jpegの品質は85がおすすめ」をデータで検証する'
-excerpt: '以前のブログ記事でも触れましたが、GoogleのWebパフォーマンス改善ガイドで...'
+excerpt: '以前のブログ記事でも触れましたが、GoogleのWebパフォーマンス改善ガイドではJpegの品質は85(以下)にすることを推奨しています。画質85がよいという記事をみたので、LightFileの処理と比較してみた。'
 updateDate: 2018-10-01
 publishedDate: 2018-10-01
 tags: 

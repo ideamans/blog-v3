@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '画像最適化しているかどうかがわかるLightFile Simulatorに、体験機能がつきました！最適化したあとのページが実際にみれちゃいます！'
-excerpt: '画像最適化しているかどうかがわかるLightFile Simulator、もうご...'
+excerpt: '画像最適化しているかどうかがわかるLightFile Simulator、もうご利用してみましたか？無料でURLを入れるだけですぐに利用できるので、ぜひぜひご利用ください！'
 updateDate: 2018-05-25
 publishedDate: 2018-05-11
 tags: 

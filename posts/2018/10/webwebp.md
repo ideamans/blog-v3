@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Webサイト全体をWebP対応する最低限の方法'
-excerpt: 'こちらのブログでもアクセスの多いテーマがGoogleの提唱する画像の新フォーマッ...'
+excerpt: 'こちらのブログでもアクセスの多いテーマがGoogleの提唱する画像の新フォーマットのWebPです。WebPってなに？Googleが作った新しい画像フォーマットは、軽くてアルファチャンネルもサポート！'
 updateDate: 2019-02-21
 publishedDate: 2018-10-15
 tags: 

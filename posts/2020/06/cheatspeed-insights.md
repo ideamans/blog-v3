@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed Insightsスコア集中アップのための無料裏レポートツール「PageSpeed Insights 試験対策」をリリース'
-excerpt: 'なぜスコアが上げられないのか PageSpeed Insightsは手軽にWeb...'
+excerpt: 'PageSpeed Insightsは手軽にWebページのスピードを計測するツールとして広く利用されています。100点満点で表示されるスコアを上げたいと思うのは自然な感情ですが、あのレポートを見てサイトを改修しても思ったようにスコアは上がりません。'
 updateDate: 2020-06-18
 publishedDate: 2020-06-01
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '画像を軽量化しよう！WordPressの人気画像最適化プラグイン「EWWW Image Optimizer」は、有料APIを利用すると本気になる？[JPGダイエット対決 vol.02]'
-excerpt: '今回はJPGダイエット対決 vol.02 ということで、WordPressの人気...'
+excerpt: '今回はJPGダイエット対決 vol.02 ということで、WordPressの人気プラグインとの勝負になります。WordPressは利用者が多いので、みなさん利用しているのではないでしょうか？'
 updateDate: 2018-07-03
 publishedDate: 2017-11-20
 tags: 

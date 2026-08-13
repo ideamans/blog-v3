@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'DrupalSummit 2017にいってきました！'
-excerpt: 'DrupalSummit 2017に参加してきました。 DrupalSummit...'
+excerpt: 'DrupalSummit 2017に参加してきました。DrupalSummit 2017 今年はWordCamp（Wordpress）、MTDDC（Movable type）と続けて参加することができ、ちょっと気になっていたDrupalのイベントにも参加してきました。'
 updateDate: 2017-11-21
 publishedDate: 2017-10-23
 tags: 

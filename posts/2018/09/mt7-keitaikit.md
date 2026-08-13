@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Movable Type 7 に対応した「ケータイキット for Movable Type」の最新版 Ver.1.70をリリースしました。'
-excerpt: 'アイデアマンズ株式会社は、Movable Typeでフューチャーフォンやスマート...'
+excerpt: 'アイデアマンズ株式会社は、Movable Typeでフューチャーフォンやスマートフォン対応ウェブサイト構築を便利にする「ケータイキット for Movable Type」の、最新版となるVer.1.70をリリースしました。'
 updateDate: 2018-09-03
 publishedDate: 2018-09-03
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '2018年8月現在の SVGのブラウザ対応状況を確認してみよう。SVGは透過PNGも変換できる軽量画像フォーマット。'
-excerpt: '透過PNGも変換できる軽量な画像フォーマットのSVG (Scalable Vec...'
+excerpt: '透過PNGも変換できる軽量な画像フォーマットのSVG (Scalable Vector Graphics) について、2018年8月27日時点でのブラウザ対応状況を調べてみました。'
 updateDate: 2018-08-28
 publishedDate: 2018-08-28
 tags: 

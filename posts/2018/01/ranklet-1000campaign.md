@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Ranklet 1,000アカウント達成記念！ お申込み先着100名様限定キャンペーンを実施いたします！'
-excerpt: 'こんにちは！Rankletサポートチームです。 この度、Rankletの1,00...'
+excerpt: 'こんにちは！Rankletサポートチームです。この度、Rankletの1,000アカウント突破を記念し「Ranklet 1,000アカウント達成キャンペーン！」と致しまして、以下キャンペーンの実施をさせていただきます。'
 updateDate: 2018-03-19
 publishedDate: 2018-01-17
 tags: 

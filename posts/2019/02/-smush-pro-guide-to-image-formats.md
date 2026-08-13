@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '画像フォーマットの今が1枚でわかるチートシート SMUSH PRO Guide to Image Formats 日本語版'
-excerpt: 'Best Image Formats for Websites Compared...'
+excerpt: 'Best Image Formats for Websites Compared! PNG, JPG, GIF, and WebPに掲載されていた画像フォーマットのチートシートが素敵だったので日本語に翻訳してみました。'
 updateDate: 2020-06-18
 publishedDate: 2019-02-28
 tags: 

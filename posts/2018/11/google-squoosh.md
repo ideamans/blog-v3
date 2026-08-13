@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Google #Squoosh (スクーシュ)を試してみたら、非常に高機能だった！一枚一枚ていねいに軽くするなら最高のツール！'
-excerpt: '新しいツールが登場しましたね！Googleから登場した「Squoosh (スクー...'
+excerpt: '新しいツールが登場しましたね！Googleから登場した「Squoosh (スクーシュ)」は、ブラウザから利用できる画像軽量化ツールです。これ、本当に高機能なツールです。'
 updateDate: 2019-01-21
 publishedDate: 2018-11-16
 tags: 

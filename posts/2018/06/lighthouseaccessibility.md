@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '実録Lighthouseのスコア改善〜Accessibility編'
-excerpt: 'アイデアマンズでは画像のalt属性、リンクのname属性、コントラスト比の修正を...'
+excerpt: 'アイデアマンズでは画像のalt属性、リンクのname属性、コントラスト比の修正を行ったら100点にアップLighthouseは表面的な試験のみ。100点でもアクセシビリティ対応が十分とは言えない目視しにくいチェックを短時間で自動で実行するのは便利。'
 updateDate: 2018-06-22
 publishedDate: 2018-06-22
 tags: 

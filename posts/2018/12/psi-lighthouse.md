@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Pagespeed Insight で Lighthouse が利用されるように。表示速度は、より重要度を増す方向に。スコアアップした方法を公開しました。'
-excerpt: 'Googleが提供するPagespeed Insightは、2018年11月14...'
+excerpt: 'Googleが提供するPagespeed Insightは、2018年11月14日から分析エンジンを監査ツールの Lighthouse に変更することを発表しています。'
 updateDate: 2020-06-18
 publishedDate: 2018-12-04
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '新サービス PageSpeed改善リハーサルをスタート！'
-excerpt: 'PageSpeedスコアの改善でお悩みの企業に向けた実践的レポートサービス「Pa...'
+excerpt: 'PageSpeedスコアの改善でお悩みの企業に向けた実践的レポートサービス「PageSpeed改善リハーサル」をスタートしました。約20通りのWebページ表示高速化の手法をお客様のページに適用すると、それぞれPageSpeedスコアが何点上がるかリハーサルして結果をレポートします。'
 updateDate: 2020-06-18
 publishedDate: 2019-08-30
 tags: 

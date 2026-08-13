@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed InsightsとCore Web Vitals 〜 スコアより大事なフィールドデータの見方'
-excerpt: 'スコアよりフィールドデータを見るのが❝通❞ PageSpeed Insights...'
+excerpt: 'PageSpeed Insightsを実行するとデカデカとスコアが表示されるのでつい注目してしまいますが、本当に大事で、結果を真摯に受け止めなければならないのはその下のフィールドデータの方です。'
 updateDate: 2021-01-10
 publishedDate: 2020-12-10
 tags: 

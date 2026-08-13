@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '画像軽量化の可能性を無料レポート！ LightFile/WebPシミュレーター v3をリリース'
-excerpt: '弊社アイデアマンズが提供する画像軽量化ソリューションLightFileと、Goo...'
+excerpt: '弊社アイデアマンズが提供する画像軽量化ソリューションLightFileと、Googleが推進する新画像フォーマットWebPによってWebページがどのくらい軽量化できるか、無料でレポートするツールをリリースしました。'
 updateDate: 2020-06-18
 publishedDate: 2019-03-22
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeedスコアの人並みは何点？ 40点でもまずは安心していいよ！という話'
-excerpt: '「みんなPageSpeed Insightsで実際、何点とれてるの？」...とい...'
+excerpt: '「みんなPageSpeed Insightsで実際、何点とれてるの？」...というのは気になるところですが、実はスコア計算の仕組みが理解できると、「人並みの点数」がわかります。'
 updateDate: 2020-06-18
 publishedDate: 2019-09-17
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPの利用事例: ANA'
-excerpt: 'ANAの公式ウェブサイトでWebPが利用されています。 ANA｜航空券 予約・空...'
+excerpt: 'ANAの公式ウェブサイトでWebPが利用されています。ANA｜航空券 予約・空席照会・運賃案内・国内線 ヘッダを見るとAkamai Image Managerを利用している模様。'
 updateDate: 2019-03-20
 publishedDate: 2019-03-20
 tags: 

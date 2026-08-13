@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed スコア別の傾向と対策。20点未満のサイトが改善の前に見るべきこと'
-excerpt: '先日、GIGAZINEでLighthouse / PageSpeed Insig...'
+excerpt: '先日、GIGAZINEでLighthouse / PageSpeed Insightsのスコアが取り上げられ、多くのシェアを集めていました。その中でも紹介されていますが、スコアの改善に取り組むうえで、スコアの変化が曲線的であることへの理解が必要です。'
 updateDate: 2020-06-18
 publishedDate: 2019-07-23
 tags: 

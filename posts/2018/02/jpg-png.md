@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'JPGにする？PNGにする？背景の透過がなければ、どちらの画像形式にするほうが軽くなるのか試してみよう'
-excerpt: ' 1枚でWeb画像フォーマットがまるわかり！チートシート公開中 SMUSH PR...'
+excerpt: '1枚でWeb画像フォーマットがまるわかり！チートシート公開中 SMUSH PRO Guide to Image Formats 日本語版。'
 updateDate: 2020-12-19
 publishedDate: 2018-02-05
 tags: 

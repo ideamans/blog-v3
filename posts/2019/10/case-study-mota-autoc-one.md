@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '【事例】画像データを-40.7%軽量化！ 自動車情報メディア[MOTA]でのLightFile実証実験'
-excerpt: '自動車の総合情報メディア [MOTA] を運営するオートックワン株式会社に、Li...'
+excerpt: '自動車の総合情報メディア [MOTA] を運営するオートックワン株式会社に、LightFileの実証実験のご協力をいただきました。MOTA ではSEOを意識した質の高い記事を安定的に発信することで、検索流入の前年比150%を実現。'
 updateDate: 2020-06-18
 publishedDate: 2019-10-16
 tags: 

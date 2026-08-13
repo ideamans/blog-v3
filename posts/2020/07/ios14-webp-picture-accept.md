@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'iOS 14 パブリックベータでWebP対応を確認！ 出し分けのためのpicture要素やAcceptヘッダは今まで通りで大丈夫？'
-excerpt: 'iOS 14 パブリックベータが利用可能になったので以前のiPhoneにインスト...'
+excerpt: 'iOS 14 パブリックベータが利用可能になったので以前のiPhoneにインストールしてみました！SafariでのWebP対応を確認したので簡単にレポートします。'
 updateDate: 2020-07-10
 publishedDate: 2020-07-10
 tags: 

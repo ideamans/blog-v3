@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed Insightsの真実。点数の公式と高得点をとれない理由。5項目の最適化をすることがスコアアップの近道。'
-excerpt: '「レポートの指示通り改善したけど点数が上がらない」 PageSpeed Insi...'
+excerpt: 'PageSpeed Insightsについて、なんとなくこんなイメージを持っていないでしょうか。どちらも間違いです。PageSpeed Insightsについてソースコードやデータを徹底検証してわかった、こんな裏側を紹介します。'
 updateDate: 2020-06-18
 publishedDate: 2019-04-23
 tags: 

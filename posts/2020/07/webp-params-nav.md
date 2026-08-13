@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebP変換を乗りこなそう！ WebPパラメーターナビを公開。cwebpコマンドのパラメーターの効果を視覚的に比較'
-excerpt: 'cwebpコマンド はJpegやPNG画像をWebPに変換するCLIコマンドです...'
+excerpt: 'cwebpコマンド はJpegやPNG画像をWebPに変換するCLIコマンドです。WebP画像の中核ライブラリ libwebp に同梱されており、ImageMagickの convertコマンドのように多くの開発シーンで今後使われていくと予想されます。'
 updateDate: 2020-07-31
 publishedDate: 2020-07-31
 tags: 

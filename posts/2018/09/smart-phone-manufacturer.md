@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'AppleもHUAWEIも！スマホメーカーのウェブサイトは、新機種の紹介がたっぷり！画像軽量化しているかどうか、チェックしてみよう！'
-excerpt: 'スマートフォン、どの機種を利用していますか？日本で人気のApple iPhone...'
+excerpt: 'スマートフォン、どの機種を利用していますか？日本で人気のApple iPhone、日本メーカーも海外ブランドも魅力的な機種を開発しているAndroid端末、MicrosoftのWindows Phoneなどなど、非常に多くの機種が発売されています。'
 updateDate: 2018-09-13
 publishedDate: 2018-09-13
 tags: 

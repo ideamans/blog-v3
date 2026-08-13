@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Safari 12.1でも残念ながらWebPサポートなし。ついでに見出しを斜め読み'
-excerpt: 'Safari 12.1で追加される新機能が公表されました。 New WebKit...'
+excerpt: 'Safari 12.1で追加される新機能が公表されました。New WebKit Features in Safari 12.1 WebPがサポートされたらいいなぁと思いました。'
 updateDate: 2019-04-07
 publishedDate: 2019-04-07
 tags: 

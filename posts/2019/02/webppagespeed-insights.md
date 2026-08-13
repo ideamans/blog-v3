@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'ページの画像をまるごとWebP変換してPageSpeed Insightsスコアを今すぐ改善するチュートリアル'
-excerpt: '先日公開したWebページのWebP変換シミュレータ、ページまるごとWebP変換で...'
+excerpt: '先日公開したWebページのWebP変換シミュレータ、ページまるごとWebP変換ですが、たくさんの方に使っていただいています。このツールで変換したWebP画像は、実際にあなたのWebサイトでお使いいただけます。'
 updateDate: 2019-02-20
 publishedDate: 2019-02-20
 tags: 

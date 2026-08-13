@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebP公式のPhotoshopプラグイン WebPShop登場'
-excerpt: 'WebP開発チームによるPhotoshopプラグイン WebPShopが公開され...'
+excerpt: 'WebP開発チームによるPhotoshopプラグイン WebPShopが公開されました。PhotoshopでWebPの読み書きができるようになります。WebPShop | WebP | Google Developers 手元のPhotoshopで試してみたのでその手順を紹介します。'
 updateDate: 2020-06-18
 publishedDate: 2019-07-09
 tags: 
