@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '実録Lighthouseのスコア改善〜Performance(ユーザー待ち時間)編'
-excerpt: 'LighthouseのPerformance(表示速度)スコア改善には、CDNの導入、画像の軽量化、画像の遅延読み込みが効くそのカルーセルスライダー、本当に必要ですか？'
+excerpt: '自社コーポレートサイトで Lighthouse の Performance スコアを改善した記録です。CDNの導入、画像の軽量化、遅延読み込みが効き、カルーセルの是非にも触れます。'
 updateDate: 2020-06-18
 publishedDate: 2018-06-14
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '画像の解像度を、exiftoolで確認しよう！X Resolution、Y Resolutionが解像度を示す'
-excerpt: '画像の解像度、Macのプレビュー.appだと実は表示してくれません。あまり気にすることもないかもしれませんが、必要な場合は困ってしまうもの。以前から利用しているexiftoolを使えば、Macでも解像度を確認することができます。'
+excerpt: '画像の解像度を exiftool で確認する方法です。X Resolution と Y Resolution の見方と、コマンドの基本的な使い方を説明します。'
 updateDate: 2018-06-21
 publishedDate: 2018-06-21
 tags: 

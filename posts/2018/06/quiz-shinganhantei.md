@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Amazonギフト券があたる！今週末開催のMTDDC Meetup HOKKAIDO 2018 アイデアマンズのブースで、「【問】軽量化するまえの きれいな元画像はどれ？」クイズにチャレンジしよう！'
-excerpt: '今週土曜日に開催のMTDDC Meetup HOKKAIDO 2018のスポンサーブースで、「【問】軽量化するまえの きれいな元画像はどれ？」クイズを開催します。'
+excerpt: 'MTDDC Meetup HOKKAIDO 2018 のアイデアマンズブースで開くクイズのご案内です。4Kモニタに並んだ4枚から軽量化前の元画像を見分けられるか、挑戦してみてください。'
 updateDate: 2020-06-18
 publishedDate: 2018-06-04
 tags: 

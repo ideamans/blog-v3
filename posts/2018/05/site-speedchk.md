@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Googleのページ読み込みスピード計測サービス（スピード スコアカード、インパクト カリキュレータ）を使ってECサイトの機会損失を算出してみる'
-excerpt: 'どうも、菊池でございます。 SEO関連で調べ物をしていたらこんな記事がありました...'
+excerpt: 'Google が公開した Speed Scorecard と Impact Calculator を使い、読み込み速度の遅れがECサイトの売上にどれだけの機会損失を生むかを試算しました。'
 updateDate: 2020-06-18
 publishedDate: 2018-05-02
 tags: 

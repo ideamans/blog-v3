@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '無料または数百円でSSL/TLS証明書を手に入れてサイトをSSL化する3つ方法'
-excerpt: 'あなたのサイトはもうSSL化・HTTPS化が済んでいますか？無料または年数百円という低コストでSSL化を実現する3つの方法を紹介します。'
+excerpt: 'サイトをSSL化する方法を3つ紹介します。AWS Certificate Manager、Let''s Encrypt、年数百円の格安証明書。無料または低コストで始められる選択肢です。'
 updateDate: 2018-07-09
 publishedDate: 2018-07-09
 tags: 
