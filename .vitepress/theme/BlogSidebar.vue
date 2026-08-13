@@ -62,18 +62,18 @@ const topTags = Array.from(tagCounts.entries())
 
     <!-- 7日間の人気ランキング (Ranklet4) -->
     <div>
-      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300">
+      <h2 class="text-sm font-bold mb-3 pb-2 border-b border-base-300">
         7日間の人気ランキング
-      </h3>
+      </h2>
       <aside id="ranklet4-CAUCzJlNf1OGoYooG8uf"></aside>
     </div>
 
     <!-- カテゴリ -->
     <div>
-      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300 flex items-center justify-between">
+      <h2 class="text-sm font-bold mb-3 pb-2 border-b border-base-300 flex items-center justify-between">
         <span>カテゴリー</span>
         <a href="/categories.html" class="text-xs font-normal text-base-content/50 hover:text-primary">一覧 →</a>
-      </h3>
+      </h2>
       <ul class="menu menu-sm p-0 gap-0">
         <li v-for="cat in visibleCategories" :key="cat.basename">
           <a :href="`/${cat.basename}/index.html`" class="justify-between">
@@ -88,10 +88,10 @@ const topTags = Array.from(tagCounts.entries())
 
     <!-- タグ -->
     <div v-if="topTags.length > 0">
-      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300 flex items-center justify-between">
+      <h2 class="text-sm font-bold mb-3 pb-2 border-b border-base-300 flex items-center justify-between">
         <span>タグ</span>
         <a href="/tags.html" class="text-xs font-normal text-base-content/50 hover:text-primary">一覧 →</a>
-      </h3>
+      </h2>
       <div class="flex flex-wrap gap-1.5">
         <a
           v-for="tag in topTags"
@@ -105,9 +105,9 @@ const topTags = Array.from(tagCounts.entries())
 
     <!-- 最新記事 -->
     <div v-if="!hideLatest">
-      <h3 class="text-sm font-bold mb-3 pb-2 border-b border-base-300">
+      <h2 class="text-sm font-bold mb-3 pb-2 border-b border-base-300">
         最新記事
-      </h3>
+      </h2>
       <div class="flex flex-col gap-3">
         <a
           v-for="post in latestPosts"

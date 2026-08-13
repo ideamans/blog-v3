@@ -132,7 +132,7 @@ export default createContentLoader('posts/**/*.md', {
 
 ```typescript
 // .vitepress/config.ts
-buildEnd: genFeed  // RSS フィード生成 (/feed.rss)
+buildEnd: vitepress-machine-readability  // Atom フィード生成 (/feed.xml)
 
 transformHead: ({ head, pageData }) => {
   // OGP/Twitter Card メタタグの動的生成

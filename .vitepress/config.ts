@@ -1,8 +1,8 @@
 import Dayjs from 'dayjs'
 import markdownItCjkFriendly from 'markdown-it-cjk-friendly'
 import { defineConfig } from 'vitepress'
+import { withMachineReadability } from 'vitepress-machine-readability'
 import tailwindcss from '@tailwindcss/vite'
-import { genFeed } from './genFeed.js'
 import { crosslinkPlugin } from './crosslink-plugin.js'
 import { categories as categoryList } from '../categories.js'
 import { getCategoryLabel } from '../categories.js'
@@ -12,7 +12,8 @@ import { buildKnowledgePackage } from './knowledge-indexer.mjs'
 const categoryNameByBasename = new Map(categoryList.map((c) => [c.basename, c.name]))
 
 
-export default defineConfig({
+export default defineConfig(
+  withMachineReadability({
   mpa: true,
   lang: 'ja',
   vite: {
@@ -96,8 +97,6 @@ export default defineConfig({
     ]
   ],
   buildEnd: async (config) => {
-    await genFeed(config)
-
     // ナレッジパッケージ。deploy.sh が knowledge.ideamans.com へ送る。
     const pkg = await buildKnowledgePackage(config, {
       id: 'blog',
@@ -143,6 +142,22 @@ export default defineConfig({
       `[knowledge] ${pkg.out} (${pkg.documents}件 / ${(pkg.bytes / 1024).toFixed(1)}KB / ${pkg.generation})`
     )
   },
+  // 月別・カテゴリ・タグは動的ルートで、テンプレートの frontmatter が
+  // そのまま title になる（111ページが揃って "monthly" になっていた）。
+  // params からページ固有の title を作る。
+  transformPageData: (pageData) => {
+    const params = pageData.params as Record<string, string> | undefined
+    if (!params) return
+    if (params.year && params.month) {
+      return { title: `${params.year}年${Number(params.month)}月の記事` }
+    }
+    if (params.category) {
+      return { title: `${getCategoryLabel(params.category)}の記事` }
+    }
+    if (params.tag) {
+      return { title: `${params.tagLabel ?? params.tag} の記事` }
+    }
+  },
   transformHead: ({ head, pageData }) => {
     const siteUrl = 'https://blog.ideamans.com'
 
@@ -151,7 +166,7 @@ export default defineConfig({
     const pagePath = relativePath
       .replace(/\.md$/, '.html')
       .replace(/^posts\//, '')
-      .replace(/index\.html$/, '')
+      .replace(/(^|\/)index\.html$/, '$1')
     const pageUrl = `${siteUrl}/${pagePath}`
 
     // canonical URL
@@ -326,4 +341,22 @@ export default defineConfig({
     }
   },
   appearance: false
-})
+},
+  // 検索エンジンとAIから読める状態にする。既存の transformHead / buildEnd は潰さない
+  {
+    hostname: 'https://blog.ideamans.com/',
+    organization: {
+      name: 'アイデアマンズ株式会社',
+      url: 'https://www.ideamans.com/'
+    },
+    // このサイトは概要文を excerpt で書いている
+    map: { description: ['excerpt'] },
+    defaultImage: '/ogp-bg.jpg',
+    twitter: { site: '@ideamans', card: 'summary' },
+    // フィードは /feed.xml の1本。旧 /atom.xml と /feed.rss はリダイレクトで受ける
+    feed: { pattern: 'posts/**/*.md', title: "ideaman's Blog" },
+    // Markdown の原本も配る（LLMがHTMLから本文を復元しなくて済む）
+    markdownSource: true,
+    lint: 'warn'
+  })
+)

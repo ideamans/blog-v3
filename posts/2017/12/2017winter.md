@@ -1,6 +1,6 @@
 ---
 # Astrowind
-title: '冬季休業のご案内'
+title: '冬季休業のご案内（2017年）'
 excerpt: 'お客様各位 拝啓　貴社ますますご清栄のこととお慶び申し上げます。平素は格別のご高...'
 updateDate: 2017-12-20
 publishedDate: 2017-12-20

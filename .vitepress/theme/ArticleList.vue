@@ -41,11 +41,11 @@ function displayDate(s?: string): string {
             displayDate(post.publishedAt)
           }}</span>
         </div>
-        <h3
+        <h2
           class="text-base font-bold leading-snug mb-2 group-hover:text-primary transition-colors line-clamp-2"
         >
           {{ post.title }}
-        </h3>
+        </h2>
         <p
           v-if="post.excerpt"
           class="text-sm text-base-content/60 leading-relaxed line-clamp-2"

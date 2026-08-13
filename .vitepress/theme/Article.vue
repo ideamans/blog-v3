@@ -273,7 +273,7 @@ function tagsArray(): string[] {
                   (rp.publishedAt ?? '').slice(0, 10)
                 }}</span>
               </div>
-              <h3 class="text-sm font-bold leading-snug">{{ rp.title }}</h3>
+              <h2 class="text-sm font-bold leading-snug">{{ rp.title }}</h2>
             </div>
           </div>
         </a>

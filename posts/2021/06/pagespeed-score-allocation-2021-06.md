@@ -47,7 +47,7 @@ recommended: false
 
 「なんかこの前測った数値と違う...」と感じたら、これが理由かもしれません。
 
-# Core Web Vitalsとの相関性強化が狙い
+## Core Web Vitalsとの相関性強化が狙い
 
 今回の変更は一言にいえば、**Core Web VitalsとPageSpeed Insightsの相関性強化**でしょう。
 
