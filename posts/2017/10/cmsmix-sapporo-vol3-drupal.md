@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'CMSMix Sapporo Vol.3 （Drupalの回） に参加しました！'
-excerpt: 'CMSmix Sapporo Vol.3（Drupalの回）に参加してきました！...'
+excerpt: '札幌で開かれた Drupal のもくもく会「CMSmix Sapporo Vol.3」の参加レポートです。Movable Type の北海道ユーザーグループとの接点や、当日の講義と実際に触ってみた感想をまとめています。'
 updateDate: 2017-11-21
 publishedDate: 2017-10-24
 tags: 

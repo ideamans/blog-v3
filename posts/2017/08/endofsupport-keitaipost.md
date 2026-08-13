@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'サポート終了予定のお知らせ「KeitaiPost for Movable Type」'
-excerpt: 'アイデアマンズ株式会社で開発している「KeitaiPost for Movable Type」は、2018年3月31日で製品のサポートを終了いたします。これにより、脆弱性対応を含めアップデートは行われません。'
+excerpt: 'メール投稿プラグイン「KeitaiPost for Movable Type」のサポートを2018年3月31日で終了します。以後は脆弱性対応を含むアップデートを行いません。対象製品と終了後の扱いをお知らせします。'
 updateDate: 2017-10-17
 publishedDate: 2017-08-21
 tags: 

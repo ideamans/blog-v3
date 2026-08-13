@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '大きな画像をアップロードしても自動でリサイズ！WordPressプラグイン「Imsanity」は、ウェブ担当者の強い味方です！[JPGダイエット対決 vol.06]'
-excerpt: '今回はJPGダイエット対決 vol.06 ということで、WordPressの無償プラグインとの勝負になります。今回以外の対決シリーズはこちらのページにまとめています。'
+excerpt: '大きな画像をアップロードしても自動でリサイズしてくれる WordPress プラグイン「Imsanity」を試しました。画質の最適化とは別に、表示サイズに合わせて縮めることの効果を検証します。'
 updateDate: 2018-03-16
 publishedDate: 2017-12-12
 tags: 

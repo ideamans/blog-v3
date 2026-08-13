@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'カテゴリーの選択をラクにしてくれるMTプラグイン「SelectCategories for Movable Type」は、全選択・全選択解除がワンクリックでできちゃいます！'
-excerpt: 'Movable Typeを利用していて、カテゴリが多いブログを運用していますか？カテゴリの選択はチェックボックスなので、クリックでON/OFFできます。簡単ですよね。'
+excerpt: 'Movable Type でカテゴリ数の多いブログの選択作業を、ワンクリックで済ませるプラグイン「SelectCategories」を紹介します。全選択・全解除に加え、修飾キーで子カテゴリをまとめて選択できます。'
 updateDate: 2017-10-17
 publishedDate: 2017-08-04
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Google PageSpeed Insightでわかるのは、画像の表示サイズが適切かどうか。画質の軽量化でもっと表示は速くなる。'
-excerpt: 'Googleは、簡単に利用できるいろいろな無料のチェックツールを提供しています。今回は、ページ表示のスピードに関するチェックをしてくれるPagespeed Insightのお話です。'
+excerpt: 'Google PageSpeed Insights の使い方と、レポートの読み方を説明します。このツールでわかるのは画像の表示サイズが適切かどうかで、画質の軽量化はさらに別の余地として残ります。'
 updateDate: 2018-03-16
 publishedDate: 2018-01-15
 tags: 

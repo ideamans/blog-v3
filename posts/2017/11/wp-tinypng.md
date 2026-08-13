@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: '最強の相手はTinyPNG。そのWordPressプラグインの実力は？「Compress JPEG &amp; PNG images」を試してみた。[JPGダイエット対決 vol.03]'
-excerpt: '今回はJPGダイエット対決 vol.03 ということで、ふたたびWordPressの人気プラグインとの勝負になります。そして、今回は最強の相手ともいえるあの「TinyPNG」です。'
+excerpt: '画像最適化の代表格 TinyPNG の WordPress プラグイン「Compress JPEG & PNG images」と LightFile Core を比べました。削減率と画質の劣化がどう違うかを実際の画像で検証します。'
 updateDate: 2018-03-16
 publishedDate: 2017-11-22
 tags: 

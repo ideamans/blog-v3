@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'CMSのランキングプラグイン厳選8種類と、Webサービス型のランクレット(#Ranklet)'
-excerpt: 'メディア系サイトやブログなどでも必ずといっていいほど設置されているコンテンツの「ランキング」ですが、ベーシックな機能すぎていつも同じツールを使い続けてしまうことが多いので、Movable TypeとWord Pressのみですが更新状況など比較的使われていそうなものを簡単にですが調べてみました。'
+excerpt: 'Movable Type と WordPress のランキングプラグイン8種類を、更新状況や機能で比較しました。CMSに依存しないWebサービス型の Ranklet との違いもあわせて整理しています。'
 updateDate: 2018-03-27
 publishedDate: 2017-11-07
 tags: 
