@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'SearchConsoleに「速度」レポートが出現！'
-excerpt: 'いまいち実態のわからないSpeed Updateでしたが、Search Consoleのメニューに「速度(試験運用版)」が追加されました。検索順位との関係が明らかになっていくとよいですね。'
+excerpt: 'Search Console に「速度（試験運用版）」レポートが追加されました。低速・中速・高速の判定基準と、低速から抜け出すのがなぜ大変なのかを説明します。'
 updateDate: 2020-06-18
 publishedDate: 2019-11-05
 tags: 

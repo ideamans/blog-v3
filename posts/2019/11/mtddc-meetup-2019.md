@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'MTDDC Meetup 2019でPageSpeedスコアの話をします'
-excerpt: '毎回300人規模で開催されるWebクリエイターの祭典MTDDC Meetup 2019に登壇します。今年はAI/IoTがメインテーマということで、興味深いトラックが目白押し。'
+excerpt: 'Webクリエイターの祭典 MTDDC Meetup TOKYO 2019 に登壇し、PageSpeed スコアについてお話しします。今年のメインテーマは AI/IoT です。'
 updateDate: 2020-06-18
 publishedDate: 2019-11-06
 tags: 

@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed Insightsのスコア大変動か？ Lighthouse 6 で変わる採点ルールを先取りチェック！'
-excerpt: '2020年3月現在、PageSpeed Insightsの内部ではLighthouse 5.6が使われています。Lighthouseの次期バージョン6では採点ロジックが変わる予定です。'
+excerpt: 'Lighthouse 6 で採点ルールが変わります。FMPからLCPへ、First CPU Idle から TBT へ、そしてCLSの追加。Amazon のスコアは約20点下がる見込みです。'
 updateDate: 2020-06-18
 publishedDate: 2020-03-18
 tags: 

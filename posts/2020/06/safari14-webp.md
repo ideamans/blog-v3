@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPが次世代画像フォーマット天下統一！ Safari 14でついにiPhoneもWebP対応・導入加速は間違いなし'
-excerpt: 'Safari 14 で次世代画像フォーマットWebPへの対応が発表されました！Safari 14 Beta Release Notes | Apple Developer Documentation かれこれ20年近く延々と続いた次世代画像フォーマット戦争に、WebPがついに終止符を打ちそうです。'
+excerpt: 'Safari 14 で iPhone もついに WebP に対応します。長く続いた次世代画像フォーマットの競争に区切りがつき、導入が加速すると見られる理由を説明します。'
 updateDate: 2020-06-24
 publishedDate: 2020-06-24
 tags: 

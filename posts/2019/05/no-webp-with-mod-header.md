@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'WebPウザいという方に贈るChromeでWebPをブロックする方法 ※ただし完全ではない'
-excerpt: 'WebPは軽くて普通のユーザーにはメリットがありますが、画像をダウンロードして使いたいシーンでは手間になります。Twitterにそういう不満の書き込みが多いことを知って、WebPウザいめんどくさいという方におすすめChrome拡張機能・JpegやPNGで画像をダウンロードという記事を書きました。'
+excerpt: 'Chrome拡張 ModHeader で Accept ヘッダを書き換え、WebP の配信をブロックする方法です。仕組みと、この方法では完全には防げない理由も説明します。'
 updateDate: 2019-05-23
 publishedDate: 2019-05-23
 tags: 

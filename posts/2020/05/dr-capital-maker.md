@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'ドクター・キャピタル Dr. Capital風背景メーカーで楽しいZOOMライフ！'
-excerpt: 'まいどードクターミヤナガですー。プログラミング自称ハカセやさかいドクターやねん。楽器は何ひとつできない私ですが、Dr. Capitalの動画が大好きです(Dr.が敬称にあたると思うのでこの呼び方で失礼します)。'
+excerpt: 'ZOOM の背景画像を、関西弁でJ-POPを語る音楽教授 Dr. Capital 風に作れるツールを公開しました。作った経緯と使い方を紹介します。'
 updateDate: 2020-05-01
 publishedDate: 2020-05-01
 tags: 

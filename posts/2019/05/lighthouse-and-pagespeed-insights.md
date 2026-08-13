@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'PageSpeed InsightsとLighthouse。よく似てるツールの違いを比較表でチェック！'
-excerpt: 'さくらインターネットさんのさくらのナレッジで、GoogleによるWebサイトパフォーマンス測定ツール「Lighthouse」入門という記事が公開されています。すでにご覧の方も多いと思います。'
+excerpt: 'Lighthouse と PageSpeed Insights の違いを比較表で整理します。PageSpeed Insights はLighthouse のパフォーマンス部分だけを切り出したもの、という関係です。'
 updateDate: 2020-06-18
 publishedDate: 2019-05-09
 tags: 

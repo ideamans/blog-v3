@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'CloudFront料金早見表を作ってみた。月額10万円超えは何PVから？'
-excerpt: 'AWSリソースとの相性抜群なCDN CloudFrontが日本で着実にシェアを伸ばしています。国内CDNシェア(2019年4月) | J-Stream CDN情報サイト CloudFrontをはじめCDNの多くはトラフィック量に応じた従量課金です。'
+excerpt: 'CloudFront の料金早見表を作りました。1ページあたりのデータ量とPV数から月額がわかります。月10万円を超えるのは何PVからか、削減にはどこが効くかを示します。'
 updateDate: 2020-06-18
 publishedDate: 2019-06-11
 tags: 

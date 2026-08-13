@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Lighthouse 6.0.0リリース！モバイルスコアは半数のサイトが低下しPCでは激減の可能性'
-excerpt: 'Lighthouse 6.0.0が正式にリリースされました。What''s New in Lighthouse 6.0 ひとまずNPMモジュールがデフォルトで6.0.0に。'
+excerpt: 'Lighthouse 6.0.0 が正式リリースされました。モバイルは半数のサイトでスコアが低下し、デスクトップは大きく下がる可能性があります。採点ロジックの変更点をまとめます。'
 updateDate: 2020-06-18
 publishedDate: 2020-05-22
 tags: 
