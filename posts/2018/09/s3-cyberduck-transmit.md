@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'AWS S3に Cyberduck と Transmit でつないでみよう！レンタルサーバのようにドラッグ＆ドロップでファイル管理できるのは便利！'
-excerpt: '画像軽量化ツールのLightFileは、AWS Lambda に対応しています。AWS S3 にファイルをアップロードすると、それをトリガーにして LightFile が軽量化処理を自動で行います。'
+excerpt: 'AWS S3 に Cyberduck や Transmit で接続し、レンタルサーバーのようにドラッグ＆ドロップでファイルを扱う方法です。LightFile と組み合わせると置くだけで軽量化されます。'
 updateDate: 2018-09-19
 publishedDate: 2018-09-19
 tags: 

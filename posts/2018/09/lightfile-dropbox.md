@@ -1,7 +1,7 @@
 ---
 # Astrowind
 title: 'Dropboxで楽々おまかせJpeg軽量化！ LightFile for Dropbox プレビュー版'
-excerpt: 'AIがJpeg画像を最適に軽量化するLightFileをDropboxとの連携で簡単に使える新サービスをリリースしました。LightFile for Dropbox PREVIEW 決まったアプリフォルダにJpegファイルをコピーや保存するだけで、あとは勝手に画質を落とさず、そのファイルを軽量化します。'
+excerpt: 'Dropbox の決まったフォルダに JPEG を置くだけで自動的に軽量化する「LightFile for Dropbox」プレビュー版を公開しました。仕組みと使い方を説明します。'
 updateDate: 2018-09-14
 publishedDate: 2018-09-14
 tags: 
