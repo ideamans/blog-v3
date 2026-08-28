@@ -2,6 +2,7 @@ import Dayjs from 'dayjs'
 import markdownItCjkFriendly from 'markdown-it-cjk-friendly'
 import { defineConfig } from 'vitepress'
 import { withMachineReadability } from 'vitepress-machine-readability'
+import { excludeNotFoundFromSitemap, writeNotFoundPage } from './not-found.js'
 import tailwindcss from '@tailwindcss/vite'
 import { crosslinkPlugin } from './crosslink-plugin.js'
 import { categories as categoryList } from '../categories.js'
@@ -30,10 +31,13 @@ export default defineConfig(
   sitemap: {
     hostname: 'https://blog.ideamans.com',
     transformItems: (items) => {
-      return items.filter((item) => {
-        const url = item.url
-        return !url.startsWith('CLAUDE')
-      })
+      // not-found は 404 の中身にするだけのページなので載せない
+      return excludeNotFoundFromSitemap(
+        items.filter((item) => {
+          const url = item.url
+          return !url.startsWith('CLAUDE')
+        })
+      )
     }
   },
   rewrites: {
@@ -98,6 +102,10 @@ export default defineConfig(
     ]
   ],
   buildEnd: async (config) => {
+    // ナレッジのインデクサより先に走らせる。ここで not-found.html を消すので
+    // 「出力にあるページだけを採る」インデクサから自動的に外れる
+    writeNotFoundPage(config.outDir)
+
     // ナレッジパッケージ。deploy.sh が knowledge.ideamans.com へ送る。
     const pkg = await buildKnowledgePackage(config, {
       id: 'blog',
