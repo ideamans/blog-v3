@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const POSTS_DIR = join(__dirname, '..', 'posts')
+const isProductionBuild = process.env.NODE_ENV === 'production' || process.argv.includes('build')
 
 function slugifyTag(tag) {
   return String(tag).toLowerCase().replace(/\s+/g, '-')
@@ -30,6 +31,8 @@ export default {
     for (const file of walk(POSTS_DIR)) {
       const raw = readFileSync(file, 'utf-8')
       const { data } = matter(raw)
+      // 本番ビルドでは下書きのタグからページを作らない（記事0件のタグページができる）
+      if (isProductionBuild && data.draft) continue
       const tags = data.tags
       if (Array.isArray(tags)) {
         for (const t of tags) {

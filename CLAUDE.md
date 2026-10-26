@@ -13,6 +13,11 @@ yarn dev        # 開発サーバー起動（ブラウザ自動オープン）
 yarn build      # プロダクションビルド
 yarn serve      # ビルド済みサイトのプレビュー
 yarn x-ai-posting  # AI自動投稿（Twitter/X）
+
+# 予約した下書きのうち、今日公開されるものを確かめる（書き換えない）
+yarn publish-scheduled --dry-run
+
+./deploy.sh     # ビルドして公開（手元でも Actions でもこの1か所）
 ```
 
 ## 技術スタック
@@ -60,6 +65,24 @@ recommended: false
 image: /path/to/image.png  # オプション：OGP画像（省略時は自動生成）
 ---
 ```
+
+### 下書きと予約公開
+
+`draft: true` を付けた記事は、本番ビルドから外れる（一覧・カテゴリ・月別・タグ・RSS・sitemap・ナレッジにも出ない）。
+`yarn dev` では除外されないので、本番と同じURLでプレビューできる。
+
+**`draft: true` の記事は、`publishedAt` の日付が来たら自動で公開される。** 毎朝8:00（日本時間）に
+`.github/workflows/publish-scheduled.yml` が `scripts/publish-scheduled.mjs` を動かし、
+公開日が今日以前の記事から `draft: true` の行を外してコミットし、`deploy.sh` でデプロイする。
+
+- 予約公開したいときは、公開したい日を `publishedAt` に入れて `draft: true` を付けて push するだけでよい
+- 見るのは日付だけで、時刻は見ない（`publishedAt: 2026-11-05 12:00:00` でも 11/5 の8:00に出る）。
+  `publishedAt` が無い旧記事は `publishedDate` を見る
+- **日付を過ぎたまま寝かせておく下書きは作れない。** 次の朝に公開される。公開しない記事は、下書きにせず削除する
+- 下書きの判定は `.vitepress/config.ts`（srcExclude）、`theme/posts.data.ts`、`tags/[tag].paths.js`、
+  `scripts/publish-scheduled.mjs` の4か所。片方だけ変えないこと
+- 手動でも GitHub の Actions 画面から `Publish scheduled drafts` を実行できる
+- Actions のトークンで push したコミットでは `publish.yml` が起動しないので、予約公開のワークフローの中でデプロイまで行う
 
 **OGP画像の自動生成:**
 - `image` 省略時: `banners.ideamans.com` でタイトル・日付・著者から動的生成

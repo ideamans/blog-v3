@@ -73,10 +73,16 @@ function normalizeExcerpt(
   return text.slice(0, MAX).replace(/\s+\S*$/, '') + '…'
 }
 
+// 本番ビルドでは下書き（draft: true）を一覧・カテゴリ・月別から除外する。
+// createContentLoader は srcExclude を見ないので、ここでも外す。
+// dev では除外しないため、トップや一覧からプレビューに辿れる。
+const isProductionBuild = process.env.NODE_ENV === 'production' || process.argv.includes('build')
+
 export default createContentLoader('posts/**/*.md', {
   excerpt: true,
   transform(raw): Post[] {
     return raw
+      .filter(({ frontmatter }) => !(isProductionBuild && frontmatter.draft))
       .map(({ url, frontmatter, excerpt }) => {
         return {
           ...frontmatter,

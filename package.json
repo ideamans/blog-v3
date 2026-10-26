@@ -8,6 +8,7 @@
     "build": "vitepress build",
     "serve": "vitepress serve",
     "x-ai-posting": "tsx agents/x-ai-posting.ts",
+    "publish-scheduled": "node scripts/publish-scheduled.mjs",
     "lint:text": "textlint 'posts/**/*.md' index.md",
     "lint:text:fix": "textlint --fix 'posts/**/*.md' index.md",
     "prepare": "lefthook install || true"

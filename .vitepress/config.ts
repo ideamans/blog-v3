@@ -1,3 +1,6 @@
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import Dayjs from 'dayjs'
 import markdownItCjkFriendly from 'markdown-it-cjk-friendly'
 import { defineConfig } from 'vitepress'
@@ -11,6 +14,33 @@ import { getCategoryLabel } from '../categories.js'
 import { buildKnowledgePackage } from './knowledge-indexer.mjs'
 
 const categoryNameByBasename = new Map(categoryList.map((c) => [c.basename, c.name]))
+
+// 下書き機構: frontmatter に `draft: true` を持つ記事は本番ビルドから除外する。
+// dev サーバーでは除外しないため、通常のURL・レイアウトのままプレビューできる。
+// 公開日が来た下書きは毎朝 scripts/publish-scheduled.mjs が draft を外して公開する。
+// 判定の正規表現はそちらとそろえること。
+const isProductionBuild = process.env.NODE_ENV === 'production' || process.argv.includes('build')
+
+const BLOG_SRC_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+
+function collectDraftPaths(dir: string): string[] {
+  const result: string[] = []
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name)
+    if (entry.isDirectory()) {
+      result.push(...collectDraftPaths(full))
+    } else if (entry.name.endsWith('.md')) {
+      const head = fs.readFileSync(full, 'utf8').slice(0, 1000)
+      const fm = head.match(/^---\r?\n([\s\S]*?)\r?\n---/)
+      if (fm && /(^|\n)draft:\s*true\s*(\r?\n|$)/.test(fm[1])) {
+        result.push(path.relative(BLOG_SRC_DIR, full).split(path.sep).join('/'))
+      }
+    }
+  }
+  return result
+}
+
+const draftExcludes = isProductionBuild ? collectDraftPaths(path.join(BLOG_SRC_DIR, 'posts')) : []
 
 
 export default defineConfig(
@@ -26,8 +56,8 @@ export default defineConfig(
   cleanUrls: false,
   ignoreDeadLinks: true,
   // CLAUDE.md は社内向けのAI指示書、deadlink.md はリンク切れ調査のメモ。
-  // どちらも読者向けではないので公開ページにしない
-  srcExclude: ['CLAUDE.md', 'deadlink.md'],
+  // どちらも読者向けではないので公開ページにしない。本番では下書きも外す
+  srcExclude: ['CLAUDE.md', 'deadlink.md', ...draftExcludes],
   sitemap: {
     hostname: 'https://blog.ideamans.com',
     transformItems: (items) => {
