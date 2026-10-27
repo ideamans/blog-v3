@@ -17,7 +17,7 @@ yarn x-ai-posting  # AI自動投稿（Twitter/X）
 # 予約した下書きのうち、今日公開されるものを確かめる（書き換えない）
 yarn publish-scheduled --dry-run
 
-./deploy.sh     # ビルドして公開（手元でも Actions でもこの1か所）
+./deploy.sh     # 手元からビルドして公開（ナレッジの zip も送る）
 ```
 
 ## 技術スタック
@@ -73,7 +73,7 @@ image: /path/to/image.png  # オプション：OGP画像（省略時は自動生
 
 **`draft: true` の記事は、`publishedAt` の日付が来たら自動で公開される。** 毎朝8:00（日本時間）に
 `.github/workflows/publish-scheduled.yml` が `scripts/publish-scheduled.mjs` を動かし、
-公開日が今日以前の記事から `draft: true` の行を外してコミットし、`deploy.sh` でデプロイする。
+公開日が今日以前の記事から `draft: true` の行を外してコミットし、ビルドしてデプロイする（下の「デプロイ」）。
 
 - 予約公開したいときは、公開したい日を `publishedAt` に入れて `draft: true` を付けて push するだけでよい
 - 見るのは日付だけで、時刻は見ない（`publishedAt: 2026-11-05 12:00:00` でも 11/5 の8:00に出る）。
@@ -83,6 +83,18 @@ image: /path/to/image.png  # オプション：OGP画像（省略時は自動生
   `scripts/publish-scheduled.mjs` の4か所。片方だけ変えないこと
 - 手動でも GitHub の Actions 画面から `Publish scheduled drafts` を実行できる
 - Actions のトークンで push したコミットでは `publish.yml` が起動しないので、予約公開のワークフローの中でデプロイまで行う
+
+### デプロイ
+
+- main への push で `publish.yml` がビルドして公開する。予約公開は `publish-scheduled.yml` の中で同じ手順を踏む
+  （2つは同じ手順なので、変えるときは両方直す）
+- **Actions からは、サイトの `html/` にしか書けない専用鍵で送る**（secret `WEB_G6_DEPLOY_KEY`、2026-10-27〜）。
+  鍵は web-g6 の `authorized_keys` で `rrsync -wo /root/web/vhosts/blog.ideamans.com/html` に縛ってあり、
+  宛先は `root@66.42.39.68:`（その `html/` からの相対）。ホスト鍵はワークフローに固定で書いてある。
+  `--delete` は付けていない（`deploy.sh` と同じ）
+- **ナレッジの zip（`knowledge/blog.zip`）は Actions からは送れない。** 送り先が `html/` の外にあるため。
+  手元の `./deploy.sh` がビルド・サイトの rsync・zip の送信をまとめて行うので、
+  記事を足したら一度は手元から `./deploy.sh` を実行して検索とナレッジに反映させる
 
 **OGP画像の自動生成:**
 - `image` 省略時: `banners.ideamans.com` でタイトル・日付・著者から動的生成
