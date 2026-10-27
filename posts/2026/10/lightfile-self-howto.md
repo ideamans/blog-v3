@@ -6,7 +6,6 @@ publishedAt: 2026-10-28 08:00:00
 categories: ['lightfile', 'web-imaging', 'performance']
 recommended: false
 image: /images/2026/lightfile-self-howto/ogp.jpg
-draft: true
 ---
 
 サイトの画像が重いのはわかっていても、サーバーにツールを入れたり、1枚ずつ画像編集ソフトで書き出し直したりするのは手間がかかります。
