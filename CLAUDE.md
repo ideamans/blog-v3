@@ -92,9 +92,10 @@ image: /path/to/image.png  # オプション：OGP画像（省略時は自動生
   鍵は web-g6 の `authorized_keys` で `rrsync -wo /root/web/vhosts/blog.ideamans.com/html` に縛ってあり、
   宛先は `root@66.42.39.68:`（その `html/` からの相対）。ホスト鍵はワークフローに固定で書いてある。
   `--delete` は付けていない（`deploy.sh` と同じ）
-- **ナレッジの zip（`knowledge/blog.zip`）は Actions からは送れない。** 送り先が `html/` の外にあるため。
-  手元の `./deploy.sh` がビルド・サイトの rsync・zip の送信をまとめて行うので、
-  記事を足したら一度は手元から `./deploy.sh` を実行して検索とナレッジに反映させる
+- **ナレッジの zip（`knowledge/blog.zip`）も同じ鍵で送る。** 鍵の forced command は web-g6 の
+  `/root/web/bin/deploy-gate`（門番）で、rsync なら `html/` へ、`ssh ... knowledge-zip < knowledge/blog.zip` なら
+  knowledge の `incoming/blog.zip` の置き換えだけを許す。他のサイトにも他のセットの zip にも書けない
+- 手元の `./deploy.sh`（`~/.ssh/config` の `web-g6`）も、ビルド・サイトの rsync・zip の送信を同じようにまとめて行う
 
 **OGP画像の自動生成:**
 - `image` 省略時: `banners.ideamans.com` でタイトル・日付・著者から動的生成
