@@ -6,7 +6,6 @@ publishedAt: 2026-10-29 08:00:00
 categories: ['performance', 'core-web-vitals']
 recommended: false
 image: /images/2026/sitespeed-lookback-howto/ogp.jpg
-draft: true
 ---
 
 「うちのサイトの速さは、競合と比べてどうなのか」は、気になっても確かめにくいことの一つです。他社のサイトには計測のタグを入れられないからです。
