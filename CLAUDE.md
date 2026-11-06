@@ -12,7 +12,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 yarn dev        # 開発サーバー起動（ブラウザ自動オープン）
 yarn build      # プロダクションビルド
 yarn serve      # ビルド済みサイトのプレビュー
-yarn x-ai-posting  # AI自動投稿（Twitter/X）
 
 # 予約した下書きのうち、今日公開されるものを確かめる（書き換えない）
 yarn publish-scheduled --dry-run
@@ -25,8 +24,22 @@ yarn publish-scheduled --dry-run
 - **VitePress 1.0** - 静的サイトジェネレータ（MPA mode, `cleanUrls: false`）
 - **Vue 3.4+** - Composition API & `<script setup>`
 - **TypeScript**
-- **Tailwind CSS 3.4 + DaisyUI 4.12** - スタイリング（`postcss.config.js` で設定）
+- **Tailwind CSS 4.2 + DaisyUI 5.5** - スタイリング（`@tailwindcss/vite`、`.vitepress/theme/style.css` の `@plugin`）
+- **パッケージは yarn（`yarn.lock`）だけ。** CI も `yarn install`。pnpm-lock.yaml は 2025-05 から更新されていない残骸だったので消した
 - **Dayjs** - 日付処理
+
+### 依存を上げるときに止めているもの（2026-11-06）
+
+- **tailwindcss / @tailwindcss/vite は `~4.2`。** 4.3 は既定の `--font-sans` を `system-ui` から
+  `-apple-system, "Segoe UI", Roboto, ...` に変えた。このサイトはフォントを指定していないので、
+  Windows・Linux で和文の書体が変わる
+- **daisyui は `~5.5`。** 5.7 で `btn-ghost` の挙動が変わった（`aria-current` で塗る・文字色を継承しない）。
+  ヘッダーとモバイルメニューで `btn-ghost` を使っている
+- **vitepress は 1.x のまま。** vite 5 に残る high は 2.x に上げないと消えない（ビルド時だけの道具）
+- **`resolutions` で jtf-style の textlint-rule-prh を 6.1.0 に固定。** 6.1.1 以降は prh 6（Node 22 以上）を
+  要求し、CI の Node 20 では `yarn install` が止まる
+- **`tags/[tag].paths.js` は gray-matter を直接 import している。** 消すとタグページ18枚が
+  **エラーにならずに**消える（VitePress が paths ローダーの失敗を黙って無視する）
 
 ## ファイルとURLの対応関係
 
