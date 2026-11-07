@@ -36,8 +36,6 @@ yarn publish-scheduled --dry-run
 - **daisyui は `~5.5`。** 5.7 で `btn-ghost` の挙動が変わった（`aria-current` で塗る・文字色を継承しない）。
   ヘッダーとモバイルメニューで `btn-ghost` を使っている
 - **vitepress は 1.x のまま。** vite 5 に残る high は 2.x に上げないと消えない（ビルド時だけの道具）
-- **`resolutions` で jtf-style の textlint-rule-prh を 6.1.0 に固定。** 6.1.1 以降は prh 6（Node 22 以上）を
-  要求し、CI の Node 20 では `yarn install` が止まる
 - **`tags/[tag].paths.js` は gray-matter を直接 import している。** 消すとタグページ18枚が
   **エラーにならずに**消える（VitePress が paths ローダーの失敗を黙って無視する）
 

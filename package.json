@@ -33,8 +33,5 @@
     "vitepress": "^1.6.4",
     "vitepress-machine-readability": "^0.2.0",
     "vue": "^3.5.45"
-  },
-  "resolutions": {
-    "**/textlint-rule-preset-jtf-style/textlint-rule-prh": "6.1.0"
   }
 }
