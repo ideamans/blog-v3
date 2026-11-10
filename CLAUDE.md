@@ -21,8 +21,9 @@ yarn publish-scheduled --dry-run
 
 ## 技術スタック
 
-- **VitePress 1.0** - 静的サイトジェネレータ（MPA mode, `cleanUrls: false`）
-- **Vue 3.4+** - Composition API & `<script setup>`
+- **VitePress 2（2.0.0-alpha）** - 静的サイトジェネレータ（MPA mode, `cleanUrls: false`）。vite 8 で動く
+  （2026-11 に 1.6 から移行。出力の違いは画像の `width`/`height` 属性・コードブロックの `dir="ltr"`・見出しアンカーの `aria-label` の引用符だけで、画面は同一）
+- **Vue 3.5** - Composition API & `<script setup>`
 - **TypeScript**
 - **Tailwind CSS 4.2 + DaisyUI 5.5** - スタイリング（`@tailwindcss/vite`、`.vitepress/theme/style.css` の `@plugin`）
 - **パッケージは yarn（`yarn.lock`）だけ。** CI も `yarn install`。pnpm-lock.yaml は 2025-05 から更新されていない残骸だったので消した
@@ -35,7 +36,8 @@ yarn publish-scheduled --dry-run
   Windows・Linux で和文の書体が変わる
 - **daisyui は `~5.5`。** 5.7 で `btn-ghost` の挙動が変わった（`aria-current` で塗る・文字色を継承しない）。
   ヘッダーとモバイルメニューで `btn-ghost` を使っている
-- **vitepress は 1.x のまま。** vite 5 に残る high は 2.x に上げないと消えない（ビルド時だけの道具）
+- **vitepress は 2.0.0-alpha（2026-11-10〜）。** vite 5 に残っていた high はこれで消えた。alpha の版を上げたら、
+  出力（ページ数・head・本文）と画面を前の版と比べてから入れる
 - **`tags/[tag].paths.js` は gray-matter を直接 import している。** 消すとタグページ18枚が
   **エラーにならずに**消える（VitePress が paths ローダーの失敗を黙って無視する）
 
@@ -97,6 +99,7 @@ image: /path/to/image.png  # オプション：OGP画像（省略時は自動生
 
 ### デプロイ
 
+- PR では `build.yml` がビルドだけを確かめる（デプロイしない）。
 - main への push で `publish.yml` がビルドして公開する。予約公開は `publish-scheduled.yml` の中で同じ手順を踏む
   （2つは同じ手順なので、変えるときは両方直す）
 - **Actions からは、サイトの `html/` にしか書けない専用鍵で送る**（secret `WEB_G6_DEPLOY_KEY`、2026-10-27〜）。
@@ -188,7 +191,7 @@ transformHead: ({ head, pageData }) => {
 
 ### スタイルのカスタマイズ
 
-- `postcss.config.js`: Tailwind設定（コンテンツパス、プラグイン）
+- `@tailwindcss/vite`（`.vitepress/config.ts` の `vite.plugins`）: Tailwind 4 をビルドに組み込む。postcss の設定ファイルは無い
 - `.vitepress/theme/style.css`: カスタムCSS（proseスタイル調整など）
 - DaisyUIテーマ: `light` のみ（ダークテーマ無効）
 
