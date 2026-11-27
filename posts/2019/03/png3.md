@@ -35,9 +35,16 @@ recommended: false
 
 よくJpegに対して3倍の重さと言われていますが、写真のような色数の多い画像はもっと重くなります。
 
-そんなPNGファイルをできるだけ軽くする方法は4種類あります。
+そんなPNGの軽量化（ファイルサイズの圧縮）の方法は、次の4種類しかありません。
 
-## PNG8で保存する・変換する(256色への減色)
+1. PNG8への減色（256色）
+2. ロスレス圧縮（画質を落とさない圧縮）
+3. メタデータの削除
+4. 解像度の最適化
+
+順に、何をしていて、どれだけ効くのかを説明します。
+
+## PNG8で保存する・変換する（256色への減色でPNGを軽量化）
 
 PNGにはフルカラー(約1670万色)を扱うことができるPNG24(アルファチャンネルを含むPNG32)と、256色までしか扱えないPNG8があります。
 
@@ -61,7 +68,7 @@ PNG8の利用でお勧めの方法は、ひとつはPhotoshopで書き出すと�
 
 <img alt="png8-compare.png" src="https://blog.ideamans.com/assets/png8-compare.png" width="1280" height="349" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" />
 
-## ロスレス圧縮
+## ロスレス圧縮（画質を落とさずにPNGを圧縮する）
 
 PNGの画質を一切落とさず、圧縮データの最適化によりファイルサイズを削減する手法です。[OptiPNG](https://optipng.sourceforge.net/)が有名です。
 
@@ -91,7 +98,7 @@ srcsetで個別に指定することが理想的ですが、なかなかそこ�
 
 少なくとも、極端に大きな画像をWebで利用しない、サムネイルにはサムネイル用の低解像度画像を用意する、といった点には気を付けましょう。
 
-## LightFileで完全自動化。画質
+## PNGの軽量化をLightFileで完全自動化
 
 弊社の[画像軽量化自動化ソリューションLightFileがPNGに対応](https://www.ideamans.com/release/20190308/)しました。
 
